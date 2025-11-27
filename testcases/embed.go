@@ -4,5 +4,5 @@ import (
 	"embed"
 )
 
-//go:embed all:*/*/*.white all:*/*/*.black
+//go:embed all:12/*/*.white all:12/*/*.black
 var EmbedTestCasesFS embed.FS

