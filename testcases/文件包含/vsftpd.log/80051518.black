@@ -1,9 +1,10 @@
 # 文件包含_vsftpd.log
 # vsftpd.log 是与 vsftpd服务器相关的日志文件，用于记录 FTP 服务器的活动和事件。vsftpd 是一个轻量级、快速并且安全的 FTP 服务器软件，常用于搭建 FTP 服务器提供文件传输服务。
-GET /../../../../../../../../../../../../var/log/vsftpd.log?acid=80051518&bid=hd_tag_m8mv23vd HTTP/1.1
+GET /var/log/vsftpd.log?acid=80051518&bid=hd_tag_m8mv23vd HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv23vd
 RM-PRO-Token: c4a9f031797df6f3a4cf662655798a58
 RM-PRO-Time: 1742808347268
 User-Agent: curl/7.83.1
+Test-Hub: /../../../../../../../../../../../../var/log/vsftpd.log?acid=80051518&bid=hd_tag_m8mv23vd
 
