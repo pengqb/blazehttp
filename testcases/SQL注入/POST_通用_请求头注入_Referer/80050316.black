@@ -1,0 +1,10 @@
+# SQL注入_POST_通用_请求头注入_Referer
+# 基于请求头注入，在http请求的Referer头部中注入语句"127.0.0.1' and 1=2#"。该sql注入语句的目的是尝试绕过身份验证或者获取敏感信息。通过将"127.0.0.1' and 1=2#"作为Referer注入到请求中，攻击者试图构造一个永远为假的条件来绕过应用程序对用户身份验证的检查。
+POST /?bid=hd_tag_m8mv24az HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24az
+RM-PRO-Token: 1940b2cf128e9db2be938fc054560185
+RM-PRO-Time: 1742808372228
+Referer: 127.0.0.1' and 1=2#
+User-Agent: curl/7.83.1
+

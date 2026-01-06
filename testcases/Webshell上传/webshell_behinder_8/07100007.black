@@ -1,0 +1,15 @@
+# webshell_behinder_8
+# 这段WebShell使用Java编写，攻击者可以通过POST请求向Web服务器发送数据，然后将AES加密后的数据解密并动态加载到类加载器中执行。这个WebShell包含了一些基本特征，如数据加密和解密、自定义类加载器c.doFinal发执行
+# 基本信息：
+# - 文件名：waf/behinder_aes.jsp
+# - 文件大小：2KB
+# 行为描述：
+# - 命令执行：接收并执行攻击者发送的系统命令，例如列出目录内容、修改文件权限等。
+POST /?bid=hd_tag_m8mv23qw HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23qw
+RM-PRO-Token: 284741a23d67c5f480f4b3d0599ab53e
+RM-PRO-Time: 1742808338644
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=TavKsFNtGaK8WDc4CGEJZGK8FeETovOe
+

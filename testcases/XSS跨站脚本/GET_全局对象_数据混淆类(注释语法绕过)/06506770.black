@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_全局对象_数据混淆类(注释语法绕过)-06506770
+# JavaScript全局对象window执行代码，使用注释语法混淆检测规则。
+GET /?id=%3Bwindow%5B%2F%2Afoo%2A%2F%27alert%27%2F%2Abar%2A%2F%5D%28window%5B%2F%2Afoo%2A%2F%27document%27%2F%2Abar%2A%2F%5D%5B%27domain%27%5D%29%3B%2F%2F&bid=hd_tag_m8mv25ci HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25ci
+RM-PRO-Token: 4b91aba063bb76ae549190575aebbd09
+RM-PRO-Time: 1742808460077
+User-Agent: curl/7.83.1
+

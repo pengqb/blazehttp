@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_DOM-06506758
+# 通过调用 constructor的 constructor 属性，并传入恶意代码 'confirm(1)'，然后通过调用构造函数的方式来执行其中的代码。
+GET /?id=constructor.constructor%28%27confirm%281%29%27%29%28%29&bid=hd_tag_m8mv25dm HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25dm
+RM-PRO-Token: ea5bb03b7c080a26a9c7812eb12c791a
+RM-PRO-Time: 1742808462012
+User-Agent: curl/7.83.1
+

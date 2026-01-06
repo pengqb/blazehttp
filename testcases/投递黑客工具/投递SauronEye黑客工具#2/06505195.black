@@ -1,0 +1,10 @@
+# 【投递】SauronEye黑客工具#2-06505195
+# SauronEye是一款基于Python语言的开源安全工具，用于收集网络信息和认证凭证的扫描器。该工具可以在目标网络上查找开放的端口、服务、操作系统、域名、SSL证书、路由器、转发器、OOB服务器等信息，并进一步进行端口扫描、主机扫描、漏洞扫描和密码爆破等攻击。SauronEye使用自定义的插件，支持HTTP / HTTPS、FTP、SMB、SNMP 和 SNMP Trap、SMTP 等多种协议，可以与其他工具无缝集成，自动验证用户名和密码，发现弱凭证和过期的账户和密码。SauronEye的输出信息直观易懂，可以帮助渗透测试人员迅速判断目标网络的攻击面和重要信息，同时整个扫描周期可以被监控和记录。由于该工具会向网络发布流量，可能会对一些容易受到 DoS 和 DDoS 攻击的服务造成影响，因此使用该工具时必须注意正确配置，并仅在经过授权的安全测试环境中使用。
+POST /?bid=hd_tag_m8mv26hq HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26hq
+RM-PRO-Token: 34b79471e478c557df4939a64c5b8d8d
+RM-PRO-Time: 1742808619735
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=sUgQvKee63gVehO7TCPVJ66A8CUPGj4d
+

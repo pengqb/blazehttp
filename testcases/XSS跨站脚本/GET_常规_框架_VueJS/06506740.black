@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_VueJS-06506740
+# 通过调用 _openBlock 的构造函数的构造函数，构造了一个新的函数对象。然后，通过调用该函数对象的方式来执行其中的代码。
+GET /?id=%7B%7B_openBlock.constructor%28%27confirm%281%29%27%29%28%29%7D%7D&bid=hd_tag_m8mv25es HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25es
+RM-PRO-Token: 478320ab9b7bc8e22f541d7eb5b7975b
+RM-PRO-Time: 1742808464544
+User-Agent: curl/7.83.1
+

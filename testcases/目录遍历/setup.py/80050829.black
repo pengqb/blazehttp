@@ -1,0 +1,9 @@
+# 目录遍历_setup.py
+# setup.py是Python中用于构建、打包和发布第三方库的脚本文件。它通常位于Python库的根目录下，并包含了一些元数据和配置信息，用于指定库的名称、版本、作者、依赖项等。
+GET /../../../../../../../../../../../../setup.py?acid=80050829&bid=hd_tag_m8mv24ky HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24ky
+RM-PRO-Token: 9986d7574e44164f8bc9fedea2ce4e4f
+RM-PRO-Time: 1742808389186
+User-Agent: curl/7.83.1
+

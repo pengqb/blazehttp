@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_acronym标签_onactivate事件-06506512
+# 该XSS语句包含一个缩写标签（acronym），它的id属性设置为"x"，tabindex属性设置为1。另外，还有一个onactivate属性，当该元素被激活时会触发JavaScript的prompt函数，弹出一个带有文本"/xss/"的提示框。当元素被激活时触发，未使用单引号和双引号绕过测试。
+GET /?id=%3Cacronym%20id=x%20tabindex=1%20onactivate=prompt%28%2Fxss%2F%29%3E%3C%2Facronym%3E&bid=hd_tag_m8mv26cy HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26cy
+RM-PRO-Token: 5bc11c1cab8f7d9ddf0d2e446b142d3a
+RM-PRO-Time: 1742808582279
+User-Agent: curl/7.83.1
+

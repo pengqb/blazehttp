@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_数据混淆类(xml绕过)-06506848
+# 在html标签中混合使用xml
+GET /?id=%3CHTML%3E%3CBODY%3E%0A%3C%3Fxml:namespace%20prefix=%22t%22%20ns=%22urn:schemas-microsoft-com:time%22%3E%0A%3C%3Fimport%20namespace=%22t%22%20implementation=%22%23default%23time2%22%3E%0A%3Ct:set%20attributeName=%22innerHTML%22%20to=%22XSS%3CSCRIPT%20DEFER%3Ealert%28%22XSS%22%29%3C%2FSCRIPT%3E%22%3E%0A%3C%2FBODY%3E%3C%2FHTML%3E&bid=hd_tag_m8mv24y7 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24y7
+RM-PRO-Token: 068d421d2c265f0e18cc552e20c11079
+RM-PRO-Time: 1742808423659
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# 目录遍历_/etc/environment
+# /etc/environment 是一个系统级别的环境变量配置文件，用于设置系统中所有用户的全局环境变量。在 Linux 系统中，环境变量是用来存储系统范围的信息，以便在系统运行过程中被各种程序和进程访问。
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fenvironment&bid=hd_tag_m8mv23si HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23si
+RM-PRO-Token: 59124024837d86bf8554a0099e92bce8
+RM-PRO-Time: 1742808342205
+User-Agent: curl/7.83.1
+

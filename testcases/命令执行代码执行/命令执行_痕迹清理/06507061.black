@@ -1,0 +1,9 @@
+# 命令执行_痕迹清理-06507061
+# 删除内存中的所有命令历史
+GET /?id=history%20-c&bid=hd_tag_m8mv25z1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25z1
+RM-PRO-Token: 10cf474f09c291c15d4dac8b6fb06139
+RM-PRO-Time: 1742808515485
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,15 @@
+# webshell_16
+# 这是一个极其简单的蚁剑Webshell变种文件，采C#语言编写。攻击者可以通过发送POST请求，将内容传入x参数，并使用assertl函数执行命令
+# 基本信息：
+# - 文件名：waf/webshell_16.asp
+# - 文件大小：23B
+# 行为描述：
+# - 命令执行：接收并执行攻击者发送的系统命令，例如列出目录内容、修改文件权限等。
+POST /?bid=hd_tag_m8mv23rs HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23rs
+RM-PRO-Token: ccf8e18b9f4b1a344e69f18e480a2580
+RM-PRO-Time: 1742808340947
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=4Sy8CA53zA5_6-S9V82iyMDbVwZI35Gc
+

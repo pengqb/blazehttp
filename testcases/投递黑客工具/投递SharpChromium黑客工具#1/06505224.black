@@ -1,0 +1,10 @@
+# 【投递】SharpChromium黑客工具#1-06505224
+# SharpChromium是一款用于获取敏感信息的黑客工具，它可以从Chromium和Chrome浏览器中提取所有历史记录、Cookie、密码、表单数据和网站访问信息等敏感信息。SharpChromium采用C#语言编写，具有强大的数据解密能力，能够突破Chrome浏览器的加密和安全防护机制，获取各种敏感信息。另外，SharpChromium还可以直接复制Chrome浏览器的敏感数据文件，安全、快捷地完成数据的提取与还原。由于SharpChromium的重点在于数据获取和还原，因此它适用于渗透测试、获取用户隐私数据、监控和调查等多种场景。需要注意的是，SharpChromium很可能会触犯法律法规，因此使用者应当规范自己的行为，遵循职业道德规范，遵守法律的限制和规定。
+POST /?bid=hd_tag_m8mv26aa HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26aa
+RM-PRO-Token: 024224ea118aa0dd5700a75c9404345d
+RM-PRO-Time: 1742808565379
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=NIuimBkDVo3h6uu2yUrJZuT7eV1nC8_m
+

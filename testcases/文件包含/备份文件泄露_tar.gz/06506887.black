@@ -1,0 +1,9 @@
+# 文件包含_备份文件泄露_tar.gz-06506887
+# 管理员将网站源码打包压缩成gz格式后放在web目录，再从服务器下载到本地进行备份，下载完成之后没有及时删除造成泄露。
+GET /wwwroot.tar.gz?acid=06506887&bid=hd_tag_m8mv24w2 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24w2
+RM-PRO-Token: f5fe045148317a0f80c9d3e83a34907b
+RM-PRO-Time: 1742808417674
+User-Agent: curl/7.83.1
+

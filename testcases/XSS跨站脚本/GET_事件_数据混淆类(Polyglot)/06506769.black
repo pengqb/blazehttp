@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_事件_数据混淆类(Polyglot)-06506769
+# Polyglot（多语言）指的是一段代码或数据，可以根据上下文被解释为多种不同的语言。XSS Polyglot技术利用这一特性，通过巧妙构造的代码字符串，在不同的解析器中具有不同的含义。
+GET /?id=javascript:%2F%2A--%3E%3C%2Ftitle%3E%3C%2Fstyle%3E%3C%2Ftextarea%3E%3C%2Fscript%3E%3C%2Fxmp%3E%3Csvg%2Fonload=%27+%2F%22%2F+%2Fonmouseover=1%2F+%2F%5B%2A%2F%5B%5D%2F+confirm%281%29%2F%2F%27%3E&bid=hd_tag_m8mv25cp HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25cp
+RM-PRO-Token: 336074d3fdbce7600002379b9e6f59fe
+RM-PRO-Time: 1742808460212
+User-Agent: curl/7.83.1
+

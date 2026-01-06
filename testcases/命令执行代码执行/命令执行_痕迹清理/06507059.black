@@ -1,0 +1,9 @@
+# 命令执行_痕迹清理-06507059
+# 清空secure安全日志文件
+GET /?id=echo%20%3E%20%2Fvar%2Flog%2Fsecure&bid=hd_tag_m8mv25zz HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25zz
+RM-PRO-Token: abfe942490728802d0c6a0af7dc9a918
+RM-PRO-Time: 1742808517871
+User-Agent: curl/7.83.1
+

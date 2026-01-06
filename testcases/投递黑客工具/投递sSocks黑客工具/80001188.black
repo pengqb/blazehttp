@@ -1,0 +1,10 @@
+# 【投递】sSocks黑客工具
+# sSocks是一个socks代理工具套装，可以用来开启socks代理服务。它支持socks5验证，支持IPV6和UDP，并提供反向socks代理服务，即将远程计算机作为socks代理服务端，反弹回本地，极大方便内网的渗透测试。使用它需要遵守法律法规，并且应该在合法授权的环境中使用。滥用此类工具进行非法活动是违法行为，可能导致严重的法律后果。建议只在合规的网络管理和配置环境中使用，并遵循合法和道德的准则。
+POST /?bid=hd_tag_m8mv23pc HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23pc
+RM-PRO-Token: bdae1f720359e18cffa4088f057974ce
+RM-PRO-Time: 1742808334673
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=B07Q8QKqrl3D9cLyEEPWTFwX56cdlD5Z
+

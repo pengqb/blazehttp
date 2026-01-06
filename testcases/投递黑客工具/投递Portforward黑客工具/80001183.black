@@ -1,0 +1,17 @@
+# 【投递】Portforward黑客工具
+# Portforward是一款网络工具，用于在网络设备和计算机之间进行端口转发。它可以帮助用户在不同网络之间建立连接，实现端口转发和数据传输。
+# 以下是Portforward的主要功能和特点：
+# 1. 端口转发：Portforward可以将来自一个网络端口的数据转发到另一个网络端口，从而实现不同设备之间的通信。
+# 2. 网络设备支持：工具支持在路由器、防火墙、交换机等网络设备上进行端口转发设置。
+# 3. 简单易用：Portforward提供了直观的用户界面，使设置和管理端口转发规则变得简单和方便。
+# 4. TCP和UDP支持：工具支持TCP和UDP协议的端口转发，可以满足不同应用的需求。
+# 5. 端口映射：Portforward还支持端口映射，将外部网络的端口映射到内部网络的设备上，实现对内部服务的访问。
+# 需要注意的是，Portforward是一个网络工具，使用它需要遵守法律法规，并且应该在合法授权的环境中使用。滥用此类工具进行非法活动是违法行为，可能导致严重的法律后果。建议只在合规的网络管理和配置环境中使用，并遵循合法和道德的准则。
+POST /?bid=hd_tag_m8mv23p7 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23p7
+RM-PRO-Token: 5c020f9153a5a4bb31bd269e2b6d9dab
+RM-PRO-Time: 1742808334692
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=ahWj04mH_w8GFPT5p-YC1KVTelUyE7k2
+

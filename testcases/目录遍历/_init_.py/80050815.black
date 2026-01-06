@@ -1,0 +1,11 @@
+# 目录遍历__init_.py
+# __init__.py是Python中的一个特殊文件，用于指示该目录是一个Python包（package）。当Python解释器导入一个目录时，如果这个目录下包含了__init__.py文件，Python会将其视为一个包，并且可以通过这个包来组织和引入模块。
+# 
+# 在__init__.py文件中，通常可以定义一些初始化代码或者设置模块导入的内容，也可以在其中导入其他模块，以便在包被导入时执行一些初始化操作。
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F_init_.py&bid=hd_tag_m8mv24m9 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24m9
+RM-PRO-Token: b6191c3ff90fa546d61898cda077dc22
+RM-PRO-Time: 1742808392021
+User-Agent: curl/7.83.1
+

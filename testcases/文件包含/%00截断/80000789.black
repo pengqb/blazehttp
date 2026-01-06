@@ -1,0 +1,9 @@
+# 文件包含_%00截断
+# 使用%00进行截断，之后的字符就不会再读取。
+GET /?id=hack.php%2500&bid=hd_tag_m8mv23yr HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23yr
+RM-PRO-Token: da07e1728d91f5167c979d7712d472ba
+RM-PRO-Time: 1742808352921
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入-06506327
+# 攻击者基于查询，将"select current_schema()"语句注入到 SQL 查询参数中，利用current_schema()函数来获取当前模式名称信息。
+GET /?id=select%20current_schema%28%29&bid=hd_tag_m8mv23zs HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23zs
+RM-PRO-Token: 3ed0542279f6128fe6f2a9bb08a888fe
+RM-PRO-Time: 1742808355106
+User-Agent: curl/7.83.1
+

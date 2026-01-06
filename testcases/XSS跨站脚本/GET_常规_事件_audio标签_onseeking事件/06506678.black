@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_audio标签_onseeking事件-06506678
+# 攻击载荷利用了HTML中的audio标签和onseeking属性，触发confirm()函数，显示一个提示框。需要点击元素时间线
+GET /?id=%3Caudio%20autoplay%20controls%20onseeking=confirm%281%29%3E%3Csource%20src=%22validaudio.wav%22%20type=%22audio%2Fwav%22%3E%3C%2Faudio%3E&bid=hd_tag_m8mv25r3 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25r3
+RM-PRO-Token: 587385ebdbf9cf0f16f4b7ea5a3eb3f1
+RM-PRO-Time: 1742808502094
+User-Agent: curl/7.83.1
+

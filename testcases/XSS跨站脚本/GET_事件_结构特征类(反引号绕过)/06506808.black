@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_事件_结构特征类(反引号绕过)-06506808
+# 复制innerHTML时使用重音符号的XSS，Internet Explorer 将重音符号 (`) 视为属性分隔符，如 " 和 '。使用 innerHTML 属性时，引号 (``) 将从属性值中去除，以防它不包含空格。
+GET /?id=%3Cdiv%20id=%22div1%22%3E%3Cinput%20value=%22%60%60onmouseover=confirm%281%29%22%3E%3C%2Fdiv%3E%20%3Cdiv%20id=%22div2%22%3E%3C%2Fdiv%3E%3Cscript%3Edocument.getElementById%28%22div2%22%29.innerHTML%20=%20document.getElementById%28%22div1%22%29.innerHTML%3B%3C%2Fscript%3E&bid=hd_tag_m8mv251v HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv251v
+RM-PRO-Token: e0737348027e4ab5005890eeb903b8aa
+RM-PRO-Time: 1742808431096
+User-Agent: curl/7.83.1
+

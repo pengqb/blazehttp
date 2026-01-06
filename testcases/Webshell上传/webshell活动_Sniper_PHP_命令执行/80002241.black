@@ -1,0 +1,12 @@
+# webshell活动_Sniper_PHP_命令执行
+# 通过Webshell-Sniper webshell工具建立连接，webshell使用base64加密方式，执行任意命令
+POST /shell.php?acid=80002241&bid=hd_tag_m8mv25m6 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25m6
+RM-PRO-Token: 6c9363c86b59981f3231ee5e7c3cc650
+RM-PRO-Time: 1742808481064
+User-Agent: curl/7.83.1
+Content-Length: 261
+Content-Type: application/x-www-form-urlencoded
+
+cmd=eval%28%24_POST%5BESCUiazk%5D%29%3B&ESCUiazk=%40ob_start%28%27ob_gzip%27%29%3Becho+%22EwXhBGvZwwcqabEAKpNOAInXHjBaZnoJ%22%3Bsystem%28base64_decode%28%27cGhwIC12IDI%2BJjE%3D%27%29%29%3B%3Becho+%22EwXhBGvZwwcqabEAKpNOAInXHjBaZnoJ%22%3B%40ob_end_flush%28%29%3B

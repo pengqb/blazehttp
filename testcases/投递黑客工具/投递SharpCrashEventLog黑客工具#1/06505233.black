@@ -1,0 +1,10 @@
+# 【投递】SharpCrashEventLog黑客工具#1-06505233
+# SharpCrashEventLog是一款用于收集Windows系统崩溃和事件日志的黑客工具，可以用于系统取证、渗透测试、漏洞利用等多种用途。SharpCrashEventLog可以帮助用户快速地收集目标系统中的崩溃、异常、错误和警告日志，并将其导出到本地文件中进行分析。此外，SharpCrashEventLog还具有自动生成dump文件和屏幕截图的功能，可以进一步帮助用户定位和分析崩溃原因。 SharpCrashEventLog支持多种崩溃类型和事件日志类型，包括：异常停止、应用错误、系统错误、安全审计、应用程序日志等。它还支持多种导出格式，包括XML、CSV和JSON等，并且可以自定义日志过滤规则，进行快速的搜索和筛选。需要注意的是，使用SharpCrashEventLog进行非法攻击和违法行为是不道德和不合法的，用户必须遵循国家法规和职业道德准则。
+POST /?bid=hd_tag_m8mv269h HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv269h
+RM-PRO-Token: 7e6c78e5e4034e94c730048b69aaea21
+RM-PRO-Time: 1742808561031
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=WBzCYuIlZ8PmF5sT_O96ApZYAA8BoNuN
+

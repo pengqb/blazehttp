@@ -1,0 +1,9 @@
+# 文件包含_大小写混合绕过
+# 文件包含时未对传入参数进行严格检查过滤，例如没有考虑到大小写混合的情况，攻击者可以利用这一点来绕过检查。
+GET /?id=%2FeTc%2FPaSswd&bid=hd_tag_m8mv253z HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv253z
+RM-PRO-Token: 227eef29706241e6a329c4bc320655f9
+RM-PRO-Time: 1742808437541
+User-Agent: curl/7.83.1
+

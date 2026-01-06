@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_acronym标签_ondeactivate事件-06506569
+# 攻击载荷利用了HTML中的acronym标签和ondeactivate属性，触发print()函数，显示一个打印框。当元素被停用时触发，未使用单引号和双引号绕过测试
+GET /?id=%3Cacronym%20id=x%20tabindex=1%20ondeactivate=alert%28%2Fxss%2F%29%3E%3C%2Facronym%3E%3Cinput%20id=y%20autofocus%3E&bid=hd_tag_m8mv268y HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv268y
+RM-PRO-Token: c40ca771293385e331f8081ee5588c9f
+RM-PRO-Time: 1742808558044
+User-Agent: curl/7.83.1
+

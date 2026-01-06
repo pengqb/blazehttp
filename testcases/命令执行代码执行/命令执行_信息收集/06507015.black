@@ -1,0 +1,9 @@
+# 命令执行_信息收集-06507015
+# 使用tail命令读取文件
+GET /?id=tail%20-5%20%2Fetc%2Fshadow&bid=hd_tag_m8mv2641 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2641
+RM-PRO-Token: 494979b3f9cb766dbdeaf085e876bffe
+RM-PRO-Time: 1742808545312
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_编码类(HTML实体编码，base64编码)-06506713
+# 脚本 src 中的数据协议，带有 base64 和 HTML 实体
+GET /?id=%3Cscript%20src=data:text%2Fjavascript%3Bbase64%2C&%23x59%3B&%23x57%3B&%23x78%3B&%23x6c%3B&%23x63%3B&%23x6e%3B&%23x51%3B&%23x6f%3B&%23x4d%3B&%23x53%3B&%23x6b%3B&%23x3d%3B%3E%3C%2Fscript%3E&bid=hd_tag_m8mv25gx HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25gx
+RM-PRO-Token: c2caa4b47e3da9e1df332501e8089092
+RM-PRO-Time: 1742808468124
+User-Agent: curl/7.83.1
+

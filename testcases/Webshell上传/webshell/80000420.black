@@ -1,0 +1,15 @@
+# webshell-80000420
+# 这是一个Backdoor.Win32.JSPSHELL.SM家族的Webshell变种文件，很简单的用url、smart参数接收攻击者传入的文件操作内容，进而进行文件操作，如文件删除或写入。
+# 基本信息：
+# - 文件名：hsxa1.jsp
+# - 文件大小：701B
+# 行为描述：
+# - 文件操作：上传文件、修改文件名、删除文件、修改文件内容、下载远程文件等。
+POST /?bid=hd_tag_m8mv25nk HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25nk
+RM-PRO-Token: 395836a77019ab2a63986188f620437d
+RM-PRO-Time: 1742808485346
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=3d60qebgmMwTbqvBWCusuCmFxm_lwD3f
+

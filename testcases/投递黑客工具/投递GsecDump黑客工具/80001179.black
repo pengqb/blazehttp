@@ -1,0 +1,17 @@
+# 【投递】GsecDump黑客工具
+# gsecdump是一款用于提取Windows操作系统中的密码哈希值的工具。它可以帮助安全专业人员评估目标系统的密码安全性，并用于密码破解和渗透测试。
+# 以下是gsecdump的主要功能和特点：
+# 1. 密码哈希提取：gsecdump可以提取Windows系统中存储的用户密码哈希值，包括本地账户和域账户。
+# 2. 多种哈希算法支持：工具支持多种常见的密码哈希算法，如NTLM和LM哈希。
+# 3. 密码破解：gsecdump可以利用提取的哈希值进行密码破解，尝试猜测用户密码。
+# 4. 离线操作：工具可以在离线状态下操作，即使在没有用户登录或网络连接的情况下也可以提取密码哈希值。
+# 5. 密码哈希分析：gsecdump还提供了一些分析功能，可以帮助用户分析提取的密码哈希值，如查找常见密码、生成统计信息等。
+# 需要注意的是，gsecdump是一个强大的工具，但使用它需要遵守法律法规，并且应该在合法授权的环境中使用。滥用此类工具进行非法攻击是违法行为，可能导致严重的法律后果。建议只在合规的安全测试和评估环境中使用，并遵循道德和合法的准则。
+POST /?bid=hd_tag_m8mv24sd HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24sd
+RM-PRO-Token: 3e39c85643a961b34e1cb5f6e67705cc
+RM-PRO-Time: 1742808409687
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=4rUUX6Bke4Wh0OyOalQGDVTQMYW89fb_
+

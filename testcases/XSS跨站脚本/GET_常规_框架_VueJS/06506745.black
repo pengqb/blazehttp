@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_VueJS-06506745
+# 通过调用 _Vue.h.constructor，获取到构造函数对象。然后使用构造函数的模板字符串标签来构造一个函数调用，并传入参数执行的恶意代码。
+GET /?id=%7B%7B_Vue.h.constructor%60confirm%281%29%60%28%29%7D%7D&bid=hd_tag_m8mv25ef HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25ef
+RM-PRO-Token: 820f8d265bede4f9a39b74dc5bd1b217
+RM-PRO-Time: 1742808463429
+User-Agent: curl/7.83.1
+

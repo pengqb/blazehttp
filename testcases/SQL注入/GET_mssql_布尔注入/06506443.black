@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_布尔注入-06506443
+# 攻击者基于布尔查询，将"select HAS_DBACCESS ('master')=1"语句注入到 SQL 查询参数中，执行 "select HAS_DBACCESS ('master')" 这个查询时，它将返回一个整数值，表示数据库 'master' 的可访问性状态。我们可以根据返回值来确定当前用户是否具有访问 'master' 数据库的权限。
+GET /?id=1%20and%20%28select%20HAS_DBACCESS%28%27master%27%29%29=1&bid=hd_tag_m8mv26n2 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26n2
+RM-PRO-Token: e3bc1ff3882071532ca7bce392806b8a
+RM-PRO-Time: 1742808638924
+User-Agent: curl/7.83.1
+

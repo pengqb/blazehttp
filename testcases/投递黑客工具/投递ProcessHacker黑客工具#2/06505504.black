@@ -1,0 +1,11 @@
+# 【投递】ProcessHacker黑客工具#2-06505504
+# ProcessHacker是一款Windows操作系统的进程管理工具，可以用于监控和管理系统中各种进程和服务。它的功能比Windows自带的任务管理器更加强大和灵活，可以帮助用户快速定位和解决系统进程中的问题。
+# 需要注意的是，ProcessHacker工具可以合法地用于系统进程管理和问题调试等用途，但也可以被黑客用于非法的侵入和攻击，造成较大的安全威胁。
+POST /?bid=hd_tag_m8mv24z8 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24z8
+RM-PRO-Token: df6a2bba297f63e7929e17506d5ac78d
+RM-PRO-Time: 1742808425298
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=3qTJkq0p2rN7ImTwVWxhNJ-bYhaS75NC
+

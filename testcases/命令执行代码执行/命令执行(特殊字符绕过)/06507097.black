@@ -1,0 +1,9 @@
+# 命令执行(特殊字符绕过)-06507097
+# 使用"和^连接命令以混淆规则使得不易被检测，例如：wh"o^ami
+GET /?id=wh%22%22o%5Eam%22%22i&bid=hd_tag_m8mv25xo HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25xo
+RM-PRO-Token: c04ab82163dabcce421ba88a05c52a2b
+RM-PRO-Time: 1742808512597
+User-Agent: curl/7.83.1
+

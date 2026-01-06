@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_数据混淆类(js转义注入绕过)-06506834
+# JavaScript转义，注入后，它会读取<SCRIPT> var a =“ \\\\”; alert（'XSS'）; //“; </ SCRIPT>，这最终使转义双引号转义并导致跨站点脚本
+GET /?id=%5C%22%3Balert%28%27XSS%27%29%3B%2F%2F&bid=hd_tag_m8mv24za HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24za
+RM-PRO-Token: 5eadd6824a9e6f04fcc5c5ccb5d0db55
+RM-PRO-Time: 1742808425444
+User-Agent: curl/7.83.1
+

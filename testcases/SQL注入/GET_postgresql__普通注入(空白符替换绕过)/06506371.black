@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入(空白符替换绕过)-06506371
+# 攻击者基于union查询使用空白符替换进行绕过，将"union%0dselect%0dsetting%0dfrom%0dpg_settings%0dwhere%0dname='data_directory'"语句注入到 SQL 查询参数中，从系统表pg_settings查询数据库安装目录信息。
+GET /?id=1%250dunion%250dselect%250dsetting%250dfrom%250dpg_settings%250dwhere%250dname=%27data_directory%27%20&bid=hd_tag_m8mv23xf HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23xf
+RM-PRO-Token: aa390f9e2014f425f3b3a9216a6cb7a7
+RM-PRO-Time: 1742808351483
+User-Agent: curl/7.83.1
+

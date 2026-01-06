@@ -1,0 +1,9 @@
+# 文件包含_文件协议_php://filter协议(Base64编码)
+# 攻击者通过使用php://filter伪协议，对文件内容进行编码输出处理，以此来达到任意文件读取的目的。
+GET /?id=php:%2F%2Ffilter%2Fread=convert.base64-encode%2Fresource=index.php&bid=hd_tag_m8mv24nv HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24nv
+RM-PRO-Token: 5a9d9f72b48f06dea3abc1b9d0aab3a9
+RM-PRO-Time: 1742808397245
+User-Agent: curl/7.83.1
+

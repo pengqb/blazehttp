@@ -1,0 +1,9 @@
+# 命令执行(变量替换绕过)-06507081
+# 使用符号*代替文件名，将当前目录中的所有文件和文件夹的名称输出到标准输出。
+GET /?id=echo%20%2A&bid=hd_tag_m8mv25xz HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25xz
+RM-PRO-Token: 46642bfdb2909bdc4d98f9a46bf5d2ef
+RM-PRO-Time: 1742808513249
+User-Agent: curl/7.83.1
+

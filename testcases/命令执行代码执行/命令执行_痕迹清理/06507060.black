@@ -1,0 +1,9 @@
+# 命令执行_痕迹清理-06507060
+# 修改日志文件或目录的时间戳
+GET /?id=touch%20-t%200712250000%20file1&bid=hd_tag_m8mv25z2 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25z2
+RM-PRO-Token: ff118873ba22e94f14ba804766db5687
+RM-PRO-Time: 1742808515431
+User-Agent: curl/7.83.1
+

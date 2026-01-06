@@ -1,0 +1,9 @@
+# 目录遍历_/proc/net/tcp
+# /proc/net/tcp 文件提供了一种查看系统当前 TCP 连接信息的方式，帮助了解系统网络连接状态和调试网络通信问题。
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fproc%2Fnet%2Ftcp&bid=hd_tag_m8mv23tb HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23tb
+RM-PRO-Token: 3cc55e21569f098cd791ff9d24ebac99
+RM-PRO-Time: 1742808343382
+User-Agent: curl/7.83.1
+

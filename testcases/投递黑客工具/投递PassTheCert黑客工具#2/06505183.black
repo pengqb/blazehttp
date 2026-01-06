@@ -1,0 +1,10 @@
+# 【投递】PassTheCert黑客工具#2-06505183
+# PassTheCert是一种高级的黑客攻击工具，可用于以域管理员的身份横向移动，将位于一个域中的Windows主机甚至整个省份域组织纳入攻击者的控制范围。它主要利用了Windows域控制器中证书服务（PKI）的缺陷，通过取得域控制器的域名、域名系统（DNS）或IP地址，发起SPNEGO(安全的API，NTLM击败器实现)中继攻击（MITM），进而提升权限，从而获取起点域管理员的全局管理权限，并将数据导出用于进一步的攻击。PassTheCert工具对目标系统的具体网络环境要求较高，如果使用不当，可能会造成严重的安全风险，因此使用该工具必须谨慎，非授权渗透测试者不应使用该工具进行安全测试。在消除PassTheCert攻击的安全风险时，管理员应该禁止域名系统（DNS）重定向、限制网络访问、启用多因素身份验证、启动域控制器的强化安全配置策略等安全措施。
+POST /?bid=hd_tag_m8mv26ik HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26ik
+RM-PRO-Token: 5adcb96cacebecf9590ea0b219b87465
+RM-PRO-Time: 1742808621011
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=JazaVVMiUoyC4oceZ_vpII3sFIV-B2Kb
+

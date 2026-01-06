@@ -1,0 +1,9 @@
+# 文件包含_配置文件泄露_Hibernate-06506902
+# Hibernate ORM框架的配置文件，包含数据库连接、映射文件配置、缓存设置等。
+GET /hibernate.cfg.xml?acid=06506902&bid=hd_tag_m8mv24ot HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24ot
+RM-PRO-Token: 281d1ae39299344a629cbd55d6062296
+RM-PRO-Time: 1742808400556
+User-Agent: curl/7.83.1
+

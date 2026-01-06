@@ -1,0 +1,9 @@
+# 命令执行_权限维持-06507051
+# 使用useradd创建linux账户
+GET /?id=useradd%20test&bid=hd_tag_m8mv25zu HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25zu
+RM-PRO-Token: 8ce27436fca28a74bba7d2916a7c0f79
+RM-PRO-Time: 1742808517682
+User-Agent: curl/7.83.1
+

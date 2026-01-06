@@ -1,0 +1,10 @@
+# 【投递】SharpGPOAbuse黑客工具#2-06505252
+# SharpGPOAbuse 是一款用于滥用 Windows 组策略对象 (GPO) 的黑客工具，可以在目标系统中进行攻击和提权等操作，枚举目标系统中的 GPO 和策略设置，获取敏感权限和信息等。SharpGPOAbuse 基于C#编写，可以运行在 Windows 系统上，具有简单、易用和高效的特点。SharpGPOAbuse 利用了 Windows 系统中的 Active Directory 域服务和 Group Policy 客户端组件，可以与目标系统远程交互，获取目标系统中的 GPO 和策略配置。用户可以在 SharpGPOAbuse 中选择要滥用的 GPO 和策略，并执行相应的攻击操作，例如提权、文件访问、恶意代码执行等等。SharpGPOAbuse 还支持 GPO 离线操作、多目标攻击、免杀、导出结果等高级功能，可以提高攻击效率和成功率。需要注意的是，使用 SharpGPOAbuse 进行非法攻击和违法行为是不道德和不合法的，用户必须遵循国家法规和职业道德准则。
+POST /?bid=hd_tag_m8mv267n HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv267n
+RM-PRO-Token: 42753cd7dd9dd20d9345536acdfcbb96
+RM-PRO-Time: 1742808552167
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=NYXErP--gubp0QyPSePOcgXvQH_MJRiR
+

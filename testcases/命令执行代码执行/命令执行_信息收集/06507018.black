@@ -1,0 +1,9 @@
+# 命令执行_信息收集-06507018
+# 使用vi命令打开文件查看内容
+GET /?id=vi%20%2Fetc%2Fshadow&bid=hd_tag_m8mv263l HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv263l
+RM-PRO-Token: d4cdb371c99befb1e9d16e3dfc0784a4
+RM-PRO-Time: 1742808544336
+User-Agent: curl/7.83.1
+

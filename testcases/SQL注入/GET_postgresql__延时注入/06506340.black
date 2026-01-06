@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _延时注入-06506340
+# 攻击者基于延时查询，将"select case when(length(version())=10) then pg_sleep(5) else pg_sleep(0) end"语句注入到 SQL 查询参数中，利用version()和length()函数来获取当前数据库版本并计算长度，再利用pg_sleep()函数来延长数据库处理时间，通过加载时间来对注入结果进行判定以获取数据库版本信息。
+GET /?id=select%20case%20when%28length%28version%28%29%29=10%29%20then%20pg_sleep%285%29%20else%20pg_sleep%280%29%20end&bid=hd_tag_m8mv23z9 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23z9
+RM-PRO-Token: 7932ef482fd97c88a29bdc0837105fd3
+RM-PRO-Time: 1742808354816
+User-Agent: curl/7.83.1
+

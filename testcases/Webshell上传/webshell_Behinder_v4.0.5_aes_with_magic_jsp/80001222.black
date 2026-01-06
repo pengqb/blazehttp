@@ -1,0 +1,10 @@
+# webshell_Behinder_v4.0.5_aes_with_magic_jsp
+# Behinder_v4.0.5 jsp 版本的webshell，通信流量使用了aes_with_magic方式加密
+POST /?bid=hd_tag_m8mv23tl HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23tl
+RM-PRO-Token: 7a32699e1f7b78e8676951a4588d8b22
+RM-PRO-Time: 1742808344550
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=KSDSshxk5OVsn3SA5EsaCxxbXtYfJohf
+

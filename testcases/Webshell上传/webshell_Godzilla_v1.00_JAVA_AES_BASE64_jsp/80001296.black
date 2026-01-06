@@ -1,0 +1,10 @@
+# webshell_Godzilla_v1.00_JAVA_AES_BASE64_jsp
+# Godzilla_v1.00 jsp 版本的webshell，通信流量经过AES_BASE64加密
+POST /?bid=hd_tag_m8mv23wd HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23wd
+RM-PRO-Token: 7b3fd08cc66cf139ab00123f8612b105
+RM-PRO-Time: 1742808350202
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=VaZuu4XyovL6hVfQ2ZZHLqrjtEhS-4vd
+

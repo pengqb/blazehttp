@@ -1,0 +1,9 @@
+# 目录遍历_URL编码
+# 攻击者通过构造此语句可以利用url编码方式规避安全设备检测读取任意敏感文件。
+GET /?id=%252e%252e%252f%252e%252e%252f%252e%252e%252fetc%252fpasswd&bid=hd_tag_m8mv24nn HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24nn
+RM-PRO-Token: dc1044d7abeaf67254d1b6ce1c07b6dd
+RM-PRO-Time: 1742808395326
+User-Agent: curl/7.83.1
+

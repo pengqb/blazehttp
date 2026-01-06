@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_标签属性_embed标签-06506810
+# 通过使用图像标签<embed>和 src 属性执行 JavaScript代码弹出对话框。
+GET /?id=%3Cembed%20src=%22javascript:confirm%281%29%22%3E%3C%2Fembed%3E&bid=hd_tag_m8mv2512 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2512
+RM-PRO-Token: 05ba9e796fddb73d1c2a012250824801
+RM-PRO-Time: 1742808429855
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,10 @@
+# 【投递】白样本#7
+# 杀毒引擎的主要任务是准确识别恶意程序并将其与正常程序区分开来。放入白样本可以检验杀毒引擎是否会将正常的、无害的程序误判为恶意程序，从而准确评估其误报率。如果误报率过高，会给用户带来不必要的麻烦和困扰，例如导致正常软件无法运行或被误删等。
+POST /?bid=hd_tag_m8mv26ia HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26ia
+RM-PRO-Token: 63deba4192caa9652580cdc9e2d5de81
+RM-PRO-Time: 1742808620138
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=lKcp0wHJWtzghTiZha8dZr9qSu3HGngg
+

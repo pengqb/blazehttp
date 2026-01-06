@@ -1,0 +1,10 @@
+# XSS跨站脚本_GET_常规_事件_HTML5的向量_div-06506790
+# style="-ms-scroll-limit:1px;overflow:scroll;width:1px"：这是CSS样式，它将<div>元素的宽度设置为1像素，并启用了水平滚动条。这样设置是为了在页面上创建一个几乎不可见的小容器。
+# 滚动条滚动时onscroll事件触发confirm函数弹出确认框。
+GET /?id=%3Cdiv%20style=%22-ms-scroll-limit:1px%3Boverflow:scroll%3Bwidth:1px%22%20onscroll=%22confirm%281%29%22%3E&bid=hd_tag_m8mv25ax HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25ax
+RM-PRO-Token: ace5013ff502dc3e40859958148b78ed
+RM-PRO-Time: 1742808456521
+User-Agent: curl/7.83.1
+

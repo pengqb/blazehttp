@@ -1,0 +1,10 @@
+# SQL注入_GET_mysql_布尔注入-06506243
+# 基于布尔注入,该SQL注入语句的攻击手法是通过数据库的 length() 函数判断当前使用的数据库名称长度是否小于13个字符。这是一种常见的信息收集手法，攻击者可以通过获取数据库名称的长度来掌握应用程序使用的数据库类型和其他相关信息。该sql注入语句中，"length(database())<13": 此部分利用数据库的 length() 函数来获取当前使用的数据库名称的长度，并检查其是否小于 13。如果返回结果为真，则说明数据库名称的长度小于 13 个字符。
+# 攻击者可以尝试获取应用程序所使用的数据库类型，并具备进一步攻击、数据泄露等恶意行为的操作基础。
+GET /?id=1%20and%20length%28database%28%29%29%3C13&bid=hd_tag_m8mv24ea HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24ea
+RM-PRO-Token: abda1b95aec1c69d1b34da8655de3b67
+RM-PRO-Time: 1742808378010
+User-Agent: curl/7.83.1
+

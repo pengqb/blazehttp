@@ -1,0 +1,9 @@
+# SSRF服务端请求伪造_Gopher协议_SMTP邮件伪造
+# 利用gohper协议攻击存在未授权访问的邮件系统，伪造发件人发送钓鱼邮件
+GET /?id=gopher:%2F%2F127.0.0.1:25%2F_MAIL%2520FROM:test%2540test.com%250ARCPT%2520To:admin%2540admin.com%250ADATA%250AFrom:test%2540test.com%250ASubject:testing%250AMessage:Hello%2520World%2521%250A.&bid=hd_tag_m8mv24aj HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24aj
+RM-PRO-Token: fc3acbae7d9e0893195f2c3cdeeb786e
+RM-PRO-Time: 1742808371829
+User-Agent: curl/7.83.1
+

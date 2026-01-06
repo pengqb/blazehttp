@@ -1,0 +1,9 @@
+# SSRF服务端请求伪造_信息探测(:绕过)-06506971
+# 后端不同编程语言、方法url解析方式不同，利用解析差异实施绕过攻击。利用“:”绕过。
+GET /?id=http:%2F%2F127.0.0.1:21211:80&bid=hd_tag_m8mv24mv HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24mv
+RM-PRO-Token: 8d3f8e38b119a6b5359a7713dad6ca8f
+RM-PRO-Time: 1742808393157
+User-Agent: curl/7.83.1
+

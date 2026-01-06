@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_video标签_onfullscreenchange事件-06506518
+# 攻击者通过在 "onfullscreenchange" 属性中注入恶意代码，使得当浏览器进入全屏模式时，会执行确认框的脚本，其内容为 "confirm(1)"，这将返回一个布尔值，如果用户点击了确认按钮，则该值将为 true，从而执行攻击者的代码。当视频更改全屏状态时触发。
+GET /?id=%3Cvideo%20onfullscreenchange=confirm%281%29%20src=validvideo.mp4%20controls%3E&bid=hd_tag_m8mv26cs HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26cs
+RM-PRO-Token: 5fdd3ecf7e3f846972e61b895a40002f
+RM-PRO-Time: 1742808582140
+User-Agent: curl/7.83.1
+

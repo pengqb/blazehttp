@@ -1,0 +1,10 @@
+# 【投递】SharpDPAPI黑客工具#2-06505237
+# SharpDPAPI是一款用于对Windows系统中的DPAPI进行操作的黑客工具，可以用于数据解密、敏感信息获取、密码破解等多种用途，广泛应用于渗透测试、取证分析等领域。DPAPI是Windows系统中的一种数据保护API，可以用于加密和保护用户敏感数据，如密码、证书、密钥等等。SharpDPAPI可以帮助用户快速地访问和操作DPAPI，解密、获取和修改DPAPI中保存的敏感信息。它支持多种密钥类型和存储位置，包括用户密钥、域密钥、本地机密钥和备份密钥等，具有高效、稳定和安全的特点。其中，SharpDPAPI还支持在线和离线两种模式，可以让用户在不同场景中灵活运用。需要注意的是，使用SharpDPAPI进行非法攻击和违法行为是不道德和不合法的，用户必须遵循国家法规和职业道德准则。
+POST /?bid=hd_tag_m8mv268z HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv268z
+RM-PRO-Token: 41604945b617ab8ad041a81df61db139
+RM-PRO-Time: 1742808558900
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=PAhJvLAOkiKOsiKa7ecyamn9cNiwNrG6
+

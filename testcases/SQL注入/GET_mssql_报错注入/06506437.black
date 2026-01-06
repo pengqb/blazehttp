@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_报错注入-06506437
+# 攻击者基于报错查询，将"1 | convert(int,db_name())"语句注入到 SQL 查询参数中，目的是获取当前数据库名称信息。
+GET /?id=1%20%7C%20convert%28int%2Cdb_name%28%29%29&bid=hd_tag_m8mv26ni HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26ni
+RM-PRO-Token: 8c145a3b7ca6ef96282328d9c6951190
+RM-PRO-Time: 1742808640769
+User-Agent: curl/7.83.1
+

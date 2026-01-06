@@ -1,0 +1,9 @@
+# 目录遍历_/etc/passwd
+# 攻击者通过构造此语句可以遍历目录访问系统用户配置文件，还可以构造其他文件路径获取更多敏感信息。
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&bid=hd_tag_m8mv24nm HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24nm
+RM-PRO-Token: cf8eaf3f3f431182f95b6b8de6b85411
+RM-PRO-Time: 1742808395325
+User-Agent: curl/7.83.1
+

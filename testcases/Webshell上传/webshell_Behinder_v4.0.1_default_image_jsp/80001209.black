@@ -1,0 +1,10 @@
+# webshell_Behinder_v4.0.1_default_image_jsp
+# Behinder_v4.0.1 jsp 版本的webshell，通信流量使用了default_image方式加密
+POST /?bid=hd_tag_m8mv241r HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv241r
+RM-PRO-Token: 13b81505601c658f6dfd1f2e4929649f
+RM-PRO-Time: 1742808358299
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=flTO8CUKwQG13s9TQre3R2ZJA377sa8H
+

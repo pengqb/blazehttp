@@ -1,0 +1,9 @@
+# 文件包含_系统文件泄露_/proc/self/environ-06506911
+# environ中会保存user-agent头。如果在user-agent中插入php代码，则php代码会被写入到environ中。之后再包含它，即可执行恶意代码。
+GET /proc/self/environ?acid=06506911&bid=hd_tag_m8mv24oc HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24oc
+RM-PRO-Token: a35bb004fd89f618de9ed3c2fd1965b8
+RM-PRO-Time: 1742808399412
+User-Agent: curl/7.83.1
+

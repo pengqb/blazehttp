@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_报错注入-06506438
+# 攻击者基于报错查询，将"1 | @@version"语句注入到 SQL 查询参数中，目的是获取当前数据库版本信息。
+GET /?id=1%20%7C%20@@version%20&bid=hd_tag_m8mv26nh HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26nh
+RM-PRO-Token: 6a48f6b167242fab53d6185e2e7e5bcb
+RM-PRO-Time: 1742808640678
+User-Agent: curl/7.83.1
+

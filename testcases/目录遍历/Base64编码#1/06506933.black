@@ -1,0 +1,9 @@
+# 目录遍历_Base64编码#1
+# 攻击者通过构造此语句可以遍历目录访问系统用户配置文件，使用base64编码绕过检测还可以构造其他文件路径爆破更多敏感信息。
+GET /?Li4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZA==&bid=hd_tag_m8mv24nj HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24nj
+RM-PRO-Token: 6f7dfc739689308c5e744f596a801004
+RM-PRO-Time: 1742808395209
+User-Agent: curl/7.83.1
+

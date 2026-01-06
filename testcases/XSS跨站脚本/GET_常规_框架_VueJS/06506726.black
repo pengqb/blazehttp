@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_VueJS-06506726
+# 在 Vue.js 中，事件处理器可以通过 @ 符号绑定到元素上。事件处理器通常会触发相应的 JavaScript 代码。
+GET /?id=%3Cx%20@%5B_b.constructor%60confirm%281%29%60%28%29%5D%3E&bid=hd_tag_m8mv25fs HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25fs
+RM-PRO-Token: 8b9f32d0e76e2483d6b9916260ec969e
+RM-PRO-Time: 1742808465916
+User-Agent: curl/7.83.1
+

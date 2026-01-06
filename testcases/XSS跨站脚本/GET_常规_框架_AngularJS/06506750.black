@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_AngularJS-06506750
+# 使用连续的花括号 {{{}.")));confirm(1)//"}}} 来构造恶意代码。代码中的字符串被构造为一个属性访问链，目的是绕过可能的过滤器或防护机制。通过使用一些特殊字符和字符串的结构，攻击者试图在模板中注入闭合引号并执行 confirm(1) 这段恶意代码。（1.2.2 - 1.2.5）
+GET /?id=%7B%7B%7B%7D.%22%29%29%29%3Bconfirm%281%29%2F%2F%22%7D%7D&bid=hd_tag_m8mv25e1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25e1
+RM-PRO-Token: 928f5cf7c2572d2beebeaee92d68be89
+RM-PRO-Time: 1742808463207
+User-Agent: curl/7.83.1
+

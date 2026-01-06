@@ -1,0 +1,10 @@
+# 【投递】javaserializetoolsV1.0
+# javaserializetools，是Java反序列化漏洞利用工具 ，采用JDK 1.8+NetBeans8.2开发，软件运行必须安装JDK 1.8或者以上版本。 支持：weblogic xml反序列化漏洞 CVE-2017-10271/CNVD-C-2019-48814/CVE-2019-2725检查及利用。
+POST /?bid=hd_tag_m8mv263i HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv263i
+RM-PRO-Token: 74d29c271979cf8addbb21ee39eff410
+RM-PRO-Time: 1742808543638
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=o4lQdmvsV7pTvCuk_BvP8QhzObvJUqCz
+

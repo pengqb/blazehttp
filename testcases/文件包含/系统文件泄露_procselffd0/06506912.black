@@ -1,0 +1,9 @@
+# 文件包含_系统文件泄露_/proc/self/fd/0-06506912
+# 进程打开了三个文件描述符：0、1 和 2，它们分别表示标准输入、标准输出和标准错误。那么在 /proc/self/fd/ 目录下会有三个符号链接：0、1 和 2，分别指向对应的文件。
+GET /proc/self/fd/0?acid=06506912&bid=hd_tag_m8mv24oa HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24oa
+RM-PRO-Token: 6f0fa9fb62c7097f2f263168636ba29a
+RM-PRO-Time: 1742808399180
+User-Agent: curl/7.83.1
+

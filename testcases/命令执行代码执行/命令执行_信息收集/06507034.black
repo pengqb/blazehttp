@@ -1,0 +1,9 @@
+# 命令执行_信息收集-06507034
+# 获取redhat发行版主机的软件信息
+GET /?id=rpm%20-qa&bid=hd_tag_m8mv2621 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2621
+RM-PRO-Token: f414a18e724817fec30de0cd5fcfd358
+RM-PRO-Time: 1742808530364
+User-Agent: curl/7.83.1
+

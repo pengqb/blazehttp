@@ -1,0 +1,9 @@
+# 命令执行_痕迹清理-06507057
+# 清空btmp登录失败信息日志文件
+GET /?id=echo%20%3E%20%2Fvar%2Flog%2Fbtmp&bid=hd_tag_m8mv2601 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2601
+RM-PRO-Token: bc67bc5b5dd3c93c12aa210afd212e4d
+RM-PRO-Time: 1742808518396
+User-Agent: curl/7.83.1
+

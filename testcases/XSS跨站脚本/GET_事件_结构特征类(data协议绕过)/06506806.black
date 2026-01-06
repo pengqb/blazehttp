@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_事件_结构特征类(data协议绕过)-06506806
+# 通过 <OBJECT> data执行 JavaScript，几乎所有支持data URI 的浏览器都允许通过精心制作的 <OBJECT>“data”属性值执行 JavaScript——即使是 base64 编码。
+GET /?id=%3Cobject%20data=%22data:text%2Fhtml%3Bbase64%2CPHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==%22%3E%3C%2Fobject%3E&bid=hd_tag_m8mv251y HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv251y
+RM-PRO-Token: d330ef7c0d9200c4751f37ddfe1bbae9
+RM-PRO-Time: 1742808431224
+User-Agent: curl/7.83.1
+

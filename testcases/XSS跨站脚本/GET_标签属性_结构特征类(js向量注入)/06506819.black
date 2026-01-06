@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_结构特征类(js向量注入)-06506819
+# 通过覆盖的 ReferenceError 对象执行 JavaScript
+GET /?id=%3Cscript%3EReferenceError.prototype.__defineGetter__%28%27name%27%2C%20function%28%29%7Bconfirm%281%29%7D%29%2Cx%3C%2Fscript%3E&bid=hd_tag_m8mv2514 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2514
+RM-PRO-Token: 53fc5f98b36be4069095dad497eac766
+RM-PRO-Time: 1742808429890
+User-Agent: curl/7.83.1
+

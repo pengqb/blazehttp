@@ -1,0 +1,9 @@
+# 命令执行(括号绕过)-06507098
+# 使用"和()连接命令，例如：((((Whoam""i))))
+GET /?id=%28%28%28%28Whoam%22%22i%29%29%29%29&bid=hd_tag_m8mv25xn HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25xn
+RM-PRO-Token: 0473eeba0a933a9af158e7c624337d7e
+RM-PRO-Time: 1742808512612
+User-Agent: curl/7.83.1
+

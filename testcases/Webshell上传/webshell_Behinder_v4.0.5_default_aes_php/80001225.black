@@ -1,0 +1,10 @@
+# webshell_Behinder_v4.0.5_default_aes_php
+# Behinder_v4.0.5 php 版本的webshell，通信流量使用了aes方式加密
+POST /?bid=hd_tag_m8mv23to HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23to
+RM-PRO-Token: 1b60613fcbfa1ede214066199dee0eb9
+RM-PRO-Time: 1742808344566
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=Q5Y4SEI168KLdzzquUK-KcVqjWPF4yIy
+

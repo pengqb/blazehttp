@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_请求头_User-Agent-06506859
+# 利用跨站脚本攻击（XSS）漏洞向目标网站注入恶意脚本。攻击载荷是通过伪造HTTP请求头中的"User-agent"字段来传递恶意脚本。
+GET /?bid=hd_tag_m8mv24xs HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24xs
+RM-PRO-Token: 24256ba11e9168ca3f5cef0f8a7e1723
+RM-PRO-Time: 1742808422585
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0 <script>alert('XSS')</script>
+

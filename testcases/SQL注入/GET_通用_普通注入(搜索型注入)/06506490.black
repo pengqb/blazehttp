@@ -1,0 +1,9 @@
+# SQL注入_GET_通用_普通注入(搜索型注入)
+# 攻击者通过构造此sql语句使用get请求方式判断是否存在注入点。该sql注入语句的手段是使用一个布尔表达式 "1=2" 来判断一个永远为假的条件是否为真。通过在原始查询语句的结尾添加这个条件，攻击者试图使整个查询返回一个空结果集。如果应用程序没有对用户输入进行适当的验证和过滤，这种注入语句可能成功执行，从而导致应用程序的安全漏洞。
+GET /?id=xx%25%27%20and%201=2%23&bid=hd_tag_m8mv26jm HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26jm
+RM-PRO-Token: 38d42eeafc3af9a4abe600af9fb8294d
+RM-PRO-Time: 1742808623567
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_编码类(UTF-7 bom编码)-06506707
+# 利用UTF-7 BOM 字符，在页面中嵌入一个 script 标签，用于弹出一个确认框，显示数字 1。
+GET /?id=+%2Fv8%20+ADw-script+AD4-confirm%281%29+ADw-%2Fscript+AD4-G3367&bid=hd_tag_m8mv25i8 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25i8
+RM-PRO-Token: fa31747c6f54fb7605b37e66c58c7725
+RM-PRO-Time: 1742808470319
+User-Agent: curl/7.83.1
+

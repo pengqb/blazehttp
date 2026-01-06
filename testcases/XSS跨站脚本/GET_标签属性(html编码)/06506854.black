@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性(html编码)-06506854
+# 攻击载荷利用标签<a>的href属性触发alert()函数实现弹窗对话框。将字符冒号":"实体编码。
+GET /?id=%3Ca%2Fhref=javascript&colon%3Balert%28%29%3Eclick&bid=hd_tag_m8mv24xz HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24xz
+RM-PRO-Token: fe721fce4e06795f802aa8c1604e0d14
+RM-PRO-Time: 1742808423030
+User-Agent: curl/7.83.1
+

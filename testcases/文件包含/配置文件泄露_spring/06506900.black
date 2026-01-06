@@ -1,0 +1,9 @@
+# 文件包含_配置文件泄露_spring-06506900
+# Spring Boot应用程序的主要配置文件.yml，其中包含应用程序的属性设置，如数据库连接、日志级别等
+GET /resources/application.yml?acid=06506900&bid=hd_tag_m8mv24ov HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24ov
+RM-PRO-Token: 7098c082d14d116c95282010f5b804b5
+RM-PRO-Time: 1742808401137
+User-Agent: curl/7.83.1
+

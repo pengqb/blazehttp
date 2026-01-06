@@ -1,0 +1,9 @@
+# 文件包含_隐藏目录文件泄露_Git-06506872
+# Git仓库的配置文件
+GET /.git/config?acid=06506872&bid=hd_tag_m8mv24wt HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24wt
+RM-PRO-Token: 8b1687b51b0050b1b40897057f2b47a1
+RM-PRO-Time: 1742808420350
+User-Agent: curl/7.83.1
+

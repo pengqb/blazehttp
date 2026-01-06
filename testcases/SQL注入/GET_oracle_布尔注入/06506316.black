@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_布尔注入-06506316
+# 攻击者基于布尔查询，将"(instr((select user from dual),'TEST'))"语句注入到 SQL 查询参数中，利用函数instr获取用户名为test出现的位置以判断用户信息。
+GET /?id=1%20and%201=%28instr%28%28select%20user%20from%20dual%29%2C%27TEST%27%29%29&bid=hd_tag_m8mv240f HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv240f
+RM-PRO-Token: 8c0729dc4196f23f7cdd2ed42d1afa9f
+RM-PRO-Time: 1742808356298
+User-Agent: curl/7.83.1
+

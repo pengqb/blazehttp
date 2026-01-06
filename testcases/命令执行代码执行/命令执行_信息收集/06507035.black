@@ -1,0 +1,9 @@
+# 命令执行_信息收集-06507035
+# 获取Linux发行版信息
+GET /?id=lsb_release%20-a&bid=hd_tag_m8mv261z HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv261z
+RM-PRO-Token: 68d8993b017f4eec89fe8241449835c0
+RM-PRO-Time: 1742808529864
+User-Agent: curl/7.83.1
+

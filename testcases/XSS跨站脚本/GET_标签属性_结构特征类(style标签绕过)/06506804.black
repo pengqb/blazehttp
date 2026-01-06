@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_结构特征类(style标签绕过)-06506804
+# 攻击载荷在<style>标签中插入了一个<img>标签，其中的src属性被截断，导致<style>标签闭合，然后通过<img>标签的onerror事件触发恶意代码confirm(1)。
+GET /?id=%3Cstyle%3E%3Cimg%20src=%22%3C%2Fstyle%3E%3Cimg%20src=x%20onerror=confirm%281%29%2F%2F%22%3E&bid=hd_tag_m8mv251j HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv251j
+RM-PRO-Token: 7a032fba5ffc4ca1ab3326d4a888f4e2
+RM-PRO-Time: 1742808430290
+User-Agent: curl/7.83.1
+

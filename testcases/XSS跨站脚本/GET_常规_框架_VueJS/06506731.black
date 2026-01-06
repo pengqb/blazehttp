@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_VueJS-06506731
+# 使用 @ 或 v-on 来进行事件绑定。通过在 HTML 元素上绑定事件，可以在相应的事件触发时执行指定的代码。
+GET /?id=%3Cx%20@click=%27_b.constructor%60confirm%281%29%60%28%29%27%3Eclick%3C%2Fx%3E&bid=hd_tag_m8mv25fc HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25fc
+RM-PRO-Token: c713bb493793eaa8b9648396534239a2
+RM-PRO-Time: 1742808464753
+User-Agent: curl/7.83.1
+

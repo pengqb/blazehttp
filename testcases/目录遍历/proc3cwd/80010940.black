@@ -1,0 +1,9 @@
+# 目录遍历_/proc/3/cwd
+# cwd文件是一个指向当前进程运行目录的符号链接，可以通过查看cwd文件获取进程环境的运行目录
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fproc%2F3%2Fcwd&bid=hd_tag_m8mv23s4 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23s4
+RM-PRO-Token: 764e0fafee5cb03f180f6be13204763b
+RM-PRO-Time: 1742808341142
+User-Agent: curl/7.83.1
+

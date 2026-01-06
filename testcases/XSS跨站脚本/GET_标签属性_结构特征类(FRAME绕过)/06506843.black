@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_结构特征类(FRAME绕过)-06506843
+# 通过在一个FRAME元素中嵌入JavaScript代码，弹出一个显示文本"XSS"的警报框。FRAME与iframe具有相同类型的XSS问题
+GET /?id=%3CFRAMESET%3E%3CFRAME%20SRC=%22javascript:alert%28%27XSS%27%29%3B%22%3E%3C%2FFRAMESET%3E&bid=hd_tag_m8mv24yl HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24yl
+RM-PRO-Token: 33f68ee48bf0b374e0de14ffba2bb178
+RM-PRO-Time: 1742808424219
+User-Agent: curl/7.83.1
+

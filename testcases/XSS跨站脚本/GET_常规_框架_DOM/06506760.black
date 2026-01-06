@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_DOM-06506760
+# 通过伪造 toString 函数，使得在后续的代码中调用 toString 时，实际上执行的是恶意代码。
+GET /?id=toString.constructor.prototype.toString=toString.constructor.prototype.call%3B%5B%22a%22%2C%22confirm%281%29%22%5D.sort%28toString.constructor%29&bid=hd_tag_m8mv25da HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25da
+RM-PRO-Token: 6b3e3f8148cf580662e4f1dbf3d13341
+RM-PRO-Time: 1742808461400
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# SQL注入_GET_通用_普通注入-06506489
+# 攻击者通过构造此sql语句使用get请求方式判断是否存在注入点。该SQL注入语句中： "1' and 1=2"，攻击目的是绕过身份验证或者获取额外的权限。攻击者的目的可能是以管理员身份登录、访问他人的数据、执行未授权的操作或者绕过其他访问控制限制。
+GET /?id=1%27%20and%201=2&bid=hd_tag_m8mv26ki HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26ki
+RM-PRO-Token: b8832f3d7a7eecfc0162d1c47011dffd
+RM-PRO-Time: 1742808626633
+User-Agent: curl/7.83.1
+

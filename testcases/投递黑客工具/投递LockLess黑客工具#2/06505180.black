@@ -1,0 +1,10 @@
+# 【投递】LockLess黑客工具#2-06505180
+# LockLess是一款Windows漏洞利用工具，可用于利用Windows系统上的普通内核漏洞，以获取系统的管理员权限，进而控制受感染的计算机。它可以通过内核模式的DLL注入机制实现卸载、卸载内核模式驱动程序和虚拟地址映射表编辑等高级功能。LockLess使用较为灵活，在使用时需要配置一定的参数。由于LockLess是一款强大的黑客攻击工具，使用该工具需要谨慎，否则可能带来安全风险。为了防御LockLess攻击，用户和管理员应该定期更新操作系统和应用程序补丁，使用合适的防病毒软件和安全套件，启用防火墙和安全策略，从而对系统漏洞和攻击进行监控和防御。
+POST /?bid=hd_tag_m8mv26id HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26id
+RM-PRO-Token: 3d978f02ebf5988e5647ffdc3628502f
+RM-PRO-Time: 1742808620484
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=_Giagm1LbOXH5vFnz7-DOGJRAxHD5zrd
+

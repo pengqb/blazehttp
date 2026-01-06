@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_布尔注入-06506314
+# 攻击者基于布尔查询，将"(select length(user) from dual)=4"语句注入到 SQL 查询参数中，利用函数length以获取当前用户名长度信息。
+GET /?id=1%20and%20%28select%20length%28user%29%20from%20dual%29=4&bid=hd_tag_m8mv240k HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv240k
+RM-PRO-Token: 82e285de0bd1d275196eb13ff9c01bc5
+RM-PRO-Time: 1742808356311
+User-Agent: curl/7.83.1
+

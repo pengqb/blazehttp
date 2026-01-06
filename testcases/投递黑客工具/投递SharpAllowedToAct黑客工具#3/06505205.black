@@ -1,0 +1,10 @@
+# 【投递】SharpAllowedToAct黑客工具#3-06505205
+# SharpAllowedToAct是一款Windows平台的权限提升工具，主要用于通过枚举Windows系统中的安全策略、访问控制列表（ACL）、令牌（Token）等机制，找到一些配置问题或漏洞，以获取管理员权限或提高普通用户的权限，进一步挖掘系统的漏洞和提高渗透攻击的效率。该工具的核心代码使用C#语言编写，可以与PowerShell脚本、Meterpreter等攻击载荷结合使用，以最小化对目标的干扰。SharpAllowedToAct的工作原理类似于过程劫持（Process Hijacking），主要针对一些安全策略、服务、程序和库等受限对象，通过替换启动参数、改变安全描述符、伪造令牌等方式，使攻击者可控的进程或服务拥有更高的权限，以达到提权、绕过安全检测和访问限制等攻击目的。SharAllowedToAct可以在已获得一定权限的系统上使用，但需要谨慎操作，以免引起系统崩溃或数据丢失等问题，同时需遵守当地法律法规。
+POST /?bid=hd_tag_m8mv26c0 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26c0
+RM-PRO-Token: dc35a31ed4237709da88280cb9e75cf9
+RM-PRO-Time: 1742808577595
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=Nghny4kwBf8-iIhJNK9wUMo1dygla6QT
+

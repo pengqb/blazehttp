@@ -1,0 +1,9 @@
+# 目录遍历_UNC绕过
+# 攻击者可以将Windows UNC共享(\UNC\share\)注入到软件系统中，从而可能重定向访问非预期位置或任意文件
+GET /?id=%5C%5Clocalhost%5Cc$%5Cwindows%5Cwin.ini&bid=hd_tag_m8mv23r6 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23r6
+RM-PRO-Token: a8c2d41b27d1c426bcc5b029388f4081
+RM-PRO-Time: 1742808338902
+User-Agent: curl/7.83.1
+

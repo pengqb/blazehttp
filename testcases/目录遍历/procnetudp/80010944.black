@@ -1,0 +1,9 @@
+# 目录遍历_/proc/net/udp
+# /proc/net/udp 文件是 Linux 系统中的一个特殊文件，用于显示系统当前的 UDP 协议连接信息。文件提供有关系统中所有 UDP 连接的详细信息，包括本地地址、本地端口、远程地址、远程端口等。
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fproc%2Fnet%2Fudp&bid=hd_tag_m8mv23t8 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23t8
+RM-PRO-Token: 765190ae590a2fe6cc64ac45a2841174
+RM-PRO-Time: 1742808343318
+User-Agent: curl/7.83.1
+

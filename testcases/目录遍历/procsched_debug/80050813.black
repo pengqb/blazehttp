@@ -1,0 +1,10 @@
+# 目录遍历_/proc/sched_debug
+# /proc/sched_debug是一个特殊的虚拟文件，它提供了有关Linux内核调度器（scheduler）的详细信息。
+# 该文件通常用于诊断和分析系统上的进程调度性能问题。通过查看/proc/sched_debug文件，系统管理员可以获取有关当前正在运行的进程、线程以及它们在CPU上执行的时间片等信息。
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fproc%2Fsched_debug&bid=hd_tag_m8mv24lt HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24lt
+RM-PRO-Token: 4c28b0873205c950f80b0c8a0b51b9b4
+RM-PRO-Time: 1742808391786
+User-Agent: curl/7.83.1
+

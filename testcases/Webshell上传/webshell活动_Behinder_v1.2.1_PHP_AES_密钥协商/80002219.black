@@ -1,0 +1,9 @@
+# webshell活动_Behinder_v1.2.1_PHP_AES_密钥协商
+# 攻击者可以通过冰蝎webshell工具建立加密连接，进一步实施攻击。冰蝎v1.2.1版本进行的密钥交换动作。
+GET /shell.php?pass=1593370672&acid=80002219&bid=hd_tag_m8mv25lq HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25lq
+RM-PRO-Token: 6515e183df6a1ad3948afacb407de379
+RM-PRO-Time: 1742808479218
+User-Agent: curl/7.83.1
+

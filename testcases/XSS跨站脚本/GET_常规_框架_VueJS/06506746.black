@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_VueJS-06506746
+# $emit 方法用于在组件之间传递消息，通过调用 $emit 方法，可以触发自定义事件并传递参数。
+GET /?id=%7B%7B$emit.constructor%60confirm%281%29%60%28%29%7D%7D&bid=hd_tag_m8mv25ee HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25ee
+RM-PRO-Token: b83232d5e36d2388d4c021f49e7aab89
+RM-PRO-Time: 1742808463374
+User-Agent: curl/7.83.1
+

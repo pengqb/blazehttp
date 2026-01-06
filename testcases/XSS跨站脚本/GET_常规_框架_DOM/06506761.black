@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_DOM-06506761
+# 通过插入在表达式中的恶意代码来利用表达式注入漏洞。
+GET /?id=%7B%7D.%22%29%29%29%3Bconfirm%281%29%2F%2F%22%3B&bid=hd_tag_m8mv25d9 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25d9
+RM-PRO-Token: 75b3cbff7b7eabbbc07a591a08e74803
+RM-PRO-Time: 1742808461372
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# 文件包含_隐藏目录文件泄露_.DS_Store-06506879
+# .DS_Store是Mac下Finder用来保存如何展示文件/文件夹的数据文件，每个文件夹下对应一个，用来存储当前文件夹的属性。在发布代码时未删除文件夹中隐藏的.DS_store，可能造成文件目录结构泄漏、源代码文件等敏感信息的泄露。
+GET /.DS_Store?acid=06506879&bid=hd_tag_m8mv24wl HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24wl
+RM-PRO-Token: 23f191a691ad54a61429279d3cea4493
+RM-PRO-Time: 1742808419191
+User-Agent: curl/7.83.1
+

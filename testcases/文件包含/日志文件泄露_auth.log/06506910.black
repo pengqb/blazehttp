@@ -1,0 +1,9 @@
+# 文件包含_日志文件泄露_auth.log
+# 管理鉴权日志,包含系统授权信息、用户登录和使用权限机制等，可被攻击者写入恶意代码结合文件包含漏洞组合使用
+GET /var/log/auth.log?acid=06506910&bid=hd_tag_m8mv24od HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24od
+RM-PRO-Token: 922520b849b76805177fd3ef6577e043
+RM-PRO-Time: 1742808399434
+User-Agent: curl/7.83.1
+

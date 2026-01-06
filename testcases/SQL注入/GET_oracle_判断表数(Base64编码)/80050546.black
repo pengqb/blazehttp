@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_判断表数(Base64编码)
+# 攻击者基于布尔查询，将"and (select count(table_name) from user_tables) >10"语句base64编码注入到 SQL 查询参数中，利用函数count统计表名数量信息。
+GET /?id=MSBhbmQgKHNlbGVjdCBjb3VudCh0YWJsZV9uYW1lKSBmcm9tIHVzZXJfdGFibGVzKSA+MTA=&bid=hd_tag_m8mv26h1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26h1
+RM-PRO-Token: 012b4ef4112d84e39efbb58a38377b62
+RM-PRO-Time: 1742808618751
+User-Agent: curl/7.83.1
+

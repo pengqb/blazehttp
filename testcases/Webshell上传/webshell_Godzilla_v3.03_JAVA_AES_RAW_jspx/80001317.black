@@ -1,0 +1,10 @@
+# webshell_Godzilla_v3.03_JAVA_AES_RAW_jspx
+# Godzilla_v3.03  jspx 版本的webshell，通信流量经过AES加密
+POST /?bid=hd_tag_m8mv24hi HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24hi
+RM-PRO-Token: 678c137842f6de17a5a6bb35f4af259c
+RM-PRO-Time: 1742808383129
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=08J1hma_orQlnrFHqyIrV1Gfd4GVONaP
+

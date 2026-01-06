@@ -1,0 +1,10 @@
+# webshell_DEWMODE
+# DEWMODE是一个使用PHP编写的webshell，提供了操作服务器文件的相关功能，其中包括高度定制的工具，用于从 Accellion 系统中窃取数据。
+POST /?bid=hd_tag_m8mv24j0 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24j0
+RM-PRO-Token: 98c2f2ebc583ed796e9e1dc936ed22c5
+RM-PRO-Time: 1742808385581
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=ERyq-dp2F5O7HR0bsgiizhQTsPzH814U
+

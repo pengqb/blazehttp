@@ -1,0 +1,10 @@
+# 反序列化-JAVA Beanshell1
+# BeanShell是一个小型嵌入式Java源代码解释器，具有对象脚本语言特性，能够动态地执行标准JAVA语法，并利用在JavaScript和Perl中常见的的松散类型、命令、闭包等通用脚本来对其进行拓展。BeanShell不仅仅可以通过运行其内部的脚本来处理Java应用程序，还可以在运行过程中动态执行你java应用程序执行java代码。因为BeanShell是用java写的，运行在同一个虚拟机的应用程序，因此可以自由地引用对象脚本并返回结果。
+POST /?acid=80001735&bid=hd_tag_m8mv25n8 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25n8
+RM-PRO-Token: fa9dcc73b16eb0c713351dd64f9b8e67
+RM-PRO-Time: 1742808483334
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=Izk-EmxrAD31Li4c-grpR7kiv2slswTF
+

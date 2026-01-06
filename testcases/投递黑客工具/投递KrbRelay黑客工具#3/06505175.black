@@ -1,0 +1,10 @@
+# 【投递】KrbRelay黑客工具#3-06505175
+# KrbRelay是一种基于Windows的黑客攻击工具，可用于攻击Kerberos认证协议。攻击者可以拦截Kerberos身份验证请求，通过修改请求中的用户名，将身份验证请求中的用户和机器之间的信任关系转移为攻击者控制的目标服务器。攻击者可以使用此技术来获取目标用户/计算机的Session Key，然后登录到目标计算机或执行其他计算机操作。KrbRelay技术可以直接绕过目标计算机的防火墙或其他安全限制，因此在黑客攻击中经常被使用。要防范此类攻击，用户应该使用强密码来保护Kerberos身份验证，禁用或严格限制跨域身份验证，使用网络安全设备（如防火墙、入侵检测系统等）来检测和阻止恶意流量，及时更新操作系统和应用程序，这样可以帮助降低KrbRelay攻击所造成的风险。
+POST /?bid=hd_tag_m8mv26j0 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26j0
+RM-PRO-Token: 17608210391f73c965eb064914c6ef0d
+RM-PRO-Time: 1742808622361
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=impbvzNk7oYWK1BZ-vy0NRL8cPI0c2Pp
+

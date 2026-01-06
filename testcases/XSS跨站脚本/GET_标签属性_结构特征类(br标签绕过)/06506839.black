@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_结构特征类(br标签绕过)-06506839
+# 利用恶意构造的 <BR> 标签属性中的注入点，触发网页中的XSS漏洞。通过在 <BR> 标签的 SIZE 属性中插入恶意代码，攻击者试图执行一个JavaScript弹窗，其中显示"XSS"这个弹窗信息。& JavaScript includes
+GET /?id=%3CBR%20SIZE=%22&%7Balert%28%27XSS%27%29%7D%22%3E&bid=hd_tag_m8mv24zq HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24zq
+RM-PRO-Token: 8de1eef170f49d1d7e9a68019b275f1c
+RM-PRO-Time: 1742808426722
+User-Agent: curl/7.83.1
+

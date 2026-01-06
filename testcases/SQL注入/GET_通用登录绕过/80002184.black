@@ -1,0 +1,9 @@
+# SQL注入_GET_通用登录绕过
+# 攻击者通过构造此sql语句使用get请求方式判断是否存在注入点。该SQL注入语句中： "1' or 1=1 "，攻击目的使得逻辑条件永远为真以达到绕过登录账户检测。攻击者的目的可能是测试应用程序对注入攻击的防护程度，探测潜在的漏洞或找到可以进一步利用的注入点。
+GET /?id=1%27%20or%201=1%20%23&bid=hd_tag_m8mv25jb HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25jb
+RM-PRO-Token: 0dab940e66f68a7170f321972c6424b1
+RM-PRO-Time: 1742808472558
+User-Agent: curl/7.83.1
+

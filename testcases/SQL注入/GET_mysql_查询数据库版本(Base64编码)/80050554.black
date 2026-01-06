@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_查询数据库版本(Base64编码)
+# 攻击者基于UNION查询，将"union select version()"语句经过base64编码注入到 SQL 查询参数中，利用version()这个内置函数，获取到当前数据库的版本，从而进一步获取数据库中的敏感信息或者窃取用户凭证。
+GET /?id=MSB1bmlvbiBzZWxlY3QgdmVyc2lvbigp&bid=hd_tag_m8mv26i1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26i1
+RM-PRO-Token: 7655b1ea2a206607aeb1582d06363de2
+RM-PRO-Time: 1742808620015
+User-Agent: curl/7.83.1
+

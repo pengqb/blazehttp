@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506410
+# 攻击者基于堆叠查询，将"declare @sp_passwordxieo int, @f int, @t int, @ret int;exec sp_oacreate 'scripting.filesystemobject', @sp_passwordxieo out"语句注入到 SQL 查询参数中，目的是在 SQL Server 中创建一个 COM 对象实例，该对象是 scripting.filesystemobject 类型的。这个对象通常用于在 SQL Server 中执行与文件系统相关的操作，例如读取、写入、复制、删除文件等。
+GET /?id=1%3Bdeclare%20@sp_passwordxieo%20int%2C%20@f%20int%2C%20@t%20int%2C%20@ret%20int%3Bexec%20sp_oacreate%20%27scripting.filesystemobject%27%2C%20@sp_passwordxieo%20out&bid=hd_tag_m8mv23ml HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23ml
+RM-PRO-Token: 8842f19f7eabf829cf79d85e6312cd2c
+RM-PRO-Time: 1742808331726
+User-Agent: curl/7.83.1
+

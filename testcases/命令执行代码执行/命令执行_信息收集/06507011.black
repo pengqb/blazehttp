@@ -1,0 +1,9 @@
+# 命令执行_信息收集-06507011
+# 使用cat命令读取文件
+GET /?id=cat%20%2Fetc%2Fshadow&bid=hd_tag_m8mv2647 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2647
+RM-PRO-Token: c2ce6a14ebc7b11c4b524fdeeb886022
+RM-PRO-Time: 1742808545540
+User-Agent: curl/7.83.1
+

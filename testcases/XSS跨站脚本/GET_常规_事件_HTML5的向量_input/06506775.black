@@ -1,0 +1,11 @@
+# XSS跨站脚本_GET_常规_事件_HTML5的向量_input-06506775
+# 当页面加载完成后，第一个输入元素将自动获得焦点。
+# 当该输入元素失去焦点时（用户点击其他区域），JavaScript中的alert(1)函数会被调用，弹出提示框并显示1。
+# 即有两个 HTML 输入元素在争夺焦点 - 一个在失去焦点时执行 JavaScript。
+GET /?id=%3Cinput%20onblur=alert%281%29%20autofocus%3E%3Cinput%20autofocus%3E&bid=hd_tag_m8mv25c1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25c1
+RM-PRO-Token: ae1464ab439615c45e55b6bb3e52de72
+RM-PRO-Time: 1742808459069
+User-Agent: curl/7.83.1
+

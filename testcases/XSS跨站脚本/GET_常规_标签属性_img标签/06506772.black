@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_标签属性_img标签-06506772
+# 攻击载荷利用了HTML中的img标签和src属性，执行javascript代码，显示一个提示框。
+GET /?id=%3Cimg%20src=%22javascript:confirm%281%29%22%3E&bid=hd_tag_m8mv25cf HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25cf
+RM-PRO-Token: 406f3b994def44e53ca18bc24fdbecbb
+RM-PRO-Time: 1742808460039
+User-Agent: curl/7.83.1
+

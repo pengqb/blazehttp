@@ -1,0 +1,11 @@
+# webshell活动_WeBaCoo_PHP_Base64_命令执行
+# 通过WeBaCoo webshell工具建立连接，webshell使用base64加密方式，执行任意命令
+GET /shell.php?acid=80002240&bid=hd_tag_m8mv25m7 HTTP/1.1
+Host: www.swaf.com
+Cookie: cm=d2hvYW1p; cn=M-cookie; cp=8zM$
+Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+RM-PRO-BusinessID: hd_tag_m8mv25m7
+RM-PRO-Token: f0be1786fb6fc8a6171226316171f50d
+RM-PRO-Time: 1742808481089
+User-Agent: curl/7.83.1
+

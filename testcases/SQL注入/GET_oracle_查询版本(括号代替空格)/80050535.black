@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_查询版本(括号代替空格)
+# 攻击者基于UNION查询，将"1 union((select banner from sys.v_$version)where rownum=1)from dual"语句经过注入到 SQL 查询参数中，从数据库系统视图 "sys.v_$version" 中选择 "banner" 列的值，将数据库的版本信息合并到原始查询的结果中，然后通过应用程序返回的响应来获取数据库版本信息。
+GET /?id=1%20union%28%28select%20banner%20from%20sys.v_$version%29where%20rownum=1%29from%20dual&bid=hd_tag_m8mv26j7 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26j7
+RM-PRO-Token: bc3b9355364dc97d11f668f744b62456
+RM-PRO-Time: 1742808622344
+User-Agent: curl/7.83.1
+

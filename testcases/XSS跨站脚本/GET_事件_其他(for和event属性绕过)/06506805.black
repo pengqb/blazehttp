@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_事件_其他(for和event属性绕过)-06506805
+# 利用了<script>标签和onload事件来注入恶意JavaScript代码。当目标网页加载时，浏览器执行该代码，导致弹窗弹出。通过 <SCRIPT> for 和 event 属性执行 JavaScript。
+GET /?id=%3CSCRIPT%20FOR=window%20EVENT=onload%3Econfirm%281%29%3C%2FSCRIPT%3E&bid=hd_tag_m8mv2520 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2520
+RM-PRO-Token: 275b4ea930b2c89e27d13ce6c2d32bd4
+RM-PRO-Time: 1742808431599
+User-Agent: curl/7.83.1
+

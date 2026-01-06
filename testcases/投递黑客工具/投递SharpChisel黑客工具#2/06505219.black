@@ -1,0 +1,10 @@
+# 【投递】SharpChisel黑客工具#2-06505219
+# SharpChisel是一款由Golang语言编写的内网隧道工具，可以通过网络代理在内网中建立TCP、UDP连接隧道，并实现端口转发和数据加密功能。SharpChisel在内网渗透测试和攻击中具有较高的应用价值，可以用于绕过内网防火墙和NAT路由器等限制，实现远程访问、数据传输和信息窃取。SharpChisel支持多种加密算法，如ChaCha20、AES-128-CFB、AES-256-CFB等，可以有效地保护数据的隐私和安全。此外，SharpChisel还具有压缩、分段、数据混淆等特色功能，使得其在数据传输效率和性能上有所提升，适用于多种内网环境和场景。需要注意的是，在使用SharpChisel进行渗透测试和攻击时，必须遵循相关法律法规和职业道德，严格授权和审慎操作，以避免产生不必要的风险和损失。
+POST /?bid=hd_tag_m8mv26aw HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26aw
+RM-PRO-Token: e4b7b3aa3e9c93608fc5c86c8cd44800
+RM-PRO-Time: 1742808569515
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=kWZmnzVht9Ip69nU1q80SjihN_l2QTQk
+

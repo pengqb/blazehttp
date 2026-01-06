@@ -1,0 +1,10 @@
+# 【投递】SharpCookieMonster黑客工具#2-06505231
+# SharpCookieMonster是一款用于获取敏感Cookie信息的黑客工具，它可以帮助用户快速地扫描和收集浏览器中的Cookie信息，用于进行渗透测试、恶意攻击、用户行为追踪、网站访问记录等多种用途。SharpCookieMonster支持多种浏览器，包括Chrome、Firefox、Edge等，并且具有自动识别浏览器版本的功能，方便用户快速获取目标浏览器中的Cookie值。SharpCookieMonster采用了不同于传统Cookie获取工具的技术手段，它可以绕过浏览器安全机制，获取到加密的Cookie值，甚至可以在没有凭证的情况下进行登录和授权操作。此外，SharpCookieMonster还配备了快速和有效的Cookie清理功能，可以清除浏览器中的所有Cookie数据，避免Cookie泄露和被盗用。需要注意的是，使用SharpCookieMonster进行非法攻击和违法行为是不道德和不合法的，用户必须遵循国家法规和职业道德准则。
+POST /?bid=hd_tag_m8mv269m HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv269m
+RM-PRO-Token: 2b3607b240b87a51c2b4d9cf8b555f99
+RM-PRO-Time: 1742808561426
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=h7RZT-Sgn7hTCNVPkPFSTkrW2OVVJcA-
+

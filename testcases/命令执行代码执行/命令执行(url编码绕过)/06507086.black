@@ -1,0 +1,9 @@
+# 命令执行(url编码绕过)-06507086
+# 将空格进行url编码绕过。
+GET /?id=type%25201.txt&bid=hd_tag_m8mv25y4 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25y4
+RM-PRO-Token: 08dbb41d0629a588b7adfa240717bc21
+RM-PRO-Time: 1742808513313
+User-Agent: curl/7.83.1
+

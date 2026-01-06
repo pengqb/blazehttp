@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_编码类(Unicode编码)-06506709
+# Unicode 转义 ES6 样式零填充进行xss攻击
+GET /?id=%3Cscript%3E%5Cu%7B0000000061%7Dlert%281%29%3C%2Fscript%3E&bid=hd_tag_m8mv25i6 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25i6
+RM-PRO-Token: e4a0d45cb0992ca3025a9c49a4cdb3ae
+RM-PRO-Time: 1742808470271
+User-Agent: curl/7.83.1
+

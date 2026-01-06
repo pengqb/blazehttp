@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_编码类(US-ASCII编码)-06506840
+# 利用script标签执行alter函数弹出对话框。使用US-ASCII编码，它使用格式错误的7位而不是8位的ASCII编码。
+GET /?id=%C2%BCscript%C2%BEalert%28%C2%A2XSS%C2%A2%29%C2%BC%2Fscript%C2%BE&bid=hd_tag_m8mv24yt HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24yt
+RM-PRO-Token: 35dccab040b8bc3fcb52c06516ec4861
+RM-PRO-Time: 1742808424366
+User-Agent: curl/7.83.1
+

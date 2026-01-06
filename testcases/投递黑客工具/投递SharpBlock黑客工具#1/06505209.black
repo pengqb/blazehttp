@@ -1,0 +1,10 @@
+# 【投递】SharpBlock黑客工具#1-06505209
+# SharpBlock是一款基于C#语言编写的Windows平台下的网络屏蔽和阻断工具，主要用于网络渗透测试中的流量控制和攻击防御。它可以在客户端和服务器端部署，支持自定义规则和白名单，可以拦截、记录和报告TCP、UDP和ICMP流量，并支持对洪水攻击、拒绝服务攻击、端口扫描等攻击进行自动或手动防御，以保护网络安全和数据隐私。 SharpBlock的优点在于：易于使用、高效灵活、兼容性好、可扩展性强。具有自学习能力，可以根据流量规律自动调整规则。同时，SharpBlock的缺点在于：需要一定的技术水平方可使用，操作复杂，需要预先配置规则和白名单，维护和更新困难。需要注意的是，在使用SharpBlock进行渗透测试或攻防演练时，务必遵循相关法律法规和规范，避免造成不必要的影响和损失。
+POST /?bid=hd_tag_m8mv26bs HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26bs
+RM-PRO-Token: 7b2e4dfcca975273bc57b0c3544b3fda
+RM-PRO-Time: 1742808575861
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=zu-0XEe9uKHkVppuu0OP9Zh-ns9OqviA
+

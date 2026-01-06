@@ -1,0 +1,10 @@
+# 反序列化-JAVA JRMPListener
+# RMI依赖的通信协议为JRMP(Java Remote Message Protocol ，Java 远程消息交换协议)，该协议为Java定制，基于TCP/IP之上，RMI协议之下，当需要进行RMI远程方法调用通信的时候要求服务端与客户端都为Java编写。
+POST /?acid=80001759&bid=hd_tag_m8mv25ot HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25ot
+RM-PRO-Token: 16558711d31db65e8ac37d6713d3797d
+RM-PRO-Time: 1742808495281
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=qmYx3zI7KkxSmmD24_d5-gWsnBuydozk
+

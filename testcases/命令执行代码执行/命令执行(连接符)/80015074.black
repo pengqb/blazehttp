@@ -1,0 +1,9 @@
+# 命令执行(||连接符)
+# 使用逻辑运算符||连接命令，在前一个命令执行失败后才执行后面的命令。
+GET /?id=ping%20127.0.0.1%20-n%201%20%7C%7C%20whoami&bid=hd_tag_m8mv2424 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2424
+RM-PRO-Token: c2c1d64e5c5ef8da1ead2d485407a0ae
+RM-PRO-Time: 1742808359532
+User-Agent: curl/7.83.1
+

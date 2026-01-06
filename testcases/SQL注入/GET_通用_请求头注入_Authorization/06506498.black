@@ -1,0 +1,10 @@
+# SQL注入_GET_通用_请求头注入_Authorization-06506498
+# 基于请求头注入，在http请求的Authorization头部中注入恶意代码。可能试图绕过身份验证系统，以获取管理员权限（"YWRtaW46YWRtaW4=" 解码为 "admin:admin"，表示管理员的用户名和密码）。该注入语句使用了布尔逻辑运算符“and”和“#”字符，以及数字 1 和 2。通过将 "1=2" 注入到授权验证条件中，攻击者企图使条件始终为假，以绕过身份验证检查。
+GET /?bid=hd_tag_m8mv26jp HTTP/1.1
+Host: www.swaf.com
+Authorization: Basic YWRtaW46YWRtaW4=' and 1=2#
+RM-PRO-BusinessID: hd_tag_m8mv26jp
+RM-PRO-Token: 294490f794c6fd9826c8fc3f476b0ec0
+RM-PRO-Time: 1742808623726
+User-Agent: curl/7.83.1
+

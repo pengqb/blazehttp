@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_VueJS-06506737
+# 通过将这个恶意的 HTML 字符串赋值给 $el.innerHTML，攻击者可以注入恶意代码并当图像加载失败时会触发该事件。
+GET /?id=%7B%7B$el.innerHTML=%27%5Cu003cimg%20src%20onerror=confirm%281%29%5Cu003e%27%7D%7D&bid=hd_tag_m8mv25f4 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25f4
+RM-PRO-Token: d515db88c61f3b03fafaeb4e52db6628
+RM-PRO-Time: 1742808464687
+User-Agent: curl/7.83.1
+

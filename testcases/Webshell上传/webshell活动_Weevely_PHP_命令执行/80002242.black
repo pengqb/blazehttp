@@ -1,0 +1,12 @@
+# webshell活动_Weevely_PHP_命令执行
+# Weevely是一个轻量级的渗透测试工具，它允许渗透测试人员通过一个简单的命令行界面远程管理web应用程序或者操作系统。适用于管理php网站的webshell工具，该工具能生成木马免杀能力较强，而且使用加密连接，有一定突破WAF拦截的效果。
+# 攻击者通过Weevely webshell工具建立连接，执行任意命令
+POST /shell.php?acid=80002242&bid=hd_tag_m8mv25m8 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25m8
+RM-PRO-Token: 33588e4c6eba1f6e62ca9ec988d17189
+RM-PRO-Time: 1742808481083
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded
+
+cmd=eval%28%24_POST%5BUAKwhMIh%5D%29%3B&UAKwhMIh=%40ob_start%28%27ob_gzip%27%29%3Becho+%27qnOxEWsFkTNQILhIjIFQKVHflIsAWNEv%27%3B+echo+%27vkHyVsfDIshheUBEggexBIheQykQzzVI%27%3B+echo+%27qnOxEWsFkTNQILhIjIFQKVHflIsAWNEv%27%3B%40ob_end_flush%28%29%3B

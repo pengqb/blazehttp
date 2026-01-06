@@ -1,0 +1,10 @@
+# XSS跨站脚本_GET_常规_请求头_Forwarded-06506861
+# 利用跨站脚本攻击（XSS）漏洞向目标网站注入恶意脚本。攻击载荷是通过伪造HTTP请求头中的"X-Forwarded-For"字段来传递恶意脚本。
+GET /?bid=hd_tag_m8mv24xk HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24xk
+RM-PRO-Token: bd1c047a9ff20e3db5824b8edc176647
+RM-PRO-Time: 1742808421968
+User-Agent: curl/7.83.1
+X-Forwarded-For: 127.0.0.1 <script>alert('XSS')</script>
+

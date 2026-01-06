@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规(ECMAScript6绕过)
+# ECMAScript 6.0(简称ES6）是Javascript语言的下一代标准。ES5标准中一般是输出模板是通过字符串拼接的方式进行的。在ES6中可以通过模板字符串简化字符串的拼接，模板字符串通过反引号来表示````。模板字符串相当于加强版的字符串，除了作为普通字符串，还可以用来定义多行字符串，还可以在字符串中加入变量和表达式。因此可以使用模板字符串来将分段语句之间的无用代码变为普通字符串，从而拼接
+GET /?id=Set.constructor%60alert%5Cx28document.domain%5Cx29%60%60%60&bid=hd_tag_m8mv25m0 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25m0
+RM-PRO-Token: 05af668ad69e978e5f3293a10de7ffeb
+RM-PRO-Time: 1742808479570
+User-Agent: curl/7.83.1
+

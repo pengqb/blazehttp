@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_报错注入-06506436
+# 攻击者基于报错查询，将"declare @a nvarchar(2000) set @a='select convert(int,@@version)' exec(@a)"语句注入到 SQL 查询参数中，目的是获取当前数据库版本信息。
+GET /?id=1%3Bdeclare%20@a%20nvarchar%282000%29%20set%20@a=%27select%20convert%28int%2C@@version%29%27%20exec%28@a%29&bid=hd_tag_m8mv26nl HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26nl
+RM-PRO-Token: 25d8db55f0f7c8cf00e951da17296227
+RM-PRO-Time: 1742808641238
+User-Agent: curl/7.83.1
+

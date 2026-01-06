@@ -1,0 +1,9 @@
+# 命令执行_信息收集-06507037
+# 使用lslogins命令查看linux用户登录时间
+GET /?id=lslogins%20-u&bid=hd_tag_m8mv261v HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv261v
+RM-PRO-Token: 64362b5500e872bcac9c2e0925e00a1b
+RM-PRO-Time: 1742808528246
+User-Agent: curl/7.83.1
+

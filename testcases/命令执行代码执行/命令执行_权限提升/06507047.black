@@ -1,0 +1,9 @@
+# 命令执行_权限提升-06507047
+# find命令添加suid权限 ，可用于提升权限
+GET /?id=chmod%20u+s%20%2Fusr%2Fbin%2Ffind&bid=hd_tag_m8mv260u HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv260u
+RM-PRO-Token: 5542c44169d9a173f505e84bf54f2e82
+RM-PRO-Time: 1742808521581
+User-Agent: curl/7.83.1
+

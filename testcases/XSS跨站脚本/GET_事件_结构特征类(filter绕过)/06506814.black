@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_事件_结构特征类(filter绕过)-06506814
+# 在IE浏览器上通过 onfilterchange 执行JavaScript代码。
+GET /?id=%3Cdiv%20style=width:1px%3Bfilter:glow%20onfilterchange=confirm%281%29%3Ex%3C%2Fdiv%3E&bid=hd_tag_m8mv250u HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv250u
+RM-PRO-Token: 7f2c5b10df0ba65d8d73a21ca16d27a3
+RM-PRO-Time: 1742808429199
+User-Agent: curl/7.83.1
+

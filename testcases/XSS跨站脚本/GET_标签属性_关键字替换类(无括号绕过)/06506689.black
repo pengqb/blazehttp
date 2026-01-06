@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_关键字替换类(无括号绕过)-06506689
+# 该xss攻击语句的目的是检查一个字符串是否可以被视为一个函数实例，然后执行该函数。由于这段代码中的字符串表示了一个 alert 函数调用，所以最终它会弹出一个警告框，显示数字 1。
+GET /?id=%3Cscript%3E%27alert%5Cx281%5Cx29%27instanceof%7B%5BSymbol%5B%27hasInstance%27%5D%5D:eval%7D%3C%2Fscript%3E&bid=hd_tag_m8mv25q8 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25q8
+RM-PRO-Token: dc823f519b446bded480e72966d569fa
+RM-PRO-Time: 1742808500491
+User-Agent: curl/7.83.1
+

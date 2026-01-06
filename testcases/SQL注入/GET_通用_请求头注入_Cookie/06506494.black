@@ -1,0 +1,10 @@
+# SQL注入_GET_通用_请求头注入_Cookie-06506494
+# 基于请求头注入，在http请求的Cookie中注入语句"uname=admin' and 1=2#"。该sql注入语句攻击的目的是尝试绕过身份验证或者获取特定的授权权限。通过将"admin' and 1=2#"作为用户名注入到Cookie中，攻击者试图构造一个永远为假的条件来绕过应用程序对用户身份验证的检查。
+GET /?bid=hd_tag_m8mv26jy HTTP/1.1
+Host: www.swaf.com
+Cookie: uname= admin' and 1=2#
+RM-PRO-BusinessID: hd_tag_m8mv26jy
+RM-PRO-Token: 1bb55a385521565322ad191ebaa0ae36
+RM-PRO-Time: 1742808624519
+User-Agent: curl/7.83.1
+

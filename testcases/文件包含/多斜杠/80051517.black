@@ -1,0 +1,9 @@
+# 文件包含_多斜杠
+# 使用多个斜杠/ 混淆检测
+GET /?id=..%2F..%2F%2F%2F..%2F%2F%2F..%2F%2F%2F..%2F%2F%2Fetc%2Fpasswd&bid=hd_tag_m8mv23v5 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23v5
+RM-PRO-Token: 5b91c896bed8d0e70e810a1f4cd36ff8
+RM-PRO-Time: 1742808347148
+User-Agent: curl/7.83.1
+

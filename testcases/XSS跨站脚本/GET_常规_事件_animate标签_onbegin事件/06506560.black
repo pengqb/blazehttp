@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_animate标签_onbegin事件-06506560
+# 攻击载荷利用了HTML中的animate标签和onbegin属性，触发prompt()函数，显示一个提示框。当 svg 动画开始时触发，使用双引号绕过
+GET /?id=%3Csvg%3E%3Canimate%20onbegin=prompt%28%22xss%22%29%20attributeName=x%20dur=1s%3E&bid=hd_tag_m8mv269q HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv269q
+RM-PRO-Token: 3c93015603e876822d81701d9269583b
+RM-PRO-Time: 1742808561952
+User-Agent: curl/7.83.1
+

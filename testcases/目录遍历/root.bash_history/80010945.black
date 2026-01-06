@@ -1,0 +1,9 @@
+# 目录遍历_/root/.bash_history
+# .bash_history 文件是一个存储用户在 Bash shell 中执行过的命令历史记录的文件。每当用户在 Bash shell 中执行一个命令时，该命令就会被添加到 .bash_history 文件中，以便用户在以后的会话中可以通过使用上下箭头键或者 history 命令来查看并重复执行之前执行过的命令。
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Froot%2F.bash_history&bid=hd_tag_m8mv23t9 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23t9
+RM-PRO-Token: 932c34d8af963f96f6fecb9ae47841e7
+RM-PRO-Time: 1742808343327
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_编码类(UTF-7编码)-06506706
+# 创建一个元数据元素（meta），其中 charset 属性设置为 "UTF-7"，表示网页的字符编码为 UTF-7。然后，使用 JavaScript 代码创建一个确认按钮，当用户点击该按钮时，会触发一个名为 "confirm" 的函数，并将数字 "1" 作为参数传递给该函数。
+GET /?id=%3Cmeta%20charset=%22UTF-7%22%20%2F%3E%20+ADw-script+AD4-confirm%281%29+ADw-%2Fscript+AD4-&bid=hd_tag_m8mv25i9 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25i9
+RM-PRO-Token: cabec07fa39c61cd0384e44daf7c637a
+RM-PRO-Time: 1742808470426
+User-Agent: curl/7.83.1
+

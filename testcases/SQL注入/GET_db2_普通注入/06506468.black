@@ -1,0 +1,9 @@
+# SQL注入_GET_db2_普通注入-06506468
+# 基于UNION查询，该SQL注入语句的攻击目的是获取当前数据库架构信息。在该注入语句中，使用了"UNION SELECT"语句将查询结果与其他查询结果合并。"CURRENT SCHEMA"是一种数据库特定的命令，用于获取当前数据库的架构信息。"SYSIBM.SYSDUMMY1"是一个虚拟表，用于在DB2数据库中执行特定操作。这个注入语句的目的是通过将当前数据库架构信息与虚拟表中的任意选择的数据进行合并，并返回结果。攻击者可以利用这些信息来了解数据库结构和可能的攻击点，以便进行进一步的攻击或数据泄露。
+GET /?id=1%20union%20select%20current%20schema%20from%20sysibm.sysdummy1&bid=hd_tag_m8mv26ls HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26ls
+RM-PRO-Token: 1f949a9176ed2c57743affffc321548a
+RM-PRO-Time: 1742808633325
+User-Agent: curl/7.83.1
+

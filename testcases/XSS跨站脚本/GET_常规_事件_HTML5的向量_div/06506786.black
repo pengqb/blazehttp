@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_HTML5的向量_div-06506786
+# contenteditable：这是一个布尔属性，它允许用户编辑<div>元素的内容。tabindex="0"：这是指定<div>元素的tab键顺序，使其可聚焦。两个属性配合完成自动聚焦或点击。当用户点击或聚焦到这个<div>元素时，onfocus事件被触发，调用confirm(1)函数。这将导致浏览器弹出一个确认对话框。
+GET /?id=%3Cdiv%20onfocus=%22confirm%281%29%22%20contenteditable%20tabindex=%220%22%20id=%22xss%22%3E%3C%2Fdiv%3E&bid=hd_tag_m8mv25bd HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25bd
+RM-PRO-Token: 36cd05c79ad9031ef332d4e802e07ca6
+RM-PRO-Time: 1742808457972
+User-Agent: curl/7.83.1
+

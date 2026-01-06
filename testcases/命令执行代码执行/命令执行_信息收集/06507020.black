@@ -1,0 +1,9 @@
+# 命令执行_信息收集-06507020
+# 查找文件中包含关键字pass等内容
+GET /?id=grep%20-i%20pass%20filename&bid=hd_tag_m8mv263a HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv263a
+RM-PRO-Token: 1c7df8c162e3d9577ff6b405797a7f8f
+RM-PRO-Time: 1742808543147
+User-Agent: curl/7.83.1
+

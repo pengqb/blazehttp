@@ -1,0 +1,9 @@
+# 命令执行(反斜线绕过)-06507092
+# 使用符号\连接命令以混淆规则使得不易被检测，例如：who\ami
+GET /?id=w%5Ch%5Co%5Ca%5Cm%5Ci&bid=hd_tag_m8mv25xj HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25xj
+RM-PRO-Token: beb8ad953fb246c9516d4544d0c180fb
+RM-PRO-Time: 1742808512575
+User-Agent: curl/7.83.1
+

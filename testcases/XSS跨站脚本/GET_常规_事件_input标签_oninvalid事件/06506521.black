@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_input标签_oninvalid事件-06506521
+# 攻击者试图通过在受害者的浏览器上注入此代码来执行恶意脚本。当受害者访问包含此代码的网站时，恶意脚本将会在受害者的浏览器上执行。该代码会弹出一个确认框，显示 "1"，然后提交表单。这可能会误导用户，让他们认为表单已成功提交，而实际上，攻击者可能已成功获取了用户的敏感信息。
+GET /?id=%3Cform%3E%3Cinput%20oninvalid=confirm%281%29%20required%3E%3Cinput%20type=submit%3E&bid=hd_tag_m8mv26cq HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26cq
+RM-PRO-Token: ac6891fb2625e9aa2996d53116d4c2b2
+RM-PRO-Time: 1742808582103
+User-Agent: curl/7.83.1
+

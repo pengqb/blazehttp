@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_查询数据库实例名(注释符绕过)
+# 攻击者基于UNION查询，将"union select instance_name from v$instance"语句base64编码后注入到 SQL 查询参数中，利用系统视图v$instance获取当前数据库实例信息。
+GET /?id=1%2F%2A%2A%2Funion%2F%2A%2A%2Fselect%2F%2A%2A%2Finstance_name%2F%2A%2A%2Ffrom%2F%2A%2A%2Fv$instance&bid=hd_tag_m8mv26jj HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26jj
+RM-PRO-Token: e9ca8453bd3605420383e399f397134d
+RM-PRO-Time: 1742808623428
+User-Agent: curl/7.83.1
+

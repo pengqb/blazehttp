@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入-06506356
+# 攻击者基于union查询，将"UNION select schemaname FROM pg_tables"语句注入到 SQL 查询参数中，从系统表pg_tables中查询所有的模式名称信息。
+GET /?id=1%20UNION%20select%20schemaname%20FROM%20pg_tables&bid=hd_tag_m8mv23yi HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23yi
+RM-PRO-Token: 1657b4eeda9b14cb9e108d4bc5156394
+RM-PRO-Time: 1742808352814
+User-Agent: curl/7.83.1
+

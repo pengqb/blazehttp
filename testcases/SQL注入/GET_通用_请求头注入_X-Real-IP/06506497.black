@@ -1,0 +1,10 @@
+# SQL注入_GET_通用_请求头注入_X-Real-IP-06506497
+# 基于请求头注入，在http请求的X-Real-IP头部中注入sql语句"127.0.0.1' and 1=2#"。该sql注入语句的目的是尝试绕过身份验证或者获取敏感信息。通过将"127.0.0.1' and 1=2#"作为X-Real-IP注入到请求中，攻击者试图构造一个永远为假的条件来绕过应用程序对用户身份验证的检查。
+GET /?bid=hd_tag_m8mv26js HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26js
+RM-PRO-Token: 313ffdc1f96982167067d5d714ec4040
+RM-PRO-Time: 1742808624426
+User-Agent: curl/7.83.1
+X-Real-IP: 127.0.0.1' and 1=2 #
+

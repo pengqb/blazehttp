@@ -1,0 +1,9 @@
+# SQL注入_GET_通用_普通注入-06506487
+# 攻击者通过构造此sql语句使用get请求方式判断是否存在注入点。该SQL注入语句中： "1 and 1=2"，攻击目的是判断一个逻辑条件是否为真。攻击者的目的可能是测试应用程序对注入攻击的防护程度，探测潜在的漏洞或找到可以进一步利用的注入点。
+GET /?id=1%20and%201=2&bid=hd_tag_m8mv26km HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26km
+RM-PRO-Token: f8f7d152b6077ceadf5e24c7c6d4a178
+RM-PRO-Time: 1742808626711
+User-Agent: curl/7.83.1
+

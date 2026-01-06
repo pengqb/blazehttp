@@ -1,0 +1,9 @@
+# 文件包含_配置文件泄露_spring-06506894
+# heapdump文件是一个二进制文件,它保存了某一时刻JVM堆中对象使用情况，其中包含了对象信息，类信息甚至可能包含账户密码信息。
+GET /heapdump?acid=06506894&bid=hd_tag_m8mv24vo HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24vo
+RM-PRO-Token: 7bc80317e704064cb17e37591c198386
+RM-PRO-Time: 1742808416704
+User-Agent: curl/7.83.1
+

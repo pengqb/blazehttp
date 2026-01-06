@@ -1,0 +1,10 @@
+# 反序列化-JAVA Jython1
+# Jython(原 JPython),是一个用 Java 语言写的 Python 解释器。
+POST /?acid=80001755&bid=hd_tag_m8mv25nv HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25nv
+RM-PRO-Token: aafaf2c6e0970213728575382014fe2f
+RM-PRO-Time: 1742808488149
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=UFroSdH0Wfa_DQSbU1VnZYrL0yW5KDZt
+

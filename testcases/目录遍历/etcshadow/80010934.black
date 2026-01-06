@@ -1,0 +1,9 @@
+# 目录遍历_/etc/shadow
+# /etc/shadow 是一个包含加密的用户密码信息的系统文件，通常在类Unix系统中使用。这个文件存储了用户账户的加密密码，以及与密码相关的一些设置，如密码过期时间等。在大多数系统中，只有超级用户（root）才有权限查看和修改 /etc/shadow 文件。
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fshadow&bid=hd_tag_m8mv23sr HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23sr
+RM-PRO-Token: 6a1971ab2c24911dbb8077315a154905
+RM-PRO-Time: 1742808342365
+User-Agent: curl/7.83.1
+

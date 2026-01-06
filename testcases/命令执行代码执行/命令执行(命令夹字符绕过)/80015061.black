@@ -1,0 +1,9 @@
+# 命令执行(命令夹字符绕过)
+# 将字符串插入命令之间混淆安全设备，反引号作用将括起来的字符当作命令执行，例如：w`asdf`ho`asdf`ami
+GET /?id=w%60asdf%60ho%60asdf%60ami&bid=hd_tag_m8mv242d HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv242d
+RM-PRO-Token: 46ca96c3e15ab16262e729ff014026d5
+RM-PRO-Time: 1742808359723
+User-Agent: curl/7.83.1
+

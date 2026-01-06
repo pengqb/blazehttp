@@ -1,0 +1,10 @@
+# webshell_HAFNIUM_asp
+# HAFNIUM是一个知名的网络攻击团体，曾在2021年被发现利用Exchange Server的漏洞进行广泛的网络攻击。
+POST /?bid=hd_tag_m8mv245p HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv245p
+RM-PRO-Token: 6b0b38743b889cc611a08020edcd0b86
+RM-PRO-Time: 1742808365450
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=C4gczlHUK6fMqrQpQoHuoZA-dXXalu1F
+

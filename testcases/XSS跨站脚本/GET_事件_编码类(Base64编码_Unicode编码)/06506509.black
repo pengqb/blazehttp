@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_事件_编码类(Base64编码，Unicode编码)-06506509
+# 该XSS语句的攻击目的是利用onerror事件来执行恶意脚本。当引入的外部样式表（stylesheet）无法加载时，按照指定的onerror事件触发代码，执行JavaScript代码。攻击者通过这种方式尝试从受害者的浏览器中获取敏感信息或进行其他恶意操作。当资源加载失败或导致错误时触发，把eval编码绕过。
+GET /?id=%3Clink%20rel=stylesheet%20href=1%20onerror=%5Cu0065val%28atob%28%27cHJvbXB0KDEp%27%29%29%20%3E&bid=hd_tag_m8mv26dk HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26dk
+RM-PRO-Token: 6f86acd8c4982c431b36693eafec7b6f
+RM-PRO-Time: 1742808583392
+User-Agent: curl/7.83.1
+

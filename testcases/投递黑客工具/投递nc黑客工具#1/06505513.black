@@ -1,0 +1,10 @@
+# 【投递】nc黑客工具#1-06505513
+# nc（netcat）是一款常用的网络工具，主要用于网络数据传输、端口扫描、远程控制等方面。其功能非常多样，并且可以搭配其它工具进行使用。nc比较轻便，可以在Windows、Linux、macOS等不同系统平台上使用。需要注意的是，虽然nc工具可以用于网络数据传输、端口扫描和远程控制等合法用途，但同时也可能被非法黑客用于攻击和侵入目标主机，造成较大的安全威胁。
+POST /?bid=hd_tag_m8mv24yi HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24yi
+RM-PRO-Token: b8c3ddb65576788f931aa33de983c26a
+RM-PRO-Time: 1742808424080
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=MebSGvRtPdqqnoomj3Lt2WJpnU7YAcis
+

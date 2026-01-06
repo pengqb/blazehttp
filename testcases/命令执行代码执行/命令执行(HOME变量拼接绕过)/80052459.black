@@ -1,0 +1,9 @@
+# 命令执行(HOME变量拼接绕过)
+# 通过使用系统本身环境变量截取字符拼接组合成所需要的命令，以达到绕过检测的目的，例如：当过滤斜杠/时，可使用环境变量提取其中的斜杠${HOME:0:1}<=>/
+GET /?id=cat%20$%7BHOME:0:1%7Detc$%7BHOME:0:1%7Dpasswd&bid=hd_tag_m8mv25jx HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25jx
+RM-PRO-Token: 2a9a636a05d931ee82bc9d1eebd7dc00
+RM-PRO-Time: 1742808474921
+User-Agent: curl/7.83.1
+

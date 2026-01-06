@@ -1,0 +1,21 @@
+# webshell-80000468
+# 这个webshell是一个多功能的管理界面，允许用户执行各种操作。主要功能包括：显示主菜单、系统信息、Servlet信息和文件列表。用户可以通过点击界面的按钮与填写文本框，来传入要执行的命令以及文件。
+# 基本信息：
+# - 文件名：shell.jsp
+# - 文件大小：73KB
+# 行为描述：
+# - 远程文件访问和操作：允许用户通过Web界面访问和操作服务器上的文件。
+# -复制、创建、移动和删除文件：用户可以执行这些文件操作。
+# -编辑文本文件：用户可以编辑文本文件的内容。
+# -下载文件和文件夹：用户可以选择多个文件和文件夹，将它们打包成zip文件并下载。
+# -上传文件：用户可以上传文件到服务器。
+# -执行命令：可以执行本机操作系统的命令。
+# -自定义权限：可以配置是否只读，是否允许上传，是否限制浏览目录，以及其他参数。
+POST /?bid=hd_tag_m8mv25qs HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25qs
+RM-PRO-Token: 5326dee1b43de3dc015c1e019a01ddbd
+RM-PRO-Time: 1742808501540
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=-2Y6z-srIfLQovbaQQxGZ7ICqCJ9gtJS
+

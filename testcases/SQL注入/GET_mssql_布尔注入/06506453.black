@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_布尔注入-06506453
+# 攻击者基于布尔查询，将"ascii(right(db_name(),1))>95"语句注入到 SQL 查询参数中，通过right()函数提取字符，在转换成ascii值就可以逐个字符爆破当前数据库名。
+GET /?id=1%20and%20ascii%28right%28db_name%28%29%2C1%29%29%3E95&bid=hd_tag_m8mv26mj HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26mj
+RM-PRO-Token: a414d75bd7ee1fede5e068be5246fd7a
+RM-PRO-Time: 1742808636980
+User-Agent: curl/7.83.1
+

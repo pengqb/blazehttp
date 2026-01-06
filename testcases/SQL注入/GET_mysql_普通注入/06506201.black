@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_普通注入-06506201
+# 攻击者基于UNION查询，将"union select database()"语句注入到 SQL 查询参数中，利用database()这个内置函数，获取到当前数据库的名称，从而进一步获取数据库中的敏感信息或者窃取用户凭证。
+GET /?id=1%20union%20select%20database%28%29&bid=hd_tag_m8mv24go HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24go
+RM-PRO-Token: 79685648fa8efbfc6059d5794722451b
+RM-PRO-Time: 1742808381603
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# 文件包含_配置文件泄露_apache-06506906
+# Apache2 Web服务器的主要配置文件，其中包含全局设置、虚拟主机配置等。文件中包含了一些常见的配置选项，如监听的端口、服务器名称、文档根目录和日志文件路径等。
+GET /etc/httpd/conf/httpd.conf?acid=06506906&bid=hd_tag_m8mv24p5 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24p5
+RM-PRO-Token: c63971381d8e32d95ac579b68301b819
+RM-PRO-Time: 1742808402030
+User-Agent: curl/7.83.1
+

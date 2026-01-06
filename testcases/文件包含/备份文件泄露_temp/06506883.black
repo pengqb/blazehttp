@@ -1,0 +1,9 @@
+# 文件包含_备份文件泄露_temp-06506883
+# 管理员将网站源码打包压缩,修改后缀为temp后放在web目录，再从服务器下载到本地进行备份，下载完成之后没有及时删除造成泄露。
+GET /wwwroot.temp?acid=06506883&bid=hd_tag_m8mv24wa HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24wa
+RM-PRO-Token: 26b77cad7b09ec1c0c0f2f03f449c70b
+RM-PRO-Time: 1742808419098
+User-Agent: curl/7.83.1
+

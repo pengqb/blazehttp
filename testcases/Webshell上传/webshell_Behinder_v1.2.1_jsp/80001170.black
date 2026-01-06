@@ -1,0 +1,10 @@
+# webshell_Behinder_v1.2.1_jsp
+# Behinder_v1.2.1 JSP 版本的webshell
+POST /?bid=hd_tag_m8mv24s4 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24s4
+RM-PRO-Token: 81a41e635c38bc54922f430cfe3c0ebb
+RM-PRO-Time: 1742808408831
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=91IvGPfz7-Gi-0cDZPGa969xIoZuOJf9
+

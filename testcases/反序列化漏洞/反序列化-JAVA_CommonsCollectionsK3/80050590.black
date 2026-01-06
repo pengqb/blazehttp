@@ -1,0 +1,11 @@
+# 反序列化-JAVA CommonsCollectionsK3
+# Apache Commons是Apache软件基金会的项目，曾经隶属于Jakarta项目。Commons的目的是提供可重用的、解决各种实际的通用问题且开源的Java代码。 Commons Collections包为Java标准的Collections API提供补充。
+# Java Collections Framework包含两个最重要的接口：Collection和Map，其中包括了我们最常用的数据结构，如Map、List、Queue等。而在反序列化中，这些类往往可以作为一个传递对象的载体，因为此类数据结构接受的参数一般是Object。而一个对象和方法都可以控制的反射，是可以执行任意方法的。
+POST /?acid=80050590&bid=hd_tag_m8mv251i HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv251i
+RM-PRO-Token: 59d397443ab561849a4f104d3d799c4b
+RM-PRO-Time: 1742808430277
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=QxXHxVd4F1HhwzMR0PzXplqde7RvPOR4
+

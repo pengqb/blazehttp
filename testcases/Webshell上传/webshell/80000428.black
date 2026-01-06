@@ -1,0 +1,15 @@
+# webshell-80000428
+# 这是一个极其简单的Webshell变种文件，采用java语言编写。其主要功能是将传递的文本内容（通过HTTP请求参数 ""t""）写入到指定文件（通过HTTP请求参数 ""f""）中。该WebShell的功能非常有限，主要是用于写入文本到文件，可能用于文件操作和数据存储。
+# 基本信息：
+# - 文件名：IXRbE.jsp
+# - 文件大小：181B
+# 行为描述：
+# - 文件操作：写入文件。
+POST /?bid=hd_tag_m8mv25op HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25op
+RM-PRO-Token: 5bbd0c758dd27341ea5f014bdb21d391
+RM-PRO-Time: 1742808494261
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=UX2xtG3SzKSnZRXsIB3xY280GI3Q-vlh
+

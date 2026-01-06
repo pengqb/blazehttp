@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_标签属性_form标签_action事件-06506703
+# 攻击载荷利用了HTML中的form标签和action属性，触发confirm()函数，显示一个提示框。从页面上的任意位置单击提交元素时触发。
+GET /?id=%3Cform%20action=%22javascript:confirm%281%29%22%3E%3Cinput%20type=submit%20id=x%3E%3C%2Fform%3E%3Clabel%20for=x%3EXSS%3C%2Flabel%3E&bid=hd_tag_m8mv25hr HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25hr
+RM-PRO-Token: a14a420d58970ca9a4b3a3fcc190ff43
+RM-PRO-Time: 1742808469381
+User-Agent: curl/7.83.1
+

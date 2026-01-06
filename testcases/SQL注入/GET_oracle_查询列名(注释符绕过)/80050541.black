@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_查询列名(注释符绕过)
+# 攻击者基于UNION查询，将"union select column_name from user_tab_columns where rownum=1"语句base64编码注入到 SQL 查询参数中，目的是获取列名信息。通过获取的信息，从而进一步对数据库进行恶意操作，比如篡改用户信息、窃取敏感数据等。
+GET /?id=1%2F%2A%2A%2Funion%2F%2A%2A%2Fselect%2F%2A%2A%2Fcolumn_name%2F%2A%2A%2Ffrom%2F%2A%2A%2Fuser_tab_columns%2F%2A%2A%2Fwhere%2F%2A%2A%2Frownum=1&bid=hd_tag_m8mv26iu HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26iu
+RM-PRO-Token: 9c531307508612c417187bb83257d62e
+RM-PRO-Time: 1742808622154
+User-Agent: curl/7.83.1
+

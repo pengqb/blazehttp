@@ -1,0 +1,10 @@
+# 文件包含_隐藏目录文件泄露_SVN-06506878
+# 当使用 SVN 进行版本控制，对站点自动部署。如果配置不当,可能会将.svn文件夹直接部署到线上环境，黑客对此可进一步利用：
+# 可以利用其中包含的用于版本信息追踪的 entries 文件（.svn/entries 文件），获取到服务器源码、svn服务器账号密码等信息；
+GET /.svn/entries?acid=06506878&bid=hd_tag_m8mv24wm HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24wm
+RM-PRO-Token: 39a917723be729fb87c4847af13ec55f
+RM-PRO-Time: 1742808419182
+User-Agent: curl/7.83.1
+

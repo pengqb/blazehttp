@@ -1,0 +1,9 @@
+# 命令执行(base64编码绕过)-06507095
+# 将命令作为 Base64 编码的字符串嵌入到命令执行语句中，来绕过输入过滤和验证。
+GET /?id=%60echo%20d2hvYW1p%20%7C%20base64%20-d%20%60&bid=hd_tag_m8mv25xf HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25xf
+RM-PRO-Token: 6741bbe314eaf77e68703774e3530cb5
+RM-PRO-Time: 1742808512487
+User-Agent: curl/7.83.1
+

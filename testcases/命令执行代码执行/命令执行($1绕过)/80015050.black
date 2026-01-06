@@ -1,0 +1,9 @@
+# 命令执行($1绕过)
+# 使用$1连接命令以混淆规则使得不易被检测，例如：who$1ami
+GET /?id=who$1ami&bid=hd_tag_m8mv247g HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv247g
+RM-PRO-Token: b6a6ec6635dffcd03e2fbc38d0330a26
+RM-PRO-Time: 1742808367176
+User-Agent: curl/7.83.1
+

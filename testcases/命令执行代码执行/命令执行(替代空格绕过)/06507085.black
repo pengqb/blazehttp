@@ -1,0 +1,9 @@
+# 命令执行(替代空格绕过)-06507085
+# 使用<>代替命令和参数间的空格。
+GET /?id=cat%3C%3E%2Fetc%2Fpasswd&bid=hd_tag_m8mv25xv HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25xv
+RM-PRO-Token: 33c5082944c43989d49a631867166647
+RM-PRO-Time: 1742808513175
+User-Agent: curl/7.83.1
+

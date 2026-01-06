@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_DOM-06506763
+# 通过ascii码转换隐藏关键字
+GET /?id=toString%28%29.constructor.prototype.charAt=%5B%5D.join%3B%20%5B1%2C2%5D%7CorderBy:toString%28%29.constructor.fromCharCode%28120%2C61%2C97%2C108%2C101%2C114%2C116%2C40%2C49%2C41%29&bid=hd_tag_m8mv25d4 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25d4
+RM-PRO-Token: c98091c22fcc7dbe37b6813ad9d2411a
+RM-PRO-Time: 1742808461221
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_数据混淆类(内嵌空格绕过)-06506699
+# 使用空格字符 \x09,\x0a,\x0d并利用JavaScript协议进行弹框
+GET /?id=%3Ca%20href=%22javas%20cript:confirm%281%29%22%3EXSS%3C%2Fa%3E&bid=hd_tag_m8mv25pc HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25pc
+RM-PRO-Token: ab2adf75f32f97e3b71ae598aba71809
+RM-PRO-Time: 1742808498371
+User-Agent: curl/7.83.1
+

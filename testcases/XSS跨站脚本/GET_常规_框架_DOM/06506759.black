@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_DOM-06506759
+# 利用函数调用链来获取 constructor 的原型对象，并从原型对象中获取到 constructor 函数。然后，调用该函数并传入恶意代码
+GET /?a=%27constructor%27%3Bb=%7B%7D%3Ba.sub.call.call%28b%5Ba%5D.getOwnPropertyDescriptor%28b%5Ba%5D.getPrototypeOf%28a.sub%29%2Ca%29.value%2C0%2C%27confirm%281%29%27%29%28%29&bid=hd_tag_m8mv25di HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25di
+RM-PRO-Token: 41f991b7fc32c3f7b5ff8022175f1fed
+RM-PRO-Time: 1742808461555
+User-Agent: curl/7.83.1
+

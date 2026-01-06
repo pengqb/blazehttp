@@ -1,0 +1,10 @@
+# webshell_Godzilla_v4.01_PHP_XOR_BASE64_php
+# Godzilla_v4.01 php 版本的webshell，通信流量使用XOR_BASE64加密
+POST /?bid=hd_tag_m8mv247o HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv247o
+RM-PRO-Token: ba0044acee7c55202b1856443241517d
+RM-PRO-Time: 1742808367517
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=p9bHWxQj2cXhcp_jLwa5-YIRzMRCV6Y0
+

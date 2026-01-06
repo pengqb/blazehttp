@@ -1,0 +1,10 @@
+# 【投递】SafetyKatz黑客工具#2-06505192
+# SafetyKatz是一款开源的内存马尔维尔工具，用于攻击本地Windows系统的安全漏洞，以获取用户身份信息、密码哈希值和系统凭证等信息。该工具基于Kerberos Downgrade攻击和DCSync攻击方法，可以突破Windows系统的访问控制和密码认证机制，实现域控制器提权、攻击者身份伪装和获取其他用户密码哈希值等攻击目的。SafetyKatz可以直接在受害机上下载并执行，支持实时内存查看和提权-提取密码哈希值-注入技术-清理安全日志等多种攻击工具的连续使用。同时，为了防止其他恶意程序攻击该工具，SafetyKatz会在Windows系统上自动进行安全监控和审计工作，以防止安全事件的发生。但需要特别注意的是，由于该工具可以突破密码认证机制，如果被黑客或不法分子滥用，将对系统和网络造成严重的威胁。用户需要获得充分授权和法律支持，并且在符合安全测试法规的测试环境中应用该工具。
+POST /?bid=hd_tag_m8mv26hf HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26hf
+RM-PRO-Token: c65cfe071ae47bd0ccd46b58ca44009f
+RM-PRO-Time: 1742808619052
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=tihMpHvlgxgfboN0k_Eg3HxeYPE-U6Wd
+

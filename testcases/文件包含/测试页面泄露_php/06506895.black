@@ -1,0 +1,9 @@
+# 文件包含_测试页面泄露_php-06506895
+# Web站点的某些测试页面可能会使用到PHP的phpinfo()函数，会输出服务器的关键信息，从而造成信息泄露，通过获取的信息可进行下一步的攻击计划。
+GET /phpinfo.php?acid=06506895&bid=hd_tag_m8mv24vn HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24vn
+RM-PRO-Token: 763ea0b29e8684c7ddd2f0847d19b0f4
+RM-PRO-Time: 1742808416705
+User-Agent: curl/7.83.1
+

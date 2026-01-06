@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_frame标签_onload事件-06506579
+# 攻击载荷利用了HTML中的frame标签和onload属性，触发prompt()函数，显示一个提示框。加载元素时触发，未使用单引号和双引号绕过测试
+GET /?id=%3Cframeset%3E%3Cframe%20onload=prompt%28%2Fxss%2F%29%3E&bid=hd_tag_m8mv2681 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2681
+RM-PRO-Token: 0bbf2c95244a9a8ab00c914ac817268c
+RM-PRO-Time: 1742808553309
+User-Agent: curl/7.83.1
+

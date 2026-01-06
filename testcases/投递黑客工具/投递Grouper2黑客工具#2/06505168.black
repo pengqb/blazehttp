@@ -1,0 +1,10 @@
+# 【投递】Grouper2黑客工具#2-06505168
+# Grouper2是一种黑客工具，可以被用来进行密码爆破和字典攻击。它是一款小型的命令行工具，支持多线程，使用C/C++语言编写，在攻击效率和速度方面表现出良好的性能。通过使用定制化的字典，Grouper2能够枚举和破解网络服务，如FTP、Telnet、SMTP和POP3等，同时也可以破解Windows系统的口令。黑客可以使用Grouper2对目标客户端或服务器进行密码攻击，如果目标用户使用弱密码或常用密码，则攻击者可以在短时间内破解用户密码并获取对目标系统的访问权限。要防范Grouper2的攻击，用户和管理员应采取一些预防措施，如使用复杂的密码、启用多因素身份验证、限制远程访问连接、定期更改密码、禁用不必要的服务等。
+POST /?bid=hd_tag_m8mv26jn HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26jn
+RM-PRO-Token: a60494d7a444826dba789a418b6dd851
+RM-PRO-Time: 1742808623594
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=ioBDrHW3geJtZl_yx0KTwzNAFP6CUZj2
+

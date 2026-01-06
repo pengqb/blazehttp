@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规(window.name绕过)
+# 窗口window.name对象没有字符限制，并且很多时候不受同源策略的限制。攻击者可以利用这个特性实现跨域、跨页面传值
+GET /?id=%3Cscript%3E%0A%20%20window.name=%22alert%28%2Fdocument.cookie%2F%29%22%0A%20%20window.location=%22http:%2F%2F127.0.0.1%2Fxss_test%2F%3Fname=%253Cscript%253Eeval%2528name%2529%253C%252Fscript%253E%22%0A%3C%2Fscript%3E&bid=hd_tag_m8mv24ln HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24ln
+RM-PRO-Token: 3368e926964b26fbe4409dc893eb76ca
+RM-PRO-Time: 1742808390881
+User-Agent: curl/7.83.1
+

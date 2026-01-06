@@ -1,0 +1,10 @@
+# webshell_Godzilla_v2.96_CSHAP_AES_RAW_aspx
+# Godzilla_v2.96 C# aspx 版本的webshell，通信流量经过AES加密
+POST /?bid=hd_tag_m8mv24gb HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24gb
+RM-PRO-Token: 3732146de46644c0834e9fffa686cec0
+RM-PRO-Time: 1742808380710
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=eorIx2UvN2ApI0EhquHppxhikeSDomr7
+

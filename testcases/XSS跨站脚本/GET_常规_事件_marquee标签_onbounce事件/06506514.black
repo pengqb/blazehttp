@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_marquee标签_onbounce事件-06506514
+# 该XSS语句onbounce: confirm(1)，当滚动内容到达滚动区域边缘时触发一个确认框，其中包含内容为1的提示信息。
+GET /?id=%3Cmarquee%20width=1%20loop=1%20onbounce=confirm%281%29%3EXSS%3C%2Fmarquee%3E&bid=hd_tag_m8mv26cw HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26cw
+RM-PRO-Token: ff02528a3467e850f64e18bd97a2b91c
+RM-PRO-Time: 1742808582212
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_mof提权(Base64编码)
+# 攻击者基于UNION查询，将"union select load_file('C:/www/nullevt.mof') into dumpfile 'C:\\Windows\\System32\\wbem\\MOF\\nullevt.mof'"语句注入到 SQL 查询参数中，先上传自启动文件，然后利用该漏洞执行任意SQL语句，从而进一步进行攻击。
+GET /?MSB1bmlvbiBzZWxlY3QgbG9hZF9maWxlKCdDOi93d3cvbnVsbGV2dC5tb2YnKSBpbnRvIGR1bXBmaWxlICdDOlxcV2luZG93c1xcU3lzdGVtMzJcXHdiZW1cXE1PRlxcbnVsbGV2dC5tb2YnIA==&bid=hd_tag_m8mv252w HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv252w
+RM-PRO-Token: c9651ec9056e86635c2860423ad0b692
+RM-PRO-Time: 1742808434374
+User-Agent: curl/7.83.1
+

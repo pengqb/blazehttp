@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506412
+# 攻击者基于堆叠查询，将"exec sp_oamethod @sp_passwordxieo, 'createtextfile', @f out, 'C:/RECYCLER1.vbs', 1"语句注入到 SQL 查询参数中，创建NETWORK对象。
+GET /?id=1%3Bexec%20@ret%20=%20sp_oamethod%20@f%2C%20%27writeline%27%2C%20NULL%2C%27set%20wsnetwork=CreateObject%28%22WSCRIPT.NETWORK%22%29%27&bid=hd_tag_m8mv26ou HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26ou
+RM-PRO-Token: ee4c3af177bb56656b6ed07a9862d512
+RM-PRO-Time: 1742808648030
+User-Agent: curl/7.83.1
+

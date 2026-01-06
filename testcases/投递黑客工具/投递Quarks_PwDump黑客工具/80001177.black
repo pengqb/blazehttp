@@ -1,0 +1,17 @@
+# 【投递】Quarks PwDump黑客工具
+# Quarks PwDump是一款开源的密码提取工具，用于从Windows系统中提取用户密码的哈希值。它可以帮助安全专业人员评估目标系统的密码安全性，并用于密码破解和渗透测试。
+# Quarks PwDump的主要特点如下：
+# 1. 密码提取：该工具可以提取目标Windows系统中存储的用户密码哈希值，包括本地账户和域账户。
+# 2. 多种哈希算法支持：Quarks PwDump支持多种常见的密码哈希算法，如NTLM和LM哈希。
+# 3. 密码破解：工具可以将提取的哈希值用于密码破解，尝试猜测用户密码。
+# 4. 离线操作：Quarks PwDump可以在离线状态下操作，即使在没有用户登录或网络连接的情况下也可以提取密码哈希值。
+# 5. 报告生成：工具可以生成详细的报告，列出提取的密码哈希值和破解结果，帮助安全团队进行进一步分析和评估。
+# 需要注意的是，Quarks PwDump是一个强大的工具，但使用它需要遵守法律法规，并且应该在合法授权的环境中使用。滥用此类工具进行非法攻击是违法行为，可能导致严重的法律后果。建议只在合规的安全测试和评估环境中使用，并遵循道德和合法的准则。
+POST /?bid=hd_tag_m8mv24sb HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24sb
+RM-PRO-Token: 93b1a14310e191638e621651cad6d502
+RM-PRO-Time: 1742808409009
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=DCJfKG_nTnv9NePE-AaKDoWQCHt0gd5y
+

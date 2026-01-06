@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_HTML5的向量_form-06506777
+# 当用户在文本输入框中输入文本时，会弹出一个确认框显示数字1。而当用户点击按钮时，会弹出一个警告框显示数字2。
+GET /?id=%3Cform%20id=test%20onforminput=confirm%281%29%3E%3Cinput%3E%3C%2Fform%3E%3Cbutton%20form=test%20onformchange=alert%282%29%3EX%3C%2Fbutton%3E&bid=hd_tag_m8mv25bv HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25bv
+RM-PRO-Token: e43559369d104b60592ef5aea09c3461
+RM-PRO-Time: 1742808458957
+User-Agent: curl/7.83.1
+

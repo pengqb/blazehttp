@@ -1,0 +1,9 @@
+# 目录遍历_/proc/net/route
+# /proc/net/route 文件提供了一种查看系统当前网络路由表信息的方式，帮助了解系统网络配置和路由规则。
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fproc%2Fnet%2Froute&bid=hd_tag_m8mv23ta HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23ta
+RM-PRO-Token: c67b70277d4152641818c32e7fddec7d
+RM-PRO-Time: 1742808343335
+User-Agent: curl/7.83.1
+

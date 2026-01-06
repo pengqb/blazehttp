@@ -1,0 +1,9 @@
+# 文件包含_备份文件泄露_7z-06506885
+# 管理员将网站源码打包压缩成7z格式后放在web目录，再从服务器下载到本地进行备份，下载完成之后没有及时删除造成泄露。
+GET /wwwroot.7z?acid=06506885&bid=hd_tag_m8mv24w5 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24w5
+RM-PRO-Token: a83c741dbcfe6f23803c9b4088414321
+RM-PRO-Time: 1742808417734
+User-Agent: curl/7.83.1
+

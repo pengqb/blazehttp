@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_编码类(HTML实体编码，URL编码)-06506712
+# 利用HTML 实体和 URL 编码并弹框
+GET /?id=%3Ca%20href=%22javascript:x=%27&percnt%3B27-confirm%281%29-%2527%27%3B%22%3EXSS%3C%2Fa%3E&bid=hd_tag_m8mv25gz HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25gz
+RM-PRO-Token: 509d2472ac8312686a01c55369052546
+RM-PRO-Time: 1742808468152
+User-Agent: curl/7.83.1
+

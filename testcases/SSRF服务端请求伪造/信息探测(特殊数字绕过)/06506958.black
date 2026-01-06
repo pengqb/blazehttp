@@ -1,0 +1,9 @@
+# SSRF服务端请求伪造_信息探测(特殊数字绕过)-06506958
+# 利用特殊数字代替常规数字来绕过
+GET /?id=http:%2F%2F156.%E2%91%A145.1%E2%91%A1.43&bid=hd_tag_m8mv24n2 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24n2
+RM-PRO-Token: a95519a255caf42e06b972f36403ff0d
+RM-PRO-Time: 1742808393874
+User-Agent: curl/7.83.1
+

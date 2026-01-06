@@ -1,0 +1,10 @@
+# 【投递】WCE黑客工具
+# WCE – Windows 证书编辑器(WCE)是一个安全工具，能够列出登录会话，添加，修改，删除相关证书。需要注意的是，WCE是一个潜在的攻击工具，只能在合法授权和合法目的下使用。使用此类工具进行非法攻击是违法行为，可能导致严重的法律后果。建议只在合规的安全测试和评估环境中使用。
+POST /?bid=hd_tag_m8mv23q7 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23q7
+RM-PRO-Token: 62c82552a9b9a5376e65f8cfb012ceca
+RM-PRO-Time: 1742808336463
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=91QQnVwKhQggdnZQnWx-pPvVl-GLLM5m
+

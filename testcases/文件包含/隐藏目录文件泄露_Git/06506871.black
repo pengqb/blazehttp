@@ -1,0 +1,9 @@
+# 文件包含_隐藏目录文件泄露_Git-06506871
+# 使用git init初始化git仓库的时候，生成的隐藏目录，git会将所有的文件，目录，提交等转化为git对象，压缩存储在这个文件夹当中。攻击者可以通过此目录爆破git相关敏感信息。
+GET /.git/?acid=06506871&bid=hd_tag_m8mv24wu HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24wu
+RM-PRO-Token: 6a074663d90f8711046a101a0d9f04b0
+RM-PRO-Time: 1742808420321
+User-Agent: curl/7.83.1
+

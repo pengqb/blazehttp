@@ -1,0 +1,10 @@
+# webshell_Behinder_v2.0.1_aspx
+# Behinder_v2.0.1 aspx 版本的webshell
+POST /?bid=hd_tag_m8mv24s9 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24s9
+RM-PRO-Token: abde499b4b2475e644613acb9935c04b
+RM-PRO-Time: 1742808408911
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=awrTxSRv1v6E_duVM0JIePHNlz4D9LDB
+

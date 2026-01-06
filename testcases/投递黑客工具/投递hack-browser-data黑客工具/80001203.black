@@ -1,0 +1,17 @@
+# 【投递】hack-browser-data黑客工具
+# Hack-BrowserData是一个开源的浏览器数据恢复工具，它可以帮助用户提取和分析各种浏览器保存的敏感信息和用户数据。这个工具可以用于渗透测试、数字取证、密码管理和安全研究等领域。
+# 以下是Hack-BrowserData的主要功能和特点：
+# 1. 浏览器数据提取：工具可以提取各种浏览器保存的数据，如浏览历史、书签、密码、Cookies、表单自动填充、下载记录等。
+# 2. 多浏览器支持：Hack-BrowserData支持多种常见的浏览器，包括Chrome、Firefox、Edge、Opera和Brave等。
+# 3. 数据分析和导出：工具可以对提取的浏览器数据进行分析，并提供导出功能，以便进一步的处理和报告。
+# 4. 命令行界面：Hack-BrowserData提供了命令行界面，使用户可以通过命令行操作进行数据提取和分析。
+# 5. 支持操作系统：工具可以在Windows、Linux和Mac OS等多个操作系统上运行。
+# 需要注意的是，Hack-BrowserData是一个强大的工具，但使用它需要遵守法律法规，并且应该在合法授权的环境中使用。滥用此类工具进行非法活动是违法行为，可能导致严重的法律后果。建议只在合规的安全测试和评估环境中使用，并遵循道德和合法的准则。
+POST /?bid=hd_tag_m8mv240z HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv240z
+RM-PRO-Token: 9d2ec30826c5aa7e77fb0eb90d1e1519
+RM-PRO-Time: 1742808357251
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=qNaG5WsD0H52LhBnUTg7sEWs-xwaRUZz
+

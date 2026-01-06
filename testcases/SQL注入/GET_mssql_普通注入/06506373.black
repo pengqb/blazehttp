@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506373
+# 攻击者基于union查询，将"union select IS_SRVROLEMEMBER('serveradmin')"语句注入到 SQL 查询参数中，利用函数IS_SRVROLEMEMBER()判断当前用户是否是serveradmin权限。
+GET /?id=1%20union%20select%20IS_SRVROLEMEMBER%28%27serveradmin%27%29&bid=hd_tag_m8mv23xa HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23xa
+RM-PRO-Token: c3e541c810e3b0354034be71aaf81274
+RM-PRO-Time: 1742808351425
+User-Agent: curl/7.83.1
+

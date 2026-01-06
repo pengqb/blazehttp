@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_文件读取(Base64编码)
+# 攻击者基于UNION查询，将"union select load_file('C:/1.txt')"语句注入到 SQL 查询参数中，利用load_file这个内置函数获取任意文件内容。通过获取的信息，从而进一步对数据库进行恶意操作，比如篡改用户信息、窃取敏感数据等。
+GET /?id=MSB1bmlvbiBzZWxlY3QgbG9hZF9maWxlKCdDOi8xLnR4dCcp&bid=hd_tag_m8mv26hi HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26hi
+RM-PRO-Token: 7737fe8e8e13a6371b870c89af20111b
+RM-PRO-Time: 1742808619427
+User-Agent: curl/7.83.1
+

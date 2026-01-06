@@ -1,0 +1,9 @@
+# SQL注入_GET_通用_普通注入-06506488
+# 该SQL注入语句中： "1 order by 10"，攻击目的是判断数据库的表结构和列数量。攻击者的目的可能是了解目标数据库的结构，以便进一步进行恶意活动，如获取敏感数据、修改数据或执行其他恶意操作。
+GET /?id=1%20order%20by%2010&bid=hd_tag_m8mv26kl HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26kl
+RM-PRO-Token: 6ca53edd7da3b47e33ddfcb5a2e416d4
+RM-PRO-Time: 1742808626663
+User-Agent: curl/7.83.1
+

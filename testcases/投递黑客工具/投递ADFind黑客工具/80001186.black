@@ -1,0 +1,18 @@
+# 【投递】ADFind黑客工具
+# ADFind是一款命令行工具，它通过LDAP协议与Active Directory进行通信，具有丰富的查询功能，可以帮助你查找域中的用户、组、计算机等对象，并获取它们的属性信息。
+# 
+# ADFind参数包括：
+# 
+# 连接参数：指定主机与端口ip:port、单独指定端口、指定用户、指定密码。
+# 过滤参数：指定要查询的根节点basedn、指定位查询、LDAP过滤条件。
+# 显示参数：显示Adfind版本信息、只统计数量、导出为csv格式、只显示DN，不返回详细信息、搜索的范围。
+# 帮助参数：基础帮助、高级帮助。
+# 作为一款强大的查询工具，ADFind需要谨慎使用，避免滥用导致系统或网络的不稳定。
+POST /?bid=hd_tag_m8mv23pa HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23pa
+RM-PRO-Token: c61bc4ef5f5533da6e245730ab0bc753
+RM-PRO-Time: 1742808334702
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=mxFbvHz2KFJ5Tc_hXrIwdpxJCbIr_Map
+

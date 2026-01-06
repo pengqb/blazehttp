@@ -1,0 +1,10 @@
+# 【投递】SharpSpray黑客工具-6400034
+# SharpSpray能在域内和域外（有域账号密码）进行密码喷射攻击的工具，通过LDAP自动收集用户名和用户密码策略自动爆破。
+POST /?bid=hd_tag_m8mv23n7 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23n7
+RM-PRO-Token: 29893026b05142bd4913843ca5d6728c
+RM-PRO-Time: 1742808332166
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=NGhlQzpamMUkVjPimhXZ9xjFhEfyIfRF
+

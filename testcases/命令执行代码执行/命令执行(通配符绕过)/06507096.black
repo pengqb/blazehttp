@@ -1,0 +1,9 @@
+# 命令执行(通配符绕过)-06507096
+# 使用通配符?代替完成路径文件名规避安全设备检测规则，例如：/etc/passwd写成/et?/pas?d
+GET /?id=cat%20%2F%3F%3F%3F%2F%3F%3F%3F%3F%3Fd&bid=hd_tag_m8mv25xd HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25xd
+RM-PRO-Token: add3264c07a3a2c7931021c82e7d659e
+RM-PRO-Time: 1742808512449
+User-Agent: curl/7.83.1
+

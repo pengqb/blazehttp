@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_查询实例数
+# 攻击者基于UNION查询，将"union SELECT COUNT(*) AS instance_count FROM v$instance"语句注入到 SQL 查询参数中，利用系统视图v$instance获取当前数据库实例信息。
+GET /?id=1%20union%20SELECT%20COUNT%28%2A%29%20AS%20instance_count%20FROM%20v$instance&bid=hd_tag_m8mv26gz HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26gz
+RM-PRO-Token: e039ae8d58be71d74c42c3cd1b475aba
+RM-PRO-Time: 1742808618680
+User-Agent: curl/7.83.1
+

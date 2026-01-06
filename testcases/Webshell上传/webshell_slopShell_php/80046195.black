@@ -1,0 +1,10 @@
+# webshell_slopShell_php
+# slopShell是一款功能强大的PHP Webshell。攻击者在受感染的Web服务器上放置程序，用于远程控制服务器、执行命令、上传/下载文件等操作。
+POST /?bid=hd_tag_m8mv245m HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv245m
+RM-PRO-Token: 2f1f3fa6a2d7b76a7c67fd5b5185dcbe
+RM-PRO-Time: 1742808365394
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=D3gVADIpSlhgU6ShCP5_Bq_HcituvKyP
+

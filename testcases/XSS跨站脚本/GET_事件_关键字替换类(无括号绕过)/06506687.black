@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_事件_关键字替换类(无括号绕过)-06506687
+# 攻击载荷利用了HTML中的script标签和onerror属性，执行alert函数。抛出异常时触发。
+GET /?id=%3Cscript%3Ethrow%20onerror=alert%2C1%3C%2Fscript%3E&bid=hd_tag_m8mv25qc HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25qc
+RM-PRO-Token: 3b501ee4807ae041a616ecdf1cecaba7
+RM-PRO-Time: 1742808500685
+User-Agent: curl/7.83.1
+

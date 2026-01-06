@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_标签属性_数据混淆类(协议绕过，无引号绕过)-06506700
+# 当用户点击表单中的提交按钮时，表单会提交并执行 javascript:confirm(1)。这里的 confirm 函数会弹出一个确认框，显示数字 1。使用from标签action属性，无引号方式进行绕过。
+GET /?id=%3Cform%20action=javascript:confirm%281%29%3E%3Cinput%20type=submit%20value=XSS%3E&bid=hd_tag_m8mv25i2 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25i2
+RM-PRO-Token: b12c086c2088b2bacf6179ee79eb896f
+RM-PRO-Time: 1742808469525
+User-Agent: curl/7.83.1
+

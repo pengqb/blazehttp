@@ -1,0 +1,9 @@
+# 命令执行(方括号绕过)#1
+# 在Linux系统中，方括号[]通常用于表示字符集合或范围。方括号可以用来匹配一组字符中的任何一个字符或指定字符范围。例如，在命令cat /etc/p[abc]sswd中，[abc]表示匹配字符集合中的任何一个字符，因此该命令会匹配/etc/passwd、/etc/pbsswd和/etc/pcsswd这三个文件。
+GET /?id=cat%20%2Fetc%2Fp%5Babc%5Dsswd&bid=hd_tag_m8mv242g HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv242g
+RM-PRO-Token: 33d1b6672e9fa9b39c07a64860cfd3b4
+RM-PRO-Time: 1742808359777
+User-Agent: curl/7.83.1
+

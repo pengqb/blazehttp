@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_框架_VueJS-06506738
+# @error 是 Vue.js 的事件绑定语法，用于绑定事件处理程序。当加载图片失败时，onerror 事件将被触发，并执行绑定的事件处理程序。
+GET /?id=%3Cimg%20src%20@error=e=$event.path.pop%28%29.confirm%281%29%3E&bid=hd_tag_m8mv25f1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25f1
+RM-PRO-Token: f732c591c952a91ca6e6b9d7517a919f
+RM-PRO-Time: 1742808464597
+User-Agent: curl/7.83.1
+

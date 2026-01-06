@@ -1,0 +1,9 @@
+# 命令执行(分号拼接)
+# 在Linux系统中，分号可以分隔命令按顺序独立执行，例如ls;whoami
+GET /?id=whoami%3Bcat%20%2Fetc%2Fpasswd&bid=hd_tag_m8mv2423 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2423
+RM-PRO-Token: 2be6c8893b7e68a3bf040427c6a0b157
+RM-PRO-Time: 1742808359663
+User-Agent: curl/7.83.1
+

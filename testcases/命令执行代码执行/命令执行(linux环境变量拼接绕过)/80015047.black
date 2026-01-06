@@ -1,0 +1,9 @@
+# 命令执行(linux环境变量拼接绕过)
+# 通过使用系统本身环境变量截取字符拼接组合成所需要的命令，以达到绕过检测的目的，例如：环境变量为：/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games，命令ls则可以表示成${PATH:5:1}${PATH:2:1}
+GET /?id=$%7BPATH:5:1%7D$%7BPATH:2:1%7D&bid=hd_tag_m8mv247j HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv247j
+RM-PRO-Token: 175a92b002ddd1122a37e20cdf545749
+RM-PRO-Time: 1742808367096
+User-Agent: curl/7.83.1
+

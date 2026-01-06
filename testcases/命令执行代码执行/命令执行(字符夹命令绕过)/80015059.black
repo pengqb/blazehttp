@@ -1,0 +1,9 @@
+# 命令执行(字符夹命令绕过)
+# 将命令夹在字符串之间混淆安全设备，反引号作用将括起来的字符当作命令执行，例如：666`whoami`666
+GET /?id=666%60cat%20%2Fetc%2Fpasswd%60666&bid=hd_tag_m8mv247h HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv247h
+RM-PRO-Token: 0fbe4f287d7d17299a03b626c8be2fee
+RM-PRO-Time: 1742808367076
+User-Agent: curl/7.83.1
+

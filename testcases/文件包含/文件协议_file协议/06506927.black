@@ -1,0 +1,9 @@
+# 文件包含_文件协议_file协议
+# 攻击者通过使用file协议实现任意文件读取的目的
+GET /?id=file:%2F%2F%2Fetc%2Fpasswd&bid=hd_tag_m8mv24o5 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24o5
+RM-PRO-Token: 5321d300e1c735c6b1d0318616b2a14e
+RM-PRO-Time: 1742808398368
+User-Agent: curl/7.83.1
+

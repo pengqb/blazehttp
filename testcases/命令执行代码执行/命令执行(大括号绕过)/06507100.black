@@ -1,0 +1,9 @@
+# 命令执行(大括号绕过)-06507100
+# 使用大括号{}连接命令以混淆规则使得不易被检测，例如：{cat , /etc/passwd}
+GET /?id=%7Bcat%2C%2Fetc%2Fpasswd%7D&bid=hd_tag_m8mv25mw HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25mw
+RM-PRO-Token: 2e5d0ae5c56df325f29be311f9ab49f8
+RM-PRO-Time: 1742808482382
+User-Agent: curl/7.83.1
+

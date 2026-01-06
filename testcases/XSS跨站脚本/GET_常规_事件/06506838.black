@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件-06506838
+# 攻击载荷利用body标签和onload事件触发alert函数弹出对话框，此方法不需要使用任何javascript变体：或<SCRIPT>标签即可完成XSS攻击）
+GET /?id=%3CBODY%20ONLOAD=alert%28%27XSS%27%29%3E&bid=hd_tag_m8mv24zt HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24zt
+RM-PRO-Token: 85d79f7f68fb881090913fe131185dd4
+RM-PRO-Time: 1742808426761
+User-Agent: curl/7.83.1
+

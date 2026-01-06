@@ -1,0 +1,15 @@
+# webshell_bypass_13
+# 这段Java Webshell 允许用户通过HTTP请求发送cmd参数，然后执行该参数所代表的操作系统命令。它利用Java反射机制中的java.beans.Expression类来调用Runtime.getRuntime().exec()执行系统命令，并将结果回显到用户。
+# 基本信息：
+# - 文件名：waf/webshell_bypass_13.jsp
+# - 文件大小：841B
+# 行为描述：
+# - 命令执行：接收并执行攻击者发送的系统命令，例如列出目录内容、修改文件权限等。
+POST /?bid=hd_tag_m8mv23sv HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23sv
+RM-PRO-Token: 5c949054dd348785d42ebb5edffe6800
+RM-PRO-Time: 1742808342537
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=eP6DeJW3CSteVPR-1V4pKydWn2C_eVnl
+

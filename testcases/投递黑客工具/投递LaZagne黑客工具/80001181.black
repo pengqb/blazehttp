@@ -1,0 +1,17 @@
+# 【投递】LaZagne黑客工具
+# Lazagne是一款开源的密码恢复工具，它可以帮助安全专业人员从各种应用程序和操作系统中提取保存的密码。它是一个功能强大的工具，广泛用于渗透测试、数字取证和密码管理等领域。
+# 以下是Lazagne的主要功能和特点：
+# 1. 多平台支持：Lazagne可以在多种操作系统上运行，包括Windows、Linux和Mac OS等。
+# 2. 多种密码提取：工具可以提取各种类型的密码，例如网络凭据（如Wi-Fi密码）、Web浏览器密码（如Chrome、Firefox）、电子邮件密码、FTP密码、数据库密码等。
+# 3. 多种密码恢复技术：Lazagne使用多种密码恢复技术，包括明文密码查找、哈希提取、密钥库破解等。
+# 4. 支持的应用程序：工具支持提取很多常见的应用程序的密码，如Windows登录密码、Outlook、Thunderbird、FileZilla、Putty、Chrome、Firefox、Opera等。
+# 5. 密码破解：Lazagne可以通过使用提取的密码哈希值进行密码破解，以尝试猜测用户密码。
+# 需要注意的是，Lazagne是一个强大的工具，但使用它需要遵守法律法规，并且应该在合法授权的环境中使用。滥用此类工具进行非法攻击是违法行为，可能导致严重的法律后果。建议只在合规的安全测试和评估环境中使用，并遵循道德和合法的准则。
+POST /?bid=hd_tag_m8mv23p5 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23p5
+RM-PRO-Token: 0cbc2cf5dff460b85ae6200cd80274b9
+RM-PRO-Time: 1742808334567
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=1OG9ayypjHN6dtOtBItnIZV8YjvPVNWY
+

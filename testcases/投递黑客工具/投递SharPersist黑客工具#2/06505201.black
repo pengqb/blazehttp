@@ -1,0 +1,10 @@
+# 【投递】SharPersist黑客工具#2-06505201
+# SharPersist是一款Windows平台的渗透工具，主要用于在目标计算机上实现持久化、后门和远程访问，方便攻击者在之后的攻击过程中维持对目标的控制和管理。该工具使用C#语言编写，通过必要的DLL注入和远程线程注入等技术，可以在目标系统上生成持久化的后门程序和远程代理，可以创造隐蔽的环境，避免被杀软和IDS等防御机制检测和清除。同时，SharPersist还支持利用Windows API函数来伪装后门行为，例如通过创建隐藏进程绕过黑名单、利用Windows事件日志记录来监视进程行为、利用WMI来发送命令或获取信息等，提高了渗透的成功率和隐蔽性。SharPersist可以在几乎所有版本的Windows系统上运行，但使用该工具时须得到相应的授权和法律许可，并遵守规范的渗透测试流程和安全操作。
+POST /?bid=hd_tag_m8mv26cc HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv26cc
+RM-PRO-Token: 2e41d31c3edc588743fcb95f8c7495dc
+RM-PRO-Time: 1742808580049
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=6BcKU6l5EA8H3RIK_a-sopAxz6AMwT9Q
+

