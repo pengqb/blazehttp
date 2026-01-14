@@ -1,5 +1,7 @@
 # 目录遍历(超长UTF-8 Unicode编码)-06506938
 # 攻击者通过构造此语句可以爆破系统用户配置文件，使用超长UTF-8编码绕过检测还可以构造其他文件路径爆破更多敏感信息。
+# 这里涉及到一种特殊的编码技巧，称为 UTF-8 Overlong Encoding（超长编码）或利用某些服务器（如旧版 IIS、Tomcat、Apache）对非法 UTF-8 序列的宽容解析。
+# %c0%ae -> 这是一个非法的 UTF-8 序列。在标准的 UTF-8 中，. (点号，ASCII 0x2E) 不需要两个字节。但在 Overlong 编码中，0xC0 0xAE 确实可以映射到 0x2E (.)。
 GET /?id=%25c0ae%25c0ae%25c0%252fetc%25c0%252fpasswd&bid=hd_tag_m8mv24no HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv24no

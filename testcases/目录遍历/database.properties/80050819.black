@@ -1,7 +1,7 @@
 # 目录遍历_database.properties
 # database.properties文件通常用于存储数据库连接和配置信息。
 # database.properties文件通常包含数据库的连接URL、用户名、密码等敏感信息，以便应用程序可以连接到数据库并执行相应的操作。
-GET /../../../../../../../../../../../database.properties?acid=80050819&bid=hd_tag_m8mv24m5 HTTP/1.1
+GET /?id=../../../../../../../../../../../database.properties&acid=80050819&bid=hd_tag_m8mv24m5 HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv24m5
 RM-PRO-Token: ac3c4aa0c84a07a83731a19cbb31efc3

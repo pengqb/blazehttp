@@ -1,6 +1,6 @@
 # 目录遍历_requirements.txt
 # requirements.txt 文件用于列出一个项目所需的依赖包及其版本，重新构建项目或者记录项目所需要的运行环境依赖。
-GET /../../../../../../../../../../../../requirements.txt?acid=80050828&bid=hd_tag_m8mv24kz HTTP/1.1
+GET /?id=../../../../../../../../../../../../requirements.txt&acid=80050828&bid=hd_tag_m8mv24kz HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv24kz
 RM-PRO-Token: d3568deaad001c1421e0e2524faf911a

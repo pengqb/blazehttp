@@ -1,6 +1,6 @@
 # 目录遍历_nginx/error.log
 # nginx的error.log文件记录了nginx服务器发生的错误和警告。这些错误和警告可以帮助管理员诊断服务器配置或应用程序问题。
-GET /../../../../../../../../../../../var/log/nginx/error.log?acid=80014992&bid=hd_tag_m8mv25c2 HTTP/1.1
+GET /?id=../../../../../../../../../../../var/log/nginx/error.log&acid=80014992&bid=hd_tag_m8mv25c2 HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv25c2
 RM-PRO-Token: 2707fc5006e63c508307c29b69b8ffed

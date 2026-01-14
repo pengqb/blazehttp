@@ -1,6 +1,6 @@
 # 文件包含_系统文件泄露_C:\boot.ini-06506915
 # 系统启动引导程序文件，可用于查看系统版本等信息。
-GET /C:\boot.ini?acid=06506915&bid=hd_tag_m8mv24or HTTP/1.1
+GET /?id=C:\boot.ini&acid=06506915&bid=hd_tag_m8mv24or HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv24or
 RM-PRO-Token: 363a729602349435879247b5900c29dd

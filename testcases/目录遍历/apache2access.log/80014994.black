@@ -1,7 +1,7 @@
 # 目录遍历_apache2/access.log
 # /var/log/apache2/access.log 是一个在 Linux 系统上存储 Apache Web 服务器访问日志的文件路径。在大多数基于 Debian 或 Ubuntu 的系统中，Apache 的访问日志通常被存储在 /var/log/apache2/access.log 文件中。
 # 这个文件记录了所有访问 Apache Web 服务器的请求信息，包括访问者的 IP 地址、访问时间、请求的页面或资源、HTTP 状态码等信息。
-GET /../../../../../../../../../../../var/log/apache2/access.log?acid=80014994&bid=hd_tag_m8mv25c4 HTTP/1.1
+GET /?id=../../../../../../../../../../../var/log/apache2/access.log&acid=80014994&bid=hd_tag_m8mv25c4 HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv25c4
 RM-PRO-Token: 5c4598fcade3f18a7b3991f4ce412b3b

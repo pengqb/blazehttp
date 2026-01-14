@@ -1,6 +1,6 @@
 # 目录遍历_apache2/error_log
 # /var/log/apache2/error_log 是 Apache Web 服务器在 Linux 系统上存储错误日志的文件路径。这个文件记录了 Apache Web 服务器在运行过程中发生的错误、警告和其他异常情况。
-GET /../../../../../../../../../../../../var/log/apache2/error_log?acid=80050816&bid=hd_tag_m8mv24m8 HTTP/1.1
+GET /?id=../../../../../../../../../../../../var/log/apache2/error_log&acid=80050816&bid=hd_tag_m8mv24m8 HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv24m8
 RM-PRO-Token: 57827a836ee8b20b634ebb12ea709217

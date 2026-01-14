@@ -1,6 +1,6 @@
 # 目录遍历_/etc/mysql/my.cnf
 # /etc/mysql/my.cnf是MySQL数据库服务器的配置文件。MySQL使用这个文件来存储各种配置选项，以控制数据库服务器的行为和性能，在这个配置文件中，可以设置各种参数，如数据库的默认字符集、缓冲区大小、连接超时时间、日志文件路径等。
-GET /../../../../../../../../../../../etc/mysql/my.cnf?acid=80050811&bid=hd_tag_m8mv24ly HTTP/1.1
+GET /?id=../../../../../../../../../../../etc/mysql/my.cnf&acid=80050811&bid=hd_tag_m8mv24ly HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv24ly
 RM-PRO-Token: 2499f44f02bc54e77c6676ab2d5c5197

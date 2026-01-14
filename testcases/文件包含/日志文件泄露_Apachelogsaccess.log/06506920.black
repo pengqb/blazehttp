@@ -1,6 +1,6 @@
 # 文件包含_日志文件泄露_Apache\logs\access.log
 # Apache2 Web服务器默认日志文件。
-GET /C:\ProgramFiles\Apache\logs\access.log?acid=06506920&bid=hd_tag_m8mv24nx HTTP/1.1
+GET /?id=C:\ProgramFiles\Apache\logs\access.log&acid=06506920&bid=hd_tag_m8mv24nx HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv24nx
 RM-PRO-Token: 671612275cffb762ab214261351dc06e

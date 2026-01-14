@@ -1,6 +1,6 @@
 # 文件包含_日志文件泄露_iis-06506921
 # IIS默认日志文件
-GET /C:\WINDOWS\inetpub\logs\LogFiles\W3SVC1\u_ex230329.log?acid=06506921&bid=hd_tag_m8mv24nw HTTP/1.1
+GET /?id=C:\WINDOWS\inetpub\logs\LogFiles\W3SVC1\u_ex230329.log&acid=06506921&bid=hd_tag_m8mv24nw HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv24nw
 RM-PRO-Token: b21b5b7a806f3a646e504b4710e96682

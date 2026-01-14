@@ -1,5 +1,6 @@
 # 目录遍历(UTF-16编码)-06506935
 # 攻击者通过构造此语句可以遍历目录访问系统用户配置文件，使用16位Unicode编码绕过检测还可以构造其他文件路径爆破更多敏感信息。
+# 0x2215 是 Unicode 的 Division Slash (∕), WAF不要替换成常规斜线 /（0x002F），否则就是助纣为虐了。但如果后端进行了 NFKC 标准化，会把 0x2215 替换成 0x2F
 GET /?id=%25u002e%25u002e%25u2215%25u002e%25u002e%25u2215%25u002e%25u002e%25u2215%25u002e%25u002e%25u2215%25u002e%25u002e%25u2215%25u002e%25u002e%25u2215%25u002e%25u002e%25u2215%25u002e%25u002e%25u2215etc%25u2215passwd&bid=hd_tag_m8mv24nh HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv24nh

@@ -1,6 +1,6 @@
 # 目录遍历_nginx/access.log
 # nginx access.log访问日志记录所有请求到nginx web服务器的文件。它包含了有价值的信息，比如客户端的IP地址、请求的日期和时间、所使用的HTTP方法、请求的URL、返回的HTTP状态码以及响应的大小。
-GET /../../../../../../../../../../../var/log/nginx/access.log?acid=80014993&bid=hd_tag_m8mv25c3 HTTP/1.1
+GET /?id=../../../../../../../../../../../var/log/nginx/access.log&acid=80014993&bid=hd_tag_m8mv25c3 HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv25c3
 RM-PRO-Token: c455f2e8ce573ce50571e3c624d4071c

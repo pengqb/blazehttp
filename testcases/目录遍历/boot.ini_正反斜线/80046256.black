@@ -1,6 +1,6 @@
 # 目录遍历_boot.ini_正反斜线
 # boot.ini 文件是 Windows 操作系统中早期版本（如 Windows XP）的引导配置文件，用于指定系统启动时的引导选项和配置信息。
-GET /..\..\..\..\../../../../../../../C:\boot.ini?acid=80046256&bid=hd_tag_m8mv2480 HTTP/1.1
+GET /?id=..\..\..\..\../../../../../../../C:\boot.ini&acid=80046256&bid=hd_tag_m8mv2480 HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv2480
 RM-PRO-Token: a11eef44320270418f312787012e52e2

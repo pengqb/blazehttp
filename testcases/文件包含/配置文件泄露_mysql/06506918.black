@@ -1,6 +1,6 @@
 # 文件包含_配置文件泄露_mysql-06506918
 # 文件存储了用户账户的用户名、密码哈希值、权限信息和其他相关属性。文件是以二进制格式存储的。
-GET /C:\ProgramFiles\mysql\data\mysql\user.MYD?acid=06506918&bid=hd_tag_m8mv24on HTTP/1.1
+GET /?id=C:\ProgramFiles\mysql\data\mysql\user.MYD&acid=06506918&bid=hd_tag_m8mv24on HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv24on
 RM-PRO-Token: 07bcf6b03bdd611f4e860a748757a052

