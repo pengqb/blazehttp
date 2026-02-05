@@ -1,0 +1,11 @@
+POST /upload HTTP/1.1
+Host: www.swaf.com
+Content-Type: multipart/form-data; boundary=------------------------boundary123
+Content-Length: 185
+
+--------------------------boundary123
+Content-Disposition: form-data; name="file"; filename="malware.exe"
+Content-Type: application/octet-stream
+
+<BINARY_DATA_HERE>
+--------------------------boundary123--

@@ -1,0 +1,15 @@
+POST /profile/update HTTP/1.1
+Host: localhost
+Content-Type: multipart/form-data; boundary=------------------------boundary123
+Content-Length: 300
+
+--------------------------boundary123
+Content-Disposition: form-data; name="username"
+
+admin_user
+--------------------------boundary123
+Content-Disposition: form-data; name="avatar"; filename="avatar.png"
+Content-Type: image/png
+
+<PNG_DATA>
+--------------------------boundary123--

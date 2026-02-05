@@ -1,0 +1,6 @@
+POST /soap/service HTTP/1.1
+Host: localhost
+Content-Type: application/xml
+Content-Length: 85
+
+<root><user>admin</user><action>login</action></root>

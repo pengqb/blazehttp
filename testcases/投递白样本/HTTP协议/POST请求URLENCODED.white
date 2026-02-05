@@ -1,0 +1,6 @@
+POST /form HTTP/1.1
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 20
+
+key=val%00ue&param=test%
