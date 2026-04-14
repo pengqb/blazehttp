@@ -1,5 +1,6 @@
 # 命令执行($x绕过)-06507090
-# 使用$x连接命令以混淆规则使得不易被检测，例如：who$xami
+# 使用$x连接命令以混淆规则使得不易被检测，例如：who$xami,
+# who，所以不是waf攻击,$xami是贪婪匹配最长的xami
 GET /?id=who$xami&bid=hd_tag_m8mv25xl HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv25xl
