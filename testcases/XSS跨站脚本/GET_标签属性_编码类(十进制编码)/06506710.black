@@ -1,6 +1,6 @@
 # XSS跨站脚本_GET_标签属性_编码类(十进制编码)-06506710
 # 带可选分号的十进制编码进行xss攻击
-GET /?id=%3Ca%20href=%22&%23106%3Bavascript:confirm%281%29%22%3EXSS%3C%2Fa%3E&bid=hd_tag_m8mv25h4 HTTP/1.1
+GET /?id=%3Ca%20href=%22%26%23106%3Bavascript:confirm%281%29%22%3EXSS%3C%2Fa%3E&bid=hd_tag_m8mv25h4 HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv25h4
 RM-PRO-Token: 4614be55381eedf067cdcf90a224525e

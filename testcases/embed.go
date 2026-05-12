@@ -10,7 +10,7 @@ import (
 //
 // all:SQL注入/*/*.black SSRF服务端请求伪造/*/*.black Webshell上传/*/*.black XML外部实体注入/*/*.black XSS跨站脚本/*/*.black 反序列化漏洞/*/*.black 命令执行代码执行/*/*.black 已知漏洞利用/*/*.black 投递白样本/*/*.white 文件包含/*/*.black 目录遍历/*/*.black
 //
-// all:ee/67/e33c09ee8b6dd9b219570d4d7425.white
+// all:*/*/*.white all:*/*/*.black
 //
-//go:embed all:*/*/*.white all:*/*/*.black
+//go:embed all:已知漏洞利用/Openfire身份认证绕过漏洞(CVE-2023-32315)/80001466.black
 var EmbedTestCasesFS embed.FS
