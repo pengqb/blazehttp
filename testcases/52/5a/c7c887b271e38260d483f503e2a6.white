@@ -1,3 +1,4 @@
+# 三处语法错误导致语法没有检测完就报错了，不能算ognl攻击：1出现两个逗号，2new java 中间缺少空格。3#o.hello()和#code=之间没有逗号。
 POST /obtain/resource HTTP/1.1
 Host: waf-ce.chaitin.cn
 Cache-Control: no-cache

