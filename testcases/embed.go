@@ -12,5 +12,5 @@ import (
 //
 // all:*/*/*.white all:*/*/*.black
 //
-//go:embed all:已知漏洞利用/Openfire身份认证绕过漏洞(CVE-2023-32315)/80001466.black
+//go:embed all:XXE攻击/泛微XXE攻击/1.black
 var EmbedTestCasesFS embed.FS

