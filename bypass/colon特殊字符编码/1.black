@@ -1,0 +1,4 @@
+GET /newxss/xss1.php?code=%3ca%20href%3d%22javascript%26colon%3balert%26lpar%3bdocument%26period%3bdomain%26rpar%3b%22%3eClick%20%3c%2fa%3e HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*

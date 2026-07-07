@@ -1,0 +1,4 @@
+GET /newxss/xss7.php?code=1%27);x=%27javascript:alert\x2823\x29%27;x={x:location}=this;var%20a=(%27 HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*

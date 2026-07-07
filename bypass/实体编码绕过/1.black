@@ -1,0 +1,4 @@
+GET /newxss/xss3.php?code=%6a%61%76%61%73%26%4e%65%77%4c%69%6e%65%3b%26%54%61%62%3b%63%72%69%70%74%26%63%6f%6c%6f%6e%3b%61%6c%65%72%74%28%31%29%22%20src=%22 HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*

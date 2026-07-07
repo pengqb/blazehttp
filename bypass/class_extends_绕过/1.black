@@ -1,0 +1,4 @@
+GET /newxss/xss7.php?code=1%27);[class%20extends[alert`1111```]{}];console.info(%2722 HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*

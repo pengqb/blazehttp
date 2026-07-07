@@ -1,0 +1,4 @@
+GET /newxss/xss7.php?code=%27)%3C/script%3E%3Cscript%3Ealert(%27Hello%20xss HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*

@@ -1,0 +1,4 @@
+GET /newxss/xss7.php?code=1%27);Function`a${`alert${Function`a${`return%20fromCharCode`}{fromCharCode}``${String}``40`}23${Function`a${`return%20fromCharCode`}{fromCharCode}``${String}``41`}`}```;console.info(%2722` HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*

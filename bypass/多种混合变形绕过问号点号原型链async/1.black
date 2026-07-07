@@ -1,0 +1,4 @@
+GET /newxss/xss1.php?code=<svg/onload ='fn=1;a=2;[(fn?.[`__proto__`])[`b`],a]=[async function () {}.constructor,2];fn?.b(`Function(atob("YWxlcnQoMSk="))()`)()'> HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*

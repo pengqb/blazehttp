@@ -1,0 +1,4 @@
+GET /newxss/xss1.php?code=%3Csvg%20/onload%20=%22/*$*/_=prompt,_(1)%20%22%3E HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*

@@ -1,0 +1,4 @@
+GET /newxss/xss1.php?code=%3Cmarquee%20onstart=%27new%20Function`al\ert\`1\``%27%3E HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*

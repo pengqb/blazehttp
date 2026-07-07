@@ -1,0 +1,4 @@
+GET /newxss/xss7.php?code=1%27);[][%22filter%22][%22constructor%22]`alert\x2823\x29```;(%27 HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*

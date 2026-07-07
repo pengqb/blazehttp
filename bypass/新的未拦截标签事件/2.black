@@ -1,0 +1,4 @@
+GET /newxss/xss6.php?code=%22onpointerrawupdate=%22a=confirm,%20a(1)%22%3C!--%3E HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*

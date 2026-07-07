@@ -1,0 +1,4 @@
+GET /newxss/xss9.php?code=%20_%20=%20alert,_(1) HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*

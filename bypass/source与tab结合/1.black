@@ -1,0 +1,4 @@
+GET /newxss/xss4.php?code=%3cbleh%2fonclick%3dtop[%2fal%2f%2esource%2b%2fert%2f%2esource]%26Tab%3b%60%60%3exss HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*

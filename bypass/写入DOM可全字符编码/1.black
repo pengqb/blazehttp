@@ -1,0 +1,4 @@
+GET /newxss/xss3.php?code=javascript%3aconfirm%26%23x25%3b281) HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*

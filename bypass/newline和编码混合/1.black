@@ -1,0 +1,4 @@
+GET /xss3.php?code=javasc%26NewLine%3bript%26colon%3balert(1)"><%2fiframe> HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*

@@ -1,0 +1,4 @@
+GET /newxss/xss1.php?code=<svg/onload ='new Promise(alert)'> HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*

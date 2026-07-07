@@ -1,0 +1,4 @@
+GET /newxss/xss1.php?code=%3CSvG%3E%3Cset%20onbegin=confirm(`xss`)/x%3E HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*

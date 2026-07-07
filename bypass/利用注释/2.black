@@ -1,0 +1,4 @@
+GET /newxss/xss1.php?code=%3Ca%20onbeforecopy=%22/**/self[%27al%27%2B%27ert%27](0)%22%20contenteditable%3Etest%3C/a%3E HTTP/1.1
+Host: www.swaf.com
+User-Agent: test-client
+Accept: */*
