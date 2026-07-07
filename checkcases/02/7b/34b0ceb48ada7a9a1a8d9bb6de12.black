@@ -1,0 +1,7 @@
+GET /?parame3f0bf=%5Cu0043%5Cu003a%5Cu002f%5Cu0057%5Cu0049%5Cu004e%5Cu0044%5Cu004f%5Cu0057%5Cu0053%5Cu002f%5Cu0070%5Cu0068%5Cu0070%5Cu002e%5Cu0069%5Cu006e%5Cu0069 HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

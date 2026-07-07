@@ -1,0 +1,13 @@
+GET /goofy/ttzz/push.js?791861feb92e3961a47d9cef96053b0e666dba9b870cab6c286b98cb684b76c44a4d40de0dd5fa9b5c2c10f69a3b501dc430e831103b45ce33654fb9f95b006c HTTP/1.1
+Host: lf1-cdn-tos.bytegoofy.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: close
+Referer: https://m.163.com/
+Sec-Fetch-Dest: script
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+

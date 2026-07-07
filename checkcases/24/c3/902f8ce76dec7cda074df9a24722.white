@@ -1,0 +1,14 @@
+GET /data/d/iosTracking/lite_wap_dl_8/click?callback=lite_wap_dl_8&nuid=0bccb383f91b77b4c39ecabef7c4d86c&projectid=NTM-5AE0KFYY-2&source= HTTP/1.1
+Host: channel.m.163.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: close
+Referer: https://m.163.com/
+Cookie: Hm_lvt_b2d0b085a122275dd543c6d39d92bc62=1707034095; Hm_lvt_1e8bfbf2a9c357adc57abdfb1fddd6f8=1707034096; Hm_lvt_80e4acbac28178f85c9da26879bb2070=1707034096; Hm_lvt_c90426000c3f454ef4c16be54e22ae34=1707034096; Hm_lvt_ee16af73ee73a16e2cf07eba7a4f152b=1707034097; _ntes_origin_from=google; _ntes_nuid=0bccb383f91b77b4c39ecabef7c4d86c
+Sec-Fetch-Dest: script
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-site
+

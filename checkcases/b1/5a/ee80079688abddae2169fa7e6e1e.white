@@ -1,0 +1,75 @@
+POST /nuke.php HTTP/1.1
+Host: bbs.nga.cn
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+X-USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Content-Type: multipart/form-data; boundary=---------------------------31916681953177504862951209386
+Content-Length: 2041
+Origin: https://bbs.nga.cn
+DNT: 1
+Connection: close
+Referer: https://bbs.nga.cn/nuke/account_copy.html?login
+Cookie: bbsmisccookies=%7B%22uisetting%22%3A%7B0%3A%22b%22%2C1%3A1711508449%7D%2C%22pv_count_for_insad%22%3A%7B0%3A-46%2C1%3A1711558898%7D%2C%22insad_views%22%3A%7B0%3A1%2C1%3A1711558898%7D%7D; lastvisit=1711508158; ngaPassportUid=guest066038aa8647f3; guestJs=1711508148; lastpath=/read.php?tid=39683429; ngaPassportOid=a517d425993f8e887d6a5c416c0af1e0
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+-----------------------------31916681953177504862951209386
+Content-Disposition: form-data; name="__lib"
+
+login
+-----------------------------31916681953177504862951209386
+Content-Disposition: form-data; name="__output"
+
+1
+-----------------------------31916681953177504862951209386
+Content-Disposition: form-data; name="app_id"
+
+5004
+-----------------------------31916681953177504862951209386
+Content-Disposition: form-data; name="device"
+
+
+-----------------------------31916681953177504862951209386
+Content-Disposition: form-data; name="trackid"
+
+
+-----------------------------31916681953177504862951209386
+Content-Disposition: form-data; name="__act"
+
+login
+-----------------------------31916681953177504862951209386
+Content-Disposition: form-data; name="__ngaClientChecksum"
+
+
+-----------------------------31916681953177504862951209386
+Content-Disposition: form-data; name="name"
+
+fuckpro
+-----------------------------31916681953177504862951209386
+Content-Disposition: form-data; name="type"
+
+
+-----------------------------31916681953177504862951209386
+Content-Disposition: form-data; name="password"
+
+BNeqXXHsZ17LjZK7cfMjlgSodCk7PEAZ+HDjhS5YBBQwyDBvPf0GTq0EtpVkpPDQ3/Wndt/sYtJ7q+q9WYWZSBxUvb5Po8hy9i+2IxD4CwCV1E25VZArDsQwoL9jcB/0ihwVP0C8jr46x2i/OfKWMcqOPJGRRJCes5eXjgQ7vgxqxeVRMJaagaLvOsKjMcz7Fl1lBlwLSrZ0pw+r6XtIkDeyHwGRYTuKkjbCzr+tjgXztwnsvbODVUjrkT4RMOQLRGmaachtsGqEOt81hqgqCXZeuuoLM+rEtNqL1A/KFYqmi2GjEEgRk4V8rQFZXLBKLVGaNGfzWvwYFJtFqE/m4Q==
+-----------------------------31916681953177504862951209386
+Content-Disposition: form-data; name="__inchst"
+
+UTF-8
+-----------------------------31916681953177504862951209386
+Content-Disposition: form-data; name="rid"
+
+login9968523789405193
+-----------------------------31916681953177504862951209386
+Content-Disposition: form-data; name="captcha"
+
+491006
+-----------------------------31916681953177504862951209386
+Content-Disposition: form-data; name="prid"
+
+P6890511031331896
+-----------------------------31916681953177504862951209386--

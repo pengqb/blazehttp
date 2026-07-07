@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: %3Cscript%EF%BF%BD%3Ealert%EF%BF%BD%281%EF%BF%BD%29%20%EF%BF%BD%2F%EF%BF%BD%3E
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

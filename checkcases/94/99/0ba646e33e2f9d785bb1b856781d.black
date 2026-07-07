@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: apply.call%60%24%7Bnavigation.navigate%7D%24%7Bnavigation%7D%24%7B%5Bname%5D%7D%60
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

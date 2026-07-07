@@ -1,0 +1,17 @@
+POST /report HTTP/1.1
+Host: badjs.weixinbridge.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: https://mp.weixin.qq.com/
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 648
+Origin: https://mp.weixin.qq.com
+DNT: 1
+Connection: close
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+
+name=ajax_network_error%5B0%5D%5B0%5D&key=ajax_network_error%5B0%5D%5B0%5D%3A%20%2Fmp%2Fgetappmsgad%3Ff%3Djson%26mockid%3D%26rtx%3D%26uin%3D%26key%3D%26pass_ticket%3D%26wxtoken%3D777%26devicetype%3D%26clientversion%3D%26__biz%3DMjM5Mzc4MzUzMQ%253D%253D%26appmsg_token%3D%26x5%3D0%26f%3Djson%3Bhost%3Amp.weixin.qq.com&msg=ajax_network_error%5B0%5D%5B0%5D%3A%20%2Fmp%2Fgetappmsgad%3Ff%3Djson%26mockid%3D%26rtx%3D%26uin%3D%26key%3D%26pass_ticket%3D%26wxtoken%3D777%26devicetype%3D%26clientversion%3D%26__biz%3DMjM5Mzc4MzUzMQ%253D%253D%26appmsg_token%3D%26x5%3D0%26f%3Djson%3Bhost%3Amp.weixin.qq.com&mid=mmbizwap%3AMonitor&view=wap&cmdb_module=mmbizwap

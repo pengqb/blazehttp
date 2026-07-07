@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: %3Cselect%20onchange%3Dalert%281%29%3E%3Coption%3E1%3Coption%3E2
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

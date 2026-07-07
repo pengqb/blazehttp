@@ -1,0 +1,9 @@
+POST / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+Content-Length: 353
+
+parambde907=SUBrZG85aWplZ2llb2tmLGtpbmtva2R3MA==&login=YWRtaW4=&_token=aWZ3a2F3LTlyaTBvZmlnam85ZmdraXduOWRmMm8wa2Ywdzl0Z2szMA==&msg=PGJvZHkgb25oZWxwPWFsZXJ0KDEpPnByZXNzIEYxIQ==&parm2=ZmRuYTlya2lmMm5kZmtpZ2ZqaTg5cmtmajI5cmswaGczajk4eWg=&file=bG9naW4ucGhw&password=ZmF3aWtmaWF3Z2ZpYXdrZ2l3YWlna29pd2c=&list=Mjlka2ZhaWdta2Nva3dsZGYza3RnbQ==&id=NDIyNDMyNTI=

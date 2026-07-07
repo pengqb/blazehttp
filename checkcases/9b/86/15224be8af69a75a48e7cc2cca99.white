@@ -1,0 +1,14 @@
+GET /oauth2/js/qrcode_login.js?version=20140625 HTTP/1.1
+Host: api.weibo.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: close
+Referer: https://api.weibo.com/oauth2/authorize?client_id=3063806388&redirect_uri=http%3A%2F%2Fwww.zhihu.com%2Foauth%2Fcallback%2Fsina&response_type=code&scope=email
+Cookie: SUB=_2AkMSClrzf8NxqwFRmP0cyG7mZY1-yg7EieKkVqsoJRMxHRl-yT9vqnYstRB6OYp0HDUN4f_BoZE1FvAcPBW_VtgPgrkF; SUBP=0033WrSXqPxfM72-Ws9jqgMF55529P9D9WWifp5czQuOHiFJCRSdi7fc; UOR=link.zhihu.com,weibo.com,link.zhihu.com; SINAGLOBAL=3395123805902.8823.1701241430090; ULV=1701241430148:1:1:1:3395123805902.8823.1701241430090:
+Sec-Fetch-Dest: script
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+

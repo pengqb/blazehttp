@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+Cookie: WBC-deab6a=PHhzcyBvbnNjcm9sbGVuZD1hbGVydCgxKSBzdHlsZT0iZGlzcGxheTpibG9jaztvdmVyZmxvdzphdXRvO2JvcmRlcjoxcHggZGFzaGVkO3dpZHRoOjUwMHB4O2hlaWdodDo1MHB4OyI+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGJyPjxicj48c3BhbiBpZD14PnRlc3Q8L3NwYW4+PC94c3M+
+

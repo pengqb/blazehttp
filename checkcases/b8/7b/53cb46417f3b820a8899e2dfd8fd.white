@@ -1,0 +1,14 @@
+GET /js/qrcode_login_v2.js HTTP/1.1
+Host: i.sso.sina.com.cn
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: close
+Referer: https://weibo.com/
+Cookie: SUB=_2AkMSClrzf8NxqwFRmP0cyG7mZY1-yg7EieKkVqsoJRMyHRl-yD9vqkY5tRB6OYp0HbEoBvl4GqQmJ4sXxLT7hA5saXyZ; SUBP=0033WrSXqPxfM72-Ws9jqgMF55529P9D9WWifp5czQuOHiFJCRSdi7fc
+Sec-Fetch-Dest: script
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+

@@ -1,0 +1,14 @@
+POST / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+Content-Type: multipart/form-data; boundary=35b1fbd536ecdc810894a7679ddae40522c7fa5802d92588d9401ed6fa2e
+Content-Length: 226
+
+--35b1fbd536ecdc810894a7679ddae40522c7fa5802d92588d9401ed6fa2e
+Content-Disposition: form-data; name="a64fe46301"
+
+%27%3E%3Csvg%2Fonload%3Dalert%60xss%60%3E
+--35b1fbd536ecdc810894a7679ddae40522c7fa5802d92588d9401ed6fa2e--

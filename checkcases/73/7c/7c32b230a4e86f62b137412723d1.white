@@ -1,0 +1,14 @@
+GET /gen?scale=0.79&txt=%E6%91%B8%E9%B1%BC%E6%B4%BE2%E5%B2%81%E5%95%A6&url=https://file.fishpi.cn/2023/02/001-44758644.jpg&backcolor=f7f0a8&fontcolor=ee9baf HTTP/1.1
+Host: fishpi.cn
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: close
+Referer: https://fishpi.cn/article/1630569106133
+Cookie: LATKE_SESSION_ID=I6UbEso4UePq3pAf
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+

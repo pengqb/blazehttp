@@ -1,0 +1,13 @@
+GET /login?u=1758678555&verifycode=@8SR&pt_vcode_v1=1&pt_verifysession_v1=t03l0gUtSwEOMy91d1sSjnuCBTD701sMMsr5xu66JMW17t2gbUYwn2sQP8T7A2waVrq1o27hLiWpCNOIJKPWVUm08oqrzsDrBAjfczGjO76_ANYc4nFYXkMpRwi9HscwaHF&p=V3L2wBvBhQ5RgpzDRTa4hon-iZ1ekYoCTAZZUuWxUa5ZFwuAWWzh2xRaqwj8Yn3r2NbegEQc2t2FcHmD90AkU6Q84cBM3feAB4dl68xAu46hrSDwSv-vS5CfnnZnbh1HI-IrN4gr0EzDJzeg41sqG2rM87qGpi9V9mp98d2Nt9EqWzpjYsgOR5x-KZcrnDJKXoD9hKl6DlHvX8SrSWlVh04qaLa9yHmZkFDDjTwC6vfnsYLo3Lw*bfrefEb-9YHio-XHZriv7Ia8Cm2Fh-NfGow29FXdh3jpaflfL89dadDE9v8OteYGisn7iN3nMEl33sFBkicKTYP4YgIrdFEbcQ__&pt_randsalt=2&u1=https%3A%2F%2Fgraph.qq.com%2Foauth2.0%2Flogin_jump&ptredirect=0&h=1&t=1&g=1&from_ui=1&ptlang=2052&action=4-27-1711508096425&js_ver=23111510&js_type=1&login_sig=Y*yzPhYmW1U4JWT8u7tSPI8GzwkH1FyZ4eBK6dNanBhnrb6Uf2kljtnMBmWTttsV&pt_uistyle=40&aid=716027609&daid=383&pt_3rd_aid=100490701&ptdrvs=50aZ5N3FoCfsegle9QUjQLDMbu9UKI3eOTeL4gZSJsDN3MBULyqvVxq-3tdkrMKjGyQy2x07NE9aEJABie3o975r1m-NUe5D&sid=2058382637600574073&&o1vId=d9631eb4d41c0be74cdbcea19ef28593&pt_js_version=v1.48.1 HTTP/1.1
+Host: ssl.ptlogin2.qq.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: close
+Cookie: pt2gguin=o1758678518; RK=i6/s/6k4Ma; ptcz=4732e01814cd8474e89d5a79e655c2a37635030247a68ff19e481c3c4fe1ead6; Qs_lvt_323937=1703142297; Qs_pv_323937=3130659238928143400; pac_uid=0_85a0024d306ed; iip=0; _qimei_uuid42=17c1a0b0338100caccf66d20f45d2bee1f03f3d53c; _qimei_fingerprint=ff47e515b2752e10cd6ed7b13aa7d072; _qimei_q36=; _qimei_h38=3799a011ccf66d20f45d2bee02000006e17c1a; pgv_pvid=7608257089; qq_domain_video_guid_verify=bf9ed2a64347a61a; fqm_pvqid=5bf6b27d-2ce5-44bb-b349-93c0a7162355; pt_guid_sig=597d7246827774908dcca5f2f91823b407dd0dbdd90db3f625e42615fab57c49; pt_login_sig=Y*yzPhYmW1U4JWT8u7tSPI8GzwkH1FyZ4eBK6dNanBhnrb6Uf2kljtnMBmWTttsV; pt_clientip=a5db7d7709776f50; pt_serverip=124b7f0000014750; pt_local_token=-999032868; uikey=92645fce548177256c2289018514c5a5bec41247e8108aa8bf048751e69a56f9; _qpsvr_localtk=0.40627310677398065; qrsig=c38e01040f1741f827c147b2434a79a53b9462e12346a9bc9eb6238056e362bd0695994df20d8fd32056b2cc30fc969123272de2fe8c0be9f72f0a57b747e4c7; confirmuin=0; ptdrvs=TEzJPnZrtIYEBmReRpPlGq8JIoa0TcT2nh-XmkilkTuc5E9rgUnTgsZmvFQslDDlL7C-ABsA*DcoRcANdBZzs3kkkXUPG5*Y; ptui_loginuin=1758678555; ETK=ZuQECHUci6grxaJ588ywoT*eNlGd60tSY-uZEiPuoIAdBayoCPSGcQhEwsT2Sne3KTNtFwzHAO9tgKCIlrA4JA__
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+

@@ -1,0 +1,16 @@
+GET /register?goto=https%3A%2F%2Ffishpi.cn%2Flogin HTTP/1.1
+Host: fishpi.cn
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: close
+Referer: https://fishpi.cn/login?goto=https%3A%2F%2Ffishpi.cn%2Farticle%2F1630569106133
+Cookie: LATKE_SESSION_ID=I6UbEso4UePq3pAf
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+

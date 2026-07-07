@@ -1,0 +1,19 @@
+POST /mp/getappmsgext?f=json&mock=&uin=&key=&pass_ticket=&wxtoken=777&devicetype=&clientversion=&__biz=MjM5Mzc4MzUzMQ%3D%3D&appmsg_token=&x5=0&f=json HTTP/1.1
+Host: mp.weixin.qq.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: https://mp.weixin.qq.com/s/uYw2KTFT0A-wNaA6byLzYw
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+Content-Length: 972
+Origin: https://mp.weixin.qq.com
+DNT: 1
+Connection: close
+Cookie: ua_id=9muO3fzUvvyJfqOJAAAAAHP7jWfWAbK32Ur7WnmgSJ4=; RK=i6/s/6k4Ma; ptcz=4732e01814cd8474e89d5a79e655c2a37635030247a68ff19e481c3c4fe1ead6; Qs_lvt_323937=1703142297; Qs_pv_323937=3130659238928143400; pac_uid=0_85a0024d306ed; iip=0; _qimei_uuid42=17c1a0b0338100caccf66d20f45d2bee1f03f3d53c; _qimei_fingerprint=ff47e515b2752e10cd6ed7b13aa7d072; _qimei_q36=; _qimei_h38=3799a011ccf66d20f45d2bee02000006e17c1a; pgv_pvid=7608257089; qq_domain_video_guid_verify=bf9ed2a64347a61a; fqm_pvqid=5bf6b27d-2ce5-44bb-b349-93c0a7162355; rewardsn=; wxtokenkey=777
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+r=0.8632611346279243&__biz=MjM5Mzc4MzUzMQ%3D%3D&appmsg_type=9&mid=2650258342&sn=5fed8795a21ead4e9a792137c9aa0f3d&idx=1&scene=&title=%25E5%259C%25A8%25E4%25B8%2580%25E4%25B8%25AAWeb%25E7%25BD%2591%25E7%25AB%2599%25E4%25B8%25AD%25E8%258E%25B7%25E5%25BE%2597%25247000%25E8%25B5%258F%25E9%2587%2591%25E5%25A5%2596%25E5%258A%25B1&ct=1711504129&abtest_cookie=&devicetype=&version=&is_need_ticket=0&is_need_ad=0&comment_id=3387518665817997312&is_need_reward=1&both_ad=0&reward_uin_count=83&send_time=&msg_daily_idx=1&is_original=0&is_only_read=1&req_id=2710whyg8q5BaOh1KXSb1C9i&pass_ticket=&is_temp_url=0&item_show_type=0&tmp_version=1&more_read_type=0&appmsg_like_type=2&related_video_sn=&related_video_num=5&vid=&is_pay_subscribe=0&pay_subscribe_uin_count=0&has_red_packet_cover=0&album_id=1296223588617486300&album_video_num=5&cur_album_id=2061171100406874116&is_public_related_video=NaN&encode_info_by_base64=undefined&exptype=&export_key=&export_key_extinfo=&business_type=0

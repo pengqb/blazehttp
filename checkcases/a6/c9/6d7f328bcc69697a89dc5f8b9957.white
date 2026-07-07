@@ -1,0 +1,18 @@
+GET /ajax/statuses/config HTTP/1.1
+Host: weibo.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: application/json, text/plain, */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+client-version: v2.44.77
+server-version: v2024.03.25.1
+X-XSRF-TOKEN: HB6TBAUocJA45b2Kxfyava8V
+DNT: 1
+Connection: close
+Referer: https://weibo.com/1744309167/O1C1rtaxQ
+Cookie: SUB=_2AkMSClrzf8NxqwFRmP0cyG7mZY1-yg7EieKkVqsoJRMxHRl-yT9vqnYstRB6OYp0HDUN4f_BoZE1FvAcPBW_VtgPgrkF; SUBP=0033WrSXqPxfM72-Ws9jqgMF55529P9D9WWifp5czQuOHiFJCRSdi7fc; UOR=link.zhihu.com,weibo.com,link.zhihu.com; SINAGLOBAL=3395123805902.8823.1701241430090; ULV=1701241430148:1:1:1:3395123805902.8823.1701241430090:; XSRF-TOKEN=HB6TBAUocJA45b2Kxfyava8V; WBPSESS=lGn6cRy34B6AsqM-wzgd2IjacDRGkfOU6pvn_Ka6_o5XcksEMZgIz5aNVdtv-wvaAEeS6PdWAfZoICAKpl0cq50qHqueOfJdV3WSaRDHA2XU40Kg2ifDx98jGH-vDruCTlZx836OaVqyt_ERmja6DWuRKT0UuKfVAja2uWoBK1U=
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+

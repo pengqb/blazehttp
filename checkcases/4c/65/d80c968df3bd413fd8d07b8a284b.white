@@ -1,0 +1,18 @@
+POST /sc-profiler HTTP/1.1
+Host: www.zhihu.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: https://www.zhihu.com/question/382657818/answer/1132287695
+Content-Type: application/json
+Content-Length: 71
+Origin: https://www.zhihu.com
+DNT: 1
+Connection: close
+Cookie: _zap=a5e82cf8-33c5-4e33-852a-a68108170fd9; d_c0=AMDREi4SuxePTlUHFmYxxgJmxVkcjBq9Vb0=|1700471114; captcha_session_v2=2|1:0|10:1711508036|18:captcha_session_v2|88:VVhPVGFwK0c2U284RDZDWFZmQTlpNHBLenBIanltZFo1bDRnN28zVjFMWXhJdEFPUmR3aHl4b25jdXkyTXNpOA==|69a6ab5595ca2e8ee1d9d3deaf11732bb16f9fa080149daf93e3bb45f3a1e39f; gdxidpyhxdE=MWXk2fPNyl%2B9YM4hZx3cgfak2wAOENjSybpfIq%5CqUN1BST9eWxsls%2F%2F2ApCCMDtdmj6%2BLQw8GJ5npURQfo2ibemjjZozea9y63o3Qg3yfPVQ9bf1%2BR0i52%2FE6CuyhXjTMGPdNmH7u1KBRgdBA8%5CmitbGm8bGQ1%2FZhXaB7bHD63J%5CkaVy%3A1711508936975; YD00517437729195%3AWM_NI=xPCMSfEyOdPKPjW4zE6a2zXGEG%2BdtVHdVfRtgXsjKmSwgYrWPi7du5HIZD%2F4Bu6l5MeMYei7tjtYQXEkSdeW33ZujcqTnvrK8hPy0gtcqdGDxPHE%2FIsaogS%2BaF9FhraPZmo%3D; YD00517437729195%3AWM_NIKE=9ca17ae2e6ffcda170e2e6ee91e262bb938d8cbc6b87b08ea7d54e868e9bb1c57c8197bf93ee7485e98598d22af0fea7c3b92abc908daed26e87a78185d34194b699d5f94ff6bffe9bdb4d8799e585f75e8cbc9a87d180a588bd8bca6791a9a9baf15d94b7f985f83f8c9796a5ae4082abfa8db847a7939786ec3db8b6bcbad45487b59d85e85df1ed9696e969b38ca297f141fcb8a09ab36db8bdbf85c650bc9088a6ae43b1bfa188d221a39af7a7eb7aa390968eee37e2a3; YD00517437729195%3AWM_TID=mOIAyDENlDxFVQUEBAKBnkKE08e6iLQC; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1706767035,1706840596,1707010464,1707100784; _xsrf=TyH5GIKkCpgWXL8yKYfSsJe2KSkcBDvt; KLBRSID=2177cbf908056c6654e972f5ddc96dc2|1711508045|1711508030
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+[["i","production.heifetz.desktop.v1.logIn.clickLogInBtn.count",1,0.1]]

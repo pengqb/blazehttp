@@ -1,0 +1,19 @@
+POST /mp/wapcommreport?uin=&key=&pass_ticket=&wxtoken=777&devicetype=&clientversion=&__biz=MjM5Mzc4MzUzMQ%3D%3D&appmsg_token=&x5=0&f=json HTTP/1.1
+Host: mp.weixin.qq.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: https://mp.weixin.qq.com/s/uYw2KTFT0A-wNaA6byLzYw
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+Content-Length: 985
+Origin: https://mp.weixin.qq.com
+DNT: 1
+Connection: close
+Cookie: ua_id=9muO3fzUvvyJfqOJAAAAAHP7jWfWAbK32Ur7WnmgSJ4=; RK=i6/s/6k4Ma; ptcz=4732e01814cd8474e89d5a79e655c2a37635030247a68ff19e481c3c4fe1ead6; Qs_lvt_323937=1703142297; Qs_pv_323937=3130659238928143400; pac_uid=0_85a0024d306ed; iip=0; _qimei_uuid42=17c1a0b0338100caccf66d20f45d2bee1f03f3d53c; _qimei_fingerprint=ff47e515b2752e10cd6ed7b13aa7d072; _qimei_q36=; _qimei_h38=3799a011ccf66d20f45d2bee02000006e17c1a; pgv_pvid=7608257089; qq_domain_video_guid_verify=bf9ed2a64347a61a; fqm_pvqid=5bf6b27d-2ce5-44bb-b349-93c0a7162355; rewardsn=; wxtokenkey=777
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+reportjson=%7B%22Bizuin%22%3A%22MjM5Mzc4MzUzMQ%3D%3D%22%2C%22Msgid%22%3A2650258307%2C%22Itemidx%22%3A1%2C%22ExtInfo%22%3A%22%7B%5C%22rec_info%5C%22%3A%7B%5C%22model_id%5C%22%3A20050%2C%5C%22rank_rk%5C%22%3A%5C%2220010%2320050%3A23922%3A0%3A100%3A1%5C%22%2C%5C%22recall_rk%5C%22%3A%5C%2211008%3A1%3A0%5C%22%2C%5C%22prerank_rk%5C%22%3A%5C%22%3A0%3A0%3A0%3A0%5C%22%2C%5C%22rec_reason%5C%22%3A%7B%7D%2C%5C%22related_score%5C%22%3A44020%2C%5C%22rank_extra%5C%22%3A%5C%2220010_preds%3A12248%2320010_rule_bizqualitygrading%3A3%2320010_rule_article_quality_grading_v2%3A3%2320050_preds%3A53682%5C%22%2C%5C%22rec_src_id%5C%22%3A24%7D%2C%5C%22do_not_report%5C%22%3A0%7D%22%2C%22RecInfo%22%3A%22%7B%7D%22%2C%22Bizuin_from%22%3A%22MjM5Mzc4MzUzMQ%3D%3D%22%2C%22Msgid_from%22%3A2650258342%2C%22Itemidx_from%22%3A1%2C%22Scene%22%3A0%2C%22Subscene%22%3A0%2C%22Sessionid%22%3A%22svr_31e7cd7bba2%22%2C%22Enterid%22%3A1024%2C%22ItemShowType%22%3A0%2C%22log_id%22%3A29139%2C%22TimeStamp%22%3A1711507916%7D

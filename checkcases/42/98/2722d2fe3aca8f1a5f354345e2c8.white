@@ -1,0 +1,15 @@
+GET /read.php?tid=39683429 HTTP/1.1
+Host: bbs.nga.cn
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: close
+Cookie: bbsmisccookies=%7B%22uisetting%22%3A%7B0%3A%22b%22%2C1%3A1711508449%7D%2C%22pv_count_for_insad%22%3A%7B0%3A-46%2C1%3A1711558898%7D%2C%22insad_views%22%3A%7B0%3A1%2C1%3A1711558898%7D%7D; lastvisit=1711508158; ngaPassportUid=63013010; guestJs=1711508148; lastpath=/read.php?tid=39683429; ngaPassportOid=a517d425993f8e887d6a5c416c0af1e0; ngacn0comUserInfo=fuckpro%09fuckpro%0939%0939%09%0910%090%094%090%090%09; ngacn0comUserInfoCheck=b7b368ab97968463d6e46da4027a6fe7; ngacn0comInfoCheckTime=1711508194; ngaPassportUrlencodedUname=fuckpro; ngaPassportCid=X93vig344ic0ldd6molitmi5bfvjgg0benqc40jr
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+

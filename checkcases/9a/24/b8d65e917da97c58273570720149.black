@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+WBH-4d5d51: %26%23x27%3B%26quot%3B%26lt%3B%2FScript%26gt%3B%26lt%3BHtml+%2FOnmouseover%3D%28alert%29%281%29+%2F%2F
+

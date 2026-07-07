@@ -1,0 +1,16 @@
+GET /thread-4433-1-1.html HTTP/1.1
+Host: bbs.tampermonkey.net.cn
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: close
+Referer: https://bbs.tampermonkey.net.cn/
+Cookie: B6hk_2132_saltkey=Z1hokjbZ; B6hk_2132_lastvisit=1711528925; B6hk_2132_sid=kX1wFl; B6hk_2132_lastact=1711532528%09home.php%09misc; sl-session=z18NcG07BWYehlg887bDIA==; B6hk_2132_sendmail=1; B6hk_2132_pc_size_c=0
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+

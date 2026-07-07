@@ -1,0 +1,7 @@
+GET /?loginc18614=JTI0JTdCY2xhc3MuZ2V0Q2xhc3NMb2FkZXIoKSU3RA==&passw=aGlqM2tmbWVkZmVrbWtt&token=ZmRhd2drMm1uamRud2lkZmthbWpuMmk=&sort=dHJ1ZQ== HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

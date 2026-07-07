@@ -1,0 +1,14 @@
+GET /nuke/js_jsencrypt.js HTTP/1.1
+Host: bbs.nga.cn
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: close
+Referer: https://bbs.nga.cn/nuke/account_copy.html?login
+Cookie: bbsmisccookies=%7B%22uisetting%22%3A%7B0%3A%22b%22%2C1%3A1711508449%7D%2C%22pv_count_for_insad%22%3A%7B0%3A-47%2C1%3A1711558898%7D%2C%22insad_views%22%3A%7B0%3A1%2C1%3A1711558898%7D%7D; lastvisit=1711508150; ngaPassportUid=guest066038aa8647f3; guestJs=1711508148; lastpath=/
+Sec-Fetch-Dest: script
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+

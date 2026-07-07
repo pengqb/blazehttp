@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: &lt;svg/onload&equals;alert(1)&gt;
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

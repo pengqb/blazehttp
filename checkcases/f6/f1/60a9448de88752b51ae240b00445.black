@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+Cookie: WBC-a329f2=%3Cmath%3E%3Cstyle%3E%20%20%20%20%3Cimg%20src%20onerror%3Dalert%282%29%3E%3C%2Fstyle%3E%3C%2Fmath%3E
+

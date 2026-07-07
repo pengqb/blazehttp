@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+WBH-f34450: JTI3JTIyJTNFJTNDaW1nJTJGc3JjJTJGb25lcnJvciUzRHByb21wdCUyOCUyOSUzRWphdmElMjUyNlRhYiUyNTNic2NyaXB0JTNBYWxlJTI1MjZUYWIlMjUzYnJ0JTI4JTI5JTNDaWZyYW1lJTIwc3JjJTNEamF2YXNjcmlwdCUzQWFsZXJ0JTI4JTI5JTJGJTJGJTNDcyUzQ3NjcmlwdCUzRWNyaXB0JTNFYWxlcnQlMjglMjklM0MlMkZzJTNDc2NyaXB0JTNFY3JpcHQlM0U=
+

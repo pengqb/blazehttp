@@ -1,0 +1,18 @@
+GET /socket.io/?buvid=232496A6-BC40-2ECE-2E72-C58ADD36B36743476infoc&sdkVersion=1.2.0%3Aseeder&sessionid=5CwPA0_4ZgFzss5Hb7Kse&mid=54187247&bkt=1&EIO=4&transport=websocket HTTP/1.1
+Host: hw-v2-web-player-tracker.biliapi.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Sec-WebSocket-Version: 13
+Origin: https://www.bilibili.com
+Sec-WebSocket-Key: /qoiAxGjLqjflqC0rGdaug==
+DNT: 1
+Connection: keep-alive, Upgrade
+Sec-Fetch-Dest: websocket
+Sec-Fetch-Mode: websocket
+Sec-Fetch-Site: cross-site
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade: websocket
+

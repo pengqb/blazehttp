@@ -1,0 +1,16 @@
+GET /search?q=%E6%91%B8%E9%B1%BC%E8%AE%BA%E5%9D%9B&client=firefox-b-e&sca_esv=7c6bf37a198f0c55&sxsrf=ACQVn091DNwsxD0nIOUD2wWTehd2rwM8FA%3A1711532386092&ei=YukDZsWdBYvk2roPt7Kh-A4&oq=&gs_lp=Egxnd3Mtd2l6LXNlcnAiACoCCAgyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCdIoypQnQdY3hBwA3gAkAECmAGCA6ABsxaqAQMzLTi4AQHIAQD4AQGYAgGgAgaoAgqYAwaIBgGSBwExoAfrQw&sclient=gws-wiz-serp HTTP/1.1
+Host: www.google.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: https://www.google.com/
+DNT: 1
+Connection: close
+Cookie: 1P_JAR=2024-03-27-09; AEC=Ae3NU9OQ65u0YjcGmaMtEl084H8Xu0vJJo3CVyTkTFs5awt8pddo8N2bCg; NID=512=SYQ7ktLUziKxk3G2kJUEHNxrBP1lbShMdeCOOC5yKjb388l6KYJWvF252rEmoGVFfjpHI3UQpqQFINBQHoMkJqN3AVOk8-kRE8xbSWdoe801O_zAdOnSUV5XRxBwsr0MdlQfch-FxtQmI1ctxHHzUsAmaL1M-4T3PiyxGQx60KCshC01rlUxMDQO5Jr2T_TKQqNNdfMJwJ3SSlhg4tb1vJydX719vXzfmpx1etNvUr2DGxejSu6PUac1i5gV6dUqGFjhKnXm9nzSSb4Qem6tTnUoLdcRcqmQfuAMXetWV_ap6WSS76xXVgtUQ1XuSy3XwhYgDBeN0nWLmHHpy06FJifQNwHaId6vnSDqlXg-CSqO-ec1JOwkuoAQN8eVQc28JFxOhJmcZtW48m4DW6hZh9fJshJW5K5NtdUJw4ea7Q; SID=g.a000hggE5ol76wlnCOA3F9iwb4mMi4aNVeJS7yG96BTbz7QyaFmfunA__yqnNir6SmjHkoHhTAACgYKAVkSAQASFQHGX2MiDcMSeWTGHw5TvI5Z1uqo5xoVAUF8yKpy4zy_LyID9v8ch_1y9VOM0076; __Secure-1PSID=g.a000hggE5ol76wlnCOA3F9iwb4mMi4aNVeJS7yG96BTbz7QyaFmfmjHAHsPMmh-liLkVvWQvTwACgYKAXESAQASFQHGX2Miy81sfF9HDhbI_789R5ZcxRoVAUF8yKpady58Q5HDmf3NxPBGj8Fq0076; __Secure-3PSID=g.a000hggE5ol76wlnCOA3F9iwb4mMi4aNVeJS7yG96BTbz7QyaFmfw1y0TqIf5WnVI14LFTZLRAACgYKAdgSAQASFQHGX2Mi9tnccExvyKPMpN8CGC1nyhoVAUF8yKrcN5rm9nsKJm4PBgAcr0ST0076; HSID=AjMQ98GV_DbZPORbB; SSID=A7ThPYj0bRIZCnY4L; APISID=ZbQJleTHwoQoC1VB/AJEni5lUapSknqBcR; SAPISID=u6ujr9ina7XFRE_A/ArtAakMc6VYiiG0hS; __Secure-1PAPISID=u6ujr9ina7XFRE_A/ArtAakMc6VYiiG0hS; __Secure-3PAPISID=u6ujr9ina7XFRE_A/ArtAakMc6VYiiG0hS; SIDCC=AKEyXzUSsVHqc-u30a4DsihVNiRDOgFUcpptOOKPfR8PcVdeXWF7rj8VkDHF5L6p92ALr-rfeFU5; __Secure-1PSIDCC=AKEyXzWk3o39ayMd4xW-84jBcrfiz4st-PVAEwKLUefUNDTLCtv01hwCgTJgjh5HxnxyqFQpurZH; __Secure-3PSIDCC=AKEyXzXso7e4-fNxNa3dmQC_tg8P-a01xFZUIiK1AmuH7tc8-fEhGjZYKUvmudmq53Lgp1-RhNg; SEARCH_SAMESITE=CgQI4ZoB; __Secure-1PSIDTS=sidts-CjEB7F1E_DM1YNt0BeGWG8UUVKYkCJgVq6vZG5XGdaSbjIEjAVhZKtJ29pk-Ns4rn0vDEAA; __Secure-3PSIDTS=sidts-CjEB7F1E_DM1YNt0BeGWG8UUVKYkCJgVq6vZG5XGdaSbjIEjAVhZKtJ29pk-Ns4rn0vDEAA; ANID=AHWqTUllkVXwFDZhlRP98VDTHiJKCFCtGSFJ33l_klU-SXEBYMeUE7Za9pv1Uoza; DV=8yKDEa24bZZfUAuW96t36_6ugHr051iAuClUv9L1nQAAAJAGHw3XbxbXsAAAAOhvYGe9FtKiUAAAAGiYBOOXTyoPFAAAAA
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+

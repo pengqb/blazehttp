@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+Cookie: WBC-3baf36=%26lt%3Bscript+src%3D%26quot%3Bhttps%3A%2F%2Fexample.com%2Fjsonp%3Fcallback%3Dpayload%26quot%3B%26gt%3B
+

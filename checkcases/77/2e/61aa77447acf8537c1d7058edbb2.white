@@ -1,0 +1,14 @@
+GET /api/v2/collect?referer=https%3A%2F%2Fwww.zhihu.com%2Fquestion%2F382657818%2Fanswer%2F1132287695&zoneId=CN31&dt=M9%2F8IXpJSCZFQhBRFROBn1bEl9K%2FdJEn&id=ffccaa537da544269b4c9c1dc84dcb73&token=f06a0134b6294eb19ec4a0398ffd146b&type=image&target=https%3A%2F%2Fnecaptcha.nosdn.127.net%2Ffd8a22afa9c14467af3e8534391cca9f.jpg&message=CaptchaError%3A%20503(request%20img%20error)%20-%20Timeout%3A%20failed%20to%20request%20image(https%3A%2F%2Fnecaptcha.nosdn.127.net%2Ffd8a22afa9c14467af3e8534391cca9f.jpg).%0A%20%20%20%20O%40https%3A%2F%2Fcstaticdun.126.net%2F2.26.1%2Fcore-optimi.v2.26.1.min.js%3Fv%3D2852513%3A1%3A145950%0AZ%2F%3C%40https%3A%2F%2Fcstaticdun.126.net%2F2.26.1%2Fcore-optimi.v2.26.1.min.js%3Fv%3D2852513%3A1%3A154982%0AE%40https%3A%2F%2Fcstaticdun.126.net%2F2.26.1%2Fcore-optimi.v2.26.1.min.js%3Fv%3D2852513%3A1%3A166057%0AN%2Fk%5Bq%5D%2FM%2F%3C%40https%3A%2F%2Fcstaticdun.126.net%2F2.26.1%2Fcore-optimi.v2.26.1.min.js%3Fv%3D2852513%3A1%3A166663%0A_emit%2F%3C%2F%3C%40https%3A%2F%2Fcstaticdun.126.net%2F2.26.1%2Fcore-optimi.v2.26.1.min.js%3Fv%3D2852513%3A1%3A195828%0A_emit%2F%3C%40https%3A%2F%2Fcstaticdun.126.net%2F2.26.1%2Fcore-optimi.v2.26.1.min.js%3Fv%3D2852513%3A1%3A195798%0Ai%40https%3A%2F%2Funpkg.zhimg.com%2F%40cfe%2Fsentry-script%401.3.1%2Fdist%2Finit.js%3A1%3A19163%0A&times=1&callback=__JSONP_t25x98c_1 HTTP/1.1
+Host: c.dun.163.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: close
+Referer: https://www.zhihu.com/
+Cookie: _gid=GA.0517119012.04177802315179
+Sec-Fetch-Dest: script
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+

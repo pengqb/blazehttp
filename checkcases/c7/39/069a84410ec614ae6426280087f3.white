@@ -1,0 +1,15 @@
+GET /www/gtr/gtrspc.php?zones=299%7C262%7C244&prefix=revive-0-&loc=https%3A%2F%2Fm.163.com%2Fdy%2Farticle%2FIU9HJ75F0546Q5OI.html&referer=https%3A%2F%2Fwww.google.com%2F HTTP/1.1
+Host: revive.outin.cn
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Origin: https://m.163.com
+DNT: 1
+Connection: close
+Referer: https://m.163.com/
+Cookie: OAID=01000111010001000101000001010010; OAGEO=2%7C%7C%7C%7C%E6%9D%AD%E5%B7%9E%7C%7C30.253%7C120.165%7C%7C%7C%7C%7C%7C%7C%7C%7C%7C%7C%7C%7C%7C%7C%7C%7C%7C%7C%7C%E4%B8%AD%E5%9B%BD%7C%E6%B5%99%E6%B1%9F%7C330100
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+

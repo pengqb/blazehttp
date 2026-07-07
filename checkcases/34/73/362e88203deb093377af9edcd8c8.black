@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: %3Chtml%20ontouchstart%3Dalert%281%29%3E
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+

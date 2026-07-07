@@ -1,0 +1,18 @@
+POST /x/v2/dm/post HTTP/1.1
+Host: api.bilibili.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: application/json, text/plain, */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: https://www.bilibili.com/video/BV1BC4y1q7Rb/?spm_id_from=333.788.recommend_more_video.0&vd_source=8701850506cdec283ff137e829bec7ad
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 285
+Origin: https://www.bilibili.com
+DNT: 1
+Connection: close
+Cookie: buvid3=232496A6-BC40-2ECE-2E72-C58ADD36B36743476infoc; b_nut=1700194143; i-wanna-go-back=-1; b_ut=7; _uuid=7135EB53-2C8E-1011010-5CEA-E916CB7104FA346084infoc; buvid_fp=155a09dba0afe2254017a24c1275f65e; enable_web_push=DISABLE; header_theme_version=CLOSE; buvid4=1111712D-3D88-69DE-1323-7ACF7402B15D84457-023100816-kpRgY%2FiTHVGUdPzRRph%2Ffg%3D%3D; home_feed_column=4; browser_resolution=1296-745; SESSDATA=f861bc51%2C1726976273%2C08ca0%2A31CjALYlXCl5-bu6JeGqxL7rckvkOgJNB4vLjtZEwGUn9HLkiFlWNw-03Iw-ehwWurZIISVkl4M3h1Y0NVb280NTFWWW83RE9xdGpwOTZfVmlnczdtd1ZXZnRkREtKSGpVcHdzSmtRUUlOSGtoWVVoZ1RrcHFEMzZaaGMzTUFMdHltZzJ3WDBveXdBIIEC; bili_jct=238d5b87b18f0e1d2517420892ead065; DedeUserID=54187247; DedeUserID__ckMd5=e384bcd7a0f6b7af; CURRENT_FNVAL=4048; bp_video_offset_54187247=913452970240114688; rpdid=|(Y|lllmuk|0J'u~||umRk)J; fingerprint=155a09dba0afe2254017a24c1275f65e; buvid_fp_plain=undefined; PVID=2; hit-dyn-v2=1; LIVE_BUVID=AUTO9117037599308013; CURRENT_QUALITY=64; is-2022-channel=1; FEED_LIVE_VERSION=V8; b_lsid=D7D72B5D_18E7F467D65; sid=7xrfpjf0; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTE2ODM0ODksImlhdCI6MTcxMTQyNDIyOSwicGx0IjotMX0.fxNcM9Ff87JJ9sz5OZo1Yw8JjszYX-HzBCHd_YsUJhw; bili_ticket_expires=1711683429; bsource=search_google
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+
+color=16777215&fontsize=25&pool=0&mode=1&type=1&oid=1382996438&msg=%E5%A5%BD%E5%90%AC&aid=792800041&progress=0&rnd=2&plat=1&checkbox_type=0&colorful=&polaris_app_id=100&polaris_platfrom=5&spmid=333.788.0.0&from_spmid=333.788.recommend_more_video.0&csrf=238d5b87b18f0e1d2517420892ead065

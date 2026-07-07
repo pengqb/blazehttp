@@ -1,0 +1,14 @@
+GET /complete/search?q=%E8%B5%9B%E4%BD%86&cp=0&client=desktop-gws-wiz-on-focus-serp&xssi=t&gs_pcrt=3&hl=zh-CN&authuser=0&pq=%E8%B5%9B%E4%BD%86&psi=_-gDZryNCeC12roPwbWCyAs.1711532287633&dpr=1.6666666666666667&ofp=EAEy5AEKFAoS6LO96aas5rS-5b2p57WQ5p6cChQKEummmea4r-izvemmrOacg2FwcAoaChjpppnmuK_os73ppqzmnIPlha3lkIjlvakKFwoV6aaZ5riv6LWb6ams5o6S5L2N6KGoChQKEummmea4r-i1m-mprOi1lOeOhwoUChLpppnmuK_otZvpqaznm7Tmkq0KDgoM6LO96aas6LOg546HChQKEuizvemmrOe1kOaenOiomOmMhAoOCgzos73ppqzmiJDnuL4KHQob6aaZ5riv6LO96aas5pyD5Y2z5pmC6LOg546HEEc HTTP/1.1
+Host: www.google.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: https://www.google.com/
+DNT: 1
+Connection: close
+Cookie: 1P_JAR=2024-03-27-09; AEC=Ae3NU9OQ65u0YjcGmaMtEl084H8Xu0vJJo3CVyTkTFs5awt8pddo8N2bCg; NID=512=SYQ7ktLUziKxk3G2kJUEHNxrBP1lbShMdeCOOC5yKjb388l6KYJWvF252rEmoGVFfjpHI3UQpqQFINBQHoMkJqN3AVOk8-kRE8xbSWdoe801O_zAdOnSUV5XRxBwsr0MdlQfch-FxtQmI1ctxHHzUsAmaL1M-4T3PiyxGQx60KCshC01rlUxMDQO5Jr2T_TKQqNNdfMJwJ3SSlhg4tb1vJydX719vXzfmpx1etNvUr2DGxejSu6PUac1i5gV6dUqGFjhKnXm9nzSSb4Qem6tTnUoLdcRcqmQfuAMXetWV_ap6WSS76xXVgtUQ1XuSy3XwhYgDBeN0nWLmHHpy06FJifQNwHaId6vnSDqlXg-CSqO-ec1JOwkuoAQN8eVQc28JFxOhJmcZtW48m4DW6hZh9fJshJW5K5NtdUJw4ea7Q; SID=g.a000hggE5ol76wlnCOA3F9iwb4mMi4aNVeJS7yG96BTbz7QyaFmfunA__yqnNir6SmjHkoHhTAACgYKAVkSAQASFQHGX2MiDcMSeWTGHw5TvI5Z1uqo5xoVAUF8yKpy4zy_LyID9v8ch_1y9VOM0076; __Secure-1PSID=g.a000hggE5ol76wlnCOA3F9iwb4mMi4aNVeJS7yG96BTbz7QyaFmfmjHAHsPMmh-liLkVvWQvTwACgYKAXESAQASFQHGX2Miy81sfF9HDhbI_789R5ZcxRoVAUF8yKpady58Q5HDmf3NxPBGj8Fq0076; __Secure-3PSID=g.a000hggE5ol76wlnCOA3F9iwb4mMi4aNVeJS7yG96BTbz7QyaFmfw1y0TqIf5WnVI14LFTZLRAACgYKAdgSAQASFQHGX2Mi9tnccExvyKPMpN8CGC1nyhoVAUF8yKrcN5rm9nsKJm4PBgAcr0ST0076; HSID=AjMQ98GV_DbZPORbB; SSID=A7ThPYj0bRIZCnY4L; APISID=ZbQJleTHwoQoC1VB/AJEni5lUapSknqBcR; SAPISID=u6ujr9ina7XFRE_A/ArtAakMc6VYiiG0hS; __Secure-1PAPISID=u6ujr9ina7XFRE_A/ArtAakMc6VYiiG0hS; __Secure-3PAPISID=u6ujr9ina7XFRE_A/ArtAakMc6VYiiG0hS; SIDCC=AKEyXzWjkBpA-O9KYwspQ0ej7aWQaJT6LvD5DumukBJNMMOTTj3rePxf5uAmysEBJz31g7Qjr9WS; __Secure-1PSIDCC=AKEyXzWJCzbCWpF0Oea_St9cC_E_l7m_W_T2Moj3dX86As33mVgVkW9v1fmdrj2vTA1SKGuxz-QJ; __Secure-3PSIDCC=AKEyXzUo4PhqjIsVz5stxD8G3d-6zCaQa2QEE9dRc8lWzDYk1P3NGYHqwuk4I5t6bA2lu3mU56k; SEARCH_SAMESITE=CgQI4ZoB; __Secure-1PSIDTS=sidts-CjEB7F1E_CM7Lyx562BCqc83Yn_fHDRu0Xi-Rx-7fFs2VNU8UYd-i_-a2Ze0tkvsEdHoEAA; __Secure-3PSIDTS=sidts-CjEB7F1E_CM7Lyx562BCqc83Yn_fHDRu0Xi-Rx-7fFs2VNU8UYd-i_-a2Ze0tkvsEdHoEAA; ANID=AHWqTUllkVXwFDZhlRP98VDTHiJKCFCtGSFJ33l_klU-SXEBYMeUE7Za9pv1Uoza
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+

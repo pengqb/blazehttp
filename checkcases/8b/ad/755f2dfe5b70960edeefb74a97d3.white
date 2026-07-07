@@ -1,0 +1,19 @@
+POST /login HTTP/1.1
+Host: fishpi.cn
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+Content-Length: 124
+Origin: https://fishpi.cn
+DNT: 1
+Connection: close
+Referer: https://fishpi.cn/login?goto=https%3A%2F%2Ffishpi.cn%2Farticle%2F1630569106133
+Cookie: LATKE_SESSION_ID=I6UbEso4UePq3pAf
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+{"nameOrEmail":"123123","userPassword":"4297f44b13955235245b2497399d7a93","mfaCode":"123","rememberLogin":true,"captcha":""}
