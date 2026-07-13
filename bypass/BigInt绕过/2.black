@@ -1,4 +1,4 @@
-GET /newxss/xss1.php?code=<svg/onload ='a=prompt;/*//*/a(1n)'> HTTP/1.1
+GET /newxss/xss1.php?code=%3Csvg/onload%20=%27a=prompt;/*//*/a(1n)%27%3E HTTP/1.1
 Host: www.swaf.com
 User-Agent: test-client
 Accept: */*
