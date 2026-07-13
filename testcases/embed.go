@@ -12,5 +12,5 @@ import (
 //
 // all:XXE攻击/泛微XXE攻击/1.black
 //
-//go:embed all:*/*/*.white all:*/*/*.black
+//go:embed all:testcases/*/*/*.white all:testcases/*/*/*.black
 var EmbedTestCasesFS embed.FS

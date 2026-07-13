@@ -3,7 +3,7 @@ package worker
 import (
 	"context"
 	"fmt"
-	"github.com/chaitin/blazehttp/bypass"
+	"github.com/chaitin/blazehttp/testcases"
 	"strings"
 	"sync"
 	"time"
@@ -187,7 +187,7 @@ func (w *Worker) runWorker() {
 			filePath := job.FilePath
 			req := new(blazehttp.Request)
 			if w.useEmbedFS {
-				if err := req.ReadFileFromFS(bypass.EmbedBypassFS, filePath); err != nil {
+				if err := req.ReadFileFromFS(testcases.EmbedTestCasesFS, filePath); err != nil {
 					job.Result.Err = fmt.Sprintf("read request file: %s from embed fs error: %s\n", filePath, err)
 					return
 				}

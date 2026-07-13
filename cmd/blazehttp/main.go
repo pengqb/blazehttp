@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/chaitin/blazehttp/bypass"
+	"github.com/chaitin/blazehttp/testcases"
 	"github.com/chaitin/blazehttp/utils"
 	"github.com/chaitin/blazehttp/worker"
 	"io/fs"
@@ -69,7 +69,7 @@ func main() {
 
 	fileList := make([]string, 0)
 	if glob == "" {
-		if err := fs.WalkDir(bypass.EmbedBypassFS, ".", func(path string, d fs.DirEntry, err error) error {
+		if err := fs.WalkDir(testcases.EmbedTestCasesFS, ".", func(path string, d fs.DirEntry, err error) error {
 			if d.IsDir() {
 				return nil
 			}
