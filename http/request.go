@@ -16,6 +16,7 @@ type Request struct {
 	RequestLine []byte
 	Headers     []*HeaderKV
 	Body        []byte
+	Comment     string // 新增Comment字段
 
 	isClear bool
 	inBuf   bytes.Buffer // use for input request

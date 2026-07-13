@@ -10,7 +10,7 @@ import (
 //
 // all:SQL注入/*/*.black SSRF服务端请求伪造/*/*.black Webshell上传/*/*.black XML外部实体注入/*/*.black XSS跨站脚本/*/*.black 反序列化漏洞/*/*.black 命令执行代码执行/*/*.black 已知漏洞利用/*/*.black 投递白样本/*/*.white 文件包含/*/*.black 目录遍历/*/*.black
 //
-// all:*/*/*.white all:*/*/*.black
+// all:XXE攻击/泛微XXE攻击/1.black
 //
-//go:embed all:XXE攻击/泛微XXE攻击/1.black
+//go:embed all:*/*/*.white all:*/*/*.black
 var EmbedTestCasesFS embed.FS

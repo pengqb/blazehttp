@@ -3,13 +3,12 @@ package worker
 import (
 	"context"
 	"fmt"
+	"github.com/chaitin/blazehttp/bypass"
 	"strings"
 	"sync"
 	"time"
 
 	blazehttp "github.com/chaitin/blazehttp/http"
-
-	"github.com/chaitin/blazehttp/testcases"
 )
 
 type Progress interface {
@@ -188,7 +187,7 @@ func (w *Worker) runWorker() {
 			filePath := job.FilePath
 			req := new(blazehttp.Request)
 			if w.useEmbedFS {
-				if err := req.ReadFileFromFS(testcases.EmbedTestCasesFS, filePath); err != nil {
+				if err := req.ReadFileFromFS(bypass.EmbedBypassFS, filePath); err != nil {
 					job.Result.Err = fmt.Sprintf("read request file: %s from embed fs error: %s\n", filePath, err)
 					return
 				}
@@ -230,6 +229,7 @@ func (w *Worker) runWorker() {
 				return
 			}
 			elap := time.Since(start).Nanoseconds()
+			//time.Sleep(1800 * time.Second)
 			(*conn).Close()
 			job.Result.Success = true
 			if strings.HasSuffix(job.FilePath, "white") {
@@ -253,18 +253,23 @@ func (w *Worker) processJobResult() {
 			w.result.SuccessTimeCost += job.Result.TimeCost
 			if job.Result.IsWhite {
 				if job.Result.IsPass {
+					//fmt.Println(job.FilePath)
 					w.result.TN++
 				} else {
+					//fmt.Println(job.FilePath)
 					w.result.FP++
 				}
 			} else {
 				if job.Result.IsPass {
+					fmt.Println(job.FilePath)
 					w.result.FN++
 				} else {
+					//fmt.Println(job.FilePath)
 					w.result.TP++
 				}
 			}
 		} else {
+			//fmt.Println(job.FilePath)
 			w.result.Error++
 		}
 		if w.resultCh != nil {

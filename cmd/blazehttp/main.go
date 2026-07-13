@@ -3,18 +3,15 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/chaitin/blazehttp/bypass"
+	"github.com/chaitin/blazehttp/utils"
+	"github.com/chaitin/blazehttp/worker"
 	"io/fs"
 	"net/url"
 	"os"
 	"os/signal"
 	"strings"
 	"syscall"
-	"time"
-
-	"github.com/chaitin/blazehttp/testcases"
-	"github.com/chaitin/blazehttp/utils"
-	"github.com/chaitin/blazehttp/worker"
-	"github.com/schollz/progressbar/v3"
 )
 
 const (
@@ -72,7 +69,7 @@ func main() {
 
 	fileList := make([]string, 0)
 	if glob == "" {
-		if err := fs.WalkDir(testcases.EmbedTestCasesFS, ".", func(path string, d fs.DirEntry, err error) error {
+		if err := fs.WalkDir(bypass.EmbedBypassFS, ".", func(path string, d fs.DirEntry, err error) error {
 			if d.IsDir() {
 				return nil
 			}
@@ -95,22 +92,22 @@ func main() {
 		return
 	}
 	// progress bar
-	progressBar := progressbar.NewOptions64(
-		int64(len(fileList)),
-		progressbar.OptionSetDescription("sending"),
-		progressbar.OptionSetWriter(os.Stderr),
-		progressbar.OptionSetWidth(10),
-		progressbar.OptionThrottle(65*time.Millisecond),
-		progressbar.OptionShowCount(),
-		progressbar.OptionShowIts(),
-		progressbar.OptionOnCompletion(func() {
-			fmt.Fprint(os.Stderr, "\n")
-		}),
-		progressbar.OptionSpinnerType(14),
-		progressbar.OptionFullWidth(),
-		progressbar.OptionSetRenderBlankState(true),
-		progressbar.OptionUseANSICodes(true),
-	)
+	//progressBar := progressbar.NewOptions64(
+	//	int64(len(fileList)),
+	//	progressbar.OptionSetDescription("sending"),
+	//	progressbar.OptionSetWriter(os.Stderr),
+	//	progressbar.OptionSetWidth(10),
+	//	progressbar.OptionThrottle(65*time.Millisecond),
+	//	progressbar.OptionShowCount(),
+	//	progressbar.OptionShowIts(),
+	//	progressbar.OptionOnCompletion(func() {
+	//		fmt.Fprint(os.Stderr, "\n")
+	//	}),
+	//	progressbar.OptionSpinnerType(14),
+	//	progressbar.OptionFullWidth(),
+	//	progressbar.OptionSetRenderBlankState(true),
+	//	progressbar.OptionUseANSICodes(true),
+	//)
 
 	worker := worker.NewWorker(
 		addr,
@@ -122,7 +119,7 @@ func main() {
 		worker.WithReqPerSession(requestPerSession),
 		worker.WithTimeout(timeout),
 		worker.WithUseEmbedFS(glob == ""), // use embed test case fs when glob is empty
-		worker.WithProgressBar(progressBar),
+		//worker.WithProgressBar(progressBar),
 	)
 	c := make(chan os.Signal, 1)
 	signal.Notify(c, os.Interrupt, syscall.SIGTERM)
