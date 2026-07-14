@@ -1,4 +1,4 @@
-GET /newxss/xss1.php?code=<svg/onload ='(()=>{alert`1`})``'> HTTP/1.1
+GET /newxss/xss1.php?code=%3Csvg/onload%20=%27(()=%3E{alert`1`})``%27%3E HTTP/1.1
 Host: www.swaf.com
 User-Agent: test-client
 Accept: */*
