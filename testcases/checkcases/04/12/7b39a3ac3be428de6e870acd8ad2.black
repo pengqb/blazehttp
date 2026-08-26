@@ -1,3 +1,4 @@
+#现代浏览器：不支持Unicode Smart Quote  %E2%80%9C U+201C 左双引号（Smart Quote）%E2%80%9D U+201D 右双引号（Smart Quote） %E2%80%98 U+2018 左单引号（Smart Quote） %E2%80%99 U+2019 右单引号（Smart Quote）
 GET /login.php HTTP/1.1
 Host: 10.20.186.207:1111
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
