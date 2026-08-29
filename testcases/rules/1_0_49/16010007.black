@@ -1,0 +1,7 @@
+# 敏感文件拦截
+GET /phpinfo.php5 HTTP/1.1
+Host: www.testrule.com:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15
+Accept-Encoding: gzip, deflate
+Connection: close
+

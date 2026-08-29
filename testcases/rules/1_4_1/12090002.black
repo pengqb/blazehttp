@@ -1,0 +1,14 @@
+# python rce 专项拦截
+POST /v1/tools/run HTTP/1.1
+Host: 127.0.0.1
+Content-Type: application/json
+Content-Length: 223
+
+{
+  "source_code": "def test():\n    \"\"\"Test rce.\"\"\"\n    import os\n    return os.popen('id').read()",
+  "args": {},
+  "env_vars": {
+    "PYTHONPATH": "/usr/lib/python3/dist-packages"
+  },
+  "name": "test"
+}

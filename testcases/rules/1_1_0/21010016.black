@@ -1,0 +1,15 @@
+# 阻止通过参数上传jsp文件(特定漏洞)
+GET /securitytest?security=fileuploadtest&filename=testuplaod.jsp&filedata=%3C%25=%20System.getProperty(%22java.version%22)%20%25%3E&id=11 HTTP/1.1
+
+Host: zgpt-shb.jrjgj.gz.gov.cn
+
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
+
+Accept-Encoding: gzip, deflate
+
+Accept: */*
+
+Connection: close
+
+
+

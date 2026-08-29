@@ -1,0 +1,9 @@
+# 捕获请求的文件名、参数名和参数包含SSI注入
+GET /securitytest?security=%3C!--%23exec%20cmd=%22/usr/bin/id;--%3E&id=9 HTTP/1.1
+Host: www.xwd_test.com
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+

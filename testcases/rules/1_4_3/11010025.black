@@ -1,0 +1,9 @@
+# 阻止HTTP协议头部X-Forwarded-For字段存在环回
+POST /?qfunc=sync HTTP/1.1
+Host: www.xwd_test.com
+Content-Type: application/qwik-json
+X-QRL: sync
+X-Forwarded-For: 127.0.0.1
+Content-Length: 69
+
+{"_objs":["\u0002./node_modules/cross-spawn/index#sync","_entry":"4"}

