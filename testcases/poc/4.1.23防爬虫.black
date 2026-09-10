@@ -1,0 +1,3 @@
+GET /loggw/logUp HTTP/1.1
+host: mobile.tzbank.com:444
+user-agent: Webdup/0.9

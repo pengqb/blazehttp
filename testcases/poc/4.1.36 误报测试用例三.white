@@ -1,0 +1,20 @@
+POST /corebusiness/CuteEditor/eWebwditor/func.action?cid=1&columns%255B0%255D%255Bdata%255D=ORG&pagename=L2xpbmdkYW8uanNw&actionFlag=veiwForm&reportlet=/Model/trmd.cpt&CiHiliteType=full&formTitle=1&wbtreeid=1162&formid=10&i=1&tjsb=1&9%255B%255D=ph HTTP/1.1
+Host: oiec.bnu.edu.cn
+X-WVS-ID: 24
+X-Originating-IP: 127.0.0.1
+Proxy-Connection: Keep-Alive
+Content-Length: 227
+SOAPAction: urn:AdminService
+starttime: 1596700015964
+Accept-Auth: badger,Wlid1.1,Bearer
+Icy-MetaData: 1
+Purpose: prefetch
+Content-Type: application/x-www-form-urlencoded
+Ws-Cdn-Phase: 1
+EagleEye-TraceId: 767bc73b15947191835422015e
+X-Cdn-Src-Port: 59102
+Pragma: no-cache
+X-FeatureVersion: 1
+Fetchergroup: UNICOM
+
+group=JJJ63QQQ&local=1&cSYSID=B&word=fuckyou&perpage=15&n965409=v954705&progressType=1&lucenenewssearchkey=U2VhcmNo&flag=11&totalpage=2&layout=modal&cJiWUTjPdn%26alertSbgErczAv%28%29=moban5.cn&collegeId=0&menuid=10&zyxwlymId=91

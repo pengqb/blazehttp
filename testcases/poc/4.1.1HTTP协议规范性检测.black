@@ -1,0 +1,14 @@
+POST /sysorem/xx/info/refs HTTP/1.9
+Host: 10.20.176.26
+User-Agent: git/2.7.4
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, *;q=0.9
+Pragma: no-cache
+Connection: close
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarysJA158Ry
+Content-Length: 122
+
+------WebKitFormBoundarysJA158Ry
+Content-Disposition: form-data; name="service"
+------WebKitFormBoundarysJA158Ry--

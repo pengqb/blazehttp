@@ -1,0 +1,11 @@
+POST /xx/index.action HTTP/1.1
+Host: 10.20.136.13
+Accept-Encoding: gzip, deflate
+Accept: */*
+Accept-Language: en
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+Connection: close
+Content-Type: application/json
+Content-Length: 27
+
+{"a":"select * from admin"}

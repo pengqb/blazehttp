@@ -1,0 +1,14 @@
+POST /upload.php HTTP/1.1
+Host: 127.0.0.1
+Accept: */*
+Accept-Language: zh
+User-Agent: Mozilla/8.1 (Windows 9.8; Windows NT 2.4; The World 3.7)  Presto/6.5.9 Version/1 6.9
+Content-Type: multipart/form-data; boundary=----vUqqNZhstZWJkAFfMWFwjdLihc
+Content-Length: 689
+Connection: close
+
+------vUqqNZhstZWJkAFfMWFwjdLihc
+Content-Disposition: form-data; name=\"username\"; filename=\"hell.txt\"
+
+lJNSdz%%^&8Nw^&G^&*(K&*(OJKN$RGHJI$&&IGYHLbCTVUIvFTHUJOIZl<%=java.lang.Runtime.getRuntime().exec(\"ab\")%>ggi%%^&8Z^&K^&*(d&*(OJKQ$RGHJs$&&IGYHLYCTVUIMFTHUJOIaU
+------vUqqNZhstZWJkAFfMWFwjdLihc--

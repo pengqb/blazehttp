@@ -1,0 +1,5 @@
+GET /path/test.php?id=1%20RSCHMIDT%20@FPMC-WILLMAR/COM HTTP/1.1
+Host: localhost
+Referer: localhost/index.php
+Accept: */*
+Content-Length: 335

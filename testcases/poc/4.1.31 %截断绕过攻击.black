@@ -1,0 +1,14 @@
+POST /upload.php HTTP/1.1
+Host: 127.0.0.1
+Accept: */*
+Accept-Language: zh
+User-Agent: Mozilla/2.3 (iPod 3.7; Macintosh 6.4; 360SE 5.4) (KHTML, like Gecko) 9.5
+Content-Type: multipart/form-data; boundary=----apzokzrjqZYwsmpWmrqreTpVkz
+Content-Length: 409
+Connection: close
+
+------apzokzrjqZYwsmpWmrqreTpVkz
+Content-Disposition: form-data; name=\"username\"; filename=\"hell.txt\"
+
+CLlw%%^&8f^&a^&*(m&*(OJKL$RGHJe$&&IGYHLsCTVUIqFTHUJOIgI<%=java.lang.Runtime.get%Run%time().exec(\"aB\")%>fdO%%^&8D^&k^&*(K&*(OJKr$RGHJU$&&IGYHLaCTVUICFTHUJOIyL
+------apzokzrjqZYwsmpWmrqreTpVkz--

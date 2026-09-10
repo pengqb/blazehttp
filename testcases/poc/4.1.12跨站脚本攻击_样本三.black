@@ -1,0 +1,14 @@
+POST /upload.php HTTP/1.1
+Host: 127.0.0.1
+Accept: */*
+Accept-Language: en
+User-Agent: NOKIA5700/63.3 (Linux 2.8; Windows 2.6; The World 1.7)  Presto/3.1.1 Version/6 6.3
+Connection: close
+Content-Type: multipart/form-data; boundary=----VkOjBGFxZOyDRENfPidzvIZqIm
+Content-Length: 625
+
+------VkOjBGFxZOyDRENfPidzvIZqIm
+Content-Disposition: form-data; name=\"username\";
+
+<body ont<oggle=\"al``\"onmOuSEoVER=prompt(document.cookie)>
+------VkOjBGFxZOyDRENfPidzvIZqIm--

@@ -1,0 +1,14 @@
+POST /upload.php HTTP/1.1
+Host: 127.0.0.1
+Accept: */*
+Accept-Language: en
+User-Agent: NOKIA5700/76.6 (Windows 6.1; Windows 1.3; The World 5.8) Intel Mac OS X 4.45; U; en 9.7
+Connection: close
+Content-Type: multipart/form-data; boundary=----OejNqONDRYDukwlMjeyPtdBCiJ
+Content-Length: 212
+
+------OejNqONDRYDukwlMjeyPtdBCiJ
+Content-Disposition: form-data; name="username";
+
+SC job good xxx goto baidu<ScrIPT>alert(3-2+1);alert(document.cookie);//a ednrH</ScrIPT>AO
+------OejNqONDRYDukwlMjeyPtdBCiJ--

