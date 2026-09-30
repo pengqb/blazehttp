@@ -1,6 +1,7 @@
 # 禅道SQL注入漏洞
 # 禅道是一款国产的开源项目管理软件。
 # 禅道存在SQL注入漏洞。攻击者可利用漏洞获取数据库敏感信息。
+# 但此攻击包含md5({{num}})，怀疑{{num}} 是扫描器提供的占位符，实际攻击时，会变成类似md5(8888)
 POST /zentao/user-login.html?acid=80000913&bid=hd_tag_m8mv25yv HTTP/1.1
 Host: www.swaf.com
 RM-PRO-BusinessID: hd_tag_m8mv25yv
